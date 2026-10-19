@@ -1,0 +1,2789 @@
+{
+  "notice": "宿舍蚊帐801–804资料；本聊天用户确认覆盖旧表相应字段。旧值仅作审计留存，不参与检索。顶部处理、证书及其他未确认内容交人工。",
+  "source_file": "售前资源库.xlsx",
+  "products": [
+    {
+      "id": "801",
+      "name": "纯色款",
+      "aliases": [
+        "常规款",
+        "常规款801",
+        "宿舍蚊帐常规款801",
+        "纯色款"
+      ],
+      "model": "801",
+      "updated_at": null,
+      "imported_at": "2026-10-13",
+      "facts": {
+        "material": "帐纱为聚酯纤维，遮光帘为 PVC 化纤布，三通为 ABS 塑料；顶部处理和支架具体材质需按版本人工核实",
+        "model": "资料中的款式编号为 801；具体销售 SKU 需人工核实",
+        "doors": "90 cm 高款为正面单开门；110 cm、120 cm 高款为三开门",
+        "shade_sides": "四面款靠墙处没有遮光帘，五面款靠墙处有遮光帘",
+        "bottom": "采用回底设计，并非全封闭底部；需配合床垫或凉席使用",
+        "charging_port": "设有预留充电口，可用于穿过充电线",
+        "storage": "资料标注内部有收纳袋；外置挂物袋或置物架是否随套餐附送需人工确认",
+        "specifications": "帐纱宽×长×高：90×190×90、90×190×110、90×190×120 cm",
+        "weight": "带包装重量约 4 kg，帐纱重量约 678 g；均为参考值，存在误差",
+        "pole_diameter": "支架直径为 12 mm",
+        "pole_wall": "支架壁厚为 0.38 mm",
+        "coating": "亲，床帘是没有涂层的，我们的是纯面料遮光，市面上涂层的床帘不安全！！是用化学剂弄的，影响健康并且涂层的面料是不透气的宝，给您看一下我家的无涂层遮光帘的遮光效果和A类母婴级证书，您这边可以放心使用",
+        "pole_material": "支架为碳素钢材质",
+        "roof": "顶棚采用覆膜处理，用于遮光",
+        "instructions": "不麻烦的亲，按安装说明自己就能装好哈～",
+        "inner_color": "遮光帘内侧颜色比外侧深",
+        "sound_insulation": "目前整个床帘市场都是没有隔音床帘的。 咱们采用的是市面上最厚的600g遮光布，会起到轻微的隔音效果。 市面上大部分都是比我们的还薄的，隔音效果更差哦。 如果您担心噪音的情况下，可以选择睡眠耳塞，客服小妹也是用这个来解决的哦。",
+        "stability": "亲亲，我们的支架承重约10斤，很稳固的哈～",
+        "bunk_recommendation": "亲亲！我们的伸缩款支架高度可以自由调节，范围在65到120厘米之间，完全不用担心上铺或下铺的床都能适用。而且加高设计不会让空间感觉压抑，既实用又舒适。",
+        "telescoping": "纯色款120高度支架可调65–120厘米，其余高度款不据此推断",
+        "power_strip": "亲亲，排插可以放进来的哈，充电不用担心～",
+        "easy_installation": "不麻烦的亲，按安装说明自己就能装好哈～",
+        "removable_washing": "可以拆卸清洗的哈亲～",
+        "formaldehyde_script": "宝，咱家这款是成本较高的600克重遮光布的，也都是有质检报告的，遮光率高的同时不会对产品有任何危害，另外咱家产品还有A类母婴级证书，您可以放心选择哒",
+        "appearance": "已提供本款实拍图片，可参考款式外观",
+        "reference_price": "120高五面款折后参考价约260元，具体以页面套餐价格为准",
+        "pole_sales": "亲亲，用的是碳素钢支架，壁厚0.38毫米，支撑稳固，日常用着放心哈～"
+      },
+      "sources": {
+        "material": [
+          {
+            "file": "售前资源库.xlsx",
+            "sheet": "宿舍蚊帐-常规款801",
+            "cell": "B8",
+            "excerpt": "三通：ABS\n防尘顶：尼龙布\n遮光帘：PVC化纤布\n帐纱：涤纶（聚酯纤维）\n支架：烤漆工艺，碳素钢"
+          }
+        ],
+        "model": [
+          {
+            "file": "售前资源库.xlsx",
+            "sheet": "宿舍蚊帐-常规款801",
+            "cell": "B8",
+            "excerpt": "三通：ABS\n防尘顶：尼龙布\n遮光帘：PVC化纤布\n帐纱：涤纶（聚酯纤维）\n支架：烤漆工艺，碳素钢"
+          }
+        ],
+        "doors": [
+          {
+            "file": "售前资源库.xlsx",
+            "sheet": "宿舍蚊帐-常规款801",
+            "cell": "B14",
+            "excerpt": "上铺（110和120高度）U型三开门\n下铺（90高度）单开门"
+          }
+        ],
+        "shade_sides": [
+          {
+            "file": "售前资源库.xlsx",
+            "sheet": "宿舍蚊帐-常规款801",
+            "cell": "G68",
+            "excerpt": "四面的话靠墙无遮光帘，五面靠墙有遮光帘"
+          }
+        ],
+        "bottom": [
+          {
+            "file": "售前资源库.xlsx",
+            "sheet": "宿舍蚊帐-常规款801",
+            "cell": "G73",
+            "excerpt": "亲亲，蚊帐底部是镂空设计，但底部有约10-15cm宽的布料！铺上床垫后就能完全贴合密封，蚊虫绝对钻不进去的，放心哦~"
+          }
+        ],
+        "charging_port": [
+          {
+            "file": "售前资源库.xlsx",
+            "sheet": "宿舍蚊帐-常规款801",
+            "cell": "B77",
+            "excerpt": "宝子，您这边问到点上了~咱们家今年考虑到学生要充电，或者要拉排插等，专门设计了一个充电口"
+          }
+        ],
+        "storage": [
+          {
+            "file": "售前资源库.xlsx",
+            "sheet": "宿舍蚊帐-常规款801",
+            "cell": "D10",
+            "excerpt": "有的，这款蚊帐自带充电口 + 侧边置物袋，很方便日常使用"
+          }
+        ],
+        "specifications": [
+          {
+            "type": "user_confirmation",
+            "date": "2026-10-13",
+            "excerpt": "801/802/804帐纱90×190×90/110/120；803固定90×190×110，长宽±4cm"
+          }
+        ],
+        "weight": [
+          {
+            "file": "售前资源库.xlsx",
+            "sheet": "宿舍蚊帐-常规款801",
+            "cell": "B10",
+            "excerpt": "4kg左右"
+          },
+          {
+            "file": "售前资源库.xlsx",
+            "sheet": "宿舍蚊帐-常规款801",
+            "cell": "B11",
+            "excerpt": "678g左右"
+          }
+        ],
+        "pole_diameter": [
+          {
+            "type": "user_confirmation",
+            "date": "2026-10-13",
+            "reference": "本聊天：商品参数修正及壁厚追问回复",
+            "excerpt": "801是12mm，802/804是16mm，803最粗22mm"
+          }
+        ],
+        "pole_wall": [
+          {
+            "type": "user_confirmation",
+            "date": "2026-10-13",
+            "reference": "本聊天：商品参数修正及壁厚追问回复",
+            "excerpt": "用户确认“038”指0.38 mm，适用于801、802、803、804四款"
+          }
+        ],
+        "coating": [
+          {
+            "type": "user_provided_script",
+            "date": "2026-10-14",
+            "excerpt": "亲，床帘是没有涂层的，我们的是纯面料遮光，市面上涂层的床帘不安全！！是用化学剂弄的，影响健康并且涂层的面料是不透气的宝，给您看一下我家的无涂层遮光帘的遮光效果和A类母婴级证书，您这边可以放心使用",
+            "scope": "遮光床帘；顶部覆膜处理另按roof条目"
+          }
+        ],
+        "pole_material": [
+          {
+            "type": "user_confirmation",
+            "date": "2026-10-13",
+            "excerpt": "支架为碳素钢材质"
+          }
+        ],
+        "roof": [
+          {
+            "type": "user_confirmation",
+            "date": "2026-10-13",
+            "excerpt": "顶棚采用覆膜处理，用于遮光"
+          }
+        ],
+        "instructions": [
+          {
+            "type": "user_confirmation",
+            "date": "2026-10-14",
+            "excerpt": "不麻烦的亲，按安装说明自己就能装好哈～",
+            "note": "用户提供销售答复；承重参数来自用户确认，不从图片推算重量"
+          }
+        ],
+        "inner_color": [
+          {
+            "file": "售前资源库.xlsx",
+            "sheet": "宿舍蚊帐-常规款801",
+            "cell": "B74",
+            "excerpt": "宝子，咱们为了达到更高的遮光效果，咱们的遮光帘里面做的比外面深，但不影响美观~"
+          }
+        ],
+        "sound_insulation": [
+          {
+            "type": "user_provided_script",
+            "date": "2026-10-13",
+            "excerpt": "目前整个床帘市场都是没有隔音床帘的。 咱们采用的是市面上最厚的600g遮光布，会起到轻微的隔音效果。 市面上大部分都是比我们的还薄的，隔音效果更差哦。 如果您担心噪音的情况下，可以选择睡眠耳塞，客服小妹也是用这个来解决的哦。",
+            "review_status": "用户指定话术；未作独立市场比较核验"
+          }
+        ],
+        "stability": [
+          {
+            "type": "user_confirmation",
+            "date": "2026-10-14",
+            "excerpt": "亲亲，我们的支架承重约10斤，很稳固的哈～",
+            "note": "用户提供销售答复；承重参数来自用户确认，不从图片推算重量"
+          }
+        ],
+        "bunk_recommendation": [
+          {
+            "type": "user_provided_script",
+            "date": "2026-10-14",
+            "excerpt": "亲亲！我们的伸缩款支架高度可以自由调节，范围在65到120厘米之间，完全不用担心上铺或下铺的床都能适用。而且加高设计不会让空间感觉压抑，既实用又舒适。"
+          }
+        ],
+        "telescoping": [
+          {
+            "type": "user_confirmation",
+            "date": "2026-10-14",
+            "excerpt": "纯色款推荐120高度款，65–120厘米调节"
+          }
+        ],
+        "power_strip": [
+          {
+            "type": "user_confirmation",
+            "date": "2026-10-14",
+            "excerpt": "亲亲，排插可以放进来的哈，充电不用担心～",
+            "note": "用户提供销售答复；承重参数来自用户确认，不从图片推算重量"
+          }
+        ],
+        "easy_installation": [
+          {
+            "type": "user_confirmation",
+            "date": "2026-10-14",
+            "excerpt": "不麻烦的亲，按安装说明自己就能装好哈～",
+            "note": "用户提供销售答复；承重参数来自用户确认，不从图片推算重量"
+          }
+        ],
+        "removable_washing": [
+          {
+            "type": "user_confirmation",
+            "date": "2026-10-14",
+            "excerpt": "可以拆卸清洗的哈亲～",
+            "note": "用户提供销售答复；承重参数来自用户确认，不从图片推算重量"
+          }
+        ],
+        "formaldehyde_script": [
+          {
+            "type": "user_confirmation",
+            "date": "2026-10-14",
+            "excerpt": "宝，咱家这款是成本较高的600克重遮光布的，也都是有质检报告的，遮光率高的同时不会对产品有任何危害，另外咱家产品还有A类母婴级证书，您可以放心选择哒",
+            "note": "用户提供销售答复；承重参数来自用户确认，不从图片推算重量"
+          }
+        ],
+        "appearance": [
+          {
+            "file": "售前资源库.xlsx",
+            "sheet": "宿舍蚊帐-常规款801",
+            "anchor": "G42"
+          },
+          {
+            "file": "售前资源库.xlsx",
+            "sheet": "宿舍蚊帐-常规款801",
+            "anchor": "I46"
+          }
+        ],
+        "reference_price": [
+          {
+            "type": "user_confirmation",
+            "date": "2026-10-14",
+            "excerpt": {
+              "amount": 260,
+              "currency": "CNY",
+              "approximate": true,
+              "source": "用户确认折后参考价",
+              "confirmed_at": "2026-10-14",
+              "sku_scope": "纯色款为120高五面款；全伸缩款为同高度；小狗款固定110高；免安装款具体套餐未明确"
+            }
+          }
+        ],
+        "pole_sales": [
+          {
+            "type": "user_requested_draft",
+            "date": "2026-10-14",
+            "excerpt": "亲亲，用的是碳素钢支架，壁厚0.38毫米，支撑稳固，日常用着放心哈～",
+            "facts": [
+              "pole_material",
+              "pole_wall",
+              "stability"
+            ]
+          }
+        ]
+      },
+      "review_status": "已采用用户确认的支架直径/壁厚、床帘涂层口径；其余未确认或冲突条目仍交人工",
+      "blocked_topics": [
+        "甲醛",
+        "荧光剂",
+        "芳香胺",
+        "阻燃",
+        "防火",
+        "证书",
+        "报告",
+        "A类",
+        "a类",
+        "母婴",
+        "无毒",
+        "安全",
+        "承重",
+        "遮光率",
+        "百分之",
+        "100%",
+        "百分百",
+        "几层",
+        "五层",
+        "六层",
+        "优惠",
+        "赠送",
+        "赠品",
+        "试用",
+        "运费险",
+        "国补",
+        "学校允许",
+        "校规",
+        "包装",
+        "包裹尺寸",
+        "颜色",
+        "米色",
+        "灰色",
+        "蓝色"
+      ],
+      "field_updated_at": {
+        "pole_diameter": "2026-10-13",
+        "pole_wall": "2026-10-13",
+        "coating": "2026-10-13",
+        "pole_material": "2026-10-13",
+        "roof": "2026-10-13",
+        "sound_insulation": "2026-10-13",
+        "stability": "2026-10-14",
+        "power_strip": "2026-10-14",
+        "easy_installation": "2026-10-14",
+        "removable_washing": "2026-10-14",
+        "formaldehyde_script": "2026-10-14",
+        "pole_sales": "2026-10-14"
+      },
+      "net_heights": [
+        90,
+        110,
+        120
+      ],
+      "short_replies": {
+        "specifications": "帐纱尺寸90×190厘米，高度有90、110、120厘米三款",
+        "doors": "90 cm高是单开门，只开正面；110/120 cm高是三开门，上铺侧面进出选三开款",
+        "shade_sides": "四面款靠墙只有帐纱，五面款靠墙多一面遮光帘，按详情页选择就好",
+        "coating": "亲，床帘是没有涂层的，我们的是纯面料遮光，市面上涂层的床帘不安全！！是用化学剂弄的，影响健康并且涂层的面料是不透气的宝，给您看一下我家的无涂层遮光帘的遮光效果和A类母婴级证书，您这边可以放心使用",
+        "material": "帐纱是聚酯纤维，遮光帘是PVC化纤布",
+        "pole_diameter": "支架直径为 12 mm",
+        "pole_wall": "支架壁厚为 0.38 mm",
+        "colors": "",
+        "roof": "顶棚做了覆膜处理，用来遮光哈",
+        "sound_insulation": "目前整个床帘市场都是没有隔音床帘的。 咱们采用的是市面上最厚的600g遮光布，会起到轻微的隔音效果。 市面上大部分都是比我们的还薄的，隔音效果更差哦。 如果您担心噪音的情况下，可以选择睡眠耳塞，客服小妹也是用这个来解决的哦。",
+        "stability": "亲亲，我们的支架承重约10斤，很稳固的哈～",
+        "bunk_recommendation": "推荐120高度款。\n亲亲！我们的伸缩款支架高度可以自由调节，范围在65到120厘米之间，完全不用担心上铺或下铺的床都能适用。而且加高设计不会让空间感觉压抑，既实用又舒适。",
+        "telescoping": "纯色款120高度支架可调65–120厘米，其余高度款不据此推断",
+        "power_strip": "亲亲，排插可以放进来的哈，充电不用担心～",
+        "easy_installation": "不麻烦的亲，按安装说明自己就能装好哈～",
+        "removable_washing": "可以拆卸清洗的哈亲～",
+        "formaldehyde_script": "宝，咱家这款是成本较高的600克重遮光布的，也都是有质检报告的，遮光率高的同时不会对产品有任何危害，另外咱家产品还有A类母婴级证书，您可以放心选择哒",
+        "instructions": "不麻烦的亲，按安装说明自己就能装好哈～",
+        "appearance": "亲亲，这款实拍图可以参考一下哈～",
+        "reference_price": "亲亲，120高五面款折后参考价约260元，具体以页面套餐价格为准哈～",
+        "pole_sales": "亲亲，用的是碳素钢支架，壁厚0.38毫米，支撑稳固，日常用着放心哈～",
+        "pole_material": "亲亲，用的是碳素钢支架，壁厚0.38毫米，支撑稳固，日常用着放心哈～"
+      },
+      "pending_claims": {
+        "roof_certification": "用户提供顶棚SGS、零甲醛/异味、50次机洗、防水防潮话术，尚未核验报告对应产品与测试条件，不参与自动回复"
+      },
+      "link": null,
+      "image_refs": [
+        {
+          "id": "pole-load-user",
+          "url": "/static/images/pole-load-user.png",
+          "alt": "用户提供的支架悬挂两桶水展示图"
+        },
+        {
+          "id": "801-02",
+          "url": "/static/images/source/801-02.png",
+          "alt": "801商品资料图",
+          "source": {
+            "file": "售前资源库.xlsx",
+            "sheet": "宿舍蚊帐-常规款801",
+            "anchor": "H8"
+          }
+        },
+        {
+          "id": "801-10",
+          "url": "/static/images/source/801-10.png",
+          "alt": "开门的区别",
+          "source": {
+            "file": "售前资源库.xlsx",
+            "sheet": "宿舍蚊帐-常规款801",
+            "anchor": "B39"
+          }
+        },
+        {
+          "id": "801-11",
+          "url": "/static/images/source/801-11.png",
+          "alt": "遮光面的区别",
+          "source": {
+            "file": "售前资源库.xlsx",
+            "sheet": "宿舍蚊帐-常规款801",
+            "anchor": "D39"
+          }
+        },
+        {
+          "id": "801-13",
+          "url": "/static/images/source/801-13.png",
+          "alt": "安装教程图",
+          "source": {
+            "file": "售前资源库.xlsx",
+            "sheet": "宿舍蚊帐-常规款801",
+            "anchor": "H39"
+          }
+        },
+        {
+          "id": "801-16",
+          "url": "/static/images/source/801-16.png",
+          "alt": "三通",
+          "source": {
+            "file": "售前资源库.xlsx",
+            "sheet": "宿舍蚊帐-常规款801",
+            "anchor": "C42"
+          }
+        },
+        {
+          "id": "801-17",
+          "url": "/static/images/source/801-17.png",
+          "alt": "帐纱挂钩",
+          "source": {
+            "file": "售前资源库.xlsx",
+            "sheet": "宿舍蚊帐-常规款801",
+            "anchor": "D42"
+          }
+        },
+        {
+          "id": "801-18",
+          "url": "/static/images/source/801-18.png",
+          "alt": "遮光帘挂钩",
+          "source": {
+            "file": "售前资源库.xlsx",
+            "sheet": "宿舍蚊帐-常规款801",
+            "anchor": "E42"
+          }
+        },
+        {
+          "id": "801-20",
+          "url": "/static/images/source/801-20.png",
+          "alt": "效果图",
+          "source": {
+            "file": "售前资源库.xlsx",
+            "sheet": "宿舍蚊帐-常规款801",
+            "anchor": "G42"
+          }
+        },
+        {
+          "id": "801-26",
+          "url": "/static/images/source/801-26.png",
+          "alt": "顶部中间杆子连接图",
+          "source": {
+            "file": "售前资源库.xlsx",
+            "sheet": "宿舍蚊帐-常规款801",
+            "anchor": "E44"
+          }
+        },
+        {
+          "id": "801-30",
+          "url": "/static/images/source/801-30.png",
+          "alt": "顶部图",
+          "source": {
+            "file": "售前资源库.xlsx",
+            "sheet": "宿舍蚊帐-常规款801",
+            "anchor": "I44"
+          }
+        },
+        {
+          "id": "801-34",
+          "url": "/static/images/source/801-34.png",
+          "alt": "灰色遮光帘内外颜色",
+          "source": {
+            "file": "售前资源库.xlsx",
+            "sheet": "宿舍蚊帐-常规款801",
+            "anchor": "E46"
+          }
+        },
+        {
+          "id": "801-37",
+          "url": "/static/images/source/801-37.png",
+          "alt": "灰色实物图",
+          "source": {
+            "file": "售前资源库.xlsx",
+            "sheet": "宿舍蚊帐-常规款801",
+            "anchor": "I46"
+          }
+        },
+        {
+          "id": "801-50",
+          "url": "/static/images/source/801-50.png",
+          "alt": "801商品资料图",
+          "source": {
+            "file": "售前资源库.xlsx",
+            "sheet": "宿舍蚊帐-常规款801",
+            "anchor": "I73"
+          }
+        },
+        {
+          "id": "801-57",
+          "url": "/static/images/source/801-57.png",
+          "alt": "801商品资料图",
+          "source": {
+            "file": "售前资源库.xlsx",
+            "sheet": "宿舍蚊帐-常规款801",
+            "anchor": "E77"
+          }
+        }
+      ],
+      "answer_images": {
+        "stability": [
+          {
+            "id": "pole-load-user",
+            "url": "/static/images/pole-load-user.png",
+            "alt": "用户提供的支架悬挂两桶水展示图"
+          }
+        ],
+        "material": [
+          {
+            "id": "801-02",
+            "url": "/static/images/source/801-02.png",
+            "alt": "801商品资料图",
+            "source": {
+              "file": "售前资源库.xlsx",
+              "sheet": "宿舍蚊帐-常规款801",
+              "anchor": "H8"
+            }
+          }
+        ],
+        "doors": [
+          {
+            "id": "801-10",
+            "url": "/static/images/source/801-10.png",
+            "alt": "开门的区别",
+            "source": {
+              "file": "售前资源库.xlsx",
+              "sheet": "宿舍蚊帐-常规款801",
+              "anchor": "B39"
+            }
+          }
+        ],
+        "shade_sides": [
+          {
+            "id": "801-11",
+            "url": "/static/images/source/801-11.png",
+            "alt": "遮光面的区别",
+            "source": {
+              "file": "售前资源库.xlsx",
+              "sheet": "宿舍蚊帐-常规款801",
+              "anchor": "D39"
+            }
+          }
+        ],
+        "instructions": [
+          {
+            "id": "801-13",
+            "url": "/static/images/source/801-13.png",
+            "alt": "安装教程图",
+            "source": {
+              "file": "售前资源库.xlsx",
+              "sheet": "宿舍蚊帐-常规款801",
+              "anchor": "H39"
+            }
+          }
+        ],
+        "easy_installation": [
+          {
+            "id": "801-13",
+            "url": "/static/images/source/801-13.png",
+            "alt": "安装教程图",
+            "source": {
+              "file": "售前资源库.xlsx",
+              "sheet": "宿舍蚊帐-常规款801",
+              "anchor": "H39"
+            }
+          }
+        ],
+        "accessories": [
+          {
+            "id": "801-16",
+            "url": "/static/images/source/801-16.png",
+            "alt": "三通",
+            "source": {
+              "file": "售前资源库.xlsx",
+              "sheet": "宿舍蚊帐-常规款801",
+              "anchor": "C42"
+            }
+          },
+          {
+            "id": "801-17",
+            "url": "/static/images/source/801-17.png",
+            "alt": "帐纱挂钩",
+            "source": {
+              "file": "售前资源库.xlsx",
+              "sheet": "宿舍蚊帐-常规款801",
+              "anchor": "D42"
+            }
+          },
+          {
+            "id": "801-18",
+            "url": "/static/images/source/801-18.png",
+            "alt": "遮光帘挂钩",
+            "source": {
+              "file": "售前资源库.xlsx",
+              "sheet": "宿舍蚊帐-常规款801",
+              "anchor": "E42"
+            }
+          }
+        ],
+        "appearance": [
+          {
+            "id": "801-20",
+            "url": "/static/images/source/801-20.png",
+            "alt": "效果图",
+            "source": {
+              "file": "售前资源库.xlsx",
+              "sheet": "宿舍蚊帐-常规款801",
+              "anchor": "G42"
+            }
+          },
+          {
+            "id": "801-37",
+            "url": "/static/images/source/801-37.png",
+            "alt": "灰色实物图",
+            "source": {
+              "file": "售前资源库.xlsx",
+              "sheet": "宿舍蚊帐-常规款801",
+              "anchor": "I46"
+            }
+          }
+        ],
+        "pole_details": [
+          {
+            "id": "801-26",
+            "url": "/static/images/source/801-26.png",
+            "alt": "顶部中间杆子连接图",
+            "source": {
+              "file": "售前资源库.xlsx",
+              "sheet": "宿舍蚊帐-常规款801",
+              "anchor": "E44"
+            }
+          }
+        ],
+        "roof": [
+          {
+            "id": "801-30",
+            "url": "/static/images/source/801-30.png",
+            "alt": "顶部图",
+            "source": {
+              "file": "售前资源库.xlsx",
+              "sheet": "宿舍蚊帐-常规款801",
+              "anchor": "I44"
+            }
+          }
+        ],
+        "inner_color": [
+          {
+            "id": "801-34",
+            "url": "/static/images/source/801-34.png",
+            "alt": "灰色遮光帘内外颜色",
+            "source": {
+              "file": "售前资源库.xlsx",
+              "sheet": "宿舍蚊帐-常规款801",
+              "anchor": "E46"
+            }
+          }
+        ],
+        "bottom": [
+          {
+            "id": "801-50",
+            "url": "/static/images/source/801-50.png",
+            "alt": "801商品资料图",
+            "source": {
+              "file": "售前资源库.xlsx",
+              "sheet": "宿舍蚊帐-常规款801",
+              "anchor": "I73"
+            }
+          }
+        ],
+        "charging_port": [
+          {
+            "id": "801-57",
+            "url": "/static/images/source/801-57.png",
+            "alt": "801商品资料图",
+            "source": {
+              "file": "售前资源库.xlsx",
+              "sheet": "宿舍蚊帐-常规款801",
+              "anchor": "E77"
+            }
+          }
+        ],
+        "power_strip": [
+          {
+            "id": "801-57",
+            "url": "/static/images/source/801-57.png",
+            "alt": "801商品资料图",
+            "source": {
+              "file": "售前资源库.xlsx",
+              "sheet": "宿舍蚊帐-常规款801",
+              "anchor": "E77"
+            }
+          }
+        ],
+        "pole_sales": [
+          {
+            "id": "pole-load-user",
+            "url": "/static/images/pole-load-user.png",
+            "alt": "用户提供的支架悬挂两桶水展示图"
+          }
+        ]
+      },
+      "price_reference": {
+        "amount": 260,
+        "currency": "CNY",
+        "approximate": true,
+        "source": "用户确认折后参考价",
+        "confirmed_at": "2026-10-14",
+        "sku_scope": "120高五面款"
+      }
+    },
+    {
+      "id": "802",
+      "name": "全伸缩款",
+      "aliases": [
+        "IP款",
+        "IP款802",
+        "宿舍蚊帐IP款802",
+        "全伸缩款"
+      ],
+      "model": "802",
+      "updated_at": null,
+      "imported_at": "2026-10-13",
+      "facts": {
+        "material": "帐纱为聚酯纤维，遮光帘为 PVC 化纤布，三通为 ABS 塑料；顶部处理和支架具体材质需按版本人工核实",
+        "model": "资料中的款式编号为 802；具体销售 SKU 需人工核实",
+        "doors": "90 cm 高款为正面单开门；110 cm、120 cm 高款为三开门",
+        "shade_sides": "四面款靠墙处没有遮光帘，五面款靠墙处有遮光帘",
+        "bottom": "采用回底设计，并非全封闭底部；需配合床垫或凉席使用",
+        "charging_port": "设有预留充电口，可用于穿过充电线",
+        "storage": "资料标注内部有收纳袋；外置挂物袋或置物架是否随套餐附送需人工确认",
+        "specifications": "帐纱宽×长×高：90×190×90、90×190×110、90×190×120 cm",
+        "telescoping": "长度可调 145–190 cm，宽度可调 65–90 cm；90 cm 高款的高度可调 80–100 cm，110 cm 高款可调 100–115 cm，120 cm 高款可调 110–120 cm。选购请参考帐纱本身尺寸，并核对实际床内尺寸和净空",
+        "washing": "资料标注可以机洗，不建议暴晒，清洗后自然风干",
+        "packaging": "外包装尺寸约 95×15×15 cm，带外包装重量约 4 kg",
+        "pole_diameter": "支架直径为 16 mm",
+        "weight": "带外包装重量约 4 kg；帐纱约 678 g；单片遮光帘约 600 g",
+        "instructions": "不麻烦的亲，按安装说明自己就能装好哈～",
+        "pole_wall": "支架壁厚为 0.38 mm",
+        "coating": "亲，床帘是没有涂层的，我们的是纯面料遮光，市面上涂层的床帘不安全！！是用化学剂弄的，影响健康并且涂层的面料是不透气的宝，给您看一下我家的无涂层遮光帘的遮光效果和A类母婴级证书，您这边可以放心使用",
+        "colors": "目前在售颜色仅蓝色；具体库存需另行核实",
+        "pole_material": "支架为碳素钢材质",
+        "roof": "顶棚采用覆膜处理，用于遮光",
+        "custom_size": "不支持定制尺寸，可选择全伸缩款调节支架",
+        "sound_insulation": "目前整个床帘市场都是没有隔音床帘的。 咱们采用的是市面上最厚的600g遮光布，会起到轻微的隔音效果。 市面上大部分都是比我们的还薄的，隔音效果更差哦。 如果您担心噪音的情况下，可以选择睡眠耳塞，客服小妹也是用这个来解决的哦。",
+        "stability": "亲亲，我们的支架承重约10斤，很稳固的哈～",
+        "power_strip": "亲亲，排插可以放进来的哈，充电不用担心～",
+        "easy_installation": "不麻烦的亲，按安装说明自己就能装好哈～",
+        "removable_washing": "可以拆卸清洗的哈亲～",
+        "formaldehyde_script": "宝，咱家这款是成本较高的600克重遮光布的，也都是有质检报告的，遮光率高的同时不会对产品有任何危害，另外咱家产品还有A类母婴级证书，您可以放心选择哒",
+        "appearance": "已提供本款实拍图片，可参考款式外观",
+        "reference_price": "120高款折后参考价约280元，具体以页面套餐价格为准",
+        "pole_sales": "亲亲，用的是碳素钢支架，壁厚0.38毫米，支撑稳固，日常用着放心哈～"
+      },
+      "sources": {
+        "material": [
+          {
+            "file": "售前资源库.xlsx",
+            "sheet": "宿舍蚊帐-IP款802",
+            "cell": "B14",
+            "excerpt": "帐纱材质   ：A类聚酯纤维\n\n遮光帘材质：pvc化纤布\n\n防尘顶材质 :  尼龙布\n\n支架材质    ：碳素钢（京东）\n\n三通材质：ABS(塑料)"
+          }
+        ],
+        "model": [
+          {
+            "file": "售前资源库.xlsx",
+            "sheet": "宿舍蚊帐-IP款802",
+            "cell": "B14",
+            "excerpt": "帐纱材质   ：A类聚酯纤维\n\n遮光帘材质：pvc化纤布\n\n防尘顶材质 :  尼龙布\n\n支架材质    ：碳素钢（京东）\n\n三通材质：ABS(塑料)"
+          }
+        ],
+        "doors": [
+          {
+            "file": "售前资源库.xlsx",
+            "sheet": "宿舍蚊帐-IP款802",
+            "cell": "B6",
+            "excerpt": "单开门：90cm⨯190cm⨯90cm\n\n三开门：90cm⨯190cm⨯110cm\n\n三开门：90cm⨯190cm⨯120cm"
+          }
+        ],
+        "shade_sides": [
+          {
+            "file": "售前资源库.xlsx",
+            "sheet": "宿舍蚊帐-IP款802",
+            "cell": "D11",
+            "excerpt": "四面和五面的区别\n\n亲靠墙无遮光帘就是靠墙只有帐纱没有帘子的， 四面遮光哦\n\n亲靠墙的多了一面遮光帘，遮光效果更好，就是五面遮光帘的哈亲 "
+          }
+        ],
+        "bottom": [
+          {
+            "file": "售前资源库.xlsx",
+            "sheet": "宿舍蚊帐-IP款802",
+            "cell": "D7",
+            "excerpt": "亲亲，学生床帘是不需要做全底哦，咱们是回底设计，方便拆洗。自己铺上床垫凉席，拉上拉链就能有效防蚊虫～"
+          }
+        ],
+        "charging_port": [
+          {
+            "file": "售前资源库.xlsx",
+            "sheet": "宿舍蚊帐-IP款802",
+            "cell": "D15",
+            "excerpt": "宝，这个我们也是考虑到的呢，是设计有的哦，很方便的呢，放心使用哈"
+          }
+        ],
+        "storage": [
+          {
+            "file": "售前资源库.xlsx",
+            "sheet": "宿舍蚊帐-IP款802",
+            "cell": "D15",
+            "excerpt": "宝，这个我们也是考虑到的呢，是设计有的哦，很方便的呢，放心使用哈"
+          }
+        ],
+        "specifications": [
+          {
+            "type": "user_confirmation",
+            "date": "2026-10-13",
+            "excerpt": "801/802/804帐纱90×190×90/110/120；803固定90×190×110，长宽±4cm"
+          }
+        ],
+        "telescoping": [
+          {
+            "type": "user_confirmation",
+            "date": "2026-10-13",
+            "reference": "本聊天：商品参数修正及壁厚追问回复",
+            "excerpt": "长度可调 145–190 cm，宽度可调 65–90 cm；90 cm 高款的高度可调 80–100 cm，110 cm 高款可调 100–115 cm，120 cm 高款可调 110–120 cm。选购请参考帐纱本身尺寸，并核对实际床内尺寸和净空"
+          }
+        ],
+        "washing": [
+          {
+            "file": "售前资源库.xlsx",
+            "sheet": "宿舍蚊帐-IP款802",
+            "cell": "B3",
+            "excerpt": "1、长宽高支架可以全伸缩，带图案\n\n2、可以机洗，不建议暴晒，自然风干\n"
+          }
+        ],
+        "packaging": [
+          {
+            "file": "售前资源库.xlsx",
+            "sheet": "宿舍蚊帐-IP款802",
+            "cell": "B5",
+            "excerpt": "外包装尺寸为95⨯15⨯15cm左右"
+          },
+          {
+            "file": "售前资源库.xlsx",
+            "sheet": "宿舍蚊帐-IP款802",
+            "cell": "B11",
+            "excerpt": "4kg左右"
+          }
+        ],
+        "pole_diameter": [
+          {
+            "type": "user_confirmation",
+            "date": "2026-10-13",
+            "reference": "本聊天：商品参数修正及壁厚追问回复",
+            "excerpt": "801是12mm，802/804是16mm，803最粗22mm"
+          }
+        ],
+        "weight": [
+          {
+            "file": "售前资源库.xlsx",
+            "sheet": "宿舍蚊帐-IP款802",
+            "cell": "B10",
+            "excerpt": "678g左右"
+          },
+          {
+            "file": "售前资源库.xlsx",
+            "sheet": "宿舍蚊帐-IP款802",
+            "cell": "B11",
+            "excerpt": "4kg左右"
+          },
+          {
+            "file": "售前资源库.xlsx",
+            "sheet": "宿舍蚊帐-IP款802",
+            "cell": "B12",
+            "excerpt": "600g左右(一片)"
+          }
+        ],
+        "instructions": [
+          {
+            "type": "user_confirmation",
+            "date": "2026-10-14",
+            "excerpt": "不麻烦的亲，按安装说明自己就能装好哈～",
+            "note": "用户提供销售答复；承重参数来自用户确认，不从图片推算重量"
+          }
+        ],
+        "pole_wall": [
+          {
+            "type": "user_confirmation",
+            "date": "2026-10-13",
+            "reference": "本聊天：商品参数修正及壁厚追问回复",
+            "excerpt": "用户确认“038”指0.38 mm，适用于801、802、803、804四款"
+          }
+        ],
+        "coating": [
+          {
+            "type": "user_provided_script",
+            "date": "2026-10-14",
+            "excerpt": "亲，床帘是没有涂层的，我们的是纯面料遮光，市面上涂层的床帘不安全！！是用化学剂弄的，影响健康并且涂层的面料是不透气的宝，给您看一下我家的无涂层遮光帘的遮光效果和A类母婴级证书，您这边可以放心使用",
+            "scope": "遮光床帘；顶部覆膜处理另按roof条目"
+          }
+        ],
+        "colors": [
+          {
+            "type": "user_confirmation",
+            "date": "2026-10-13",
+            "reference": "本聊天：商品参数修正及壁厚追问回复",
+            "excerpt": "802、804目前只有蓝色"
+          }
+        ],
+        "pole_material": [
+          {
+            "type": "user_confirmation",
+            "date": "2026-10-13",
+            "excerpt": "支架为碳素钢材质"
+          }
+        ],
+        "roof": [
+          {
+            "type": "user_confirmation",
+            "date": "2026-10-13",
+            "excerpt": "顶棚采用覆膜处理，用于遮光"
+          }
+        ],
+        "custom_size": [
+          {
+            "file": "售前资源库.xlsx",
+            "sheet": "宿舍蚊帐-IP款802",
+            "cell": "D5",
+            "excerpt": "亲，咱家不支持定制尺寸呢，全伸缩的支架大部分的尺寸都是合适的呢"
+          }
+        ],
+        "sound_insulation": [
+          {
+            "type": "user_provided_script",
+            "date": "2026-10-13",
+            "excerpt": "目前整个床帘市场都是没有隔音床帘的。 咱们采用的是市面上最厚的600g遮光布，会起到轻微的隔音效果。 市面上大部分都是比我们的还薄的，隔音效果更差哦。 如果您担心噪音的情况下，可以选择睡眠耳塞，客服小妹也是用这个来解决的哦。",
+            "review_status": "用户指定话术；未作独立市场比较核验"
+          }
+        ],
+        "stability": [
+          {
+            "type": "user_confirmation",
+            "date": "2026-10-14",
+            "excerpt": "亲亲，我们的支架承重约10斤，很稳固的哈～",
+            "note": "用户提供销售答复；承重参数来自用户确认，不从图片推算重量"
+          }
+        ],
+        "power_strip": [
+          {
+            "type": "user_confirmation",
+            "date": "2026-10-14",
+            "excerpt": "亲亲，排插可以放进来的哈，充电不用担心～",
+            "note": "用户提供销售答复；承重参数来自用户确认，不从图片推算重量"
+          }
+        ],
+        "easy_installation": [
+          {
+            "type": "user_confirmation",
+            "date": "2026-10-14",
+            "excerpt": "不麻烦的亲，按安装说明自己就能装好哈～",
+            "note": "用户提供销售答复；承重参数来自用户确认，不从图片推算重量"
+          }
+        ],
+        "removable_washing": [
+          {
+            "type": "user_confirmation",
+            "date": "2026-10-14",
+            "excerpt": "可以拆卸清洗的哈亲～",
+            "note": "用户提供销售答复；承重参数来自用户确认，不从图片推算重量"
+          }
+        ],
+        "formaldehyde_script": [
+          {
+            "type": "user_confirmation",
+            "date": "2026-10-14",
+            "excerpt": "宝，咱家这款是成本较高的600克重遮光布的，也都是有质检报告的，遮光率高的同时不会对产品有任何危害，另外咱家产品还有A类母婴级证书，您可以放心选择哒",
+            "note": "用户提供销售答复；承重参数来自用户确认，不从图片推算重量"
+          }
+        ],
+        "appearance": [],
+        "reference_price": [
+          {
+            "type": "user_confirmation",
+            "date": "2026-10-14",
+            "excerpt": {
+              "amount": 280,
+              "currency": "CNY",
+              "approximate": true,
+              "source": "用户确认折后参考价",
+              "confirmed_at": "2026-10-14",
+              "sku_scope": "纯色款为120高五面款；全伸缩款为同高度；小狗款固定110高；免安装款具体套餐未明确"
+            }
+          }
+        ],
+        "pole_sales": [
+          {
+            "type": "user_requested_draft",
+            "date": "2026-10-14",
+            "excerpt": "亲亲，用的是碳素钢支架，壁厚0.38毫米，支撑稳固，日常用着放心哈～",
+            "facts": [
+              "pole_material",
+              "pole_wall",
+              "stability"
+            ]
+          }
+        ]
+      },
+      "review_status": "已采用用户确认的支架直径/壁厚、床帘涂层口径；其余未确认或冲突条目仍交人工",
+      "blocked_topics": [
+        "甲醛",
+        "荧光剂",
+        "芳香胺",
+        "阻燃",
+        "防火",
+        "证书",
+        "报告",
+        "A类",
+        "a类",
+        "母婴",
+        "无毒",
+        "安全",
+        "承重",
+        "遮光率",
+        "百分之",
+        "100%",
+        "百分百",
+        "几层",
+        "五层",
+        "六层",
+        "优惠",
+        "赠送",
+        "赠品",
+        "试用",
+        "运费险",
+        "国补",
+        "学校允许",
+        "校规"
+      ],
+      "superseded_facts": [
+        {
+          "field": "pole_diameter",
+          "text": "加粗支架直径约 1 cm，支架壁厚约 0.26 mm",
+          "sources": [
+            {
+              "file": "售前资源库.xlsx",
+              "sheet": "宿舍蚊帐-IP款802",
+              "cell": "B8",
+              "excerpt": "IP款0.26mm左右"
+            },
+            {
+              "file": "售前资源库.xlsx",
+              "sheet": "宿舍蚊帐-IP款802",
+              "cell": "B9",
+              "excerpt": "1cm左右"
+            }
+          ],
+          "superseded_at": "2026-10-13"
+        },
+        {
+          "field": "telescoping",
+          "text": "长可调约 145–190 cm，宽可调约 65–90 cm；90、110、120 cm 高款的高度范围分别约为 70–90、70–110、70–120 cm；请按帐纱本身尺寸选购",
+          "sources": [
+            {
+              "file": "售前资源库.xlsx",
+              "sheet": "宿舍蚊帐-IP款802",
+              "cell": "B13",
+              "excerpt": "90cm高：【70cm—90cm】\n\n110cm 高度：【70cm—110cm】\n\n120cm 高度：【70cm—120cm】\n\n长度：【145cm-190cm 】\n宽度：【65cm-90cm】"
+            },
+            {
+              "file": "售前资源库.xlsx",
+              "sheet": "宿舍蚊帐-IP款802",
+              "cell": "D8",
+              "excerpt": "宝，长宽高都是可以调节的呢\n90cm高：【70cm—90cm】\n，下铺首选\n110cm 高度：【70cm—110cm】\n，空间更宽敞，宿舍上下铺通用\n120cm 高度：【70cm—120cm】\n，上铺专用，高个子 / 喜欢大空间闭眼入\n长度可调145cm-190cm，宽度65cm-90cm，适配大部分宿舍床型。\n温馨提示：按帐纱本身尺寸选购更合适～\n"
+            }
+          ],
+          "superseded_at": "2026-10-13"
+        }
+      ],
+      "field_updated_at": {
+        "pole_diameter": "2026-10-13",
+        "pole_wall": "2026-10-13",
+        "coating": "2026-10-13",
+        "telescoping": "2026-10-13",
+        "colors": "2026-10-13",
+        "pole_material": "2026-10-13",
+        "roof": "2026-10-13",
+        "sound_insulation": "2026-10-13",
+        "stability": "2026-10-14",
+        "power_strip": "2026-10-14",
+        "easy_installation": "2026-10-14",
+        "removable_washing": "2026-10-14",
+        "formaldehyde_script": "2026-10-14",
+        "pole_sales": "2026-10-14"
+      },
+      "net_heights": [
+        90,
+        110,
+        120
+      ],
+      "ranges": {
+        "height": {
+          "90": [
+            80,
+            100
+          ],
+          "110": [
+            100,
+            115
+          ],
+          "120": [
+            110,
+            120
+          ]
+        }
+      },
+      "short_replies": {
+        "specifications": "帐纱尺寸90×190厘米，高度有90、110、120厘米三款",
+        "doors": "90 cm高是单开门，只开正面；110/120 cm高是三开门，上铺侧面进出选三开款",
+        "shade_sides": "四面款靠墙只有帐纱，五面款靠墙多一面遮光帘，按详情页选择就好",
+        "coating": "亲，床帘是没有涂层的，我们的是纯面料遮光，市面上涂层的床帘不安全！！是用化学剂弄的，影响健康并且涂层的面料是不透气的宝，给您看一下我家的无涂层遮光帘的遮光效果和A类母婴级证书，您这边可以放心使用",
+        "material": "帐纱是聚酯纤维，遮光帘是PVC化纤布",
+        "pole_diameter": "支架直径为 16 mm",
+        "pole_wall": "支架壁厚为 0.38 mm",
+        "colors": "目前仅蓝色哦",
+        "telescoping": "长145–190、宽65–90厘米；90/110/120高款分别可调80–100/100–115/110–120厘米",
+        "roof": "顶棚做了覆膜处理，用来遮光哈",
+        "sound_insulation": "目前整个床帘市场都是没有隔音床帘的。 咱们采用的是市面上最厚的600g遮光布，会起到轻微的隔音效果。 市面上大部分都是比我们的还薄的，隔音效果更差哦。 如果您担心噪音的情况下，可以选择睡眠耳塞，客服小妹也是用这个来解决的哦。",
+        "stability": "亲亲，我们的支架承重约10斤，很稳固的哈～",
+        "power_strip": "亲亲，排插可以放进来的哈，充电不用担心～",
+        "easy_installation": "不麻烦的亲，按安装说明自己就能装好哈～",
+        "removable_washing": "可以拆卸清洗的哈亲～",
+        "formaldehyde_script": "宝，咱家这款是成本较高的600克重遮光布的，也都是有质检报告的，遮光率高的同时不会对产品有任何危害，另外咱家产品还有A类母婴级证书，您可以放心选择哒",
+        "instructions": "不麻烦的亲，按安装说明自己就能装好哈～",
+        "appearance": "亲亲，这款实拍图可以参考一下哈～",
+        "reference_price": "亲亲，120高款折后参考价约280元，具体以页面套餐价格为准哈～",
+        "pole_sales": "亲亲，用的是碳素钢支架，壁厚0.38毫米，支撑稳固，日常用着放心哈～",
+        "pole_material": "亲亲，用的是碳素钢支架，壁厚0.38毫米，支撑稳固，日常用着放心哈～"
+      },
+      "pending_claims": {
+        "roof_certification": "用户提供顶棚SGS、零甲醛/异味、50次机洗、防水防潮话术，尚未核验报告对应产品与测试条件，不参与自动回复"
+      },
+      "link": null,
+      "image_refs": [
+        {
+          "id": "pole-load-user",
+          "url": "/static/images/pole-load-user.png",
+          "alt": "用户提供的支架悬挂两桶水展示图"
+        },
+        {
+          "id": "802-02",
+          "url": "/static/images/source/802-02.png",
+          "alt": "802商品资料图",
+          "source": {
+            "file": "售前资源库.xlsx",
+            "sheet": "宿舍蚊帐-IP款802",
+            "anchor": "H10"
+          }
+        },
+        {
+          "id": "802-03",
+          "url": "/static/images/source/802-03.png",
+          "alt": "802商品资料图",
+          "source": {
+            "file": "售前资源库.xlsx",
+            "sheet": "宿舍蚊帐-IP款802",
+            "anchor": "H11"
+          }
+        },
+        {
+          "id": "802-05",
+          "url": "/static/images/source/802-05.png",
+          "alt": "802商品资料图",
+          "source": {
+            "file": "售前资源库.xlsx",
+            "sheet": "宿舍蚊帐-IP款802",
+            "anchor": "H15"
+          }
+        }
+      ],
+      "answer_images": {
+        "stability": [
+          {
+            "id": "pole-load-user",
+            "url": "/static/images/pole-load-user.png",
+            "alt": "用户提供的支架悬挂两桶水展示图"
+          }
+        ],
+        "doors": [
+          {
+            "id": "802-02",
+            "url": "/static/images/source/802-02.png",
+            "alt": "802商品资料图",
+            "source": {
+              "file": "售前资源库.xlsx",
+              "sheet": "宿舍蚊帐-IP款802",
+              "anchor": "H10"
+            }
+          }
+        ],
+        "shade_sides": [
+          {
+            "id": "802-03",
+            "url": "/static/images/source/802-03.png",
+            "alt": "802商品资料图",
+            "source": {
+              "file": "售前资源库.xlsx",
+              "sheet": "宿舍蚊帐-IP款802",
+              "anchor": "H11"
+            }
+          }
+        ],
+        "charging_port": [
+          {
+            "id": "802-05",
+            "url": "/static/images/source/802-05.png",
+            "alt": "802商品资料图",
+            "source": {
+              "file": "售前资源库.xlsx",
+              "sheet": "宿舍蚊帐-IP款802",
+              "anchor": "H15"
+            }
+          }
+        ],
+        "power_strip": [
+          {
+            "id": "802-05",
+            "url": "/static/images/source/802-05.png",
+            "alt": "802商品资料图",
+            "source": {
+              "file": "售前资源库.xlsx",
+              "sheet": "宿舍蚊帐-IP款802",
+              "anchor": "H15"
+            }
+          }
+        ],
+        "storage": [
+          {
+            "id": "802-05",
+            "url": "/static/images/source/802-05.png",
+            "alt": "802商品资料图",
+            "source": {
+              "file": "售前资源库.xlsx",
+              "sheet": "宿舍蚊帐-IP款802",
+              "anchor": "H15"
+            }
+          }
+        ],
+        "pole_sales": [
+          {
+            "id": "pole-load-user",
+            "url": "/static/images/pole-load-user.png",
+            "alt": "用户提供的支架悬挂两桶水展示图"
+          }
+        ]
+      },
+      "price_reference": {
+        "amount": 280,
+        "currency": "CNY",
+        "approximate": true,
+        "source": "用户确认折后参考价",
+        "confirmed_at": "2026-10-14",
+        "sku_scope": "120高款"
+      }
+    },
+    {
+      "id": "803",
+      "name": "小狗联名款",
+      "aliases": [
+        "线条小狗",
+        "小狗联名款",
+        "小狗款",
+        "宿舍床帘线条小狗联名款803"
+      ],
+      "model": "803",
+      "updated_at": null,
+      "imported_at": "2026-10-13",
+      "facts": {
+        "material": "帐纱为聚酯纤维，遮光帘为 PVC 化纤布，三通为 ABS 塑料；顶部处理和支架具体材质需按版本人工核实",
+        "model": "资料中的款式编号为 803；具体销售 SKU 需人工核实",
+        "doors": "资料标注全系列均为三开门",
+        "shade_sides": "四面款靠墙处没有遮光帘，五面款靠墙处有遮光帘",
+        "bottom": "采用回底设计，并非全封闭底部；需配合床垫或凉席使用",
+        "charging_port": "设有预留充电口，可用于穿过充电线",
+        "storage": "资料标注内部有收纳袋；外置挂物袋或置物架是否随套餐附送需人工确认",
+        "telescoping": "帐纱尺寸90×190×110 cm，长宽均可±4 cm调节",
+        "pole_diameter": "支架直径为 22 mm",
+        "pole_wall": "支架壁厚为 0.38 mm",
+        "coating": "亲，床帘是没有涂层的，我们的是纯面料遮光，市面上涂层的床帘不安全！！是用化学剂弄的，影响健康并且涂层的面料是不透气的宝，给您看一下我家的无涂层遮光帘的遮光效果和A类母婴级证书，您这边可以放心使用",
+        "specifications": "帐纱宽×长×高：90×190×110 cm",
+        "pole_material": "支架为碳素钢材质",
+        "roof": "顶棚采用覆膜处理，用于遮光",
+        "colors": "目前有蓝色、粉色、紫色",
+        "washing": "可以机洗",
+        "inner_color": "遮光帘内侧颜色比外侧深",
+        "sound_insulation": "目前整个床帘市场都是没有隔音床帘的。 咱们采用的是市面上最厚的600g遮光布，会起到轻微的隔音效果。 市面上大部分都是比我们的还薄的，隔音效果更差哦。 如果您担心噪音的情况下，可以选择睡眠耳塞，客服小妹也是用这个来解决的哦。",
+        "stability": "亲亲，我们的支架承重约10斤，很稳固的哈～",
+        "power_strip": "亲亲，排插可以放进来的哈，充电不用担心～",
+        "easy_installation": "不麻烦的亲，按安装说明自己就能装好哈～",
+        "removable_washing": "可以拆卸清洗的哈亲～",
+        "formaldehyde_script": "宝，咱家这款是成本较高的600克重遮光布的，也都是有质检报告的，遮光率高的同时不会对产品有任何危害，另外咱家产品还有A类母婴级证书，您可以放心选择哒",
+        "instructions": "不麻烦的亲，按安装说明自己就能装好哈～",
+        "appearance": "已提供本款实拍图片，可参考款式外观",
+        "reference_price": "折后参考价约388元，具体以页面套餐价格为准",
+        "price_objection": "亲亲，小狗款是联名款，22毫米支架是这四款里最粗、最稳固的，喜欢稳固又好看的选它就很合适哈～",
+        "pole_sales": "亲亲，用的是碳素钢支架，壁厚0.38毫米，支撑稳固，日常用着放心哈～",
+        "best_recommendation": "亲亲，推荐小狗联名款哈，22毫米支架是这四款里最粗、最稳固的，图案也好看～"
+      },
+      "sources": {
+        "material": [
+          {
+            "file": "售前资源库.xlsx",
+            "sheet": "宿舍床帘-线条小狗联名803",
+            "cell": "B20",
+            "excerpt": "帐纱材质：A类聚酯纤维\n遮光帘材质：pvc化纤布\n支架材质：合金烤漆\n三通材质：ABS（塑料）\n支架工艺：烤漆\n顶部涂层材质：TPU材料\n\n外包装尺寸：95*15*15cm左右\n外包装重量：4kg左右哦~                                \n\n帐纱重量：678g左右\n遮光帘重量：600g左右（一片）\n遮光帘：长173cm左右  宽95cm左右\n\n支架壁厚：高管径21mm；宽管径21mm，支架壁厚0.31mm\n支架伸缩尺寸：长宽高都是 4cm左右"
+          }
+        ],
+        "model": [
+          {
+            "file": "售前资源库.xlsx",
+            "sheet": "宿舍床帘-线条小狗联名803",
+            "cell": "B20",
+            "excerpt": "帐纱材质：A类聚酯纤维\n遮光帘材质：pvc化纤布\n支架材质：合金烤漆\n三通材质：ABS（塑料）\n支架工艺：烤漆\n顶部涂层材质：TPU材料\n\n外包装尺寸：95*15*15cm左右\n外包装重量：4kg左右哦~                                \n\n帐纱重量：678g左右\n遮光帘重量：600g左右（一片）\n遮光帘：长173cm左右  宽95cm左右\n\n支架壁厚：高管径21mm；宽管径21mm，支架壁厚0.31mm\n支架伸缩尺寸：长宽高都是 4cm左右"
+          }
+        ],
+        "doors": [
+          {
+            "file": "售前资源库.xlsx",
+            "sheet": "宿舍床帘-线条小狗联名803",
+            "cell": "C6",
+            "excerpt": "全系列均是三开门"
+          }
+        ],
+        "shade_sides": [
+          {
+            "file": "售前资源库.xlsx",
+            "sheet": "宿舍床帘-线条小狗联名803",
+            "cell": "G39",
+            "excerpt": "四面的话靠墙无遮光帘，五面靠墙有遮光帘"
+          }
+        ],
+        "bottom": [
+          {
+            "file": "售前资源库.xlsx",
+            "sheet": "宿舍床帘-线条小狗联名803",
+            "cell": "G43",
+            "excerpt": "亲亲，蚊帐底部是镂空设计，但底部有约10-15cm宽的布料！铺上床垫后就能完全贴合密封，蚊虫绝对钻不进去的，放心哦~"
+          }
+        ],
+        "charging_port": [
+          {
+            "file": "售前资源库.xlsx",
+            "sheet": "宿舍床帘-线条小狗联名803",
+            "cell": "G41",
+            "excerpt": "宝子，您这边问到点上了~咱们家今年考虑到学生要充电，或者要拉排插等，专门设计了一个充电口"
+          }
+        ],
+        "storage": [
+          {
+            "file": "售前资源库.xlsx",
+            "sheet": "宿舍床帘-线条小狗联名803",
+            "cell": "B42",
+            "excerpt": "亲亲，咱这床帘内部自带了一个收纳袋，您这边看下哈"
+          }
+        ],
+        "telescoping": [
+          {
+            "file": "售前资源库.xlsx",
+            "sheet": "宿舍床帘-线条小狗联名803",
+            "cell": "B20",
+            "excerpt": "帐纱材质：A类聚酯纤维\n遮光帘材质：pvc化纤布\n支架材质：合金烤漆\n三通材质：ABS（塑料）\n支架工艺：烤漆\n顶部涂层材质：TPU材料\n\n外包装尺寸：95*15*15cm左右\n外包装重量：4kg左右哦~                                \n\n帐纱重量：678g左右\n遮光帘重量：600g左右（一片）\n遮光帘：长173cm左右  宽95cm左右\n\n支架壁厚：高管径21mm；宽管径21mm，支架壁厚0.31mm\n支架伸缩尺寸：长宽高都是 4cm左右"
+          }
+        ],
+        "pole_diameter": [
+          {
+            "type": "user_confirmation",
+            "date": "2026-10-13",
+            "reference": "本聊天：商品参数修正及壁厚追问回复",
+            "excerpt": "801是12mm，802/804是16mm，803最粗22mm"
+          }
+        ],
+        "pole_wall": [
+          {
+            "type": "user_confirmation",
+            "date": "2026-10-13",
+            "reference": "本聊天：商品参数修正及壁厚追问回复",
+            "excerpt": "用户确认“038”指0.38 mm，适用于801、802、803、804四款"
+          }
+        ],
+        "coating": [
+          {
+            "type": "user_provided_script",
+            "date": "2026-10-14",
+            "excerpt": "亲，床帘是没有涂层的，我们的是纯面料遮光，市面上涂层的床帘不安全！！是用化学剂弄的，影响健康并且涂层的面料是不透气的宝，给您看一下我家的无涂层遮光帘的遮光效果和A类母婴级证书，您这边可以放心使用",
+            "scope": "遮光床帘；顶部覆膜处理另按roof条目"
+          }
+        ],
+        "specifications": [
+          {
+            "type": "user_confirmation",
+            "date": "2026-10-13",
+            "excerpt": "801/802/804帐纱90×190×90/110/120；803固定90×190×110，长宽±4cm"
+          }
+        ],
+        "pole_material": [
+          {
+            "type": "user_confirmation",
+            "date": "2026-10-13",
+            "excerpt": "支架为碳素钢材质"
+          }
+        ],
+        "roof": [
+          {
+            "type": "user_confirmation",
+            "date": "2026-10-13",
+            "excerpt": "顶棚采用覆膜处理，用于遮光"
+          }
+        ],
+        "colors": [
+          {
+            "type": "user_confirmation",
+            "date": "2026-10-13",
+            "excerpt": "目前有蓝色、粉色、紫色"
+          }
+        ],
+        "washing": [
+          {
+            "type": "user_confirmation",
+            "date": "2026-10-13",
+            "excerpt": "可以机洗"
+          }
+        ],
+        "inner_color": [
+          {
+            "file": "售前资源库.xlsx",
+            "sheet": "宿舍床帘-线条小狗联名803",
+            "cell": "B44",
+            "excerpt": "宝子，咱们为了达到更高的遮光效果，咱们的遮光帘里面做的比外面深，但不影响美观~"
+          }
+        ],
+        "sound_insulation": [
+          {
+            "type": "user_provided_script",
+            "date": "2026-10-13",
+            "excerpt": "目前整个床帘市场都是没有隔音床帘的。 咱们采用的是市面上最厚的600g遮光布，会起到轻微的隔音效果。 市面上大部分都是比我们的还薄的，隔音效果更差哦。 如果您担心噪音的情况下，可以选择睡眠耳塞，客服小妹也是用这个来解决的哦。",
+            "review_status": "用户指定话术；未作独立市场比较核验"
+          }
+        ],
+        "stability": [
+          {
+            "type": "user_confirmation",
+            "date": "2026-10-14",
+            "excerpt": "亲亲，我们的支架承重约10斤，很稳固的哈～",
+            "note": "用户提供销售答复；承重参数来自用户确认，不从图片推算重量"
+          }
+        ],
+        "power_strip": [
+          {
+            "type": "user_confirmation",
+            "date": "2026-10-14",
+            "excerpt": "亲亲，排插可以放进来的哈，充电不用担心～",
+            "note": "用户提供销售答复；承重参数来自用户确认，不从图片推算重量"
+          }
+        ],
+        "easy_installation": [
+          {
+            "type": "user_confirmation",
+            "date": "2026-10-14",
+            "excerpt": "不麻烦的亲，按安装说明自己就能装好哈～",
+            "note": "用户提供销售答复；承重参数来自用户确认，不从图片推算重量"
+          }
+        ],
+        "removable_washing": [
+          {
+            "type": "user_confirmation",
+            "date": "2026-10-14",
+            "excerpt": "可以拆卸清洗的哈亲～",
+            "note": "用户提供销售答复；承重参数来自用户确认，不从图片推算重量"
+          }
+        ],
+        "formaldehyde_script": [
+          {
+            "type": "user_confirmation",
+            "date": "2026-10-14",
+            "excerpt": "宝，咱家这款是成本较高的600克重遮光布的，也都是有质检报告的，遮光率高的同时不会对产品有任何危害，另外咱家产品还有A类母婴级证书，您可以放心选择哒",
+            "note": "用户提供销售答复；承重参数来自用户确认，不从图片推算重量"
+          }
+        ],
+        "instructions": [
+          {
+            "type": "user_confirmation",
+            "date": "2026-10-14",
+            "excerpt": "不麻烦的亲，按安装说明自己就能装好哈～",
+            "note": "用户提供销售答复；承重参数来自用户确认，不从图片推算重量"
+          }
+        ],
+        "appearance": [
+          {
+            "file": "售前资源库.xlsx",
+            "sheet": "宿舍床帘-线条小狗联名803",
+            "anchor": "B13"
+          },
+          {
+            "file": "售前资源库.xlsx",
+            "sheet": "宿舍床帘-线条小狗联名803",
+            "anchor": "C13"
+          }
+        ],
+        "reference_price": [
+          {
+            "type": "user_confirmation",
+            "date": "2026-10-14",
+            "excerpt": {
+              "amount": 388,
+              "currency": "CNY",
+              "approximate": true,
+              "source": "用户确认折后参考价",
+              "confirmed_at": "2026-10-14",
+              "sku_scope": "纯色款为120高五面款；全伸缩款为同高度；小狗款固定110高；免安装款具体套餐未明确"
+            }
+          }
+        ],
+        "price_objection": [
+          {
+            "type": "user_authorized_polish",
+            "date": "2026-10-14",
+            "excerpt": "亲亲，小狗款是联名款，22毫米支架是这四款里最粗、最稳固的，喜欢稳固又好看的选它就很合适哈～"
+          }
+        ],
+        "pole_sales": [
+          {
+            "type": "user_requested_draft",
+            "date": "2026-10-14",
+            "excerpt": "亲亲，用的是碳素钢支架，壁厚0.38毫米，支撑稳固，日常用着放心哈～",
+            "facts": [
+              "pole_material",
+              "pole_wall",
+              "stability"
+            ]
+          }
+        ],
+        "best_recommendation": [
+          {
+            "type": "user_authorized_polish",
+            "date": "2026-10-14",
+            "excerpt": "亲亲，小狗款是联名款，22毫米支架是这四款里最粗、最稳固的，喜欢稳固又好看的选它就很合适哈～"
+          }
+        ]
+      },
+      "review_status": "已采用用户确认的支架直径/壁厚、床帘涂层口径；其余未确认或冲突条目仍交人工",
+      "blocked_topics": [
+        "甲醛",
+        "荧光剂",
+        "芳香胺",
+        "阻燃",
+        "防火",
+        "证书",
+        "报告",
+        "A类",
+        "a类",
+        "母婴",
+        "无毒",
+        "安全",
+        "承重",
+        "遮光率",
+        "百分之",
+        "100%",
+        "百分百",
+        "几层",
+        "五层",
+        "六层",
+        "优惠",
+        "赠送",
+        "赠品",
+        "试用",
+        "运费险",
+        "国补",
+        "学校允许",
+        "校规",
+        "包装",
+        "重量",
+        "多重"
+      ],
+      "superseded_facts": [
+        {
+          "field": "pole_diameter",
+          "text": "资料标注高度杆、宽度杆管径约 21 mm，壁厚约 0.31 mm；其他杆件及具体版本需核实",
+          "sources": [
+            {
+              "file": "售前资源库.xlsx",
+              "sheet": "宿舍床帘-线条小狗联名803",
+              "cell": "B20",
+              "excerpt": "帐纱材质：A类聚酯纤维\n遮光帘材质：pvc化纤布\n支架材质：合金烤漆\n三通材质：ABS（塑料）\n支架工艺：烤漆\n顶部涂层材质：TPU材料\n\n外包装尺寸：95*15*15cm左右\n外包装重量：4kg左右哦~                                \n\n帐纱重量：678g左右\n遮光帘重量：600g左右（一片）\n遮光帘：长173cm左右  宽95cm左右\n\n支架壁厚：高管径21mm；宽管径21mm，支架壁厚0.31mm\n支架伸缩尺寸：长宽高都是 4cm左右"
+            }
+          ],
+          "superseded_at": "2026-10-13"
+        }
+      ],
+      "field_updated_at": {
+        "pole_diameter": "2026-10-13",
+        "pole_wall": "2026-10-13",
+        "coating": "2026-10-13",
+        "pole_material": "2026-10-13",
+        "roof": "2026-10-13",
+        "colors": "2026-10-13",
+        "washing": "2026-10-13",
+        "sound_insulation": "2026-10-13",
+        "stability": "2026-10-14",
+        "power_strip": "2026-10-14",
+        "easy_installation": "2026-10-14",
+        "removable_washing": "2026-10-14",
+        "formaldehyde_script": "2026-10-14",
+        "pole_sales": "2026-10-14",
+        "price_objection": "2026-10-14",
+        "best_recommendation": "2026-10-14"
+      },
+      "net_heights": [
+        110
+      ],
+      "short_replies": {
+        "specifications": "帐纱尺寸90×190×110厘米",
+        "doors": "这款全系列均为三开门，床头、床尾和正面都能进出",
+        "shade_sides": "四面款靠墙只有帐纱，五面款靠墙多一面遮光帘，按详情页选择就好",
+        "coating": "亲，床帘是没有涂层的，我们的是纯面料遮光，市面上涂层的床帘不安全！！是用化学剂弄的，影响健康并且涂层的面料是不透气的宝，给您看一下我家的无涂层遮光帘的遮光效果和A类母婴级证书，您这边可以放心使用",
+        "material": "帐纱是聚酯纤维，遮光帘是PVC化纤布",
+        "pole_diameter": "支架直径为 22 mm",
+        "pole_wall": "支架壁厚为 0.38 mm",
+        "colors": "这款有蓝色、粉色和紫色哦",
+        "telescoping": "这款90×190×110厘米，长宽均可±4厘米调节",
+        "roof": "顶棚做了覆膜处理，用来遮光哈",
+        "washing": "可以机洗的亲",
+        "sound_insulation": "目前整个床帘市场都是没有隔音床帘的。 咱们采用的是市面上最厚的600g遮光布，会起到轻微的隔音效果。 市面上大部分都是比我们的还薄的，隔音效果更差哦。 如果您担心噪音的情况下，可以选择睡眠耳塞，客服小妹也是用这个来解决的哦。",
+        "stability": "亲亲，我们的支架承重约10斤，很稳固的哈～",
+        "power_strip": "亲亲，排插可以放进来的哈，充电不用担心～",
+        "easy_installation": "不麻烦的亲，按安装说明自己就能装好哈～",
+        "removable_washing": "可以拆卸清洗的哈亲～",
+        "formaldehyde_script": "宝，咱家这款是成本较高的600克重遮光布的，也都是有质检报告的，遮光率高的同时不会对产品有任何危害，另外咱家产品还有A类母婴级证书，您可以放心选择哒",
+        "instructions": "不麻烦的亲，按安装说明自己就能装好哈～",
+        "appearance": "亲亲，这款实拍图可以参考一下哈～",
+        "reference_price": "亲亲，折后参考价约388元，具体以页面套餐价格为准哈～",
+        "price_objection": "亲亲，小狗款是联名款，22毫米支架是这四款里最粗、最稳固的，喜欢稳固又好看的选它就很合适哈～",
+        "pole_sales": "亲亲，用的是碳素钢支架，壁厚0.38毫米，支撑稳固，日常用着放心哈～",
+        "best_recommendation": "亲亲，推荐小狗联名款哈，22毫米支架是这四款里最粗、最稳固的，图案也好看～",
+        "pole_material": "亲亲，用的是碳素钢支架，壁厚0.38毫米，支撑稳固，日常用着放心哈～"
+      },
+      "pending_claims": {
+        "roof_certification": "用户提供顶棚SGS、零甲醛/异味、50次机洗、防水防潮话术，尚未核验报告对应产品与测试条件，不参与自动回复"
+      },
+      "link": null,
+      "image_refs": [
+        {
+          "id": "pole-load-user",
+          "url": "/static/images/pole-load-user.png",
+          "alt": "用户提供的支架悬挂两桶水展示图"
+        },
+        {
+          "id": "803-01",
+          "url": "/static/images/source/803-01.png",
+          "alt": "开门的区别",
+          "source": {
+            "file": "售前资源库.xlsx",
+            "sheet": "宿舍床帘-线条小狗联名803",
+            "anchor": "B6"
+          }
+        },
+        {
+          "id": "803-03",
+          "url": "/static/images/source/803-03.png",
+          "alt": "安装教程图",
+          "source": {
+            "file": "售前资源库.xlsx",
+            "sheet": "宿舍床帘-线条小狗联名803",
+            "anchor": "H6"
+          }
+        },
+        {
+          "id": "803-07",
+          "url": "/static/images/source/803-07.png",
+          "alt": "床帘上铺安装效果实物图",
+          "source": {
+            "file": "售前资源库.xlsx",
+            "sheet": "宿舍床帘-线条小狗联名803",
+            "anchor": "B13"
+          }
+        },
+        {
+          "id": "803-08",
+          "url": "/static/images/source/803-08.png",
+          "alt": "床帘下铺安装效果实物图",
+          "source": {
+            "file": "售前资源库.xlsx",
+            "sheet": "宿舍床帘-线条小狗联名803",
+            "anchor": "C13"
+          }
+        },
+        {
+          "id": "803-09",
+          "url": "/static/images/source/803-09.png",
+          "alt": "顶部图",
+          "source": {
+            "file": "售前资源库.xlsx",
+            "sheet": "宿舍床帘-线条小狗联名803",
+            "anchor": "D13"
+          }
+        },
+        {
+          "id": "803-14",
+          "url": "/static/images/source/803-14.png",
+          "alt": "3个颜色实物图",
+          "source": {
+            "file": "售前资源库.xlsx",
+            "sheet": "宿舍床帘-线条小狗联名803",
+            "anchor": "I13"
+          }
+        },
+        {
+          "id": "803-17",
+          "url": "/static/images/source/803-17.png",
+          "alt": "内部预留充电口细节",
+          "source": {
+            "file": "售前资源库.xlsx",
+            "sheet": "宿舍床帘-线条小狗联名803",
+            "anchor": "B15"
+          }
+        },
+        {
+          "id": "803-18",
+          "url": "/static/images/source/803-18.png",
+          "alt": "三通细节",
+          "source": {
+            "file": "售前资源库.xlsx",
+            "sheet": "宿舍床帘-线条小狗联名803",
+            "anchor": "C15"
+          }
+        },
+        {
+          "id": "803-19",
+          "url": "/static/images/source/803-19.png",
+          "alt": "底部回底+排米拉链",
+          "source": {
+            "file": "售前资源库.xlsx",
+            "sheet": "宿舍床帘-线条小狗联名803",
+            "anchor": "D15"
+          }
+        },
+        {
+          "id": "803-24",
+          "url": "/static/images/source/803-24.png",
+          "alt": "内部收纳袋细节",
+          "source": {
+            "file": "售前资源库.xlsx",
+            "sheet": "宿舍床帘-线条小狗联名803",
+            "anchor": "I15"
+          }
+        },
+        {
+          "id": "803-25",
+          "url": "/static/images/source/803-25.png",
+          "alt": "拉链细节",
+          "source": {
+            "file": "售前资源库.xlsx",
+            "sheet": "宿舍床帘-线条小狗联名803",
+            "anchor": "J15"
+          }
+        },
+        {
+          "id": "803-31",
+          "url": "/static/images/source/803-31.png",
+          "alt": "蓝色遮光帘内外颜色",
+          "source": {
+            "file": "售前资源库.xlsx",
+            "sheet": "宿舍床帘-线条小狗联名803",
+            "anchor": "F17"
+          }
+        },
+        {
+          "id": "803-32",
+          "url": "/static/images/source/803-32.png",
+          "alt": "遮光帘细节",
+          "source": {
+            "file": "售前资源库.xlsx",
+            "sheet": "宿舍床帘-线条小狗联名803",
+            "anchor": "G17"
+          }
+        }
+      ],
+      "answer_images": {
+        "stability": [
+          {
+            "id": "pole-load-user",
+            "url": "/static/images/pole-load-user.png",
+            "alt": "用户提供的支架悬挂两桶水展示图"
+          }
+        ],
+        "doors": [
+          {
+            "id": "803-01",
+            "url": "/static/images/source/803-01.png",
+            "alt": "开门的区别",
+            "source": {
+              "file": "售前资源库.xlsx",
+              "sheet": "宿舍床帘-线条小狗联名803",
+              "anchor": "B6"
+            }
+          }
+        ],
+        "instructions": [
+          {
+            "id": "803-03",
+            "url": "/static/images/source/803-03.png",
+            "alt": "安装教程图",
+            "source": {
+              "file": "售前资源库.xlsx",
+              "sheet": "宿舍床帘-线条小狗联名803",
+              "anchor": "H6"
+            }
+          }
+        ],
+        "easy_installation": [
+          {
+            "id": "803-03",
+            "url": "/static/images/source/803-03.png",
+            "alt": "安装教程图",
+            "source": {
+              "file": "售前资源库.xlsx",
+              "sheet": "宿舍床帘-线条小狗联名803",
+              "anchor": "H6"
+            }
+          }
+        ],
+        "appearance": [
+          {
+            "id": "803-07",
+            "url": "/static/images/source/803-07.png",
+            "alt": "床帘上铺安装效果实物图",
+            "source": {
+              "file": "售前资源库.xlsx",
+              "sheet": "宿舍床帘-线条小狗联名803",
+              "anchor": "B13"
+            }
+          },
+          {
+            "id": "803-08",
+            "url": "/static/images/source/803-08.png",
+            "alt": "床帘下铺安装效果实物图",
+            "source": {
+              "file": "售前资源库.xlsx",
+              "sheet": "宿舍床帘-线条小狗联名803",
+              "anchor": "C13"
+            }
+          }
+        ],
+        "roof": [
+          {
+            "id": "803-09",
+            "url": "/static/images/source/803-09.png",
+            "alt": "顶部图",
+            "source": {
+              "file": "售前资源库.xlsx",
+              "sheet": "宿舍床帘-线条小狗联名803",
+              "anchor": "D13"
+            }
+          }
+        ],
+        "colors": [
+          {
+            "id": "803-14",
+            "url": "/static/images/source/803-14.png",
+            "alt": "3个颜色实物图",
+            "source": {
+              "file": "售前资源库.xlsx",
+              "sheet": "宿舍床帘-线条小狗联名803",
+              "anchor": "I13"
+            }
+          }
+        ],
+        "charging_port": [
+          {
+            "id": "803-17",
+            "url": "/static/images/source/803-17.png",
+            "alt": "内部预留充电口细节",
+            "source": {
+              "file": "售前资源库.xlsx",
+              "sheet": "宿舍床帘-线条小狗联名803",
+              "anchor": "B15"
+            }
+          }
+        ],
+        "power_strip": [
+          {
+            "id": "803-17",
+            "url": "/static/images/source/803-17.png",
+            "alt": "内部预留充电口细节",
+            "source": {
+              "file": "售前资源库.xlsx",
+              "sheet": "宿舍床帘-线条小狗联名803",
+              "anchor": "B15"
+            }
+          }
+        ],
+        "accessories": [
+          {
+            "id": "803-18",
+            "url": "/static/images/source/803-18.png",
+            "alt": "三通细节",
+            "source": {
+              "file": "售前资源库.xlsx",
+              "sheet": "宿舍床帘-线条小狗联名803",
+              "anchor": "C15"
+            }
+          },
+          {
+            "id": "803-25",
+            "url": "/static/images/source/803-25.png",
+            "alt": "拉链细节",
+            "source": {
+              "file": "售前资源库.xlsx",
+              "sheet": "宿舍床帘-线条小狗联名803",
+              "anchor": "J15"
+            }
+          }
+        ],
+        "bottom": [
+          {
+            "id": "803-19",
+            "url": "/static/images/source/803-19.png",
+            "alt": "底部回底+排米拉链",
+            "source": {
+              "file": "售前资源库.xlsx",
+              "sheet": "宿舍床帘-线条小狗联名803",
+              "anchor": "D15"
+            }
+          }
+        ],
+        "storage": [
+          {
+            "id": "803-24",
+            "url": "/static/images/source/803-24.png",
+            "alt": "内部收纳袋细节",
+            "source": {
+              "file": "售前资源库.xlsx",
+              "sheet": "宿舍床帘-线条小狗联名803",
+              "anchor": "I15"
+            }
+          }
+        ],
+        "inner_color": [
+          {
+            "id": "803-31",
+            "url": "/static/images/source/803-31.png",
+            "alt": "蓝色遮光帘内外颜色",
+            "source": {
+              "file": "售前资源库.xlsx",
+              "sheet": "宿舍床帘-线条小狗联名803",
+              "anchor": "F17"
+            }
+          }
+        ],
+        "material": [
+          {
+            "id": "803-32",
+            "url": "/static/images/source/803-32.png",
+            "alt": "遮光帘细节",
+            "source": {
+              "file": "售前资源库.xlsx",
+              "sheet": "宿舍床帘-线条小狗联名803",
+              "anchor": "G17"
+            }
+          }
+        ],
+        "pole_sales": [
+          {
+            "id": "pole-load-user",
+            "url": "/static/images/pole-load-user.png",
+            "alt": "用户提供的支架悬挂两桶水展示图"
+          }
+        ],
+        "best_recommendation": [
+          {
+            "id": "803-07",
+            "url": "/static/images/source/803-07.png",
+            "alt": "床帘上铺安装效果实物图",
+            "source": {
+              "file": "售前资源库.xlsx",
+              "sheet": "宿舍床帘-线条小狗联名803",
+              "anchor": "B13"
+            }
+          }
+        ]
+      },
+      "price_reference": {
+        "amount": 388,
+        "currency": "CNY",
+        "approximate": true,
+        "source": "用户确认折后参考价",
+        "confirmed_at": "2026-10-14",
+        "sku_scope": "小狗联名款（固定110高）"
+      }
+    },
+    {
+      "id": "804",
+      "name": "免安装款",
+      "aliases": [
+        "丢丢帐",
+        "丢丢款",
+        "宿舍床帘丢丢帐804",
+        "免安装款"
+      ],
+      "model": "804",
+      "updated_at": null,
+      "imported_at": "2026-10-13",
+      "facts": {
+        "material": "帐纱为聚酯纤维，遮光帘为 PVC 化纤布，三通为 ABS 塑料；顶部处理和支架具体材质需按版本人工核实",
+        "model": "资料中的款式编号为 804；具体销售 SKU 需人工核实",
+        "doors": "90 cm 高款为正面单开门；110 cm、120 cm 高款为三开门",
+        "shade_sides": "四面款靠墙处没有遮光帘，五面款靠墙处有遮光帘",
+        "bottom": "采用回底设计，并非全封闭底部；需配合床垫或凉席使用",
+        "charging_port": "设有预留充电口，可用于穿过充电线",
+        "storage": "资料标注内部有收纳袋；外置挂物袋或置物架是否随套餐附送需人工确认",
+        "pole_diameter": "支架直径为 16 mm",
+        "pole_wall": "支架壁厚为 0.38 mm",
+        "coating": "亲，床帘是没有涂层的，我们的是纯面料遮光，市面上涂层的床帘不安全！！是用化学剂弄的，影响健康并且涂层的面料是不透气的宝，给您看一下我家的无涂层遮光帘的遮光效果和A类母婴级证书，您这边可以放心使用",
+        "telescoping": "免安装款长度可调 186–190 cm，宽度可调 76–90 cm；90 cm 高款的高度可调 90–100 cm，110 cm 高款可调 100–110 cm，120 cm 高款可调 110–120 cm。伸缩范围不等于适配保证，选购需核对帐纱尺寸、实际床内尺寸和净空",
+        "colors": "目前在售颜色仅蓝色；具体库存需另行核实",
+        "specifications": "帐纱宽×长×高：90×190×90、90×190×110、90×190×120 cm",
+        "pole_material": "支架为碳素钢材质",
+        "roof": "顶棚采用覆膜处理，用于遮光",
+        "inner_color": "遮光帘内侧颜色比外侧深",
+        "sound_insulation": "目前整个床帘市场都是没有隔音床帘的。 咱们采用的是市面上最厚的600g遮光布，会起到轻微的隔音效果。 市面上大部分都是比我们的还薄的，隔音效果更差哦。 如果您担心噪音的情况下，可以选择睡眠耳塞，客服小妹也是用这个来解决的哦。",
+        "stability": "亲亲，我们的支架承重约10斤，很稳固的哈～",
+        "power_strip": "亲亲，排插可以放进来的哈，充电不用担心～",
+        "easy_installation": "亲亲，很方便的哈，展开支架、挂上遮光帘，再套上帐纱就好啦～",
+        "removable_washing": "可以拆卸清洗的哈亲～",
+        "formaldehyde_script": "宝，咱家这款是成本较高的600克重遮光布的，也都是有质检报告的，遮光率高的同时不会对产品有任何危害，另外咱家产品还有A类母婴级证书，您可以放心选择哒",
+        "instructions": "亲亲，很方便的哈，展开支架、挂上遮光帘，再套上帐纱就好啦～",
+        "appearance": "已提供本款实拍图片，可参考款式外观",
+        "reference_price": "折后参考价约316元，具体以页面套餐价格为准",
+        "pole_sales": "亲亲，用的是碳素钢支架，壁厚0.38毫米，支撑稳固，日常用着放心哈～",
+        "catalog_recommendation": "有的亲，推荐免安装款哈，支架展开后挂上床帘、套好帐纱就行，省心又方便～"
+      },
+      "sources": {
+        "material": [
+          {
+            "file": "售前资源库.xlsx",
+            "sheet": "宿舍床帘-丢丢帐804",
+            "cell": "B13",
+            "excerpt": "帐纱材质：A类聚酯纤维\n遮光帘材质：pvc化纤布\n支架材质：合金烤漆\n三通材质：ABS（塑料）\n支架工艺：烤漆\n顶部涂层材质：TPU材料\n\n外包装尺寸：95*15*15cm左右\n外包装重量：4kg左右哦~                                \n\n帐纱重量：678g左右\n遮光帘重量：600g左右（一片）\n遮光帘：长173cm左右  宽95cm左右\n\n支架壁厚：新款0.4mm；IP款：0.26mm；老款0.26mml\n支架伸缩尺寸：长可以调整8cm，宽可以调整12cm"
+          }
+        ],
+        "model": [
+          {
+            "file": "售前资源库.xlsx",
+            "sheet": "宿舍床帘-丢丢帐804",
+            "cell": "B1",
+            "excerpt": "804资源库"
+          }
+        ],
+        "doors": [
+          {
+            "file": "售前资源库.xlsx",
+            "sheet": "宿舍床帘-丢丢帐804",
+            "cell": "C3",
+            "excerpt": "①90高是正面一面，单开门\n②110高和120高的是两个侧面和一个正面，三开门"
+          }
+        ],
+        "shade_sides": [
+          {
+            "file": "售前资源库.xlsx",
+            "sheet": "宿舍床帘-丢丢帐804",
+            "cell": "G32",
+            "excerpt": "四面的话靠墙无遮光帘，五面靠墙有遮光帘"
+          }
+        ],
+        "bottom": [
+          {
+            "file": "售前资源库.xlsx",
+            "sheet": "宿舍床帘-丢丢帐804",
+            "cell": "G37",
+            "excerpt": "亲亲，蚊帐底部是镂空设计，但底部有约10-15cm宽的布料！铺上床垫后就能完全贴合密封，蚊虫绝对钻不进去的，放心哦~"
+          }
+        ],
+        "charging_port": [
+          {
+            "file": "售前资源库.xlsx",
+            "sheet": "宿舍床帘-丢丢帐804",
+            "cell": "B39",
+            "excerpt": "宝子，您这边问到点上了~咱们家今年考虑到学生要充电，或者要拉排插等，专门设计了一个充电口"
+          }
+        ],
+        "storage": [
+          {
+            "file": "售前资源库.xlsx",
+            "sheet": "宿舍床帘-丢丢帐804",
+            "cell": "H7",
+            "excerpt": "内部收纳袋"
+          }
+        ],
+        "pole_diameter": [
+          {
+            "type": "user_confirmation",
+            "date": "2026-10-13",
+            "reference": "本聊天：商品参数修正及壁厚追问回复",
+            "excerpt": "801是12mm，802/804是16mm，803最粗22mm"
+          }
+        ],
+        "pole_wall": [
+          {
+            "type": "user_confirmation",
+            "date": "2026-10-13",
+            "reference": "本聊天：商品参数修正及壁厚追问回复",
+            "excerpt": "用户确认“038”指0.38 mm，适用于801、802、803、804四款"
+          }
+        ],
+        "coating": [
+          {
+            "type": "user_provided_script",
+            "date": "2026-10-14",
+            "excerpt": "亲，床帘是没有涂层的，我们的是纯面料遮光，市面上涂层的床帘不安全！！是用化学剂弄的，影响健康并且涂层的面料是不透气的宝，给您看一下我家的无涂层遮光帘的遮光效果和A类母婴级证书，您这边可以放心使用",
+            "scope": "遮光床帘；顶部覆膜处理另按roof条目"
+          }
+        ],
+        "telescoping": [
+          {
+            "type": "user_confirmation",
+            "date": "2026-10-13",
+            "reference": "本聊天：商品参数修正及壁厚追问回复",
+            "excerpt": "免安装款长度可调 186–190 cm，宽度可调 76–90 cm；90 cm 高款的高度可调 90–100 cm，110 cm 高款可调 100–110 cm，120 cm 高款可调 110–120 cm。伸缩范围不等于适配保证，选购需核对帐纱尺寸、实际床内尺寸和净空"
+          }
+        ],
+        "colors": [
+          {
+            "type": "user_confirmation",
+            "date": "2026-10-13",
+            "reference": "本聊天：商品参数修正及壁厚追问回复",
+            "excerpt": "802、804目前只有蓝色"
+          }
+        ],
+        "specifications": [
+          {
+            "type": "user_confirmation",
+            "date": "2026-10-13",
+            "excerpt": "801/802/804帐纱90×190×90/110/120；803固定90×190×110，长宽±4cm"
+          }
+        ],
+        "pole_material": [
+          {
+            "type": "user_confirmation",
+            "date": "2026-10-13",
+            "excerpt": "支架为碳素钢材质"
+          }
+        ],
+        "roof": [
+          {
+            "type": "user_confirmation",
+            "date": "2026-10-13",
+            "excerpt": "顶棚采用覆膜处理，用于遮光"
+          }
+        ],
+        "inner_color": [
+          {
+            "file": "售前资源库.xlsx",
+            "sheet": "宿舍床帘-丢丢帐804",
+            "cell": "B38",
+            "excerpt": "宝子，咱们为了达到更高的遮光效果，咱们的遮光帘里面做的比外面深，但不影响美观~"
+          }
+        ],
+        "sound_insulation": [
+          {
+            "type": "user_provided_script",
+            "date": "2026-10-13",
+            "excerpt": "目前整个床帘市场都是没有隔音床帘的。 咱们采用的是市面上最厚的600g遮光布，会起到轻微的隔音效果。 市面上大部分都是比我们的还薄的，隔音效果更差哦。 如果您担心噪音的情况下，可以选择睡眠耳塞，客服小妹也是用这个来解决的哦。",
+            "review_status": "用户指定话术；未作独立市场比较核验"
+          }
+        ],
+        "stability": [
+          {
+            "type": "user_confirmation",
+            "date": "2026-10-14",
+            "excerpt": "亲亲，我们的支架承重约10斤，很稳固的哈～",
+            "note": "用户提供销售答复；承重参数来自用户确认，不从图片推算重量"
+          }
+        ],
+        "power_strip": [
+          {
+            "type": "user_confirmation",
+            "date": "2026-10-14",
+            "excerpt": "亲亲，排插可以放进来的哈，充电不用担心～",
+            "note": "用户提供销售答复；承重参数来自用户确认，不从图片推算重量"
+          }
+        ],
+        "easy_installation": [
+          {
+            "type": "user_attachment",
+            "date": "2026-10-14",
+            "excerpt": "免安装款四步安装：展开支架、挂遮光帘、套帐纱、完成"
+          }
+        ],
+        "removable_washing": [
+          {
+            "type": "user_confirmation",
+            "date": "2026-10-14",
+            "excerpt": "可以拆卸清洗的哈亲～",
+            "note": "用户提供销售答复；承重参数来自用户确认，不从图片推算重量"
+          }
+        ],
+        "formaldehyde_script": [
+          {
+            "type": "user_confirmation",
+            "date": "2026-10-14",
+            "excerpt": "宝，咱家这款是成本较高的600克重遮光布的，也都是有质检报告的，遮光率高的同时不会对产品有任何危害，另外咱家产品还有A类母婴级证书，您可以放心选择哒",
+            "note": "用户提供销售答复；承重参数来自用户确认，不从图片推算重量"
+          }
+        ],
+        "instructions": [
+          {
+            "type": "user_confirmation",
+            "date": "2026-10-14",
+            "excerpt": "不麻烦的亲，按安装说明自己就能装好哈～",
+            "note": "用户提供销售答复；承重参数来自用户确认，不从图片推算重量"
+          }
+        ],
+        "appearance": [
+          {
+            "file": "售前资源库.xlsx",
+            "sheet": "宿舍床帘-丢丢帐804",
+            "anchor": "H10"
+          }
+        ],
+        "reference_price": [
+          {
+            "type": "user_confirmation",
+            "date": "2026-10-14",
+            "excerpt": {
+              "amount": 316,
+              "currency": "CNY",
+              "approximate": true,
+              "source": "用户确认折后参考价",
+              "confirmed_at": "2026-10-14",
+              "sku_scope": "纯色款为120高五面款；全伸缩款为同高度；小狗款固定110高；免安装款具体套餐未明确"
+            }
+          }
+        ],
+        "pole_sales": [
+          {
+            "type": "user_requested_draft",
+            "date": "2026-10-14",
+            "excerpt": "亲亲，用的是碳素钢支架，壁厚0.38毫米，支撑稳固，日常用着放心哈～",
+            "facts": [
+              "pole_material",
+              "pole_wall",
+              "stability"
+            ]
+          }
+        ],
+        "catalog_recommendation": [
+          {
+            "type": "user_requested_draft",
+            "date": "2026-10-14",
+            "excerpt": "有的亲，推荐免安装款哈，支架展开后挂上床帘、套好帐纱就行，省心又方便～"
+          }
+        ]
+      },
+      "review_status": "已采用用户确认的支架直径/壁厚、床帘涂层口径；其余未确认或冲突条目仍交人工",
+      "blocked_topics": [
+        "甲醛",
+        "荧光剂",
+        "芳香胺",
+        "阻燃",
+        "防火",
+        "证书",
+        "报告",
+        "A类",
+        "a类",
+        "母婴",
+        "无毒",
+        "安全",
+        "承重",
+        "遮光率",
+        "百分之",
+        "100%",
+        "百分百",
+        "几层",
+        "五层",
+        "六层",
+        "优惠",
+        "赠送",
+        "赠品",
+        "试用",
+        "运费险",
+        "国补",
+        "学校允许",
+        "校规",
+        "包装",
+        "重量",
+        "多重"
+      ],
+      "field_updated_at": {
+        "pole_diameter": "2026-10-13",
+        "pole_wall": "2026-10-13",
+        "coating": "2026-10-13",
+        "telescoping": "2026-10-13",
+        "colors": "2026-10-13",
+        "pole_material": "2026-10-13",
+        "roof": "2026-10-13",
+        "sound_insulation": "2026-10-13",
+        "stability": "2026-10-14",
+        "power_strip": "2026-10-14",
+        "easy_installation": "2026-10-14",
+        "removable_washing": "2026-10-14",
+        "formaldehyde_script": "2026-10-14",
+        "pole_sales": "2026-10-14",
+        "catalog_recommendation": "2026-10-14"
+      },
+      "net_heights": [
+        90,
+        110,
+        120
+      ],
+      "ranges": {
+        "height": {
+          "90": [
+            90,
+            100
+          ],
+          "110": [
+            100,
+            110
+          ],
+          "120": [
+            110,
+            120
+          ]
+        }
+      },
+      "short_replies": {
+        "specifications": "帐纱尺寸90×190厘米，高度有90、110、120厘米三款",
+        "doors": "90 cm高是单开门，只开正面；110/120 cm高是三开门，上铺侧面进出选三开款",
+        "shade_sides": "四面款靠墙只有帐纱，五面款靠墙多一面遮光帘，按详情页选择就好",
+        "coating": "亲，床帘是没有涂层的，我们的是纯面料遮光，市面上涂层的床帘不安全！！是用化学剂弄的，影响健康并且涂层的面料是不透气的宝，给您看一下我家的无涂层遮光帘的遮光效果和A类母婴级证书，您这边可以放心使用",
+        "material": "帐纱是聚酯纤维，遮光帘是PVC化纤布",
+        "pole_diameter": "支架直径为 16 mm",
+        "pole_wall": "支架壁厚为 0.38 mm",
+        "colors": "目前仅蓝色哦",
+        "telescoping": "长186–190、宽76–90厘米；90/110/120高款分别可调90–100/100–110/110–120厘米",
+        "roof": "顶棚做了覆膜处理，用来遮光哈",
+        "sound_insulation": "目前整个床帘市场都是没有隔音床帘的。 咱们采用的是市面上最厚的600g遮光布，会起到轻微的隔音效果。 市面上大部分都是比我们的还薄的，隔音效果更差哦。 如果您担心噪音的情况下，可以选择睡眠耳塞，客服小妹也是用这个来解决的哦。",
+        "stability": "亲亲，我们的支架承重约10斤，很稳固的哈～",
+        "power_strip": "亲亲，排插可以放进来的哈，充电不用担心～",
+        "easy_installation": "亲亲，很方便的哈，展开支架、挂上遮光帘，再套上帐纱就好啦～",
+        "removable_washing": "可以拆卸清洗的哈亲～",
+        "formaldehyde_script": "宝，咱家这款是成本较高的600克重遮光布的，也都是有质检报告的，遮光率高的同时不会对产品有任何危害，另外咱家产品还有A类母婴级证书，您可以放心选择哒",
+        "instructions": "亲亲，很方便的哈，展开支架、挂上遮光帘，再套上帐纱就好啦～",
+        "appearance": "亲亲，这款实拍图可以参考一下哈～",
+        "reference_price": "亲亲，折后参考价约316元，具体以页面套餐价格为准哈～",
+        "pole_sales": "亲亲，用的是碳素钢支架，壁厚0.38毫米，支撑稳固，日常用着放心哈～",
+        "catalog_recommendation": "有的亲，推荐免安装款哈，支架展开后挂上床帘、套好帐纱就行，省心又方便～",
+        "pole_material": "亲亲，用的是碳素钢支架，壁厚0.38毫米，支撑稳固，日常用着放心哈～"
+      },
+      "pending_claims": {
+        "roof_certification": "用户提供顶棚SGS、零甲醛/异味、50次机洗、防水防潮话术，尚未核验报告对应产品与测试条件，不参与自动回复"
+      },
+      "link": null,
+      "image_refs": [
+        {
+          "id": "pole-load-user",
+          "url": "/static/images/pole-load-user.png",
+          "alt": "用户提供的支架悬挂两桶水展示图"
+        },
+        {
+          "id": "804-01",
+          "url": "/static/images/source/804-01.png",
+          "alt": "开门的区别",
+          "source": {
+            "file": "售前资源库.xlsx",
+            "sheet": "宿舍床帘-丢丢帐804",
+            "anchor": "B3"
+          }
+        },
+        {
+          "id": "804-02",
+          "url": "/static/images/source/804-02.png",
+          "alt": "遮光面的区别",
+          "source": {
+            "file": "售前资源库.xlsx",
+            "sheet": "宿舍床帘-丢丢帐804",
+            "anchor": "D3"
+          }
+        },
+        {
+          "id": "804-04",
+          "url": "/static/images/source/804-04.png",
+          "alt": "804商品资料图",
+          "source": {
+            "file": "售前资源库.xlsx",
+            "sheet": "宿舍床帘-丢丢帐804",
+            "anchor": "G3"
+          }
+        },
+        {
+          "id": "804-05",
+          "url": "/static/images/source/804-05.png",
+          "alt": "安装教程图",
+          "source": {
+            "file": "售前资源库.xlsx",
+            "sheet": "宿舍床帘-丢丢帐804",
+            "anchor": "H3"
+          }
+        },
+        {
+          "id": "804-12",
+          "url": "/static/images/source/804-12.png",
+          "alt": "三通",
+          "source": {
+            "file": "售前资源库.xlsx",
+            "sheet": "宿舍床帘-丢丢帐804",
+            "anchor": "C6"
+          }
+        },
+        {
+          "id": "804-13",
+          "url": "/static/images/source/804-13.png",
+          "alt": "帐纱细节实拍",
+          "source": {
+            "file": "售前资源库.xlsx",
+            "sheet": "宿舍床帘-丢丢帐804",
+            "anchor": "D6"
+          }
+        },
+        {
+          "id": "804-14",
+          "url": "/static/images/source/804-14.png",
+          "alt": "遮光帘挂钩",
+          "source": {
+            "file": "售前资源库.xlsx",
+            "sheet": "宿舍床帘-丢丢帐804",
+            "anchor": "E6"
+          }
+        },
+        {
+          "id": "804-15",
+          "url": "/static/images/source/804-15.png",
+          "alt": "遮光帘挂钩",
+          "source": {
+            "file": "售前资源库.xlsx",
+            "sheet": "宿舍床帘-丢丢帐804",
+            "anchor": "E6"
+          }
+        },
+        {
+          "id": "804-25",
+          "url": "/static/images/source/804-25.png",
+          "alt": "内部收纳袋",
+          "source": {
+            "file": "售前资源库.xlsx",
+            "sheet": "宿舍床帘-丢丢帐804",
+            "anchor": "H8"
+          }
+        },
+        {
+          "id": "804-26",
+          "url": "/static/images/source/804-26.png",
+          "alt": "内部预留充电口",
+          "source": {
+            "file": "售前资源库.xlsx",
+            "sheet": "宿舍床帘-丢丢帐804",
+            "anchor": "B10"
+          }
+        },
+        {
+          "id": "804-30",
+          "url": "/static/images/source/804-30.png",
+          "alt": "蓝色遮光帘内外颜色",
+          "source": {
+            "file": "售前资源库.xlsx",
+            "sheet": "宿舍床帘-丢丢帐804",
+            "anchor": "F10"
+          }
+        },
+        {
+          "id": "804-32",
+          "url": "/static/images/source/804-32.png",
+          "alt": "蓝色",
+          "source": {
+            "file": "售前资源库.xlsx",
+            "sheet": "宿舍床帘-丢丢帐804",
+            "anchor": "H10"
+          }
+        },
+        {
+          "id": "804-42",
+          "url": "/static/images/source/804-42.png",
+          "alt": "804商品资料图",
+          "source": {
+            "file": "售前资源库.xlsx",
+            "sheet": "宿舍床帘-丢丢帐804",
+            "anchor": "I37"
+          }
+        },
+        {
+          "id": "no-install-steps-user",
+          "url": "/static/images/no-install-steps-user.png",
+          "alt": "免安装款四步安装：展开支架、挂遮光帘、套帐纱、完成",
+          "source": {
+            "type": "user_attachment",
+            "date": "2026-10-14"
+          }
+        }
+      ],
+      "answer_images": {
+        "stability": [
+          {
+            "id": "pole-load-user",
+            "url": "/static/images/pole-load-user.png",
+            "alt": "用户提供的支架悬挂两桶水展示图"
+          }
+        ],
+        "doors": [
+          {
+            "id": "804-01",
+            "url": "/static/images/source/804-01.png",
+            "alt": "开门的区别",
+            "source": {
+              "file": "售前资源库.xlsx",
+              "sheet": "宿舍床帘-丢丢帐804",
+              "anchor": "B3"
+            }
+          }
+        ],
+        "shade_sides": [
+          {
+            "id": "804-02",
+            "url": "/static/images/source/804-02.png",
+            "alt": "遮光面的区别",
+            "source": {
+              "file": "售前资源库.xlsx",
+              "sheet": "宿舍床帘-丢丢帐804",
+              "anchor": "D3"
+            }
+          }
+        ],
+        "pole_details": [
+          {
+            "id": "804-04",
+            "url": "/static/images/source/804-04.png",
+            "alt": "804商品资料图",
+            "source": {
+              "file": "售前资源库.xlsx",
+              "sheet": "宿舍床帘-丢丢帐804",
+              "anchor": "G3"
+            }
+          }
+        ],
+        "instructions": [
+          {
+            "id": "no-install-steps-user",
+            "url": "/static/images/no-install-steps-user.png",
+            "alt": "免安装款四步安装：展开支架、挂遮光帘、套帐纱、完成",
+            "source": {
+              "type": "user_attachment",
+              "date": "2026-10-14"
+            }
+          }
+        ],
+        "easy_installation": [
+          {
+            "id": "no-install-steps-user",
+            "url": "/static/images/no-install-steps-user.png",
+            "alt": "免安装款四步安装：展开支架、挂遮光帘、套帐纱、完成",
+            "source": {
+              "type": "user_attachment",
+              "date": "2026-10-14"
+            }
+          }
+        ],
+        "accessories": [
+          {
+            "id": "804-12",
+            "url": "/static/images/source/804-12.png",
+            "alt": "三通",
+            "source": {
+              "file": "售前资源库.xlsx",
+              "sheet": "宿舍床帘-丢丢帐804",
+              "anchor": "C6"
+            }
+          },
+          {
+            "id": "804-14",
+            "url": "/static/images/source/804-14.png",
+            "alt": "遮光帘挂钩",
+            "source": {
+              "file": "售前资源库.xlsx",
+              "sheet": "宿舍床帘-丢丢帐804",
+              "anchor": "E6"
+            }
+          },
+          {
+            "id": "804-15",
+            "url": "/static/images/source/804-15.png",
+            "alt": "遮光帘挂钩",
+            "source": {
+              "file": "售前资源库.xlsx",
+              "sheet": "宿舍床帘-丢丢帐804",
+              "anchor": "E6"
+            }
+          }
+        ],
+        "material": [
+          {
+            "id": "804-13",
+            "url": "/static/images/source/804-13.png",
+            "alt": "帐纱细节实拍",
+            "source": {
+              "file": "售前资源库.xlsx",
+              "sheet": "宿舍床帘-丢丢帐804",
+              "anchor": "D6"
+            }
+          }
+        ],
+        "storage": [
+          {
+            "id": "804-25",
+            "url": "/static/images/source/804-25.png",
+            "alt": "内部收纳袋",
+            "source": {
+              "file": "售前资源库.xlsx",
+              "sheet": "宿舍床帘-丢丢帐804",
+              "anchor": "H8"
+            }
+          }
+        ],
+        "charging_port": [
+          {
+            "id": "804-26",
+            "url": "/static/images/source/804-26.png",
+            "alt": "内部预留充电口",
+            "source": {
+              "file": "售前资源库.xlsx",
+              "sheet": "宿舍床帘-丢丢帐804",
+              "anchor": "B10"
+            }
+          }
+        ],
+        "power_strip": [
+          {
+            "id": "804-26",
+            "url": "/static/images/source/804-26.png",
+            "alt": "内部预留充电口",
+            "source": {
+              "file": "售前资源库.xlsx",
+              "sheet": "宿舍床帘-丢丢帐804",
+              "anchor": "B10"
+            }
+          }
+        ],
+        "inner_color": [
+          {
+            "id": "804-30",
+            "url": "/static/images/source/804-30.png",
+            "alt": "蓝色遮光帘内外颜色",
+            "source": {
+              "file": "售前资源库.xlsx",
+              "sheet": "宿舍床帘-丢丢帐804",
+              "anchor": "F10"
+            }
+          }
+        ],
+        "appearance": [
+          {
+            "id": "804-32",
+            "url": "/static/images/source/804-32.png",
+            "alt": "蓝色",
+            "source": {
+              "file": "售前资源库.xlsx",
+              "sheet": "宿舍床帘-丢丢帐804",
+              "anchor": "H10"
+            }
+          }
+        ],
+        "colors": [
+          {
+            "id": "804-32",
+            "url": "/static/images/source/804-32.png",
+            "alt": "蓝色",
+            "source": {
+              "file": "售前资源库.xlsx",
+              "sheet": "宿舍床帘-丢丢帐804",
+              "anchor": "H10"
+            }
+          }
+        ],
+        "bottom": [
+          {
+            "id": "804-42",
+            "url": "/static/images/source/804-42.png",
+            "alt": "804商品资料图",
+            "source": {
+              "file": "售前资源库.xlsx",
+              "sheet": "宿舍床帘-丢丢帐804",
+              "anchor": "I37"
+            }
+          }
+        ],
+        "pole_sales": [
+          {
+            "id": "pole-load-user",
+            "url": "/static/images/pole-load-user.png",
+            "alt": "用户提供的支架悬挂两桶水展示图"
+          }
+        ],
+        "catalog_recommendation": [
+          {
+            "id": "no-install-steps-user",
+            "url": "/static/images/no-install-steps-user.png",
+            "alt": "免安装款四步安装：展开支架、挂遮光帘、套帐纱、完成",
+            "source": {
+              "type": "user_attachment",
+              "date": "2026-10-14"
+            }
+          }
+        ]
+      },
+      "price_reference": {
+        "amount": 316,
+        "currency": "CNY",
+        "approximate": true,
+        "source": "用户确认折后参考价",
+        "confirmed_at": "2026-10-14",
+        "sku_scope": "具体套餐未确认"
+      }
+    }
+  ],
+  "store": {
+    "updated_at": null,
+    "facts": {
+      "shipping": "亲亲，没显示京东物流的由东莞或南通仓发货，一般24小时发出，特殊情况48小时，普通快递和时效以下单页面为准哈～",
+      "jd_delivery": "亲亲，显示京东物流的由京东仓配送，一般当天、次日或隔日到，具体看下单页面预计时效哈～",
+      "delivery_choice": "亲，页面有显示“京东物流”吗？我帮您看对应时效。",
+      "expedite": "亲亲，小妹帮您申请加急哈～",
+      "courier": "亲亲，快递根据地址安排，一般2–3天送达，偏远地区3–5天哈～",
+      "delivery_summary": "亲亲，页面显示“京东物流”的，付款后由京东自有仓储配送，产品已入全国77仓，一般地区可当天、次日或隔日送达～\n没显示“京东物流”的，由京东东莞或南通仓发货，一般24小时发出，特殊情况48小时内发出，默认圆通、邮政等普通快递。系统根据地址匹配物流，具体时效以下单页面为参考哈～",
+      "freight_insurance": "有运费险的亲，放心选购哈～",
+      "delivery_with_expedite": "亲亲，页面显示“京东物流”的，付款后由京东自有仓储配送，产品已入全国77仓，一般地区可当天、次日或隔日送达～\n没显示“京东物流”的，由京东东莞或南通仓发货，一般24小时发出，特殊情况48小时内发出，默认圆通、邮政等普通快递。系统根据地址匹配物流，具体时效以下单页面为参考哈～\n着急的话，小妹帮您申请加急哈～"
+    },
+    "manual_topics": [
+      "发货时效",
+      "到货时效",
+      "运费",
+      "售后规则",
+      "活动赠品"
+    ],
+    "sources": {
+      "delivery_summary": [
+        {
+          "type": "user_confirmation",
+          "date": "2026-10-13",
+          "excerpt": "亲亲，页面显示“京东物流”的，付款后由京东自有仓储配送，产品已入全国77仓，一般地区可当天、次日或隔日送达～\n没显示“京东物流”的，由京东东莞或南通仓发货，一般24小时发出，特殊情况48小时内发出，默认圆通、邮政等普通快递。系统根据地址匹配物流，具体时效以下单页面为参考哈～"
+        }
+      ],
+      "freight_insurance": [
+        {
+          "type": "user_confirmation_and_draft",
+          "date": "2026-10-14",
+          "excerpt": "有运费险的亲，放心选购哈～"
+        }
+      ],
+      "delivery_with_expedite": [
+        {
+          "type": "user_confirmation_and_draft",
+          "date": "2026-10-14",
+          "excerpt": "亲亲，页面显示“京东物流”的，付款后由京东自有仓储配送，产品已入全国77仓，一般地区可当天、次日或隔日送达～\n没显示“京东物流”的，由京东东莞或南通仓发货，一般24小时发出，特殊情况48小时内发出，默认圆通、邮政等普通快递。系统根据地址匹配物流，具体时效以下单页面为参考哈～\n着急的话，小妹帮您申请加急哈～"
+        }
+      ]
+    }
+  },
+  "continuous_assist": true,
+  "reply_policy": {
+    "objective": "消除购买顾虑、促进成交",
+    "style": "先给有依据的肯定结论，突出一个卖点，简短自然",
+    "limits": "不虚构市场排名、亲身体验、优惠、测试结果或已完成的操作",
+    "approved_script_handling": "用户指定话术按原文输出，不自行润色"
+  }
+}

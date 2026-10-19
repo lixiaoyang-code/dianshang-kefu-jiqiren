@@ -1,0 +1,2947 @@
+{
+  "scope": [
+    "801",
+    "802",
+    "803",
+    "804"
+  ],
+  "reviewed_at": "2026-10-13",
+  "review_method": "逐条与现有资料和用户确认核对；不是独立检测认证",
+  "records": [
+    {
+      "id": "qa.801.C5",
+      "product_id": "801",
+      "question": "隔音吗",
+      "original_answer": "亲亲您好呀～宿舍蚊帐主要作用是防蚊、防尘、遮挡隐私，本身是轻薄网纱材质，会有一定的隔音效果的，如果想要隔音，还是建议搭配耳塞、降噪耳机会更管用哈～",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-常规款801",
+        "question_cell": "C5",
+        "answer_cell": "D5"
+      },
+      "status": "active",
+      "reason": "按用户指定原话使用，不自行润色",
+      "fields": [
+        "sound_insulation"
+      ],
+      "answer": "目前整个床帘市场都是没有隔音床帘的。 咱们采用的是市面上最厚的600g遮光布，会起到轻微的隔音效果。 市面上大部分都是比我们的还薄的，隔音效果更差哦。 如果您担心噪音的情况下，可以选择睡眠耳塞，客服小妹也是用这个来解决的哦。",
+      "image_refs": [],
+      "aliases": [
+        "隔音吗"
+      ]
+    },
+    {
+      "id": "qa.801.C6",
+      "product_id": "801",
+      "question": "有涂层吗",
+      "original_answer": "亲亲，咱们这款没有任何涂层哦。零涂层、不闷不闷味、透气性特别好，主打清爽防蚊、透光不压抑哒~",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-常规款801",
+        "question_cell": "C6",
+        "answer_cell": "D6"
+      },
+      "status": "active",
+      "reason": "采用当前有效字段；旧参数及夸大保证不进入答复",
+      "fields": [
+        "coating"
+      ],
+      "answer": "亲，床帘是没有涂层的，我们的是纯面料遮光，市面上涂层的床帘不安全！！是用化学剂弄的，影响健康并且涂层的面料是不透气的宝，给您看一下我家的无涂层遮光帘的遮光效果和A类母婴级证书，您这边可以放心使用",
+      "image_refs": [],
+      "aliases": [
+        "有涂层吗"
+      ]
+    },
+    {
+      "id": "qa.801.C7",
+      "product_id": "801",
+      "question": "好安装吗",
+      "original_answer": "亲亲超方便的✅️\n全程免打孔、免钉免粘，配件都给配齐了，收到直接就能装～\n不用找人帮忙，自己一个人十几分钟就能搞定，步骤特别简单，还配安装图解，新手也能轻松上手哒～",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-常规款801",
+        "question_cell": "C7",
+        "answer_cell": "D7"
+      },
+      "status": "active",
+      "reason": "采用用户新确认的不麻烦安装口径",
+      "fields": [
+        "easy_installation"
+      ],
+      "answer": "不麻烦的亲，按安装说明自己就能装好哈～",
+      "image_refs": [
+        "801-13"
+      ],
+      "aliases": [
+        "好安装吗"
+      ]
+    },
+    {
+      "id": "qa.801.C8",
+      "product_id": "801",
+      "question": "可以防蚊吗",
+      "original_answer": "亲亲当然可以啦~~\n咱们这款就是专门做宿舍防蚊蚊帐的，网眼细密密实，小蚊子、小飞虫都钻不进来，全包围设计密封性超好，睡觉再也不怕被蚊子咬啦～",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-常规款801",
+        "question_cell": "C8",
+        "answer_cell": "D8"
+      },
+      "status": "active",
+      "reason": "采用当前有效字段；旧参数及夸大保证不进入答复",
+      "fields": [
+        "bottom"
+      ],
+      "answer": "亲亲，采用回底设计，并非全封闭底部；需配合床垫或凉席使用～",
+      "image_refs": [
+        "801-50"
+      ],
+      "aliases": [
+        "可以防蚊吗"
+      ]
+    },
+    {
+      "id": "qa.801.C9",
+      "product_id": "801",
+      "question": "遮光效果好吗",
+      "original_answer": "遮光效果超赞的哦\n咱们这款是加厚的，遮光不透光，白天拉上立马暗下来，秒变私密小被窝～早上不怕被亮光晃醒，午休、熬夜睡懒觉都超合适，宿舍用完全够用，隐私感也拉满",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-常规款801",
+        "question_cell": "C9",
+        "answer_cell": "D9"
+      },
+      "status": "active",
+      "reason": "采用当前有效字段；旧参数及夸大保证不进入答复",
+      "fields": [
+        "shade_sides"
+      ],
+      "answer": "可以遮光的亲，也能遮挡隐私哈～",
+      "image_refs": [
+        "801-11"
+      ],
+      "aliases": [
+        "遮光效果好吗"
+      ]
+    },
+    {
+      "id": "qa.801.C10",
+      "product_id": "801",
+      "question": "有充电口和置物袋吗",
+      "original_answer": "有的，这款蚊帐自带充电口 + 侧边置物袋，很方便日常使用",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-常规款801",
+        "question_cell": "C10",
+        "answer_cell": "D10"
+      },
+      "status": "active",
+      "reason": "采用当前有效字段；旧参数及夸大保证不进入答复",
+      "fields": [
+        "charging_port",
+        "storage"
+      ],
+      "answer": "亲亲，设有预留充电口，可用于穿过充电线；资料标注内部有收纳袋；外置挂物袋或置物架是否随套餐附送需人工确认～",
+      "image_refs": [
+        "801-57"
+      ],
+      "aliases": [
+        "有充电口和置物袋吗"
+      ]
+    },
+    {
+      "id": "qa.801.C11",
+      "product_id": "801",
+      "question": "靠墙那边可以打开吗",
+      "original_answer": "咱们靠墙那一面本身是固定封闭式设计，是不能打开的哦~\n这样做是为了贴合床头靠墙、不漏缝隙，蚊子钻不进来，遮光也更严实，还能牢牢贴住墙面不鼓包、不跑位。",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-常规款801",
+        "question_cell": "C11",
+        "answer_cell": "D11"
+      },
+      "status": "active",
+      "reason": "采用当前有效字段；旧参数及夸大保证不进入答复",
+      "fields": [
+        "doors"
+      ],
+      "answer": "亲亲，90 cm高是单开门，只开正面；110/120 cm高是三开门，上铺侧面进出选三开款～",
+      "image_refs": [
+        "801-10"
+      ],
+      "aliases": [
+        "靠墙那边可以打开吗"
+      ]
+    },
+    {
+      "id": "qa.801.C12",
+      "product_id": "801",
+      "question": "阻燃吗，有阻燃报告吗",
+      "original_answer": "亲亲咱们这款蚊帐面料是安全不易燃的，日常正常使用完全放心哈～而且有阻燃功能的话是需要添加一些化学物质的哦，对咱的身体健康会造成一定影响的呢~",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-常规款801",
+        "question_cell": "C12",
+        "answer_cell": "D12"
+      },
+      "status": "needs_review",
+      "reason": "涉及检测/材料冲突、图片、规格版本或缺少当前依据",
+      "fields": [],
+      "answer": null,
+      "image_refs": [],
+      "aliases": [
+        "阻燃吗，有阻燃报告吗"
+      ]
+    },
+    {
+      "id": "qa.801.C13",
+      "product_id": "801",
+      "question": "材质安全吗/有甲醛吗",
+      "original_answer": "亲亲放心哈～咱们这款蚊帐材质特别安全，不含甲醛的\n整体采用高密度面料，都是出厂经过严格质检的，符合安全纺织标准，无甲醛、无异味、不刺鼻\n收到拆开通风一会儿就能直接用，学生宿舍、日常贴身使用都很安心，敏感肌肤也能放心用哒～",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-常规款801",
+        "question_cell": "C13",
+        "answer_cell": "D13"
+      },
+      "status": "active",
+      "reason": "采用2026-10-14用户指定原话；不是独立报告验证",
+      "fields": [
+        "formaldehyde_script"
+      ],
+      "answer": "宝，咱家这款是成本较高的600克重遮光布的，也都是有质检报告的，遮光率高的同时不会对产品有任何危害，另外咱家产品还有A类母婴级证书，您可以放心选择哒",
+      "image_refs": [],
+      "aliases": [
+        "材质安全吗",
+        "有甲醛吗"
+      ]
+    },
+    {
+      "id": "qa.801.C14",
+      "product_id": "801",
+      "question": "支架结实吗，什么材质的",
+      "original_answer": "咱们支架用的是加厚碳素钢材质，韧性特别好，不容易折断、不易变形，承重也很稳\n装好之后整体挺括不塌边，日常拉扯、正常使用都完全没问题，宿舍用到毕业都妥妥耐用，不会轻易晃荡松散的～",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-常规款801",
+        "question_cell": "C14",
+        "answer_cell": "D14"
+      },
+      "status": "active",
+      "reason": "采用用户确认的稳固、碳素钢与0.38mm壁厚，不附加未经佐证承重",
+      "fields": [
+        "stability",
+        "pole_material",
+        "pole_wall"
+      ],
+      "answer": "亲亲，我们的支架承重约10斤，很稳固的哈～",
+      "image_refs": [
+        "pole-load-user"
+      ],
+      "aliases": [
+        "支架结实吗，什么材质的"
+      ]
+    },
+    {
+      "id": "qa.801.C15",
+      "product_id": "801",
+      "question": "单开和三开有什么区别",
+      "original_answer": "三开上铺款是除了靠墙处，可以床头床尾和正面一共三面进出哒~单开的话是只有正面可以打开的，一般适用于下铺使用的哦~",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-常规款801",
+        "question_cell": "C15",
+        "answer_cell": "D15"
+      },
+      "status": "active",
+      "reason": "采用当前有效字段；旧参数及夸大保证不进入答复",
+      "fields": [
+        "doors"
+      ],
+      "answer": "亲亲，90 cm高是单开门，只开正面；110/120 cm高是三开门，上铺侧面进出选三开款～",
+      "image_refs": [
+        "801-10"
+      ],
+      "aliases": [
+        "单开和三开有什么区别"
+      ]
+    },
+    {
+      "id": "qa.801.C16",
+      "product_id": "801",
+      "question": "高度可伸缩是什么意思",
+      "original_answer": "120cm长度的支架是可以伸缩调节的，范围在70-120cm左右",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-常规款801",
+        "question_cell": "C16",
+        "answer_cell": "D16"
+      },
+      "status": "active",
+      "reason": "用户确认纯色款120高度支架65–120厘米可调",
+      "fields": [
+        "telescoping"
+      ],
+      "answer": "纯色款120高度支架可调65–120厘米，其余高度款不据此推断",
+      "image_refs": [],
+      "aliases": [
+        "高度可伸缩是什么意思"
+      ]
+    },
+    {
+      "id": "qa.801.C17",
+      "product_id": "801",
+      "question": "四面和五面有什么区别",
+      "original_answer": "四面的话靠墙面是没有遮光帘的，五面靠墙有遮光帘",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-常规款801",
+        "question_cell": "C17",
+        "answer_cell": "D17"
+      },
+      "status": "active",
+      "reason": "采用当前有效字段；旧参数及夸大保证不进入答复",
+      "fields": [
+        "shade_sides"
+      ],
+      "answer": "亲亲，四面款靠墙只有帐纱，五面款靠墙多一面遮光帘，按详情页选择就好～",
+      "image_refs": [
+        "801-11"
+      ],
+      "aliases": [
+        "四面和五面有什么区别"
+      ]
+    },
+    {
+      "id": "qa.801.C18",
+      "product_id": "801",
+      "question": "墙上有插座怎么办/怎么使用",
+      "original_answer": "亲亲完全不影响用的哈～咱们蚊帐侧边自带预留充电小口，墙上插座可以直接把充电线从预留孔穿进蚊帐里面，走线规整还不漏缝隙、不进蚊子，插座在墙边也能正常使用，一点都不挡哦～",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-常规款801",
+        "question_cell": "C18",
+        "answer_cell": "D18"
+      },
+      "status": "active",
+      "reason": "采用当前有效字段；旧参数及夸大保证不进入答复",
+      "fields": [
+        "charging_port"
+      ],
+      "answer": "亲亲，设有预留充电口，可用于穿过充电线～",
+      "image_refs": [
+        "801-57"
+      ],
+      "aliases": [
+        "墙上有插座怎么办",
+        "怎么使用"
+      ]
+    },
+    {
+      "id": "qa.801.C19",
+      "product_id": "801",
+      "question": "为什么详情页材料显示的是PVC",
+      "original_answer": "亲亲，咱们蚊帐贴身接触的是亲肤面料，详情页标的 PVC 只是遮光布表层的环保遮光涂层，只用来挡光隔热，不直接贴皮肤，而且是合规环保材质，无甲醛无异味可以放心用。",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-常规款801",
+        "question_cell": "C19",
+        "answer_cell": "D19"
+      },
+      "status": "active",
+      "reason": "采用当前有效字段；旧参数及夸大保证不进入答复",
+      "fields": [
+        "material"
+      ],
+      "answer": "亲亲，帐纱是聚酯纤维，遮光帘是PVC化纤布～",
+      "image_refs": [
+        "801-02"
+      ],
+      "aliases": [
+        "为什么详情页材料显示的是PVC"
+      ]
+    },
+    {
+      "id": "qa.801.C20",
+      "product_id": "801",
+      "question": "底部是什么结构的/有没有全包的",
+      "original_answer": "亲亲，咱们学生款床帘不用做全底设计哈，因为宿舍床上本来就要铺床垫、凉席。咱们这款做的是回底款式，拆洗打理更方便，您铺好床垫凉席后拉好拉链，照样能严实防蚊虫哦。",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-常规款801",
+        "question_cell": "C20",
+        "answer_cell": "D20"
+      },
+      "status": "active",
+      "reason": "采用当前有效字段；旧参数及夸大保证不进入答复",
+      "fields": [
+        "bottom"
+      ],
+      "answer": "亲亲，采用回底设计，并非全封闭底部；需配合床垫或凉席使用～",
+      "image_refs": [
+        "801-50"
+      ],
+      "aliases": [
+        "底部是什么结构的",
+        "有没有全包的"
+      ]
+    },
+    {
+      "id": "qa.801.C21",
+      "product_id": "801",
+      "question": "普通支架和加粗支架有什么区别",
+      "original_answer": "亲亲这边的支架都是采用碳素钢支架，加粗0.5mm，加粗加厚65%升级碳素钢更加稳定，不用担心会出现塌陷的问题您可以放心购买亲",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-常规款801",
+        "question_cell": "C21",
+        "answer_cell": "D21"
+      },
+      "status": "active",
+      "reason": "采用当前有效字段；旧参数及夸大保证不进入答复",
+      "fields": [
+        "pole_diameter",
+        "pole_material"
+      ],
+      "answer": "亲亲，支架直径为 12 mm；支架为碳素钢材质～",
+      "image_refs": [],
+      "aliases": [
+        "普通支架和加粗支架有什么区别"
+      ]
+    },
+    {
+      "id": "qa.801.A66",
+      "product_id": "801",
+      "question": "卖点/异味/遮光1",
+      "original_answer": "宝，咱们这款是五层复合遮光设计，遮光效果超棒，是绝对不用担心出现皮影戏的哈。也是分别通过了纺织行业和国家标准的遮光，异味检测哦",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-常规款801",
+        "question_cell": "A66",
+        "answer_cell": "B66"
+      },
+      "status": "needs_review",
+      "reason": "涉及检测/材料冲突、图片、规格版本或缺少当前依据",
+      "fields": [],
+      "answer": null,
+      "image_refs": [],
+      "aliases": [
+        "卖点",
+        "异味",
+        "遮光1"
+      ]
+    },
+    {
+      "id": "qa.801.F66",
+      "product_id": "801",
+      "question": "三开、单开区别",
+      "original_answer": "①三开上铺款是除了靠墙处，可以床头床尾和正面一共三面进出；\n单开下铺款只能正面进出。\n如果您是睡上铺从侧面进出的话，一定要选上铺款!\n\n②亲亲睡上铺还是下铺呢~",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-常规款801",
+        "question_cell": "F66",
+        "answer_cell": "G66"
+      },
+      "status": "active",
+      "reason": "采用当前有效字段；旧参数及夸大保证不进入答复",
+      "fields": [
+        "doors"
+      ],
+      "answer": "亲亲，90 cm高是单开门，只开正面；110/120 cm高是三开门，上铺侧面进出选三开款～",
+      "image_refs": [
+        "801-10"
+      ],
+      "aliases": [
+        "三开、单开区别"
+      ]
+    },
+    {
+      "id": "qa.801.A67",
+      "product_id": "801",
+      "question": "遮光帘材质/遮光2",
+      "original_answer": "这是我们600克重遮光帘和友商对比实拍图，您可以稍微看一下。咱家这款遮光帘手感、遮光度都很好，材质是pvc化纤布，防潮防霉易清洗，非常的安全亲。",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-常规款801",
+        "question_cell": "A67",
+        "answer_cell": "B67"
+      },
+      "status": "active",
+      "reason": "采用当前有效字段；旧参数及夸大保证不进入答复",
+      "fields": [
+        "material"
+      ],
+      "answer": "亲亲，帐纱是聚酯纤维，遮光帘是PVC化纤布～",
+      "image_refs": [
+        "801-02"
+      ],
+      "aliases": [
+        "遮光帘材质",
+        "遮光2"
+      ]
+    },
+    {
+      "id": "qa.801.F67",
+      "product_id": "801",
+      "question": "不确定宿舍床尺寸能用吗",
+      "original_answer": "可以选通用款呢，宝 通用尺寸是90*190*90的哈。\n\n按照全国标准学生宿舍设计，尺寸等方面可以不用担心哒，学生宿舍几乎都是可以使用的哟~",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-常规款801",
+        "question_cell": "F67",
+        "answer_cell": "G67"
+      },
+      "status": "active",
+      "reason": "推荐全伸缩款，不保证尺寸必然适配",
+      "fields": [],
+      "answer": "有的亲，这边推荐全伸缩款，长宽高都能调节哈～",
+      "image_refs": [],
+      "aliases": [
+        "不确定宿舍床尺寸能用吗"
+      ]
+    },
+    {
+      "id": "qa.801.A68",
+      "product_id": "801",
+      "question": "遮光3",
+      "original_answer": "亲亲这个是客户实拍返图，遮光效果很好的呢",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-常规款801",
+        "question_cell": "A68",
+        "answer_cell": "B68"
+      },
+      "status": "active",
+      "reason": "采用当前有效字段；旧参数及夸大保证不进入答复",
+      "fields": [
+        "shade_sides"
+      ],
+      "answer": "可以遮光的亲，也能遮挡隐私哈～",
+      "image_refs": [
+        "801-11"
+      ],
+      "aliases": [
+        "遮光3"
+      ]
+    },
+    {
+      "id": "qa.801.F68",
+      "product_id": "801",
+      "question": "四面与五面的区别",
+      "original_answer": "四面的话靠墙无遮光帘，五面靠墙有遮光帘",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-常规款801",
+        "question_cell": "F68",
+        "answer_cell": "G68"
+      },
+      "status": "active",
+      "reason": "采用当前有效字段；旧参数及夸大保证不进入答复",
+      "fields": [
+        "shade_sides"
+      ],
+      "answer": "亲亲，四面款靠墙只有帐纱，五面款靠墙多一面遮光帘，按详情页选择就好～",
+      "image_refs": [
+        "801-11"
+      ],
+      "aliases": [
+        "四面与五面的区别"
+      ]
+    },
+    {
+      "id": "qa.801.A69",
+      "product_id": "801",
+      "question": "不确定高度",
+      "original_answer": "亲爱的，您现在下单小妹可以给您赠送四根70-120可伸缩的支架，这样就不用担心高度不合适啦（下单后联系小妹给您备注赠送才有的哈）",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-常规款801",
+        "question_cell": "A69",
+        "answer_cell": "B69"
+      },
+      "status": "active",
+      "reason": "推荐全伸缩款，不保证尺寸必然适配",
+      "fields": [],
+      "answer": "有的亲，这边推荐全伸缩款，长宽高都能调节哈～",
+      "image_refs": [],
+      "aliases": [
+        "不确定高度"
+      ]
+    },
+    {
+      "id": "qa.801.F69",
+      "product_id": "801",
+      "question": "有没有甲醛",
+      "original_answer": "宝，咱家这款是成本较高的600克重遮光布的，也都是有质检报告的，遮光率高的同时不会对产品有任何危害，另外咱家产品还有A类母婴级证书，您可以放心选择哒",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-常规款801",
+        "question_cell": "F69",
+        "answer_cell": "G69"
+      },
+      "status": "active",
+      "reason": "采用2026-10-14用户指定原话；不是独立报告验证",
+      "fields": [
+        "formaldehyde_script"
+      ],
+      "answer": "宝，咱家这款是成本较高的600克重遮光布的，也都是有质检报告的，遮光率高的同时不会对产品有任何危害，另外咱家产品还有A类母婴级证书，您可以放心选择哒",
+      "image_refs": [],
+      "aliases": [
+        "有没有甲醛"
+      ]
+    },
+    {
+      "id": "qa.801.A70",
+      "product_id": "801",
+      "question": "不确定宽度",
+      "original_answer": "亲爱的，您现在下单小妹可以给您赠送四根70-120可伸缩的支架，这样就不用担心宽度不合适啦（下单后联系小妹给您备注赠送才有的哈）",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-常规款801",
+        "question_cell": "A70",
+        "answer_cell": "B70"
+      },
+      "status": "active",
+      "reason": "推荐全伸缩款，不保证尺寸必然适配",
+      "fields": [],
+      "answer": "有的亲，这边推荐全伸缩款，长宽高都能调节哈～",
+      "image_refs": [],
+      "aliases": [
+        "不确定宽度"
+      ]
+    },
+    {
+      "id": "qa.801.F70",
+      "product_id": "801",
+      "question": "有涂层吗、透气吗",
+      "original_answer": "亲，床帘是没有涂层的，我们的是纯面料遮光，市面上涂层的床帘不安全！！是用化学剂弄的，影响健康并且涂层的面料是不透气的\n\n\n\n宝，给您看一下我家的无涂层遮光帘的遮光效果，超遮光！",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-常规款801",
+        "question_cell": "F70",
+        "answer_cell": "G70"
+      },
+      "status": "needs_review",
+      "reason": "涉及检测/材料冲突、图片、规格版本或缺少当前依据",
+      "fields": [],
+      "answer": null,
+      "image_refs": [],
+      "aliases": [
+        "有涂层吗、透气吗"
+      ]
+    },
+    {
+      "id": "qa.801.A71",
+      "product_id": "801",
+      "question": "加粗",
+      "original_answer": "亲亲  标准款的直径是0.8cm左右  加粗款是1cm左右哦，加粗款的粗一些更牢固耐用呢保障您四年大学生活哦，建议购买加粗款哦~",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-常规款801",
+        "question_cell": "A71",
+        "answer_cell": "B71"
+      },
+      "status": "active",
+      "reason": "采用当前有效字段；旧参数及夸大保证不进入答复",
+      "fields": [
+        "pole_diameter",
+        "pole_material"
+      ],
+      "answer": "亲亲，支架直径为 12 mm；支架为碳素钢材质～",
+      "image_refs": [],
+      "aliases": [
+        "加粗"
+      ]
+    },
+    {
+      "id": "qa.801.F71",
+      "product_id": "801",
+      "question": "影响充电吗/旁边能打开吗",
+      "original_answer": "咱家三开门款式的侧面正面都可以打开，进出方便，充电线可以从底部或者侧面伸进来的哦（110高度以上的才是三开门的）",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-常规款801",
+        "question_cell": "F71",
+        "answer_cell": "G71"
+      },
+      "status": "active",
+      "reason": "采用当前有效字段；旧参数及夸大保证不进入答复",
+      "fields": [
+        "charging_port"
+      ],
+      "answer": "亲亲，设有预留充电口，可用于穿过充电线～",
+      "image_refs": [
+        "801-57"
+      ],
+      "aliases": [
+        "影响充电吗",
+        "旁边能打开吗"
+      ]
+    },
+    {
+      "id": "qa.801.A72",
+      "product_id": "801",
+      "question": "加粗支架有啥区别",
+      "original_answer": "亲亲加粗支架是1cm左右直径的，稳定效果很好，也可以简单挂一点衣服什么的呢，这个是客户广角拍摄返图您可以参考下哦",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-常规款801",
+        "question_cell": "A72",
+        "answer_cell": "B72"
+      },
+      "status": "active",
+      "reason": "采用当前有效字段；旧参数及夸大保证不进入答复",
+      "fields": [
+        "pole_diameter",
+        "pole_material"
+      ],
+      "answer": "亲亲，支架直径为 12 mm；支架为碳素钢材质～",
+      "image_refs": [],
+      "aliases": [
+        "加粗支架有啥区别"
+      ]
+    },
+    {
+      "id": "qa.801.F72",
+      "product_id": "801",
+      "question": "顶部是否有涂层",
+      "original_answer": "①亲亲，为了提升您的使用体验感,在床帘的顶部,我们做了一层特殊的处理,它不仅能够极大地增强遮光效果,让您享受更加静谧舒适的睡眠环境,而且它所采用的材料是经过环保认证的,安全无异味,也不会影响面料的透气性哦\t\t\n\n追问什么材质的话发第②句：\n②亲，咱们顶部是采用了FlexiCoat™水性树脂遮光层科技，以水性树脂为基础，通过发泡技术在布料表面形成多层覆膜，替代传统含PVC或溶剂的遮光层",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-常规款801",
+        "question_cell": "F72",
+        "answer_cell": "G72"
+      },
+      "status": "active",
+      "reason": "采用当前有效字段；旧参数及夸大保证不进入答复",
+      "fields": [
+        "roof"
+      ],
+      "answer": "亲亲，顶棚做了覆膜处理，用来遮光哈～",
+      "image_refs": [
+        "801-30"
+      ],
+      "aliases": [
+        "顶部是否有涂层"
+      ]
+    },
+    {
+      "id": "qa.801.A73",
+      "product_id": "801",
+      "question": "无法使用微信支付",
+      "original_answer": "①宝子～说下支付小细节哈～\n咱们参加国补活动，按规则得用z f  b才能享补贴，不是不想开w x支付哦～\n国补后价格真的香！平时 306.71元，现在补贴完才 248.43 元，错过超可惜～\n\n-------------------------------------------------------------------------------------------\n\n\n②要是自己没支付宝也没关系！找有z f b 的朋友、家人代付就行，操作超方便～ 让他们帮你拍下，你转钱给 TA，一样能薅到国补羊毛～\n有任何代付问题随时喊我，别让支付方式耽误拿补贴价呀，赶紧找朋友帮忙拿下它～ ✨",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-常规款801",
+        "question_cell": "A73",
+        "answer_cell": "B73"
+      },
+      "status": "manual_policy",
+      "reason": "活动、政策或适配需当前业务核实",
+      "fields": [],
+      "answer": null,
+      "image_refs": [],
+      "aliases": [
+        "无法使用微信支付"
+      ]
+    },
+    {
+      "id": "qa.801.F73",
+      "product_id": "801",
+      "question": "有六面全包\n是不是全底\n什么叫半包款\n是不是全包\n全包和半包的区别\n是镂空的吗",
+      "original_answer": "亲亲，蚊帐底部是镂空设计，但底部有约10-15cm宽的布料！铺上床垫后就能完全贴合密封，蚊虫绝对钻不进去的，放心哦~",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-常规款801",
+        "question_cell": "F73",
+        "answer_cell": "G73"
+      },
+      "status": "active",
+      "reason": "采用当前有效字段；旧参数及夸大保证不进入答复",
+      "fields": [
+        "bottom"
+      ],
+      "answer": "亲亲，采用回底设计，并非全封闭底部；需配合床垫或凉席使用～",
+      "image_refs": [
+        "801-50"
+      ],
+      "aliases": [
+        "有六面全包",
+        "是不是全底",
+        "什么叫半包款",
+        "是不是全包",
+        "全包和半包的区别",
+        "是镂空的吗"
+      ]
+    },
+    {
+      "id": "qa.801.A74",
+      "product_id": "801",
+      "question": "我拍米色里面也是米色对吗 \n里面外面颜色一样的嘛\n内外料是什么样",
+      "original_answer": "宝子，咱们为了达到更高的遮光效果，咱们的遮光帘里面做的比外面深，但不影响美观~",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-常规款801",
+        "question_cell": "A74",
+        "answer_cell": "B74"
+      },
+      "status": "active",
+      "reason": "采用当前有效字段；旧参数及夸大保证不进入答复",
+      "fields": [
+        "inner_color"
+      ],
+      "answer": "亲亲，遮光帘内侧颜色比外侧深～",
+      "image_refs": [
+        "801-34"
+      ],
+      "aliases": [
+        "我拍米色里面也是米色对吗",
+        "里面外面颜色一样的嘛",
+        "内外料是什么样"
+      ]
+    },
+    {
+      "id": "qa.801.F74",
+      "product_id": "801",
+      "question": "A类的标识在哪能看到\n这个是A类的嘛\n有A类证书嘛\n材质安全吗，有证书吗",
+      "original_answer": "亲亲，咱家是有A类证书的呢，您这边也可以在水洗标签上看到A类标识呢~",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-常规款801",
+        "question_cell": "F74",
+        "answer_cell": "G74"
+      },
+      "status": "needs_review",
+      "reason": "涉及检测/材料冲突、图片、规格版本或缺少当前依据",
+      "fields": [],
+      "answer": null,
+      "image_refs": [],
+      "aliases": [
+        "A类的标识在哪能看到",
+        "这个是A类的嘛",
+        "有A类证书嘛",
+        "材质安全吗，有证书吗"
+      ]
+    },
+    {
+      "id": "qa.801.A75",
+      "product_id": "801",
+      "question": "有实物图吗\n实物图长什么样",
+      "original_answer": "宝子，这个是咱家三款遮光帘的实物图",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-常规款801",
+        "question_cell": "A75",
+        "answer_cell": "B75"
+      },
+      "status": "active",
+      "reason": "对应款型实拍图已筛选接入",
+      "fields": [
+        "appearance"
+      ],
+      "answer": "亲亲，这款实拍图可以参考一下哈～",
+      "image_refs": [
+        "801-20",
+        "801-37"
+      ],
+      "aliases": [
+        "有实物图吗",
+        "实物图长什么样"
+      ]
+    },
+    {
+      "id": "qa.801.F75",
+      "product_id": "801",
+      "question": "IP款和常规款长什么样",
+      "original_answer": "亲亲，IP款的话是全伸缩支架，长宽高都可伸缩使用，带有美观的图案，常规款简约款无图案，且支架不可伸缩",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-常规款801",
+        "question_cell": "F75",
+        "answer_cell": "G75"
+      },
+      "status": "active",
+      "reason": "使用用户确认的款型名称及参数差异",
+      "fields": [],
+      "answer": "亲亲，纯色款是简约款，全伸缩款长宽高都可调节哈～",
+      "image_refs": [],
+      "aliases": [
+        "IP款和常规款长什么样"
+      ]
+    },
+    {
+      "id": "qa.801.A76",
+      "product_id": "801",
+      "question": "学校有支架\n有支架可以使用嘛\n有带支架可以使用嘛",
+      "original_answer": "宝子，学校自带的支架基本上都会比较高，咱家这个一体式的床帘安装好后是可以直接放在床上的，正常是不影响的哦~\n学校的支架难买到完全匹配的床帘哦，尺寸不对容易漏光、不遮隐私的，还有很多学校有和小厂家合作搭配杆子一起售卖质量较差的床帘，用着也不安心的。",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-常规款801",
+        "question_cell": "A76",
+        "answer_cell": "B76"
+      },
+      "status": "needs_review",
+      "reason": "涉及检测/材料冲突、图片、规格版本或缺少当前依据",
+      "fields": [],
+      "answer": null,
+      "image_refs": [],
+      "aliases": [
+        "学校有支架",
+        "有支架可以使用嘛",
+        "有带支架可以使用嘛"
+      ]
+    },
+    {
+      "id": "qa.801.F76",
+      "product_id": "801",
+      "question": "赠送置物架\n置物架长什么样\n可以赠送置物架吗",
+      "original_answer": "宝子，您可以看下咱家的精美置物架，小妹这边还有几个赠送名额，喜欢咱家的床帘可以抓紧下单，小妹给您备注赠送~",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-常规款801",
+        "question_cell": "F76",
+        "answer_cell": "G76"
+      },
+      "status": "manual_policy",
+      "reason": "活动、政策或适配需当前业务核实",
+      "fields": [],
+      "answer": null,
+      "image_refs": [],
+      "aliases": [
+        "赠送置物架",
+        "置物架长什么样",
+        "可以赠送置物架吗"
+      ]
+    },
+    {
+      "id": "qa.801.A77",
+      "product_id": "801",
+      "question": "电线怎么拉进去\n有没有充电口\n线能穿过去嘛",
+      "original_answer": "宝子，您这边问到点上了~咱们家今年考虑到学生要充电，或者要拉排插等，专门设计了一个充电口",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-常规款801",
+        "question_cell": "A77",
+        "answer_cell": "B77"
+      },
+      "status": "active",
+      "reason": "采用当前有效字段；旧参数及夸大保证不进入答复",
+      "fields": [
+        "charging_port"
+      ],
+      "answer": "亲亲，设有预留充电口，可用于穿过充电线～",
+      "image_refs": [
+        "801-57"
+      ],
+      "aliases": [
+        "电线怎么拉进去",
+        "有没有充电口",
+        "线能穿过去嘛"
+      ]
+    },
+    {
+      "id": "qa.801.F77",
+      "product_id": "801",
+      "question": "包装盒尺寸是多少\n包装有图片吗",
+      "original_answer": "外包装尺寸：70*15*15cm左右\n外包装重量：4kg左右哦~",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-常规款801",
+        "question_cell": "F77",
+        "answer_cell": "G77"
+      },
+      "status": "needs_review",
+      "reason": "涉及检测/材料冲突、图片、规格版本或缺少当前依据",
+      "fields": [],
+      "answer": null,
+      "image_refs": [],
+      "aliases": [
+        "包装盒尺寸是多少",
+        "包装有图片吗"
+      ]
+    },
+    {
+      "id": "qa.801.A78",
+      "product_id": "801",
+      "question": "有没有200*90的，因为床垫是200*90的",
+      "original_answer": "亲，咱们床帘底部是一个床笠的结构，就像床单一样可以包裹住床垫的哦~",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-常规款801",
+        "question_cell": "A78",
+        "answer_cell": "B78"
+      },
+      "status": "active",
+      "reason": "推荐全伸缩款，不保证尺寸必然适配",
+      "fields": [],
+      "answer": "有的亲，这边推荐全伸缩款，长宽高都能调节哈～",
+      "image_refs": [],
+      "aliases": [
+        "有没有200*90的，因为床垫是200*90的"
+      ]
+    },
+    {
+      "id": "qa.801.F78",
+      "product_id": "801",
+      "question": "宿舍床90*200\n学校的床是90*200",
+      "original_answer": "亲亲，2米和1.9米尺寸差不多，可以看下小妹的实测。其次学校标2米的床基本都是外尺寸，实际内径会短些，2米长的蚊帐基本上都是放不进去的。您买1.9米的就行哦~",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-常规款801",
+        "question_cell": "F78",
+        "answer_cell": "G78"
+      },
+      "status": "active",
+      "reason": "推荐全伸缩款，不保证尺寸必然适配",
+      "fields": [],
+      "answer": "有的亲，这边推荐全伸缩款，长宽高都能调节哈～",
+      "image_refs": [],
+      "aliases": [
+        "宿舍床90*200",
+        "学校的床是90*200"
+      ]
+    },
+    {
+      "id": "qa.801.A79",
+      "product_id": "801",
+      "question": "加粗支架有啥区别",
+      "original_answer": "亲亲加粗支架是1cm左右直径的，厚壁升级加厚，稳定效果很好，您可以参考下这个实物图",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-常规款801",
+        "question_cell": "A79",
+        "answer_cell": "B79"
+      },
+      "status": "active",
+      "reason": "采用当前有效字段；旧参数及夸大保证不进入答复",
+      "fields": [
+        "pole_diameter",
+        "pole_material"
+      ],
+      "answer": "亲亲，支架直径为 12 mm；支架为碳素钢材质～",
+      "image_refs": [],
+      "aliases": [
+        "加粗支架有啥区别"
+      ]
+    },
+    {
+      "id": "qa.801.F79",
+      "product_id": "801",
+      "question": "针对没货的参考话术：",
+      "original_answer": "①宝子，您这边先下单这款灰色，您也不用担心，小妹给您申请30天试用，到时候有货随时找小妹换颜色\n②亲亲现在市面上很多尺寸颜色都是没货了，您这边再不下单，到时候想换货都没法换，先下单占名额，现在不着急还可以延迟发货，发货前有货可以给您换套餐~\n③亲亲现在下单还能享受四面升级五面+加粗的升级套餐，晚点下单就没有了，现在连货都快被大学生抢没了~优惠名额也是有限的",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-常规款801",
+        "question_cell": "F79",
+        "answer_cell": "G79"
+      },
+      "status": "manual_policy",
+      "reason": "活动、政策或适配需当前业务核实",
+      "fields": [],
+      "answer": null,
+      "image_refs": [],
+      "aliases": [
+        "针对没货的参考话术："
+      ]
+    },
+    {
+      "id": "qa.801.A80",
+      "product_id": "801",
+      "question": "你们床帘顶部有没有涂层？",
+      "original_answer": "亲亲，为了提升您的使用体验感,在床帘的顶部,我们做了一层特殊的处理,它不仅能够极大地增强遮光效果,让您享受更加静谧舒适的睡眠环境,而且它所采用的材料是经过环保认证的,安全无异味,也不会影响面料的透气性哦",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-常规款801",
+        "question_cell": "A80",
+        "answer_cell": "C80"
+      },
+      "status": "active",
+      "reason": "采用当前有效字段；旧参数及夸大保证不进入答复",
+      "fields": [
+        "roof"
+      ],
+      "answer": "亲亲，顶棚做了覆膜处理，用来遮光哈～",
+      "image_refs": [
+        "801-30"
+      ],
+      "aliases": [
+        "你们床帘顶部有没有涂层？"
+      ]
+    },
+    {
+      "id": "qa.801.A81",
+      "product_id": "801",
+      "question": "FlexiCoat™水性树脂遮光层科技是什么东西？",
+      "original_answer": "亲，咱们顶部是采用了FlexiCoat™水性树脂遮光层科技，以水性树脂为基础，通过发泡技术在布料表面形成多层覆膜，替代传统含PVC或溶剂的遮光层",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-常规款801",
+        "question_cell": "A81",
+        "answer_cell": "C81"
+      },
+      "status": "needs_review",
+      "reason": "涉及检测/材料冲突、图片、规格版本或缺少当前依据",
+      "fields": [],
+      "answer": null,
+      "image_refs": [],
+      "aliases": [
+        "FlexiCoat™水性树脂遮光层科技是什么东西？"
+      ]
+    },
+    {
+      "id": "qa.801.A84",
+      "product_id": "801",
+      "question": "为什么和去年的床帘不一样？",
+      "original_answer": "去年老款使用的是纯布料，但是有客户反馈顶部布料有下塌的情况，于是咱们迭代升级成了FlexiCoat™水性树脂遮光层科技，有效防止顶部塌陷的同时，还能达到100%遮光、防紫外线的作用哦~",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-常规款801",
+        "question_cell": "A84",
+        "answer_cell": "C84"
+      },
+      "status": "needs_review",
+      "reason": "涉及检测/材料冲突、图片、规格版本或缺少当前依据",
+      "fields": [],
+      "answer": null,
+      "image_refs": [],
+      "aliases": [
+        "为什么和去年的床帘不一样？"
+      ]
+    },
+    {
+      "id": "qa.801.A85",
+      "product_id": "801",
+      "question": "学校不让装",
+      "original_answer": "",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-常规款801",
+        "question_cell": "A85",
+        "answer_cell": "B85"
+      },
+      "status": "needs_review",
+      "reason": "原表答复为空",
+      "fields": [],
+      "answer": null,
+      "image_refs": [],
+      "aliases": [
+        "学校不让装"
+      ]
+    },
+    {
+      "id": "qa.802.C5",
+      "product_id": "802",
+      "question": "定制尺寸",
+      "original_answer": "亲，咱家不支持定制尺寸呢，全伸缩的支架大部分的尺寸都是合适的呢",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-IP款802",
+        "question_cell": "C5",
+        "answer_cell": "D5"
+      },
+      "status": "active",
+      "reason": "采用当前有效字段；旧参数及夸大保证不进入答复",
+      "fields": [
+        "custom_size"
+      ],
+      "answer": "亲亲，不支持定制尺寸，可选择全伸缩款调节支架～",
+      "image_refs": [],
+      "aliases": [
+        "定制尺寸"
+      ]
+    },
+    {
+      "id": "qa.802.C6",
+      "product_id": "802",
+      "question": "有无涂层",
+      "original_answer": "亲亲～为了【提升您的使用体验感】，【顶部】做了特殊处理，可能您会觉得像是涂层，遮光效果更强，睡眠更静谧舒适；材质环保认证、安全无异味，还不影响面料透气哦。床帘是没有涂层的,我们的是纯面料遮光呢",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-IP款802",
+        "question_cell": "C6",
+        "answer_cell": "D6"
+      },
+      "status": "active",
+      "reason": "采用当前有效字段；旧参数及夸大保证不进入答复",
+      "fields": [
+        "coating"
+      ],
+      "answer": "亲，床帘是没有涂层的，我们的是纯面料遮光，市面上涂层的床帘不安全！！是用化学剂弄的，影响健康并且涂层的面料是不透气的宝，给您看一下我家的无涂层遮光帘的遮光效果和A类母婴级证书，您这边可以放心使用",
+      "image_refs": [],
+      "aliases": [
+        "有无涂层"
+      ]
+    },
+    {
+      "id": "qa.802.C7",
+      "product_id": "802",
+      "question": "全底还是回底",
+      "original_answer": "亲亲，学生床帘是不需要做全底哦，咱们是回底设计，方便拆洗。自己铺上床垫凉席，拉上拉链就能有效防蚊虫～",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-IP款802",
+        "question_cell": "C7",
+        "answer_cell": "D7"
+      },
+      "status": "active",
+      "reason": "采用当前有效字段；旧参数及夸大保证不进入答复",
+      "fields": [
+        "bottom"
+      ],
+      "answer": "亲亲，采用回底设计，并非全封闭底部；需配合床垫或凉席使用～",
+      "image_refs": [],
+      "aliases": [
+        "全底还是回底"
+      ]
+    },
+    {
+      "id": "qa.802.C8",
+      "product_id": "802",
+      "question": "支架可以伸缩吗",
+      "original_answer": "宝，长宽高都是可以调节的呢\n90cm高：【70cm—90cm】\n，下铺首选\n110cm 高度：【70cm—110cm】\n，空间更宽敞，宿舍上下铺通用\n120cm 高度：【70cm—120cm】\n，上铺专用，高个子 / 喜欢大空间闭眼入\n长度可调145cm-190cm，宽度65cm-90cm，适配大部分宿舍床型。\n温馨提示：按帐纱本身尺寸选购更合适～",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-IP款802",
+        "question_cell": "C8",
+        "answer_cell": "D8"
+      },
+      "status": "active",
+      "reason": "采用当前有效字段；旧参数及夸大保证不进入答复",
+      "fields": [
+        "telescoping"
+      ],
+      "answer": "亲亲，长145–190、宽65–90厘米；90/110/120高款分别可调80–100/100–115/110–120厘米～",
+      "image_refs": [],
+      "aliases": [
+        "支架可以伸缩吗"
+      ]
+    },
+    {
+      "id": "qa.802.C9",
+      "product_id": "802",
+      "question": "隔音吗",
+      "original_answer": "",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-IP款802",
+        "question_cell": "C9",
+        "answer_cell": "D9"
+      },
+      "status": "active",
+      "reason": "按用户指定原话使用，不自行润色",
+      "fields": [
+        "sound_insulation"
+      ],
+      "answer": "目前整个床帘市场都是没有隔音床帘的。 咱们采用的是市面上最厚的600g遮光布，会起到轻微的隔音效果。 市面上大部分都是比我们的还薄的，隔音效果更差哦。 如果您担心噪音的情况下，可以选择睡眠耳塞，客服小妹也是用这个来解决的哦。",
+      "image_refs": [],
+      "aliases": [
+        "隔音吗"
+      ]
+    },
+    {
+      "id": "qa.802.C10",
+      "product_id": "802",
+      "question": "单开门和三开门的区别",
+      "original_answer": "三开上铺款：除靠墙一侧，床头、床尾、正面三面可进出；\n单开下铺款：仅正面能进出。\n上铺需要侧面进出，直接选上铺三开款就行～",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-IP款802",
+        "question_cell": "C10",
+        "answer_cell": "D10"
+      },
+      "status": "active",
+      "reason": "采用当前有效字段；旧参数及夸大保证不进入答复",
+      "fields": [
+        "doors"
+      ],
+      "answer": "亲亲，90 cm高是单开门，只开正面；110/120 cm高是三开门，上铺侧面进出选三开款～",
+      "image_refs": [
+        "802-02"
+      ],
+      "aliases": [
+        "单开门和三开门的区别"
+      ]
+    },
+    {
+      "id": "qa.802.C11",
+      "product_id": "802",
+      "question": "四面和五面的区别",
+      "original_answer": "四面和五面的区别\n\n亲靠墙无遮光帘就是靠墙只有帐纱没有帘子的， 四面遮光哦\n\n亲靠墙的多了一面遮光帘，遮光效果更好，就是五面遮光帘的哈亲",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-IP款802",
+        "question_cell": "C11",
+        "answer_cell": "D11"
+      },
+      "status": "active",
+      "reason": "采用当前有效字段；旧参数及夸大保证不进入答复",
+      "fields": [
+        "shade_sides"
+      ],
+      "answer": "亲亲，四面款靠墙只有帐纱，五面款靠墙多一面遮光帘，按详情页选择就好～",
+      "image_refs": [
+        "802-03"
+      ],
+      "aliases": [
+        "四面和五面的区别"
+      ]
+    },
+    {
+      "id": "qa.802.C12",
+      "product_id": "802",
+      "question": "承重多少",
+      "original_answer": "亲亲,单根测量承重力在5斤以内哦,整体承重效果非常好哒,您可以放心使用哦~\n亲亲，风扇杆可以挂4-5件衣服左右哦 （风扇杆承重）",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-IP款802",
+        "question_cell": "C12",
+        "answer_cell": "D12"
+      },
+      "status": "active",
+      "reason": "采用用户确认约10斤承重及图片",
+      "fields": [
+        "stability"
+      ],
+      "answer": "亲亲，我们的支架承重约10斤，很稳固的哈～",
+      "image_refs": [],
+      "aliases": [
+        "承重多少"
+      ]
+    },
+    {
+      "id": "qa.802.C13",
+      "product_id": "802",
+      "question": "颜色影响遮光嘛",
+      "original_answer": "①各款遮光效果相近哦，数值差别很小，肉眼几乎看不出区别呢\n②男生推荐灰色款，简约耐看、遮光更强，性价比首选哈\n③女生推荐米白款，温柔好看、遮光在线，颜值款必入呢",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-IP款802",
+        "question_cell": "C13",
+        "answer_cell": "D13"
+      },
+      "status": "needs_review",
+      "reason": "涉及检测/材料冲突、图片、规格版本或缺少当前依据",
+      "fields": [],
+      "answer": null,
+      "image_refs": [],
+      "aliases": [
+        "颜色影响遮光嘛"
+      ]
+    },
+    {
+      "id": "qa.802.C14",
+      "product_id": "802",
+      "question": "遮光吗",
+      "original_answer": "亲亲，咱们这款床帘采用的真600克重遮光帘，真实布料物理遮光，安全无涂层\n\n  可以给您打包票是比市面上任何低价款都要好的",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-IP款802",
+        "question_cell": "C14",
+        "answer_cell": "D14"
+      },
+      "status": "active",
+      "reason": "采用当前有效字段；旧参数及夸大保证不进入答复",
+      "fields": [
+        "shade_sides"
+      ],
+      "answer": "可以遮光的亲，也能遮挡隐私哈～",
+      "image_refs": [
+        "802-03"
+      ],
+      "aliases": [
+        "遮光吗"
+      ]
+    },
+    {
+      "id": "qa.802.C15",
+      "product_id": "802",
+      "question": "有收纳带、充电拉线的口子吗",
+      "original_answer": "宝，这个我们也是考虑到的呢，是设计有的哦，很方便的呢，放心使用哈",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-IP款802",
+        "question_cell": "C15",
+        "answer_cell": "D15"
+      },
+      "status": "active",
+      "reason": "采用当前有效字段；旧参数及夸大保证不进入答复",
+      "fields": [
+        "charging_port",
+        "storage"
+      ],
+      "answer": "亲亲，设有预留充电口，可用于穿过充电线；资料标注内部有收纳袋；外置挂物袋或置物架是否随套餐附送需人工确认～",
+      "image_refs": [
+        "802-05",
+        "802-05"
+      ],
+      "aliases": [
+        "有收纳带、充电拉线的口子吗"
+      ]
+    },
+    {
+      "id": "qa.802.C16",
+      "product_id": "802",
+      "question": "方便安装不",
+      "original_answer": "咱们支架已提前按长宽高组标好，只需对应插上拧紧就能装。\n我们找零基础路人实测对比过，安装更快、体验更好呢。",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-IP款802",
+        "question_cell": "C16",
+        "answer_cell": "D16"
+      },
+      "status": "active",
+      "reason": "采用用户新确认的不麻烦安装口径",
+      "fields": [
+        "easy_installation"
+      ],
+      "answer": "不麻烦的亲，按安装说明自己就能装好哈～",
+      "image_refs": [],
+      "aliases": [
+        "方便安装不"
+      ]
+    },
+    {
+      "id": "qa.804.A30",
+      "product_id": "804",
+      "question": "卖点/异味/遮光1",
+      "original_answer": "宝，咱们这款是五层复合遮光设计，遮光效果超棒，是绝对不用担心出现皮影戏的哈。也是分别通过了纺织行业和国家标准的遮光，异味检测哦",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-丢丢帐804",
+        "question_cell": "A30",
+        "answer_cell": "B30"
+      },
+      "status": "needs_review",
+      "reason": "涉及检测/材料冲突、图片、规格版本或缺少当前依据",
+      "fields": [],
+      "answer": null,
+      "image_refs": [],
+      "aliases": [
+        "卖点",
+        "异味",
+        "遮光1"
+      ]
+    },
+    {
+      "id": "qa.804.F30",
+      "product_id": "804",
+      "question": "三开、单开区别",
+      "original_answer": "①三开上铺款是除了靠墙处，可以床头床尾和正面一共三面进出；\n单开下铺款只能正面进出。\n如果您是睡上铺从侧面进出的话，一定要选上铺款!\n\n②亲亲睡上铺还是下铺呢~",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-丢丢帐804",
+        "question_cell": "F30",
+        "answer_cell": "G30"
+      },
+      "status": "active",
+      "reason": "采用当前有效字段；旧参数及夸大保证不进入答复",
+      "fields": [
+        "doors"
+      ],
+      "answer": "亲亲，90 cm高是单开门，只开正面；110/120 cm高是三开门，上铺侧面进出选三开款～",
+      "image_refs": [
+        "804-01"
+      ],
+      "aliases": [
+        "三开、单开区别"
+      ]
+    },
+    {
+      "id": "qa.804.A31",
+      "product_id": "804",
+      "question": "遮光帘材质/遮光2",
+      "original_answer": "这是我们600克重遮光帘和友商对比实拍图，您可以稍微看一下。咱家这款遮光帘手感、遮光度都很好，材质是pvc化纤布，防潮防霉易清洗，非常的安全亲。",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-丢丢帐804",
+        "question_cell": "A31",
+        "answer_cell": "B31"
+      },
+      "status": "active",
+      "reason": "采用当前有效字段；旧参数及夸大保证不进入答复",
+      "fields": [
+        "material"
+      ],
+      "answer": "亲亲，帐纱是聚酯纤维，遮光帘是PVC化纤布～",
+      "image_refs": [
+        "804-13"
+      ],
+      "aliases": [
+        "遮光帘材质",
+        "遮光2"
+      ]
+    },
+    {
+      "id": "qa.804.F31",
+      "product_id": "804",
+      "question": "不确定宿舍床尺寸能用吗",
+      "original_answer": "可以选通用款呢，宝 通用尺寸是90*190*90的哈。\n\n按照全国标准学生宿舍设计，尺寸等方面可以不用担心哒，学生宿舍几乎都是可以使用的哟~",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-丢丢帐804",
+        "question_cell": "F31",
+        "answer_cell": "G31"
+      },
+      "status": "active",
+      "reason": "推荐全伸缩款，不保证尺寸必然适配",
+      "fields": [],
+      "answer": "有的亲，这边推荐全伸缩款，长宽高都能调节哈～",
+      "image_refs": [],
+      "aliases": [
+        "不确定宿舍床尺寸能用吗"
+      ]
+    },
+    {
+      "id": "qa.804.A32",
+      "product_id": "804",
+      "question": "遮光3",
+      "original_answer": "亲亲这个是客户实拍返图，遮光效果很好的呢",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-丢丢帐804",
+        "question_cell": "A32",
+        "answer_cell": "B32"
+      },
+      "status": "active",
+      "reason": "采用当前有效字段；旧参数及夸大保证不进入答复",
+      "fields": [
+        "shade_sides"
+      ],
+      "answer": "可以遮光的亲，也能遮挡隐私哈～",
+      "image_refs": [
+        "804-02"
+      ],
+      "aliases": [
+        "遮光3"
+      ]
+    },
+    {
+      "id": "qa.804.F32",
+      "product_id": "804",
+      "question": "四面与五面的区别",
+      "original_answer": "四面的话靠墙无遮光帘，五面靠墙有遮光帘",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-丢丢帐804",
+        "question_cell": "F32",
+        "answer_cell": "G32"
+      },
+      "status": "active",
+      "reason": "采用当前有效字段；旧参数及夸大保证不进入答复",
+      "fields": [
+        "shade_sides"
+      ],
+      "answer": "亲亲，四面款靠墙只有帐纱，五面款靠墙多一面遮光帘，按详情页选择就好～",
+      "image_refs": [
+        "804-02"
+      ],
+      "aliases": [
+        "四面与五面的区别"
+      ]
+    },
+    {
+      "id": "qa.804.A33",
+      "product_id": "804",
+      "question": "不确定高度",
+      "original_answer": "亲爱的，我们的免安装是可伸缩的，这样就不用担心高度不合适啦。只要确认蚊帐的大小哦（下单后联系小妹给您备注赠送才有的哈）",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-丢丢帐804",
+        "question_cell": "A33",
+        "answer_cell": "B33"
+      },
+      "status": "active",
+      "reason": "推荐全伸缩款，不保证尺寸必然适配",
+      "fields": [],
+      "answer": "有的亲，这边推荐全伸缩款，长宽高都能调节哈～",
+      "image_refs": [],
+      "aliases": [
+        "不确定高度"
+      ]
+    },
+    {
+      "id": "qa.804.F33",
+      "product_id": "804",
+      "question": "有没有甲醛",
+      "original_answer": "宝，咱家这款是成本较高的600克重遮光布的，也都是有质检报告的，遮光率高的同时不会对产品有任何危害，另外咱家产品还有A类母婴级证书，您可以放心选择哒",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-丢丢帐804",
+        "question_cell": "F33",
+        "answer_cell": "G33"
+      },
+      "status": "active",
+      "reason": "采用2026-10-14用户指定原话；不是独立报告验证",
+      "fields": [
+        "formaldehyde_script"
+      ],
+      "answer": "宝，咱家这款是成本较高的600克重遮光布的，也都是有质检报告的，遮光率高的同时不会对产品有任何危害，另外咱家产品还有A类母婴级证书，您可以放心选择哒",
+      "image_refs": [],
+      "aliases": [
+        "有没有甲醛"
+      ]
+    },
+    {
+      "id": "qa.804.A34",
+      "product_id": "804",
+      "question": "不确定宽度",
+      "original_answer": "亲爱的，您现在下单小妹可以给您赠送四根70-120可伸缩的支架，这样就不用担心宽度不合适啦（下单后联系小妹给您备注赠送才有的哈）",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-丢丢帐804",
+        "question_cell": "A34",
+        "answer_cell": "B34"
+      },
+      "status": "active",
+      "reason": "推荐全伸缩款，不保证尺寸必然适配",
+      "fields": [],
+      "answer": "有的亲，这边推荐全伸缩款，长宽高都能调节哈～",
+      "image_refs": [],
+      "aliases": [
+        "不确定宽度"
+      ]
+    },
+    {
+      "id": "qa.804.F34",
+      "product_id": "804",
+      "question": "有涂层吗、透气吗",
+      "original_answer": "亲，床帘是没有涂层的，我们的是纯面料遮光，市面上涂层的床帘不安全！！是用化学剂弄的，影响健康并且涂层的面料是不透气的\n\n\n\n宝，给您看一下我家的无涂层遮光帘的遮光效果，超遮光！",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-丢丢帐804",
+        "question_cell": "F34",
+        "answer_cell": "G34"
+      },
+      "status": "needs_review",
+      "reason": "涉及检测/材料冲突、图片、规格版本或缺少当前依据",
+      "fields": [],
+      "answer": null,
+      "image_refs": [],
+      "aliases": [
+        "有涂层吗、透气吗"
+      ]
+    },
+    {
+      "id": "qa.804.A35",
+      "product_id": "804",
+      "question": "你们床帘顶部有没有涂层？",
+      "original_answer": "亲亲，为了提升您的使用体验感,在床帘的顶部,我们做了一层特殊的处理,它不仅能够极大地增强遮光效果,让您享受更加静谧舒适的睡眠环境,而且它所采用的材料是经过环保认证的,安全无异味,也不会影响面料的透气性哦",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-丢丢帐804",
+        "question_cell": "A35",
+        "answer_cell": "C35"
+      },
+      "status": "active",
+      "reason": "采用当前有效字段；旧参数及夸大保证不进入答复",
+      "fields": [
+        "roof"
+      ],
+      "answer": "亲亲，顶棚做了覆膜处理，用来遮光哈～",
+      "image_refs": [],
+      "aliases": [
+        "你们床帘顶部有没有涂层？"
+      ]
+    },
+    {
+      "id": "qa.804.F35",
+      "product_id": "804",
+      "question": "影响充电吗/旁边能打开吗",
+      "original_answer": "咱家三开门款式的侧面正面都可以打开，进出方便，充电线可以从底部或者侧面伸进来的哦（110高度以上的才是三开门的）",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-丢丢帐804",
+        "question_cell": "F35",
+        "answer_cell": "G35"
+      },
+      "status": "active",
+      "reason": "采用当前有效字段；旧参数及夸大保证不进入答复",
+      "fields": [
+        "charging_port"
+      ],
+      "answer": "亲亲，设有预留充电口，可用于穿过充电线～",
+      "image_refs": [
+        "804-26"
+      ],
+      "aliases": [
+        "影响充电吗",
+        "旁边能打开吗"
+      ]
+    },
+    {
+      "id": "qa.804.A36",
+      "product_id": "804",
+      "question": "学校不让装",
+      "original_answer": "亲亲咱们家蚊帐都是符合新校规要求的您可以放心，再说了宿舍怎么可以没有一个属于自己的隐私小空间呢宝宝~咱们这个宿舍蚊帐都是支持退货的，您可以买回去体验下，如果真的不能用再退也是可以哒，不然到时候如果可以用还要再折腾买也是很麻烦的呢~今日下单小妹还能给您申请下赠送置物篮~",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-丢丢帐804",
+        "question_cell": "A36",
+        "answer_cell": "B36"
+      },
+      "status": "manual_policy",
+      "reason": "活动、政策或适配需当前业务核实",
+      "fields": [],
+      "answer": null,
+      "image_refs": [],
+      "aliases": [
+        "学校不让装"
+      ]
+    },
+    {
+      "id": "qa.804.F36",
+      "product_id": "804",
+      "question": "顶部是否有涂层",
+      "original_answer": "①亲亲，为了提升您的使用体验感,在床帘的顶部,我们做了一层特殊的处理,它不仅能够极大地增强遮光效果,让您享受更加静谧舒适的睡眠环境,而且它所采用的材料是经过环保认证的,安全无异味,也不会影响面料的透气性哦\t\t\n\n追问什么材质的话发第②句：\n②亲，咱们顶部是采用了FlexiCoat™水性树脂遮光层科技，以水性树脂为基础，通过发泡技术在布料表面形成多层覆膜，替代传统含PVC或溶剂的遮光层",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-丢丢帐804",
+        "question_cell": "F36",
+        "answer_cell": "G36"
+      },
+      "status": "active",
+      "reason": "采用当前有效字段；旧参数及夸大保证不进入答复",
+      "fields": [
+        "roof"
+      ],
+      "answer": "亲亲，顶棚做了覆膜处理，用来遮光哈～",
+      "image_refs": [],
+      "aliases": [
+        "顶部是否有涂层"
+      ]
+    },
+    {
+      "id": "qa.804.A37",
+      "product_id": "804",
+      "question": "无法使用微信支付",
+      "original_answer": "①宝子～说下支付小细节哈～\n咱们参加国补活动，按规则得用z f  b才能享补贴，不是不想开w x支付哦～\n国补后价格真的香！平时 XX元，现在补贴完才 248.43 元，错过超可惜～\n\n-------------------------------------------------------------------------------------------\n\n\n②要是自己没支付宝也没关系！找有z f b 的朋友、家人代付就行，操作超方便～ 让他们帮你拍下，你转钱给 TA，一样能薅到国补羊毛～\n有任何代付问题随时喊我，别让支付方式耽误拿补贴价呀，赶紧找朋友帮忙拿下它～ ✨",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-丢丢帐804",
+        "question_cell": "A37",
+        "answer_cell": "B37"
+      },
+      "status": "manual_policy",
+      "reason": "活动、政策或适配需当前业务核实",
+      "fields": [],
+      "answer": null,
+      "image_refs": [],
+      "aliases": [
+        "无法使用微信支付"
+      ]
+    },
+    {
+      "id": "qa.804.F37",
+      "product_id": "804",
+      "question": "有六面全包\n是不是全底\n什么叫半包款\n是不是全包\n全包和半包的区别\n是镂空的吗",
+      "original_answer": "亲亲，蚊帐底部是镂空设计，但底部有约10-15cm宽的布料！铺上床垫后就能完全贴合密封，蚊虫绝对钻不进去的，放心哦~",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-丢丢帐804",
+        "question_cell": "F37",
+        "answer_cell": "G37"
+      },
+      "status": "active",
+      "reason": "采用当前有效字段；旧参数及夸大保证不进入答复",
+      "fields": [
+        "bottom"
+      ],
+      "answer": "亲亲，采用回底设计，并非全封闭底部；需配合床垫或凉席使用～",
+      "image_refs": [
+        "804-42"
+      ],
+      "aliases": [
+        "有六面全包",
+        "是不是全底",
+        "什么叫半包款",
+        "是不是全包",
+        "全包和半包的区别",
+        "是镂空的吗"
+      ]
+    },
+    {
+      "id": "qa.804.A38",
+      "product_id": "804",
+      "question": "我拍米色里面也是米色对吗 \n里面外面颜色一样的嘛\n内外料是什么样",
+      "original_answer": "宝子，咱们为了达到更高的遮光效果，咱们的遮光帘里面做的比外面深，但不影响美观~",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-丢丢帐804",
+        "question_cell": "A38",
+        "answer_cell": "B38"
+      },
+      "status": "active",
+      "reason": "采用当前有效字段；旧参数及夸大保证不进入答复",
+      "fields": [
+        "inner_color"
+      ],
+      "answer": "亲亲，遮光帘内侧颜色比外侧深～",
+      "image_refs": [
+        "804-30"
+      ],
+      "aliases": [
+        "我拍米色里面也是米色对吗",
+        "里面外面颜色一样的嘛",
+        "内外料是什么样"
+      ]
+    },
+    {
+      "id": "qa.804.F38",
+      "product_id": "804",
+      "question": "A类的标识在哪能看到\n这个是A类的嘛\n有A类证书嘛\n材质安全吗，有证书吗",
+      "original_answer": "亲亲，咱家是有A类证书的呢，您这边也可以在水洗标签上看到A类标识呢~",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-丢丢帐804",
+        "question_cell": "F38",
+        "answer_cell": "G38"
+      },
+      "status": "needs_review",
+      "reason": "涉及检测/材料冲突、图片、规格版本或缺少当前依据",
+      "fields": [],
+      "answer": null,
+      "image_refs": [],
+      "aliases": [
+        "A类的标识在哪能看到",
+        "这个是A类的嘛",
+        "有A类证书嘛",
+        "材质安全吗，有证书吗"
+      ]
+    },
+    {
+      "id": "qa.804.A39",
+      "product_id": "804",
+      "question": "电线怎么拉进去\n有没有充电口\n线能穿过去嘛",
+      "original_answer": "宝子，您这边问到点上了~咱们家今年考虑到学生要充电，或者要拉排插等，专门设计了一个充电口",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-丢丢帐804",
+        "question_cell": "A39",
+        "answer_cell": "B39"
+      },
+      "status": "active",
+      "reason": "采用当前有效字段；旧参数及夸大保证不进入答复",
+      "fields": [
+        "charging_port"
+      ],
+      "answer": "亲亲，设有预留充电口，可用于穿过充电线～",
+      "image_refs": [
+        "804-26"
+      ],
+      "aliases": [
+        "电线怎么拉进去",
+        "有没有充电口",
+        "线能穿过去嘛"
+      ]
+    },
+    {
+      "id": "qa.804.F39",
+      "product_id": "804",
+      "question": "包装盒尺寸是多少\n包装有图片吗",
+      "original_answer": "外包装尺寸：70*15*15cm左右\n外包装重量：4kg左右哦~",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-丢丢帐804",
+        "question_cell": "F39",
+        "answer_cell": "G39"
+      },
+      "status": "needs_review",
+      "reason": "涉及检测/材料冲突、图片、规格版本或缺少当前依据",
+      "fields": [],
+      "answer": null,
+      "image_refs": [],
+      "aliases": [
+        "包装盒尺寸是多少",
+        "包装有图片吗"
+      ]
+    },
+    {
+      "id": "qa.804.A40",
+      "product_id": "804",
+      "question": "有没有200*90的，因为床垫是200*90的",
+      "original_answer": "亲，咱们床帘底部是一个床笠的结构，就像床单一样可以包裹住床垫的哦~",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-丢丢帐804",
+        "question_cell": "A40",
+        "answer_cell": "B40"
+      },
+      "status": "active",
+      "reason": "推荐全伸缩款，不保证尺寸必然适配",
+      "fields": [],
+      "answer": "有的亲，这边推荐全伸缩款，长宽高都能调节哈～",
+      "image_refs": [],
+      "aliases": [
+        "有没有200*90的，因为床垫是200*90的"
+      ]
+    },
+    {
+      "id": "qa.804.F40",
+      "product_id": "804",
+      "question": "宿舍床90*200\n学校的床是90*200",
+      "original_answer": "亲亲，2米和1.9米尺寸差不多，可以看下小妹的实测。其次学校标2米的床基本都是外尺寸，实际内径会短些，2米长的蚊帐基本上都是放不进去的。您买1.9米的就行哦~",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-丢丢帐804",
+        "question_cell": "F40",
+        "answer_cell": "G40"
+      },
+      "status": "active",
+      "reason": "推荐全伸缩款，不保证尺寸必然适配",
+      "fields": [],
+      "answer": "有的亲，这边推荐全伸缩款，长宽高都能调节哈～",
+      "image_refs": [],
+      "aliases": [
+        "宿舍床90*200",
+        "学校的床是90*200"
+      ]
+    },
+    {
+      "id": "qa.804.A41",
+      "product_id": "804",
+      "question": "FlexiCoat™水性树脂遮光层科技是什么东西？",
+      "original_answer": "亲，咱们顶部是采用了FlexiCoat™水性树脂遮光层科技，以水性树脂为基础，通过发泡技术在布料表面形成多层覆膜，替代传统含PVC或溶剂的遮光层",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-丢丢帐804",
+        "question_cell": "A41",
+        "answer_cell": "C41"
+      },
+      "status": "needs_review",
+      "reason": "涉及检测/材料冲突、图片、规格版本或缺少当前依据",
+      "fields": [],
+      "answer": null,
+      "image_refs": [],
+      "aliases": [
+        "FlexiCoat™水性树脂遮光层科技是什么东西？"
+      ]
+    },
+    {
+      "id": "qa.804.A44",
+      "product_id": "804",
+      "question": "为什么和去年的床帘不一样？",
+      "original_answer": "去年老款使用的是纯布料，但是有客户反馈顶部布料有下塌的情况，于是咱们迭代升级成了FlexiCoat™水性树脂遮光层科技，有效防止顶部塌陷的同时，还能达到100%遮光、防紫外线的作用哦~",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-丢丢帐804",
+        "question_cell": "A44",
+        "answer_cell": "C44"
+      },
+      "status": "needs_review",
+      "reason": "涉及检测/材料冲突、图片、规格版本或缺少当前依据",
+      "fields": [],
+      "answer": null,
+      "image_refs": [],
+      "aliases": [
+        "为什么和去年的床帘不一样？"
+      ]
+    },
+    {
+      "id": "qa.803.A37",
+      "product_id": "803",
+      "question": "有涂层吗",
+      "original_answer": "亲，床帘是没有涂层的，我们的是纯面料遮光，市面上涂层的床帘不安全！！是用化学剂弄的，影响健康并且涂层的面料是不透气的\n\n\n\n宝，给您看一下我家的无涂层遮光帘的遮光效果和A类母婴级证书，您这边可以放心使用呢",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-线条小狗联名803",
+        "question_cell": "A37",
+        "answer_cell": "B37"
+      },
+      "status": "active",
+      "reason": "采用当前有效字段；旧参数及夸大保证不进入答复",
+      "fields": [
+        "coating"
+      ],
+      "answer": "亲，床帘是没有涂层的，我们的是纯面料遮光，市面上涂层的床帘不安全！！是用化学剂弄的，影响健康并且涂层的面料是不透气的宝，给您看一下我家的无涂层遮光帘的遮光效果和A类母婴级证书，您这边可以放心使用",
+      "image_refs": [],
+      "aliases": [
+        "有涂层吗"
+      ]
+    },
+    {
+      "id": "qa.803.F37",
+      "product_id": "803",
+      "question": "卖点/异味/遮光1",
+      "original_answer": "宝，咱们这款是五层复合遮光设计，100%遮光效果超棒，是绝对不用担心出现皮影戏的哈。也是分别通过了纺织行业和国家标准的遮光，真正做到0异味0甲醛0涂层哦",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-线条小狗联名803",
+        "question_cell": "F37",
+        "answer_cell": "G37"
+      },
+      "status": "needs_review",
+      "reason": "涉及检测/材料冲突、图片、规格版本或缺少当前依据",
+      "fields": [],
+      "answer": null,
+      "image_refs": [],
+      "aliases": [
+        "卖点",
+        "异味",
+        "遮光1"
+      ]
+    },
+    {
+      "id": "qa.803.A38",
+      "product_id": "803",
+      "question": "遮光帘材质/遮光2",
+      "original_answer": "亲，咱们家这款床帘是100%遮光的，这是CMA检测的结果，材质是pvc化纤布，防潮防霉易清洗，非常的安全亲。",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-线条小狗联名803",
+        "question_cell": "A38",
+        "answer_cell": "B38"
+      },
+      "status": "active",
+      "reason": "采用当前有效字段；旧参数及夸大保证不进入答复",
+      "fields": [
+        "material"
+      ],
+      "answer": "亲亲，帐纱是聚酯纤维，遮光帘是PVC化纤布～",
+      "image_refs": [
+        "803-32"
+      ],
+      "aliases": [
+        "遮光帘材质",
+        "遮光2"
+      ]
+    },
+    {
+      "id": "qa.803.F38",
+      "product_id": "803",
+      "question": "不确定宿舍床尺寸能用吗",
+      "original_answer": "亲，咱家深耕床帘品类10年，尺寸是按照全国标准学生宿舍设计，尺寸等方面可以不用担心哒，学生宿舍几乎都是可以使用的哟~\n\n亲亲，您实在担心的话，这边可以给您申请15天免费试用，不满意免费退换~",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-线条小狗联名803",
+        "question_cell": "F38",
+        "answer_cell": "G38"
+      },
+      "status": "active",
+      "reason": "推荐全伸缩款，不保证尺寸必然适配",
+      "fields": [],
+      "answer": "有的亲，这边推荐全伸缩款，长宽高都能调节哈～",
+      "image_refs": [],
+      "aliases": [
+        "不确定宿舍床尺寸能用吗"
+      ]
+    },
+    {
+      "id": "qa.803.A39",
+      "product_id": "803",
+      "question": "遮光3",
+      "original_answer": "亲亲这个是客户实拍返图，遮光效果很好的呢",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-线条小狗联名803",
+        "question_cell": "A39",
+        "answer_cell": "B39"
+      },
+      "status": "active",
+      "reason": "采用当前有效字段；旧参数及夸大保证不进入答复",
+      "fields": [
+        "shade_sides"
+      ],
+      "answer": "可以遮光的亲，也能遮挡隐私哈～",
+      "image_refs": [],
+      "aliases": [
+        "遮光3"
+      ]
+    },
+    {
+      "id": "qa.803.F39",
+      "product_id": "803",
+      "question": "四面与五面的区别",
+      "original_answer": "四面的话靠墙无遮光帘，五面靠墙有遮光帘",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-线条小狗联名803",
+        "question_cell": "F39",
+        "answer_cell": "G39"
+      },
+      "status": "active",
+      "reason": "采用当前有效字段；旧参数及夸大保证不进入答复",
+      "fields": [
+        "shade_sides"
+      ],
+      "answer": "亲亲，四面款靠墙只有帐纱，五面款靠墙多一面遮光帘，按详情页选择就好～",
+      "image_refs": [],
+      "aliases": [
+        "四面与五面的区别"
+      ]
+    },
+    {
+      "id": "qa.803.A40",
+      "product_id": "803",
+      "question": "透气吗",
+      "original_answer": "宝，咱们这款是五层复合遮光设计，100%遮光效果同时也是超透气不闷热，这个是实测的透气效果，这边可以看下哈",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-线条小狗联名803",
+        "question_cell": "A40",
+        "answer_cell": "B40"
+      },
+      "status": "needs_review",
+      "reason": "涉及检测/材料冲突、图片、规格版本或缺少当前依据",
+      "fields": [],
+      "answer": null,
+      "image_refs": [],
+      "aliases": [
+        "透气吗"
+      ]
+    },
+    {
+      "id": "qa.803.F40",
+      "product_id": "803",
+      "question": "有没有甲醛\n有没有味道",
+      "original_answer": "宝，咱家这款是成本较高的600克重遮光布的，也都是有质检报告的，遮光率高切材质环保安全，另外咱家产品还有A类母婴级证书，真正做到0异味0甲醛0涂层哦，您可以放心选择哒",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-线条小狗联名803",
+        "question_cell": "F40",
+        "answer_cell": "G40"
+      },
+      "status": "active",
+      "reason": "采用2026-10-14用户指定原话；不是独立报告验证",
+      "fields": [
+        "formaldehyde_script"
+      ],
+      "answer": "宝，咱家这款是成本较高的600克重遮光布的，也都是有质检报告的，遮光率高的同时不会对产品有任何危害，另外咱家产品还有A类母婴级证书，您可以放心选择哒",
+      "image_refs": [],
+      "aliases": [
+        "有没有甲醛",
+        "有没有味道"
+      ]
+    },
+    {
+      "id": "qa.803.A41",
+      "product_id": "803",
+      "question": "支架多粗？会“塌房”吗",
+      "original_answer": "亲亲,咱们今年升级加粗是21mm左右哦，承重力22kg是目前市面承重力最好的床帘，您可以参考下这个实物图",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-线条小狗联名803",
+        "question_cell": "A41",
+        "answer_cell": "B41"
+      },
+      "status": "active",
+      "reason": "采用当前有效字段；旧参数及夸大保证不进入答复",
+      "fields": [
+        "pole_diameter",
+        "pole_material"
+      ],
+      "answer": "亲亲，支架直径为 22 mm；支架为碳素钢材质～",
+      "image_refs": [],
+      "aliases": [
+        "支架多粗？会“塌房”吗"
+      ]
+    },
+    {
+      "id": "qa.803.F41",
+      "product_id": "803",
+      "question": "电线怎么拉进去\n有没有充电口\n线能穿过去嘛",
+      "original_answer": "宝子，您这边问到点上了~咱们家今年考虑到学生要充电，或者要拉排插等，专门设计了一个充电口",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-线条小狗联名803",
+        "question_cell": "F41",
+        "answer_cell": "G41"
+      },
+      "status": "active",
+      "reason": "采用当前有效字段；旧参数及夸大保证不进入答复",
+      "fields": [
+        "charging_port"
+      ],
+      "answer": "亲亲，设有预留充电口，可用于穿过充电线～",
+      "image_refs": [
+        "803-17"
+      ],
+      "aliases": [
+        "电线怎么拉进去",
+        "有没有充电口",
+        "线能穿过去嘛"
+      ]
+    },
+    {
+      "id": "qa.803.A42",
+      "product_id": "803",
+      "question": "有没有送收纳袋",
+      "original_answer": "亲亲，咱这床帘内部自带了一个收纳袋，您这边看下哈",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-线条小狗联名803",
+        "question_cell": "A42",
+        "answer_cell": "B42"
+      },
+      "status": "active",
+      "reason": "采用当前有效字段；旧参数及夸大保证不进入答复",
+      "fields": [
+        "storage"
+      ],
+      "answer": "亲亲，资料标注内部有收纳袋；外置挂物袋或置物架是否随套餐附送需人工确认～",
+      "image_refs": [
+        "803-24"
+      ],
+      "aliases": [
+        "有没有送收纳袋"
+      ]
+    },
+    {
+      "id": "qa.803.F42",
+      "product_id": "803",
+      "question": "顶部是否有涂层",
+      "original_answer": "①亲亲，为了提升您的使用体验感,在床帘的顶部,我们做了一层特殊的处理,它不仅能够极大地增强遮光效果,让您享受更加静谧舒适的睡眠环境,而且它所采用的材料是经过环保认证的,安全无异味,也不会影响面料的透气性哦\t\t\n\n追问什么材质的话发第②句：\n②亲，咱们顶部是采用了FlexiCoat™水性树脂遮光层科技，以水性树脂为基础，通过发泡技术在布料表面形成多层覆膜，替代传统含PVC或溶剂的遮光层",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-线条小狗联名803",
+        "question_cell": "F42",
+        "answer_cell": "G42"
+      },
+      "status": "active",
+      "reason": "采用当前有效字段；旧参数及夸大保证不进入答复",
+      "fields": [
+        "roof"
+      ],
+      "answer": "亲亲，顶棚做了覆膜处理，用来遮光哈～",
+      "image_refs": [
+        "803-09"
+      ],
+      "aliases": [
+        "顶部是否有涂层"
+      ]
+    },
+    {
+      "id": "qa.803.A43",
+      "product_id": "803",
+      "question": "QQ床垫多厚",
+      "original_answer": "附上床垫厚度测量图",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-线条小狗联名803",
+        "question_cell": "A43",
+        "answer_cell": "B43"
+      },
+      "status": "needs_review",
+      "reason": "涉及检测/材料冲突、图片、规格版本或缺少当前依据",
+      "fields": [],
+      "answer": null,
+      "image_refs": [],
+      "aliases": [
+        "QQ床垫多厚"
+      ]
+    },
+    {
+      "id": "qa.803.F43",
+      "product_id": "803",
+      "question": "基础款（没有带床垫和床单）内部图",
+      "original_answer": "亲亲，蚊帐底部是镂空设计，但底部有约10-15cm宽的布料！铺上床垫后就能完全贴合密封，蚊虫绝对钻不进去的，放心哦~",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-线条小狗联名803",
+        "question_cell": "F43",
+        "answer_cell": "G43"
+      },
+      "status": "active",
+      "reason": "采用当前有效字段；旧参数及夸大保证不进入答复",
+      "fields": [
+        "bottom"
+      ],
+      "answer": "亲亲，采用回底设计，并非全封闭底部；需配合床垫或凉席使用～",
+      "image_refs": [
+        "803-19"
+      ],
+      "aliases": [
+        "基础款（没有带床垫和床单）内部图"
+      ]
+    },
+    {
+      "id": "qa.803.A44",
+      "product_id": "803",
+      "question": "里面外面颜色一样的嘛\n内外料是什么样",
+      "original_answer": "宝子，咱们为了达到更高的遮光效果，咱们的遮光帘里面做的比外面深，但不影响美观~",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-线条小狗联名803",
+        "question_cell": "A44",
+        "answer_cell": "B44"
+      },
+      "status": "active",
+      "reason": "采用当前有效字段；旧参数及夸大保证不进入答复",
+      "fields": [
+        "inner_color"
+      ],
+      "answer": "亲亲，遮光帘内侧颜色比外侧深～",
+      "image_refs": [
+        "803-31"
+      ],
+      "aliases": [
+        "里面外面颜色一样的嘛",
+        "内外料是什么样"
+      ]
+    },
+    {
+      "id": "qa.803.F44",
+      "product_id": "803",
+      "question": "A类的标识在哪能看到\n这个是A类的嘛\n有A类证书嘛\n材质安全吗，有证书吗",
+      "original_answer": "亲亲，咱家是有A类证书的呢，您这边也可以在水洗标签上看到A类标识呢~",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-线条小狗联名803",
+        "question_cell": "F44",
+        "answer_cell": "G44"
+      },
+      "status": "needs_review",
+      "reason": "涉及检测/材料冲突、图片、规格版本或缺少当前依据",
+      "fields": [],
+      "answer": null,
+      "image_refs": [],
+      "aliases": [
+        "A类的标识在哪能看到",
+        "这个是A类的嘛",
+        "有A类证书嘛",
+        "材质安全吗，有证书吗"
+      ]
+    },
+    {
+      "id": "qa.803.A45",
+      "product_id": "803",
+      "question": "有实物图吗\n实物图长什么样",
+      "original_answer": "宝子，这个是咱家三款遮光帘的实物图",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-线条小狗联名803",
+        "question_cell": "A45",
+        "answer_cell": "B45"
+      },
+      "status": "active",
+      "reason": "对应款型实拍图已筛选接入",
+      "fields": [
+        "appearance"
+      ],
+      "answer": "亲亲，这款实拍图可以参考一下哈～",
+      "image_refs": [
+        "803-07",
+        "803-08"
+      ],
+      "aliases": [
+        "有实物图吗",
+        "实物图长什么样"
+      ]
+    },
+    {
+      "id": "qa.803.F45",
+      "product_id": "803",
+      "question": "前100名送什么",
+      "original_answer": "亲亲，前100名送线条小狗ip贴纸一套；助眠耳塞一对、专属线条小狗礼盒包装，送完即止，不单独售卖，先到先得哦",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-线条小狗联名803",
+        "question_cell": "F45",
+        "answer_cell": "G45"
+      },
+      "status": "manual_policy",
+      "reason": "活动、政策或适配需当前业务核实",
+      "fields": [],
+      "answer": null,
+      "image_refs": [],
+      "aliases": [
+        "前100名送什么"
+      ]
+    },
+    {
+      "id": "qa.803.A46",
+      "product_id": "803",
+      "question": "学校有支架\n有支架可以使用嘛\n有带支架可以使用嘛",
+      "original_answer": "宝子，学校自带的支架基本上都会比较高，咱家这个一体式的床帘安装好后是可以直接放在床上的，正常是不影响的哦~\n学校的支架难买到完全匹配的床帘哦，尺寸不对容易漏光、不遮隐私的，还有很多学校有和小厂家合作搭配杆子一起售卖质量较差的床帘，用着也不安心的。",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-线条小狗联名803",
+        "question_cell": "A46",
+        "answer_cell": "B46"
+      },
+      "status": "needs_review",
+      "reason": "涉及检测/材料冲突、图片、规格版本或缺少当前依据",
+      "fields": [],
+      "answer": null,
+      "image_refs": [],
+      "aliases": [
+        "学校有支架",
+        "有支架可以使用嘛",
+        "有带支架可以使用嘛"
+      ]
+    },
+    {
+      "id": "qa.803.F46",
+      "product_id": "803",
+      "question": "赠送置物架\n置物架长什么样\n可以赠送置物架吗",
+      "original_answer": "宝子，您可以看下咱家的精美置物架，小妹这边还有几个赠送名额，喜欢咱家的床帘可以抓紧下单，小妹给您备注赠送~",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-线条小狗联名803",
+        "question_cell": "F46",
+        "answer_cell": "G46"
+      },
+      "status": "manual_policy",
+      "reason": "活动、政策或适配需当前业务核实",
+      "fields": [],
+      "answer": null,
+      "image_refs": [],
+      "aliases": [
+        "赠送置物架",
+        "置物架长什么样",
+        "可以赠送置物架吗"
+      ]
+    },
+    {
+      "id": "qa.803.A47",
+      "product_id": "803",
+      "question": "包装盒尺寸是多少\n包装有图片吗",
+      "original_answer": "外包装尺寸：XX*XX*XXcm左右\n外包装重量：XXkg左右哦~",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-线条小狗联名803",
+        "question_cell": "A47",
+        "answer_cell": "B47"
+      },
+      "status": "needs_review",
+      "reason": "涉及检测/材料冲突、图片、规格版本或缺少当前依据",
+      "fields": [],
+      "answer": null,
+      "image_refs": [],
+      "aliases": [
+        "包装盒尺寸是多少",
+        "包装有图片吗"
+      ]
+    },
+    {
+      "id": "qa.803.F47",
+      "product_id": "803",
+      "question": "宿舍床90*200\n学校的床是90*200",
+      "original_answer": "亲亲，2米和1.9米尺寸差不多，可以看下小妹的实测。其次学校标2米的床基本都是外尺寸，实际内径会短些，2米长的蚊帐基本上都是放不进去的。您买1.9米的就行哦~",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-线条小狗联名803",
+        "question_cell": "F47",
+        "answer_cell": "G47"
+      },
+      "status": "active",
+      "reason": "推荐全伸缩款，不保证尺寸必然适配",
+      "fields": [],
+      "answer": "有的亲，这边推荐全伸缩款，长宽高都能调节哈～",
+      "image_refs": [],
+      "aliases": [
+        "宿舍床90*200",
+        "学校的床是90*200"
+      ]
+    },
+    {
+      "id": "qa.803.A48",
+      "product_id": "803",
+      "question": "你们床帘顶部有没有涂层？",
+      "original_answer": "亲亲，为了提升您的使用体验感,在床帘的顶部,我们做了一层特殊的处理,它不仅能够极大地增强遮光效果,让您享受更加静谧舒适的睡眠环境,而且它所采用的材料是经过环保认证的,安全无异味,也不会影响面料的透气性哦",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-线条小狗联名803",
+        "question_cell": "A48",
+        "answer_cell": "C48"
+      },
+      "status": "active",
+      "reason": "采用当前有效字段；旧参数及夸大保证不进入答复",
+      "fields": [
+        "roof"
+      ],
+      "answer": "亲亲，顶棚做了覆膜处理，用来遮光哈～",
+      "image_refs": [
+        "803-09"
+      ],
+      "aliases": [
+        "你们床帘顶部有没有涂层？"
+      ]
+    },
+    {
+      "id": "qa.803.A49",
+      "product_id": "803",
+      "question": "FlexiCoat™水性树脂遮光层科技是什么东西？",
+      "original_answer": "亲，咱们顶部是采用了FlexiCoat™水性树脂遮光层科技，以水性树脂为基础，通过发泡技术在布料表面形成多层覆膜，替代传统含PVC或溶剂的遮光层",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-线条小狗联名803",
+        "question_cell": "A49",
+        "answer_cell": "C49"
+      },
+      "status": "needs_review",
+      "reason": "涉及检测/材料冲突、图片、规格版本或缺少当前依据",
+      "fields": [],
+      "answer": null,
+      "image_refs": [],
+      "aliases": [
+        "FlexiCoat™水性树脂遮光层科技是什么东西？"
+      ]
+    },
+    {
+      "id": "qa.803.A52",
+      "product_id": "803",
+      "question": "学校不让装",
+      "original_answer": "",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-线条小狗联名803",
+        "question_cell": "A52",
+        "answer_cell": "B52"
+      },
+      "status": "needs_review",
+      "reason": "原表答复为空",
+      "fields": [],
+      "answer": null,
+      "image_refs": [],
+      "aliases": [
+        "学校不让装"
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "id": "pole-load-user",
+      "url": "/static/images/pole-load-user.png",
+      "alt": "用户提供的支架悬挂两桶水展示图"
+    },
+    {
+      "id": "801-02",
+      "url": "/static/images/source/801-02.png",
+      "alt": "801商品资料图",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-常规款801",
+        "anchor": "H8"
+      }
+    },
+    {
+      "id": "801-10",
+      "url": "/static/images/source/801-10.png",
+      "alt": "开门的区别",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-常规款801",
+        "anchor": "B39"
+      }
+    },
+    {
+      "id": "801-11",
+      "url": "/static/images/source/801-11.png",
+      "alt": "遮光面的区别",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-常规款801",
+        "anchor": "D39"
+      }
+    },
+    {
+      "id": "801-13",
+      "url": "/static/images/source/801-13.png",
+      "alt": "安装教程图",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-常规款801",
+        "anchor": "H39"
+      }
+    },
+    {
+      "id": "801-16",
+      "url": "/static/images/source/801-16.png",
+      "alt": "三通",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-常规款801",
+        "anchor": "C42"
+      }
+    },
+    {
+      "id": "801-17",
+      "url": "/static/images/source/801-17.png",
+      "alt": "帐纱挂钩",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-常规款801",
+        "anchor": "D42"
+      }
+    },
+    {
+      "id": "801-18",
+      "url": "/static/images/source/801-18.png",
+      "alt": "遮光帘挂钩",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-常规款801",
+        "anchor": "E42"
+      }
+    },
+    {
+      "id": "801-20",
+      "url": "/static/images/source/801-20.png",
+      "alt": "效果图",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-常规款801",
+        "anchor": "G42"
+      }
+    },
+    {
+      "id": "801-26",
+      "url": "/static/images/source/801-26.png",
+      "alt": "顶部中间杆子连接图",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-常规款801",
+        "anchor": "E44"
+      }
+    },
+    {
+      "id": "801-30",
+      "url": "/static/images/source/801-30.png",
+      "alt": "顶部图",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-常规款801",
+        "anchor": "I44"
+      }
+    },
+    {
+      "id": "801-34",
+      "url": "/static/images/source/801-34.png",
+      "alt": "灰色遮光帘内外颜色",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-常规款801",
+        "anchor": "E46"
+      }
+    },
+    {
+      "id": "801-37",
+      "url": "/static/images/source/801-37.png",
+      "alt": "灰色实物图",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-常规款801",
+        "anchor": "I46"
+      }
+    },
+    {
+      "id": "801-50",
+      "url": "/static/images/source/801-50.png",
+      "alt": "801商品资料图",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-常规款801",
+        "anchor": "I73"
+      }
+    },
+    {
+      "id": "801-57",
+      "url": "/static/images/source/801-57.png",
+      "alt": "801商品资料图",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-常规款801",
+        "anchor": "E77"
+      }
+    },
+    {
+      "id": "802-02",
+      "url": "/static/images/source/802-02.png",
+      "alt": "802商品资料图",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-IP款802",
+        "anchor": "H10"
+      }
+    },
+    {
+      "id": "802-03",
+      "url": "/static/images/source/802-03.png",
+      "alt": "802商品资料图",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-IP款802",
+        "anchor": "H11"
+      }
+    },
+    {
+      "id": "802-05",
+      "url": "/static/images/source/802-05.png",
+      "alt": "802商品资料图",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-IP款802",
+        "anchor": "H15"
+      }
+    },
+    {
+      "id": "804-01",
+      "url": "/static/images/source/804-01.png",
+      "alt": "开门的区别",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-丢丢帐804",
+        "anchor": "B3"
+      }
+    },
+    {
+      "id": "804-02",
+      "url": "/static/images/source/804-02.png",
+      "alt": "遮光面的区别",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-丢丢帐804",
+        "anchor": "D3"
+      }
+    },
+    {
+      "id": "804-04",
+      "url": "/static/images/source/804-04.png",
+      "alt": "804商品资料图",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-丢丢帐804",
+        "anchor": "G3"
+      }
+    },
+    {
+      "id": "804-05",
+      "url": "/static/images/source/804-05.png",
+      "alt": "安装教程图",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-丢丢帐804",
+        "anchor": "H3"
+      }
+    },
+    {
+      "id": "804-12",
+      "url": "/static/images/source/804-12.png",
+      "alt": "三通",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-丢丢帐804",
+        "anchor": "C6"
+      }
+    },
+    {
+      "id": "804-13",
+      "url": "/static/images/source/804-13.png",
+      "alt": "帐纱细节实拍",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-丢丢帐804",
+        "anchor": "D6"
+      }
+    },
+    {
+      "id": "804-14",
+      "url": "/static/images/source/804-14.png",
+      "alt": "遮光帘挂钩",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-丢丢帐804",
+        "anchor": "E6"
+      }
+    },
+    {
+      "id": "804-15",
+      "url": "/static/images/source/804-15.png",
+      "alt": "遮光帘挂钩",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-丢丢帐804",
+        "anchor": "E6"
+      }
+    },
+    {
+      "id": "804-25",
+      "url": "/static/images/source/804-25.png",
+      "alt": "内部收纳袋",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-丢丢帐804",
+        "anchor": "H8"
+      }
+    },
+    {
+      "id": "804-26",
+      "url": "/static/images/source/804-26.png",
+      "alt": "内部预留充电口",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-丢丢帐804",
+        "anchor": "B10"
+      }
+    },
+    {
+      "id": "804-30",
+      "url": "/static/images/source/804-30.png",
+      "alt": "蓝色遮光帘内外颜色",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-丢丢帐804",
+        "anchor": "F10"
+      }
+    },
+    {
+      "id": "804-32",
+      "url": "/static/images/source/804-32.png",
+      "alt": "蓝色",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-丢丢帐804",
+        "anchor": "H10"
+      }
+    },
+    {
+      "id": "804-42",
+      "url": "/static/images/source/804-42.png",
+      "alt": "804商品资料图",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-丢丢帐804",
+        "anchor": "I37"
+      }
+    },
+    {
+      "id": "803-01",
+      "url": "/static/images/source/803-01.png",
+      "alt": "开门的区别",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-线条小狗联名803",
+        "anchor": "B6"
+      }
+    },
+    {
+      "id": "803-03",
+      "url": "/static/images/source/803-03.png",
+      "alt": "安装教程图",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-线条小狗联名803",
+        "anchor": "H6"
+      }
+    },
+    {
+      "id": "803-07",
+      "url": "/static/images/source/803-07.png",
+      "alt": "床帘上铺安装效果实物图",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-线条小狗联名803",
+        "anchor": "B13"
+      }
+    },
+    {
+      "id": "803-08",
+      "url": "/static/images/source/803-08.png",
+      "alt": "床帘下铺安装效果实物图",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-线条小狗联名803",
+        "anchor": "C13"
+      }
+    },
+    {
+      "id": "803-09",
+      "url": "/static/images/source/803-09.png",
+      "alt": "顶部图",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-线条小狗联名803",
+        "anchor": "D13"
+      }
+    },
+    {
+      "id": "803-14",
+      "url": "/static/images/source/803-14.png",
+      "alt": "3个颜色实物图",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-线条小狗联名803",
+        "anchor": "I13"
+      }
+    },
+    {
+      "id": "803-17",
+      "url": "/static/images/source/803-17.png",
+      "alt": "内部预留充电口细节",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-线条小狗联名803",
+        "anchor": "B15"
+      }
+    },
+    {
+      "id": "803-18",
+      "url": "/static/images/source/803-18.png",
+      "alt": "三通细节",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-线条小狗联名803",
+        "anchor": "C15"
+      }
+    },
+    {
+      "id": "803-19",
+      "url": "/static/images/source/803-19.png",
+      "alt": "底部回底+排米拉链",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-线条小狗联名803",
+        "anchor": "D15"
+      }
+    },
+    {
+      "id": "803-24",
+      "url": "/static/images/source/803-24.png",
+      "alt": "内部收纳袋细节",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-线条小狗联名803",
+        "anchor": "I15"
+      }
+    },
+    {
+      "id": "803-25",
+      "url": "/static/images/source/803-25.png",
+      "alt": "拉链细节",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-线条小狗联名803",
+        "anchor": "J15"
+      }
+    },
+    {
+      "id": "803-31",
+      "url": "/static/images/source/803-31.png",
+      "alt": "蓝色遮光帘内外颜色",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-线条小狗联名803",
+        "anchor": "F17"
+      }
+    },
+    {
+      "id": "803-32",
+      "url": "/static/images/source/803-32.png",
+      "alt": "遮光帘细节",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-线条小狗联名803",
+        "anchor": "G17"
+      }
+    },
+    {
+      "id": "no-install-steps-user",
+      "url": "/static/images/no-install-steps-user.png",
+      "alt": "免安装款四步安装：展开支架、挂遮光帘、套帐纱、完成",
+      "source": {
+        "type": "user_attachment",
+        "date": "2026-10-14"
+      }
+    }
+  ]
+}

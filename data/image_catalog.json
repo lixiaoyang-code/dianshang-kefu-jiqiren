@@ -1,0 +1,3155 @@
+{
+  "source_file": "售前资源库.xlsx",
+  "scope": [
+    "801",
+    "802",
+    "803",
+    "804"
+  ],
+  "images": [
+    {
+      "id": "801-01",
+      "product_id": "801",
+      "sheet": "宿舍蚊帐-常规款801",
+      "anchor": "H7",
+      "caption": "图片",
+      "media": "xl/media/image36.png",
+      "size": [
+        398,
+        957
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "dd31707156e2bdc41d624adabb538d09d2e89ed502c97105f2e46cf1019f3368",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "801-02",
+      "product_id": "801",
+      "sheet": "宿舍蚊帐-常规款801",
+      "anchor": "H8",
+      "caption": "",
+      "media": "xl/media/image37.png",
+      "size": [
+        485,
+        567
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [
+        "material"
+      ],
+      "sha256": "4003f6ce96eca65df9ed558fcc8b9c570f54ce95ac031f4b3cebdc3fa96c16e4",
+      "status": "active",
+      "reason": "已目视筛选，按原工作表款号关联，保留原图",
+      "url": "/static/images/source/801-02.png"
+    },
+    {
+      "id": "801-03",
+      "product_id": "801",
+      "sheet": "宿舍蚊帐-常规款801",
+      "anchor": "H9",
+      "caption": "",
+      "media": "xl/media/image38.png",
+      "size": [
+        483,
+        538
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "e7dbb67a78494af3aa79f02c178c0f90604f65271b72bc78b3cb45b835a0caa3",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "801-04",
+      "product_id": "801",
+      "sheet": "宿舍蚊帐-常规款801",
+      "anchor": "H10",
+      "caption": "",
+      "media": "xl/media/image39.png",
+      "size": [
+        623,
+        294
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "9eff1dbfe35609c4eb084cd955c0ea44150d4ca6d480f83b1ca1be4231ac6a9d",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "801-05",
+      "product_id": "801",
+      "sheet": "宿舍蚊帐-常规款801",
+      "anchor": "H14",
+      "caption": "",
+      "media": "xl/media/image40.png",
+      "size": [
+        483,
+        544
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "49fb8f23c24bce0f3b6b62aeb1d1156b01ca5ee19ce7a84ee34e3ee05a5003a8",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "801-06",
+      "product_id": "801",
+      "sheet": "宿舍蚊帐-常规款801",
+      "anchor": "H15",
+      "caption": "",
+      "media": "xl/media/image41.png",
+      "size": [
+        661,
+        769
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "0384fbfd1045fe94f0ce4ac3494ae95590b30597b3f52c44c6c7189e871b326e",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "801-07",
+      "product_id": "801",
+      "sheet": "宿舍蚊帐-常规款801",
+      "anchor": "H17",
+      "caption": "",
+      "media": "xl/media/image42.png",
+      "size": [
+        930,
+        601
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "01f772d179d2f8cdbdd9b433b85064c069ffc3617f50a6091577b53a93b5fe96",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "801-08",
+      "product_id": "801",
+      "sheet": "宿舍蚊帐-常规款801",
+      "anchor": "H19",
+      "caption": "",
+      "media": "xl/media/image43.png",
+      "size": [
+        464,
+        638
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "625ac3fa7083524611bbe7b138e22b875cd5a9bf65cccc727f5a28fc75590c84",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "801-09",
+      "product_id": "801",
+      "sheet": "宿舍蚊帐-常规款801",
+      "anchor": "H21",
+      "caption": "",
+      "media": "xl/media/image44.png",
+      "size": [
+        769,
+        565
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "66faf7ce11455d582ba46d061e917c8b4a1584f9efa209402f059f9a657adbaa",
+      "status": "superseded_or_conflict",
+      "reason": "旧参数或未确认比较主张，与当前确认资料不一致"
+    },
+    {
+      "id": "801-10",
+      "product_id": "801",
+      "sheet": "宿舍蚊帐-常规款801",
+      "anchor": "B39",
+      "caption": "开门的区别",
+      "media": "xl/media/image45.png",
+      "size": [
+        958,
+        672
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [
+        "doors"
+      ],
+      "sha256": "c4056952168eb416328da33a23c7700c321cdd68aa06a62c8842b1051700edd0",
+      "status": "active",
+      "reason": "已目视筛选，按原工作表款号关联，保留原图",
+      "url": "/static/images/source/801-10.png"
+    },
+    {
+      "id": "801-11",
+      "product_id": "801",
+      "sheet": "宿舍蚊帐-常规款801",
+      "anchor": "D39",
+      "caption": "遮光面的区别",
+      "media": "xl/media/image46.png",
+      "size": [
+        967,
+        580
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [
+        "shade_sides"
+      ],
+      "sha256": "3405fc71f48ae5c2fbeb2c9cc4aa9c98db5850056bb2d0d5b5c2cdf91a283861",
+      "status": "active",
+      "reason": "已目视筛选，按原工作表款号关联，保留原图",
+      "url": "/static/images/source/801-11.png"
+    },
+    {
+      "id": "801-12",
+      "product_id": "801",
+      "sheet": "宿舍蚊帐-常规款801",
+      "anchor": "F39",
+      "caption": "120高的区别",
+      "media": "xl/media/image47.png",
+      "size": [
+        590,
+        386
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "7135842f406f8a1b282f0cbe62d17eee9a67bdb5be3d6b3aa88d2d3d8c54df5e",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "801-13",
+      "product_id": "801",
+      "sheet": "宿舍蚊帐-常规款801",
+      "anchor": "H39",
+      "caption": "安装教程图",
+      "media": "xl/media/image48.png",
+      "size": [
+        398,
+        957
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [
+        "instructions",
+        "easy_installation"
+      ],
+      "sha256": "dd31707156e2bdc41d624adabb538d09d2e89ed502c97105f2e46cf1019f3368",
+      "status": "active",
+      "reason": "已目视筛选，按原工作表款号关联，保留原图",
+      "url": "/static/images/source/801-13.png"
+    },
+    {
+      "id": "801-14",
+      "product_id": "801",
+      "sheet": "宿舍蚊帐-常规款801",
+      "anchor": "B42",
+      "caption": "配件",
+      "media": "xl/media/image49.png",
+      "size": [
+        1080,
+        800
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "c18871d2665365c0bcba2fb8b2d59754fa25addb60f08ca7d5a2f1114e05b2b0",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "801-15",
+      "product_id": "801",
+      "sheet": "宿舍蚊帐-常规款801",
+      "anchor": "B42",
+      "caption": "配件",
+      "media": "xl/media/image50.png",
+      "size": [
+        810,
+        1080
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "a2b9840b05e0161e19edef486552894d4579acc1274544f9f77f04629da9362d",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "801-16",
+      "product_id": "801",
+      "sheet": "宿舍蚊帐-常规款801",
+      "anchor": "C42",
+      "caption": "三通",
+      "media": "xl/media/image51.png",
+      "size": [
+        810,
+        1080
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [
+        "accessories"
+      ],
+      "sha256": "4e9cec6dac3651e7fef4a024a2e1abe18c566d386af4c6458ff7b19580625a52",
+      "status": "active",
+      "reason": "已目视筛选，按原工作表款号关联，保留原图",
+      "url": "/static/images/source/801-16.png"
+    },
+    {
+      "id": "801-17",
+      "product_id": "801",
+      "sheet": "宿舍蚊帐-常规款801",
+      "anchor": "D42",
+      "caption": "帐纱挂钩",
+      "media": "xl/media/image52.png",
+      "size": [
+        294,
+        398
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [
+        "accessories"
+      ],
+      "sha256": "f486a54c9058e65dd93180b482df0669c77b7903fdb564b613fcc6fab83b4958",
+      "status": "active",
+      "reason": "已目视筛选，按原工作表款号关联，保留原图",
+      "url": "/static/images/source/801-17.png"
+    },
+    {
+      "id": "801-18",
+      "product_id": "801",
+      "sheet": "宿舍蚊帐-常规款801",
+      "anchor": "E42",
+      "caption": "遮光帘挂钩",
+      "media": "xl/media/image53.png",
+      "size": [
+        124,
+        158
+      ],
+      "format": "JPEG",
+      "reviewed_at": "2026-10-14",
+      "fields": [
+        "accessories"
+      ],
+      "sha256": "717588bf597afcb9d866af47eec9b229f36c5a54dca1b1beebca4a8ad2d94e0f",
+      "status": "active",
+      "reason": "已目视筛选，按原工作表款号关联，保留原图",
+      "url": "/static/images/source/801-18.png"
+    },
+    {
+      "id": "801-19",
+      "product_id": "801",
+      "sheet": "宿舍蚊帐-常规款801",
+      "anchor": "F42",
+      "caption": "帐纱水洗标",
+      "media": "xl/media/image54.png",
+      "size": [
+        720,
+        960
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "1e335595e1d538defbc97e816d7452eb5a021dc69592cfd488da2a806fadb97f",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "801-20",
+      "product_id": "801",
+      "sheet": "宿舍蚊帐-常规款801",
+      "anchor": "G42",
+      "caption": "效果图",
+      "media": "xl/media/image55.png",
+      "size": [
+        1080,
+        862
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [
+        "appearance"
+      ],
+      "sha256": "17efe008141e28d20180c41996ab8ca1bc0debee2a5540c6ffadb7ee4b9bf93a",
+      "status": "active",
+      "reason": "已目视筛选，按原工作表款号关联，保留原图",
+      "url": "/static/images/source/801-20.png"
+    },
+    {
+      "id": "801-21",
+      "product_id": "801",
+      "sheet": "宿舍蚊帐-常规款801",
+      "anchor": "H42",
+      "caption": "搭配储物袋效果图（不赠送储物袋）",
+      "media": "xl/media/image56.png",
+      "size": [
+        640,
+        960
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "49f5171531abd6250dcad73e6eed56559294609fba86b7455766e755f19e9d4c",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "801-22",
+      "product_id": "801",
+      "sheet": "宿舍蚊帐-常规款801",
+      "anchor": "J42",
+      "caption": "搭配床垫",
+      "media": "xl/media/image57.png",
+      "size": [
+        454,
+        594
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "668a2f4a7074b24e75a18eeab6ea744062b8b1a30880fce7de8271ab162915ff",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "801-23",
+      "product_id": "801",
+      "sheet": "宿舍蚊帐-常规款801",
+      "anchor": "B44",
+      "caption": "无异味证书",
+      "media": "xl/media/image58.png",
+      "size": [
+        754,
+        371
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "99840348b32341168013782ce2a258280934b25c4012c2965963865e285179ad",
+      "status": "manual_review",
+      "reason": "报告/证书图片；需核对样品、时间和适用款型，不作跨款通用证明"
+    },
+    {
+      "id": "801-24",
+      "product_id": "801",
+      "sheet": "宿舍蚊帐-常规款801",
+      "anchor": "C44",
+      "caption": "A类证书",
+      "media": "xl/media/image59.png",
+      "size": [
+        857,
+        772
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "28f1f6cd8b004788ab76a5747dfe3d810b98f010f4d6ab480a523277933e99cc",
+      "status": "manual_review",
+      "reason": "报告/证书图片；需核对样品、时间和适用款型，不作跨款通用证明"
+    },
+    {
+      "id": "801-25",
+      "product_id": "801",
+      "sheet": "宿舍蚊帐-常规款801",
+      "anchor": "D44",
+      "caption": "遮光证书",
+      "media": "xl/media/image60.png",
+      "size": [
+        1080,
+        813
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "4cadaa25d3ab2d6fd0dd1dac865eaea9a5e9a1a342a58fcd7b6654cc738336d3",
+      "status": "manual_review",
+      "reason": "报告/证书图片；需核对样品、时间和适用款型，不作跨款通用证明"
+    },
+    {
+      "id": "801-26",
+      "product_id": "801",
+      "sheet": "宿舍蚊帐-常规款801",
+      "anchor": "E44",
+      "caption": "顶部中间杆子连接图",
+      "media": "xl/media/image61.png",
+      "size": [
+        810,
+        1080
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [
+        "pole_details"
+      ],
+      "sha256": "fae5edeee686d8040de9dfb2ec64b6beb262dae448ad2f67382266148f48ffa3",
+      "status": "active",
+      "reason": "已目视筛选，按原工作表款号关联，保留原图",
+      "url": "/static/images/source/801-26.png"
+    },
+    {
+      "id": "801-27",
+      "product_id": "801",
+      "sheet": "宿舍蚊帐-常规款801",
+      "anchor": "F44",
+      "caption": "内部封闭开灯图",
+      "media": "xl/media/image62.png",
+      "size": [
+        649,
+        815
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "dbf9f24cc9c4c620368b948af74193946c89e473cc0210c0797432e2a9fa6e11",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "801-28",
+      "product_id": "801",
+      "sheet": "宿舍蚊帐-常规款801",
+      "anchor": "G44",
+      "caption": "内部图",
+      "media": "xl/media/image63.png",
+      "size": [
+        810,
+        1080
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "f9182f991b3d447e25f24a320f661f24b3c9125076d0fa64e8bfd8e836faa754",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "801-29",
+      "product_id": "801",
+      "sheet": "宿舍蚊帐-常规款801",
+      "anchor": "H44",
+      "caption": "内部图",
+      "media": "xl/media/image64.png",
+      "size": [
+        810,
+        1080
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "ad411fc978a62991376c4ac7b94115ab02106848a3e96602af1c74270e1b02b8",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "801-30",
+      "product_id": "801",
+      "sheet": "宿舍蚊帐-常规款801",
+      "anchor": "I44",
+      "caption": "顶部图",
+      "media": "xl/media/image65.png",
+      "size": [
+        960,
+        720
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [
+        "roof"
+      ],
+      "sha256": "cbefa52b28f7d21158b3e2b5c486ff2db1a847357e1097b1c03ead754527fa7d",
+      "status": "active",
+      "reason": "已目视筛选，按原工作表款号关联，保留原图",
+      "url": "/static/images/source/801-30.png"
+    },
+    {
+      "id": "801-31",
+      "product_id": "801",
+      "sheet": "宿舍蚊帐-常规款801",
+      "anchor": "J44",
+      "caption": "自带支架",
+      "media": "xl/media/image66.png",
+      "size": [
+        283,
+        468
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "2685499a8e838f6c3b42289e50c0721e9a1742e10acbd99422f128726a9c2495",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "801-32",
+      "product_id": "801",
+      "sheet": "宿舍蚊帐-常规款801",
+      "anchor": "K44",
+      "caption": "置物篮",
+      "media": "xl/media/image67.png",
+      "size": [
+        933,
+        894
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "876249ca00df0cd88f3fb2ef7bf36b81ef036dfc8aa49b21cf116eeca91888ce",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "801-33",
+      "product_id": "801",
+      "sheet": "宿舍蚊帐-常规款801",
+      "anchor": "B46",
+      "caption": "挂东西图",
+      "media": "xl/media/image68.png",
+      "size": [
+        810,
+        1080
+      ],
+      "format": "JPEG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "6bd0fecdc01edfe00a768d43b2f4a8e9dfc13f71d2ca761ea1d12e22e2e1ce66",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "801-34",
+      "product_id": "801",
+      "sheet": "宿舍蚊帐-常规款801",
+      "anchor": "E46",
+      "caption": "灰色遮光帘内外颜色",
+      "media": "xl/media/image69.png",
+      "size": [
+        426,
+        655
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [
+        "inner_color"
+      ],
+      "sha256": "d591a65d1502ba57d7613802caa8fe4b7ccd256d00033573d5e9f77f90e14cd2",
+      "status": "active",
+      "reason": "已目视筛选，按原工作表款号关联，保留原图",
+      "url": "/static/images/source/801-34.png"
+    },
+    {
+      "id": "801-35",
+      "product_id": "801",
+      "sheet": "宿舍蚊帐-常规款801",
+      "anchor": "F46",
+      "caption": "蓝色遮光帘内外颜色",
+      "media": "xl/media/image70.png",
+      "size": [
+        436,
+        658
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "0b038a1b6763a172b852c18ee31641c530d33786cd0fd3c71b12c869ec3b0ce8",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "801-36",
+      "product_id": "801",
+      "sheet": "宿舍蚊帐-常规款801",
+      "anchor": "G46",
+      "caption": "米色遮光帘内外颜色",
+      "media": "xl/media/image71.png",
+      "size": [
+        439,
+        656
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "4f4b8b3e8496566745a48cbea3baa9c05049f535d6c0d95bf749a24469529563",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "801-37",
+      "product_id": "801",
+      "sheet": "宿舍蚊帐-常规款801",
+      "anchor": "I46",
+      "caption": "灰色实物图",
+      "media": "xl/media/image72.png",
+      "size": [
+        656,
+        494
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [
+        "appearance"
+      ],
+      "sha256": "af1b4825e46bd2ab02e79079feb5b78755f05b6ea4fa137938a37922a24b8432",
+      "status": "active",
+      "reason": "已目视筛选，按原工作表款号关联，保留原图",
+      "url": "/static/images/source/801-37.png"
+    },
+    {
+      "id": "801-38",
+      "product_id": "801",
+      "sheet": "宿舍蚊帐-常规款801",
+      "anchor": "J46",
+      "caption": "蓝色实物图",
+      "media": "xl/media/image73.png",
+      "size": [
+        785,
+        571
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "beb20867a791d1ffeb4f393d41448c43f3c1da10b7493486070584de3e01f2b4",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "801-39",
+      "product_id": "801",
+      "sheet": "宿舍蚊帐-常规款801",
+      "anchor": "K46",
+      "caption": "米色实物图",
+      "media": "xl/media/image74.png",
+      "size": [
+        713,
+        549
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "56ef3c00b4cc7e3e6a2a2ebfaa6094344c282764120e45982b88e7ddf7c856da",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "801-40",
+      "product_id": "801",
+      "sheet": "宿舍蚊帐-常规款801",
+      "anchor": "E66",
+      "caption": "",
+      "media": "xl/media/image75.png",
+      "size": [
+        982,
+        466
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "1c57680ed1802677ffeae51422590002942e751ca0c2398adda6641f062f8f4f",
+      "status": "manual_review",
+      "reason": "报告/证书图片；需核对样品、时间和适用款型，不作跨款通用证明"
+    },
+    {
+      "id": "801-41",
+      "product_id": "801",
+      "sheet": "宿舍蚊帐-常规款801",
+      "anchor": "I66",
+      "caption": "",
+      "media": "xl/media/image76.png",
+      "size": [
+        432,
+        487
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "f1fa582298ce301a10f2d9fb57c6f05003cdeb7c4e629d5dc16de360e71a4be1",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "801-42",
+      "product_id": "801",
+      "sheet": "宿舍蚊帐-常规款801",
+      "anchor": "I67",
+      "caption": "",
+      "media": "xl/media/image77.png",
+      "size": [
+        1080,
+        862
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "17efe008141e28d20180c41996ab8ca1bc0debee2a5540c6ffadb7ee4b9bf93a",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "801-43",
+      "product_id": "801",
+      "sheet": "宿舍蚊帐-常规款801",
+      "anchor": "E68",
+      "caption": "",
+      "media": "xl/media/image78.png",
+      "size": [
+        357,
+        369
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "9305f562104acabc2d3d51249259eb834869cd411481772ba6ed199d78769b1e",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "801-44",
+      "product_id": "801",
+      "sheet": "宿舍蚊帐-常规款801",
+      "anchor": "I68",
+      "caption": "",
+      "media": "xl/media/image79.png",
+      "size": [
+        748,
+        492
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "4ef060c283b3d36e9ff0288e84cc5f751a6c6ab068084f2404ffced417623ea6",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "801-45",
+      "product_id": "801",
+      "sheet": "宿舍蚊帐-常规款801",
+      "anchor": "I69",
+      "caption": "",
+      "media": "xl/media/image80.png",
+      "size": [
+        838,
+        690
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "c6c6a9940220e6e0bab51be5ef87c997b6444ca8453e7ba66785d61d6282f1a4",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "801-46",
+      "product_id": "801",
+      "sheet": "宿舍蚊帐-常规款801",
+      "anchor": "I70",
+      "caption": "",
+      "media": "xl/media/image81.png",
+      "size": [
+        790,
+        790
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "9be559ec083e7f28e56a25dac39e9a8216382a9536ad348bc538e220dd930784",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "801-47",
+      "product_id": "801",
+      "sheet": "宿舍蚊帐-常规款801",
+      "anchor": "E71",
+      "caption": "",
+      "media": "xl/media/image82.png",
+      "size": [
+        810,
+        1080
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "df09f784c3716609ed82dd4fd0b17f6c738cf500b18300bee2bfda9ee3095a38",
+      "status": "superseded_or_conflict",
+      "reason": "旧参数或未确认比较主张，与当前确认资料不一致"
+    },
+    {
+      "id": "801-48",
+      "product_id": "801",
+      "sheet": "宿舍蚊帐-常规款801",
+      "anchor": "I71",
+      "caption": "",
+      "media": "xl/media/image83.png",
+      "size": [
+        967,
+        683
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "a4beff2e89d23c926334c4dccd6a2bcab4d88e58fc9e2b2b2f6e59a2d2cd19b9",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "801-49",
+      "product_id": "801",
+      "sheet": "宿舍蚊帐-常规款801",
+      "anchor": "E72",
+      "caption": "",
+      "media": "xl/media/image84.png",
+      "size": [
+        810,
+        1080
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "5d1e45418fb87c88a00debffd302e6597f30b2248ed982f3ffef054ecf3161c2",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "801-50",
+      "product_id": "801",
+      "sheet": "宿舍蚊帐-常规款801",
+      "anchor": "I73",
+      "caption": "",
+      "media": "xl/media/image85.png",
+      "size": [
+        448,
+        589
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [
+        "bottom"
+      ],
+      "sha256": "430121bf967835f0457cfca656e9bc30ce1b117469ce98346063a3bef84f00c3",
+      "status": "active",
+      "reason": "已目视筛选，按原工作表款号关联，保留原图",
+      "url": "/static/images/source/801-50.png"
+    },
+    {
+      "id": "801-51",
+      "product_id": "801",
+      "sheet": "宿舍蚊帐-常规款801",
+      "anchor": "E74",
+      "caption": "",
+      "media": "xl/media/image86.png",
+      "size": [
+        1080,
+        543
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "958956ad53472469f24899cd0f665cee6ebbd252c39fd2a4d011875e48255245",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "801-52",
+      "product_id": "801",
+      "sheet": "宿舍蚊帐-常规款801",
+      "anchor": "I74",
+      "caption": "",
+      "media": "xl/media/image87.png",
+      "size": [
+        809,
+        714
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "b69a06ad071124847d8c2e36ffaf3e3134549070544bb0372e9b0d1460e44ab9",
+      "status": "manual_review",
+      "reason": "报告/证书图片；需核对样品、时间和适用款型，不作跨款通用证明"
+    },
+    {
+      "id": "801-53",
+      "product_id": "801",
+      "sheet": "宿舍蚊帐-常规款801",
+      "anchor": "J74",
+      "caption": "",
+      "media": "xl/media/image88.png",
+      "size": [
+        420,
+        728
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "b9d7200be858deca39d39058199c58e7b25f9bd58bfe5f7141858dd291570d37",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "801-54",
+      "product_id": "801",
+      "sheet": "宿舍蚊帐-常规款801",
+      "anchor": "E75",
+      "caption": "",
+      "media": "xl/media/image89.png",
+      "size": [
+        1080,
+        812
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "393a2973d7b09a68f5cdb1541fdd9bd4e0ce704af8c7caac1b8b97fdb2ba68bd",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "801-55",
+      "product_id": "801",
+      "sheet": "宿舍蚊帐-常规款801",
+      "anchor": "E76",
+      "caption": "",
+      "media": "xl/media/image90.png",
+      "size": [
+        276,
+        456
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "59bf802fb26e1d9d6ad2a774ef8e0c204f18326de5238270c71758adf592c709",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "801-56",
+      "product_id": "801",
+      "sheet": "宿舍蚊帐-常规款801",
+      "anchor": "I76",
+      "caption": "",
+      "media": "xl/media/image91.png",
+      "size": [
+        859,
+        822
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "22b5cbc96875223fab081e87df7115ee6a724519bae25b3057fe48c3411db8ef",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "801-57",
+      "product_id": "801",
+      "sheet": "宿舍蚊帐-常规款801",
+      "anchor": "E77",
+      "caption": "",
+      "media": "xl/media/image92.png",
+      "size": [
+        123,
+        170
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [
+        "charging_port",
+        "power_strip"
+      ],
+      "sha256": "9b203748c5e359ce09acfcc0dcf186590ce89acc5305ec7813b8314e79b40d2e",
+      "status": "active",
+      "reason": "已目视筛选，按原工作表款号关联，保留原图",
+      "url": "/static/images/source/801-57.png"
+    },
+    {
+      "id": "801-58",
+      "product_id": "801",
+      "sheet": "宿舍蚊帐-常规款801",
+      "anchor": "I77",
+      "caption": "",
+      "media": "xl/media/image93.png",
+      "size": [
+        315,
+        207
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "cf3daf1905e00d131ae29d74fefcf0e2953aa7eebbee71c1edb4309de0a9ff80",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "801-59",
+      "product_id": "801",
+      "sheet": "宿舍蚊帐-常规款801",
+      "anchor": "E78",
+      "caption": "",
+      "media": "xl/media/image85.png",
+      "size": [
+        448,
+        589
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "430121bf967835f0457cfca656e9bc30ce1b117469ce98346063a3bef84f00c3",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "801-60",
+      "product_id": "801",
+      "sheet": "宿舍蚊帐-常规款801",
+      "anchor": "I78",
+      "caption": "",
+      "media": "xl/media/image94.png",
+      "size": [
+        119,
+        162
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "3fa8130b040e0bae1a078ddeeef155a74fca7590da271f9ec8c6acaee692a7be",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "801-61",
+      "product_id": "801",
+      "sheet": "宿舍蚊帐-常规款801",
+      "anchor": "E79",
+      "caption": "",
+      "media": "xl/media/image95.png",
+      "size": [
+        640,
+        854
+      ],
+      "format": "GIF",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "99c64179b862349e6153c294017c937a553ab31cb5745740852175995700c5e9",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "802-01",
+      "product_id": "802",
+      "sheet": "宿舍蚊帐-IP款802",
+      "anchor": "H6",
+      "caption": "图片",
+      "media": "xl/media/image96.png",
+      "size": [
+        882,
+        664
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "acb7101eef14ed86ff8fc8b6a9fda187d943b6b07c480f2b9036c75d69002dea",
+      "status": "manual_review",
+      "reason": "报告/证书图片；需核对样品、时间和适用款型，不作跨款通用证明"
+    },
+    {
+      "id": "802-02",
+      "product_id": "802",
+      "sheet": "宿舍蚊帐-IP款802",
+      "anchor": "H10",
+      "caption": "",
+      "media": "xl/media/image97.png",
+      "size": [
+        701,
+        801
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [
+        "doors"
+      ],
+      "sha256": "364e7322a8f8eda95055362b3122c15642fb2e55690aa89db1d72d1f508d3de5",
+      "status": "active",
+      "reason": "已目视筛选，按原工作表款号关联，保留原图",
+      "url": "/static/images/source/802-02.png"
+    },
+    {
+      "id": "802-03",
+      "product_id": "802",
+      "sheet": "宿舍蚊帐-IP款802",
+      "anchor": "H11",
+      "caption": "",
+      "media": "xl/media/image98.png",
+      "size": [
+        1080,
+        712
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [
+        "shade_sides"
+      ],
+      "sha256": "ef644063517712f5203db75fd8d15e77a68a6b81c04d3e6c3a4ee83e58e670f8",
+      "status": "active",
+      "reason": "已目视筛选，按原工作表款号关联，保留原图",
+      "url": "/static/images/source/802-03.png"
+    },
+    {
+      "id": "802-04",
+      "product_id": "802",
+      "sheet": "宿舍蚊帐-IP款802",
+      "anchor": "H14",
+      "caption": "",
+      "media": "xl/media/image99.png",
+      "size": [
+        500,
+        333
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "c5781b52c0b916dc327d26464f98fc9afb1e76436e79cf494a3cb8f99ae94d74",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "802-05",
+      "product_id": "802",
+      "sheet": "宿舍蚊帐-IP款802",
+      "anchor": "H15",
+      "caption": "",
+      "media": "xl/media/image100.png",
+      "size": [
+        585,
+        490
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [
+        "charging_port",
+        "power_strip",
+        "storage"
+      ],
+      "sha256": "a4367502dfaaf49e73f5210d47a3408c1ebe887a87c12c94f66b13103c45f3e8",
+      "status": "active",
+      "reason": "已目视筛选，按原工作表款号关联，保留原图",
+      "url": "/static/images/source/802-05.png"
+    },
+    {
+      "id": "804-01",
+      "product_id": "804",
+      "sheet": "宿舍床帘-丢丢帐804",
+      "anchor": "B3",
+      "caption": "开门的区别",
+      "media": "xl/media/image45.png",
+      "size": [
+        958,
+        672
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [
+        "doors"
+      ],
+      "sha256": "c4056952168eb416328da33a23c7700c321cdd68aa06a62c8842b1051700edd0",
+      "status": "active",
+      "reason": "已目视筛选，按原工作表款号关联，保留原图",
+      "url": "/static/images/source/804-01.png"
+    },
+    {
+      "id": "804-02",
+      "product_id": "804",
+      "sheet": "宿舍床帘-丢丢帐804",
+      "anchor": "D3",
+      "caption": "遮光面的区别",
+      "media": "xl/media/image46.png",
+      "size": [
+        967,
+        580
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [
+        "shade_sides"
+      ],
+      "sha256": "3405fc71f48ae5c2fbeb2c9cc4aa9c98db5850056bb2d0d5b5c2cdf91a283861",
+      "status": "active",
+      "reason": "已目视筛选，按原工作表款号关联，保留原图",
+      "url": "/static/images/source/804-02.png"
+    },
+    {
+      "id": "804-03",
+      "product_id": "804",
+      "sheet": "宿舍床帘-丢丢帐804",
+      "anchor": "F3",
+      "caption": "包装与支架外观",
+      "media": "xl/media/image101.png",
+      "size": [
+        1080,
+        1080
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "562bc823af558bb23d1e708292a031a45fb5f96f4a5572c51f4568f15003c1f7",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "804-04",
+      "product_id": "804",
+      "sheet": "宿舍床帘-丢丢帐804",
+      "anchor": "G3",
+      "caption": "",
+      "media": "xl/media/image102.png",
+      "size": [
+        1080,
+        720
+      ],
+      "format": "JPEG",
+      "reviewed_at": "2026-10-14",
+      "fields": [
+        "pole_details"
+      ],
+      "sha256": "7febec2154331c6a7f51796a59ee4269e601df3019e3a354e3901c2e965c4c66",
+      "status": "active",
+      "reason": "已目视筛选，按原工作表款号关联，保留原图",
+      "url": "/static/images/source/804-04.png"
+    },
+    {
+      "id": "804-05",
+      "product_id": "804",
+      "sheet": "宿舍床帘-丢丢帐804",
+      "anchor": "H3",
+      "caption": "安装教程图",
+      "media": "xl/media/image103.png",
+      "size": [
+        510,
+        1080
+      ],
+      "format": "JPEG",
+      "reviewed_at": "2026-10-14",
+      "fields": [
+        "instructions",
+        "easy_installation"
+      ],
+      "sha256": "3186a095f47727930250364e62f32fe5fa391951837c3efa93ac8af9a45bd0f3",
+      "status": "active",
+      "reason": "已目视筛选，按原工作表款号关联，保留原图",
+      "url": "/static/images/source/804-05.png"
+    },
+    {
+      "id": "804-06",
+      "product_id": "804",
+      "sheet": "宿舍床帘-丢丢帐804",
+      "anchor": "J3",
+      "caption": "",
+      "media": "xl/media/image104.png",
+      "size": [
+        1080,
+        720
+      ],
+      "format": "JPEG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "6949b8cf4184692bab90470342077829c94e61e4cc1f307f2e1b449d2d5edc5f",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "804-07",
+      "product_id": "804",
+      "sheet": "宿舍床帘-丢丢帐804",
+      "anchor": "K3",
+      "caption": "",
+      "media": "xl/media/image105.png",
+      "size": [
+        1080,
+        720
+      ],
+      "format": "JPEG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "9582638852aa82b1f300d1e76e8f1f10fd05d4bed28699ffca93e09ed90c0ea0",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "804-08",
+      "product_id": "804",
+      "sheet": "宿舍床帘-丢丢帐804",
+      "anchor": "L3",
+      "caption": "",
+      "media": "xl/media/image106.png",
+      "size": [
+        1080,
+        720
+      ],
+      "format": "JPEG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "fb37fc776a4605788e3cc8120db506fd39ef5a86c8919e70908bd25a99a3d7e5",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "804-09",
+      "product_id": "804",
+      "sheet": "宿舍床帘-丢丢帐804",
+      "anchor": "M3",
+      "caption": "",
+      "media": "xl/media/image107.png",
+      "size": [
+        1080,
+        720
+      ],
+      "format": "JPEG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "ee455a18a8dc8c097160fe40ea1e164cf3c27faaaa3fb7cd12f0738013ef633f",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "804-10",
+      "product_id": "804",
+      "sheet": "宿舍床帘-丢丢帐804",
+      "anchor": "B6",
+      "caption": "配件",
+      "media": "xl/media/image49.png",
+      "size": [
+        1080,
+        800
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "c18871d2665365c0bcba2fb8b2d59754fa25addb60f08ca7d5a2f1114e05b2b0",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "804-11",
+      "product_id": "804",
+      "sheet": "宿舍床帘-丢丢帐804",
+      "anchor": "B6",
+      "caption": "配件",
+      "media": "xl/media/image50.png",
+      "size": [
+        810,
+        1080
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "a2b9840b05e0161e19edef486552894d4579acc1274544f9f77f04629da9362d",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "804-12",
+      "product_id": "804",
+      "sheet": "宿舍床帘-丢丢帐804",
+      "anchor": "C6",
+      "caption": "三通",
+      "media": "xl/media/image108.png",
+      "size": [
+        1080,
+        720
+      ],
+      "format": "JPEG",
+      "reviewed_at": "2026-10-14",
+      "fields": [
+        "accessories"
+      ],
+      "sha256": "64f9d88bd68034b04c7b7771d9f3aefd890fc3c6c6c80a3d69088944523f92c1",
+      "status": "active",
+      "reason": "已目视筛选，按原工作表款号关联，保留原图",
+      "url": "/static/images/source/804-12.png"
+    },
+    {
+      "id": "804-13",
+      "product_id": "804",
+      "sheet": "宿舍床帘-丢丢帐804",
+      "anchor": "D6",
+      "caption": "帐纱细节实拍",
+      "media": "xl/media/image109.png",
+      "size": [
+        1080,
+        720
+      ],
+      "format": "JPEG",
+      "reviewed_at": "2026-10-14",
+      "fields": [
+        "material"
+      ],
+      "sha256": "1eb57e63d7892f73cf6457e2c387b870e35baeeae110e59c7f85de54ee6fc73e",
+      "status": "active",
+      "reason": "已目视筛选，按原工作表款号关联，保留原图",
+      "url": "/static/images/source/804-13.png"
+    },
+    {
+      "id": "804-14",
+      "product_id": "804",
+      "sheet": "宿舍床帘-丢丢帐804",
+      "anchor": "E6",
+      "caption": "遮光帘挂钩",
+      "media": "xl/media/image53.png",
+      "size": [
+        124,
+        158
+      ],
+      "format": "JPEG",
+      "reviewed_at": "2026-10-14",
+      "fields": [
+        "accessories"
+      ],
+      "sha256": "717588bf597afcb9d866af47eec9b229f36c5a54dca1b1beebca4a8ad2d94e0f",
+      "status": "active",
+      "reason": "已目视筛选，按原工作表款号关联，保留原图",
+      "url": "/static/images/source/804-14.png"
+    },
+    {
+      "id": "804-15",
+      "product_id": "804",
+      "sheet": "宿舍床帘-丢丢帐804",
+      "anchor": "E6",
+      "caption": "遮光帘挂钩",
+      "media": "xl/media/image110.png",
+      "size": [
+        1080,
+        720
+      ],
+      "format": "JPEG",
+      "reviewed_at": "2026-10-14",
+      "fields": [
+        "accessories"
+      ],
+      "sha256": "6847d46e1a600ad8704af28c180b19e457cca616f567001c316d898aea45c068",
+      "status": "active",
+      "reason": "已目视筛选，按原工作表款号关联，保留原图",
+      "url": "/static/images/source/804-15.png"
+    },
+    {
+      "id": "804-16",
+      "product_id": "804",
+      "sheet": "宿舍床帘-丢丢帐804",
+      "anchor": "F6",
+      "caption": "帐纱水洗标",
+      "media": "xl/media/image111.png",
+      "size": [
+        1080,
+        720
+      ],
+      "format": "JPEG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "0458643334fcfa3858b2a379172e6d839b1c84f98e8f9cb3c1daf9e28878bad7",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "804-17",
+      "product_id": "804",
+      "sheet": "宿舍床帘-丢丢帐804",
+      "anchor": "G6",
+      "caption": "效果图",
+      "media": "xl/media/image112.png",
+      "size": [
+        1080,
+        720
+      ],
+      "format": "JPEG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "ee455a18a8dc8c097160fe40ea1e164cf3c27faaaa3fb7cd12f0738013ef633f",
+      "status": "superseded_or_conflict",
+      "reason": "免安装款米色旧素材，与用户确认目前仅蓝色不一致"
+    },
+    {
+      "id": "804-18",
+      "product_id": "804",
+      "sheet": "宿舍床帘-丢丢帐804",
+      "anchor": "H6",
+      "caption": "搭配储物袋效果图（不赠送储物袋）",
+      "media": "xl/media/image113.png",
+      "size": [
+        1080,
+        720
+      ],
+      "format": "JPEG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "838536eaa467b083c700c1283fbae568b5ee66b931c68281b6db4733989b85b4",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "804-19",
+      "product_id": "804",
+      "sheet": "宿舍床帘-丢丢帐804",
+      "anchor": "B8",
+      "caption": "支架链接处对比",
+      "media": "xl/media/image114.png",
+      "size": [
+        1080,
+        720
+      ],
+      "format": "JPEG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "06e835092219c726309a4bedd5e6039baaf7a54b7d55cdefdbe2773c3f4ba526",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "804-20",
+      "product_id": "804",
+      "sheet": "宿舍床帘-丢丢帐804",
+      "anchor": "C8",
+      "caption": "遮光帘对比",
+      "media": "xl/media/image115.png",
+      "size": [
+        1080,
+        720
+      ],
+      "format": "JPEG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "0e1c6ead4c85d3ebba1b177516dd468330c2f12431f9af2647f23d8b395ccbc2",
+      "status": "superseded_or_conflict",
+      "reason": "旧参数或未确认比较主张，与当前确认资料不一致"
+    },
+    {
+      "id": "804-21",
+      "product_id": "804",
+      "sheet": "宿舍床帘-丢丢帐804",
+      "anchor": "D8",
+      "caption": "下铺床帘实物图",
+      "media": "xl/media/image116.png",
+      "size": [
+        1080,
+        806
+      ],
+      "format": "JPEG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "85a57db218d2b49a35997e8cba89750da07f305a303db87f7a3934c0c4b27473",
+      "status": "superseded_or_conflict",
+      "reason": "免安装款米色旧素材，与用户确认目前仅蓝色不一致"
+    },
+    {
+      "id": "804-22",
+      "product_id": "804",
+      "sheet": "宿舍床帘-丢丢帐804",
+      "anchor": "E8",
+      "caption": "拉链细节",
+      "media": "xl/media/image117.png",
+      "size": [
+        1080,
+        720
+      ],
+      "format": "JPEG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "f6a8c89ec47d06ce6aa699acacb91ff4891e53958bddf31f8a3c4f6275e9e110",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "804-23",
+      "product_id": "804",
+      "sheet": "宿舍床帘-丢丢帐804",
+      "anchor": "F8",
+      "caption": "内部图",
+      "media": "xl/media/image63.png",
+      "size": [
+        810,
+        1080
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "f9182f991b3d447e25f24a320f661f24b3c9125076d0fa64e8bfd8e836faa754",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "804-24",
+      "product_id": "804",
+      "sheet": "宿舍床帘-丢丢帐804",
+      "anchor": "G8",
+      "caption": "风扇杆搭配风扇效果图",
+      "media": "xl/media/image118.png",
+      "size": [
+        1080,
+        720
+      ],
+      "format": "JPEG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "92e9e350a00764edba8b3264bfda9d4e8266798d3b0391f0eab6fb9977d22081",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "804-25",
+      "product_id": "804",
+      "sheet": "宿舍床帘-丢丢帐804",
+      "anchor": "H8",
+      "caption": "内部收纳袋",
+      "media": "xl/media/image119.png",
+      "size": [
+        1080,
+        720
+      ],
+      "format": "JPEG",
+      "reviewed_at": "2026-10-14",
+      "fields": [
+        "storage"
+      ],
+      "sha256": "6edfd649dd2b08a54d84109799f1dc273ab025e34b214c39d4335ee1cef71703",
+      "status": "active",
+      "reason": "已目视筛选，按原工作表款号关联，保留原图",
+      "url": "/static/images/source/804-25.png"
+    },
+    {
+      "id": "804-26",
+      "product_id": "804",
+      "sheet": "宿舍床帘-丢丢帐804",
+      "anchor": "B10",
+      "caption": "内部预留充电口",
+      "media": "xl/media/image120.png",
+      "size": [
+        1080,
+        720
+      ],
+      "format": "JPEG",
+      "reviewed_at": "2026-10-14",
+      "fields": [
+        "charging_port",
+        "power_strip"
+      ],
+      "sha256": "451fef0d3db3633fd8e60b19855e0eb40d6e2903dd0781396977cc203fea73e5",
+      "status": "active",
+      "reason": "已目视筛选，按原工作表款号关联，保留原图",
+      "url": "/static/images/source/804-26.png"
+    },
+    {
+      "id": "804-27",
+      "product_id": "804",
+      "sheet": "宿舍床帘-丢丢帐804",
+      "anchor": "C10",
+      "caption": "卡通吊坠正面",
+      "media": "xl/media/image121.png",
+      "size": [
+        1080,
+        720
+      ],
+      "format": "JPEG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "84f8cf0ccfcbef98ea5096d76d4c6f37fbcfa37741c6716be41ea76e9fe759c6",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "804-28",
+      "product_id": "804",
+      "sheet": "宿舍床帘-丢丢帐804",
+      "anchor": "D10",
+      "caption": "卡通吊坠反面",
+      "media": "xl/media/image122.png",
+      "size": [
+        688,
+        375
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "930962a4dfa2b98a7de9e45bf336f6cd68730cc90d09aacdd933d6dca73c6a4c",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "804-29",
+      "product_id": "804",
+      "sheet": "宿舍床帘-丢丢帐804",
+      "anchor": "E10",
+      "caption": "上铺床帘实物图",
+      "media": "xl/media/image123.png",
+      "size": [
+        1080,
+        720
+      ],
+      "format": "JPEG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "bd3a43e46261cbec2b3254787900fc211bfb3c09facf6b94047c2f76ce7b3818",
+      "status": "superseded_or_conflict",
+      "reason": "免安装款米色旧素材，与用户确认目前仅蓝色不一致"
+    },
+    {
+      "id": "804-30",
+      "product_id": "804",
+      "sheet": "宿舍床帘-丢丢帐804",
+      "anchor": "F10",
+      "caption": "蓝色遮光帘内外颜色",
+      "media": "xl/media/image70.png",
+      "size": [
+        436,
+        658
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [
+        "inner_color"
+      ],
+      "sha256": "0b038a1b6763a172b852c18ee31641c530d33786cd0fd3c71b12c869ec3b0ce8",
+      "status": "active",
+      "reason": "已目视筛选，按原工作表款号关联，保留原图",
+      "url": "/static/images/source/804-30.png"
+    },
+    {
+      "id": "804-31",
+      "product_id": "804",
+      "sheet": "宿舍床帘-丢丢帐804",
+      "anchor": "G10",
+      "caption": "米色遮光帘内外颜色",
+      "media": "xl/media/image71.png",
+      "size": [
+        439,
+        656
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "4f4b8b3e8496566745a48cbea3baa9c05049f535d6c0d95bf749a24469529563",
+      "status": "superseded_or_conflict",
+      "reason": "免安装款米色旧素材，与用户确认目前仅蓝色不一致"
+    },
+    {
+      "id": "804-32",
+      "product_id": "804",
+      "sheet": "宿舍床帘-丢丢帐804",
+      "anchor": "H10",
+      "caption": "蓝色",
+      "media": "xl/media/image124.png",
+      "size": [
+        1080,
+        1080
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [
+        "appearance",
+        "colors"
+      ],
+      "sha256": "7c0297c69e4debd6028ad8115bfb7214568cd1ebe5e04d55d9c686c5c10550e4",
+      "status": "active",
+      "reason": "已目视筛选，按原工作表款号关联，保留原图",
+      "url": "/static/images/source/804-32.png"
+    },
+    {
+      "id": "804-33",
+      "product_id": "804",
+      "sheet": "宿舍床帘-丢丢帐804",
+      "anchor": "I10",
+      "caption": "米色",
+      "media": "xl/media/image125.png",
+      "size": [
+        1080,
+        1080
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "78e9d07717550ccbbf24eb9bbcb22f847102f58c6d5bcb9b2c7550fd3882231e",
+      "status": "superseded_or_conflict",
+      "reason": "免安装款米色旧素材，与用户确认目前仅蓝色不一致"
+    },
+    {
+      "id": "804-34",
+      "product_id": "804",
+      "sheet": "宿舍床帘-丢丢帐804",
+      "anchor": "E30",
+      "caption": "",
+      "media": "xl/media/image75.png",
+      "size": [
+        982,
+        466
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "1c57680ed1802677ffeae51422590002942e751ca0c2398adda6641f062f8f4f",
+      "status": "manual_review",
+      "reason": "报告/证书图片；需核对样品、时间和适用款型，不作跨款通用证明"
+    },
+    {
+      "id": "804-35",
+      "product_id": "804",
+      "sheet": "宿舍床帘-丢丢帐804",
+      "anchor": "I30",
+      "caption": "",
+      "media": "xl/media/image76.png",
+      "size": [
+        432,
+        487
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "f1fa582298ce301a10f2d9fb57c6f05003cdeb7c4e629d5dc16de360e71a4be1",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "804-36",
+      "product_id": "804",
+      "sheet": "宿舍床帘-丢丢帐804",
+      "anchor": "I31",
+      "caption": "",
+      "media": "xl/media/image77.png",
+      "size": [
+        1080,
+        862
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "17efe008141e28d20180c41996ab8ca1bc0debee2a5540c6ffadb7ee4b9bf93a",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "804-37",
+      "product_id": "804",
+      "sheet": "宿舍床帘-丢丢帐804",
+      "anchor": "E32",
+      "caption": "",
+      "media": "xl/media/image78.png",
+      "size": [
+        357,
+        369
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "9305f562104acabc2d3d51249259eb834869cd411481772ba6ed199d78769b1e",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "804-38",
+      "product_id": "804",
+      "sheet": "宿舍床帘-丢丢帐804",
+      "anchor": "I32",
+      "caption": "",
+      "media": "xl/media/image79.png",
+      "size": [
+        748,
+        492
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "4ef060c283b3d36e9ff0288e84cc5f751a6c6ab068084f2404ffced417623ea6",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "804-39",
+      "product_id": "804",
+      "sheet": "宿舍床帘-丢丢帐804",
+      "anchor": "I33",
+      "caption": "",
+      "media": "xl/media/image80.png",
+      "size": [
+        838,
+        690
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "c6c6a9940220e6e0bab51be5ef87c997b6444ca8453e7ba66785d61d6282f1a4",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "804-40",
+      "product_id": "804",
+      "sheet": "宿舍床帘-丢丢帐804",
+      "anchor": "I34",
+      "caption": "",
+      "media": "xl/media/image81.png",
+      "size": [
+        790,
+        790
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "9be559ec083e7f28e56a25dac39e9a8216382a9536ad348bc538e220dd930784",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "804-41",
+      "product_id": "804",
+      "sheet": "宿舍床帘-丢丢帐804",
+      "anchor": "I35",
+      "caption": "",
+      "media": "xl/media/image83.png",
+      "size": [
+        967,
+        683
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "a4beff2e89d23c926334c4dccd6a2bcab4d88e58fc9e2b2b2f6e59a2d2cd19b9",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "804-42",
+      "product_id": "804",
+      "sheet": "宿舍床帘-丢丢帐804",
+      "anchor": "I37",
+      "caption": "",
+      "media": "xl/media/image85.png",
+      "size": [
+        448,
+        589
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [
+        "bottom"
+      ],
+      "sha256": "430121bf967835f0457cfca656e9bc30ce1b117469ce98346063a3bef84f00c3",
+      "status": "active",
+      "reason": "已目视筛选，按原工作表款号关联，保留原图",
+      "url": "/static/images/source/804-42.png"
+    },
+    {
+      "id": "804-43",
+      "product_id": "804",
+      "sheet": "宿舍床帘-丢丢帐804",
+      "anchor": "E38",
+      "caption": "",
+      "media": "xl/media/image86.png",
+      "size": [
+        1080,
+        543
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "958956ad53472469f24899cd0f665cee6ebbd252c39fd2a4d011875e48255245",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "804-44",
+      "product_id": "804",
+      "sheet": "宿舍床帘-丢丢帐804",
+      "anchor": "I38",
+      "caption": "",
+      "media": "xl/media/image87.png",
+      "size": [
+        809,
+        714
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "b69a06ad071124847d8c2e36ffaf3e3134549070544bb0372e9b0d1460e44ab9",
+      "status": "manual_review",
+      "reason": "报告/证书图片；需核对样品、时间和适用款型，不作跨款通用证明"
+    },
+    {
+      "id": "804-45",
+      "product_id": "804",
+      "sheet": "宿舍床帘-丢丢帐804",
+      "anchor": "E39",
+      "caption": "",
+      "media": "xl/media/image92.png",
+      "size": [
+        123,
+        170
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "9b203748c5e359ce09acfcc0dcf186590ce89acc5305ec7813b8314e79b40d2e",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "804-46",
+      "product_id": "804",
+      "sheet": "宿舍床帘-丢丢帐804",
+      "anchor": "I39",
+      "caption": "",
+      "media": "xl/media/image93.png",
+      "size": [
+        315,
+        207
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "cf3daf1905e00d131ae29d74fefcf0e2953aa7eebbee71c1edb4309de0a9ff80",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "804-47",
+      "product_id": "804",
+      "sheet": "宿舍床帘-丢丢帐804",
+      "anchor": "E40",
+      "caption": "",
+      "media": "xl/media/image85.png",
+      "size": [
+        448,
+        589
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "430121bf967835f0457cfca656e9bc30ce1b117469ce98346063a3bef84f00c3",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "804-48",
+      "product_id": "804",
+      "sheet": "宿舍床帘-丢丢帐804",
+      "anchor": "I40",
+      "caption": "",
+      "media": "xl/media/image94.png",
+      "size": [
+        119,
+        162
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "3fa8130b040e0bae1a078ddeeef155a74fca7590da271f9ec8c6acaee692a7be",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "803-01",
+      "product_id": "803",
+      "sheet": "宿舍床帘-线条小狗联名803",
+      "anchor": "B6",
+      "caption": "开门的区别",
+      "media": "xl/media/image126.png",
+      "size": [
+        412,
+        658
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [
+        "doors"
+      ],
+      "sha256": "8fb7bbf758b7850a83ea3c6675a705fd04cffad644cee746f7a005fa13a9d5f8",
+      "status": "active",
+      "reason": "已目视筛选，按原工作表款号关联，保留原图",
+      "url": "/static/images/source/803-01.png"
+    },
+    {
+      "id": "803-02",
+      "product_id": "803",
+      "sheet": "宿舍床帘-线条小狗联名803",
+      "anchor": "F6",
+      "caption": "排米拉链款",
+      "media": "xl/media/image127.png",
+      "size": [
+        1080,
+        720
+      ],
+      "format": "JPEG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "abd131d87454f5652e4ccad2d265162508baa0f00ff7661485b7520d0f2e49a6",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "803-03",
+      "product_id": "803",
+      "sheet": "宿舍床帘-线条小狗联名803",
+      "anchor": "H6",
+      "caption": "安装教程图",
+      "media": "xl/media/image128.png",
+      "size": [
+        510,
+        1080
+      ],
+      "format": "JPEG",
+      "reviewed_at": "2026-10-14",
+      "fields": [
+        "instructions",
+        "easy_installation"
+      ],
+      "sha256": "6ef871f8e4ae5912f2868559af37e6b0414b60ba232189ca6568cdd84f61e1f0",
+      "status": "active",
+      "reason": "已目视筛选，按原工作表款号关联，保留原图",
+      "url": "/static/images/source/803-03.png"
+    },
+    {
+      "id": "803-04",
+      "product_id": "803",
+      "sheet": "宿舍床帘-线条小狗联名803",
+      "anchor": "B9",
+      "caption": "无异味证书",
+      "media": "xl/media/image129.png",
+      "size": [
+        869,
+        537
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "a9c9bc189e619b891cd92056c62dab1c3e4f6219c9f1b5e956eb9a4efb8f736a",
+      "status": "manual_review",
+      "reason": "报告/证书图片；需核对样品、时间和适用款型，不作跨款通用证明"
+    },
+    {
+      "id": "803-05",
+      "product_id": "803",
+      "sheet": "宿舍床帘-线条小狗联名803",
+      "anchor": "C9",
+      "caption": "A类证书",
+      "media": "xl/media/image130.png",
+      "size": [
+        828,
+        744
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "1c40b56f5f715b0e8c7d74355420641eb62f6e9429edb24b6b9a93745a6025a2",
+      "status": "manual_review",
+      "reason": "报告/证书图片；需核对样品、时间和适用款型，不作跨款通用证明"
+    },
+    {
+      "id": "803-06",
+      "product_id": "803",
+      "sheet": "宿舍床帘-线条小狗联名803",
+      "anchor": "D9",
+      "caption": "遮光证书",
+      "media": "xl/media/image131.png",
+      "size": [
+        835,
+        628
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "278900171a26a96ae78d03a74e6104dbcf638077183c956bc7e7a159df1fb6a8",
+      "status": "manual_review",
+      "reason": "报告/证书图片；需核对样品、时间和适用款型，不作跨款通用证明"
+    },
+    {
+      "id": "803-07",
+      "product_id": "803",
+      "sheet": "宿舍床帘-线条小狗联名803",
+      "anchor": "B13",
+      "caption": "床帘上铺安装效果实物图",
+      "media": "xl/media/image132.png",
+      "size": [
+        1080,
+        823
+      ],
+      "format": "JPEG",
+      "reviewed_at": "2026-10-14",
+      "fields": [
+        "appearance"
+      ],
+      "sha256": "707ca5a5a2a0a08eb5ec5af01e81995ec795ce33bcf1e778ce1ab3fd4203111f",
+      "status": "active",
+      "reason": "已目视筛选，按原工作表款号关联，保留原图",
+      "url": "/static/images/source/803-07.png"
+    },
+    {
+      "id": "803-08",
+      "product_id": "803",
+      "sheet": "宿舍床帘-线条小狗联名803",
+      "anchor": "C13",
+      "caption": "床帘下铺安装效果实物图",
+      "media": "xl/media/image133.png",
+      "size": [
+        1080,
+        806
+      ],
+      "format": "JPEG",
+      "reviewed_at": "2026-10-14",
+      "fields": [
+        "appearance"
+      ],
+      "sha256": "8cb929ccbe0ea482adb92388bb27cd1d739a26ac960e49fed75d30018639fb28",
+      "status": "active",
+      "reason": "已目视筛选，按原工作表款号关联，保留原图",
+      "url": "/static/images/source/803-08.png"
+    },
+    {
+      "id": "803-09",
+      "product_id": "803",
+      "sheet": "宿舍床帘-线条小狗联名803",
+      "anchor": "D13",
+      "caption": "顶部图",
+      "media": "xl/media/image134.png",
+      "size": [
+        1080,
+        720
+      ],
+      "format": "JPEG",
+      "reviewed_at": "2026-10-14",
+      "fields": [
+        "roof"
+      ],
+      "sha256": "3de2ad88d8d257940b7bfcb4783162e538ccef54aaf92056293920d9116e3be0",
+      "status": "active",
+      "reason": "已目视筛选，按原工作表款号关联，保留原图",
+      "url": "/static/images/source/803-09.png"
+    },
+    {
+      "id": "803-10",
+      "product_id": "803",
+      "sheet": "宿舍床帘-线条小狗联名803",
+      "anchor": "E13",
+      "caption": "内部图",
+      "media": "xl/media/image135.png",
+      "size": [
+        1080,
+        720
+      ],
+      "format": "JPEG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "afa6d382f776976d7266449d76f59f3d37f2b2b5ac5d5abc3a4213b39db91aa6",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "803-11",
+      "product_id": "803",
+      "sheet": "宿舍床帘-线条小狗联名803",
+      "anchor": "F13",
+      "caption": "坐直不碰头实测细节图",
+      "media": "xl/media/image136.png",
+      "size": [
+        1080,
+        720
+      ],
+      "format": "JPEG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "58366cb54a91505f66426f57ad33b0b742a9ded6725c7725bf3efb763fb5224f",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "803-12",
+      "product_id": "803",
+      "sheet": "宿舍床帘-线条小狗联名803",
+      "anchor": "G13",
+      "caption": "支架承重测试",
+      "media": "xl/media/image137.png",
+      "size": [
+        1080,
+        720
+      ],
+      "format": "JPEG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "cec9b959fd7bf1ee3d0b57225d2c2cfd3494b1dea22a8cfd5f4ce493e2b02e12",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "803-13",
+      "product_id": "803",
+      "sheet": "宿舍床帘-线条小狗联名803",
+      "anchor": "H13",
+      "caption": "透气性测试",
+      "media": "xl/media/image138.png",
+      "size": [
+        1080,
+        720
+      ],
+      "format": "JPEG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "59256e509be954d42a3f2a5c0f1503516bdbafdf2b8c4f679c1ae584f144605d",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "803-14",
+      "product_id": "803",
+      "sheet": "宿舍床帘-线条小狗联名803",
+      "anchor": "I13",
+      "caption": "3个颜色实物图",
+      "media": "xl/media/image139.png",
+      "size": [
+        1080,
+        356
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [
+        "colors"
+      ],
+      "sha256": "e1f498a304062673e66110601dfc9cb322c12081a747addd311e3288a8f55c3b",
+      "status": "active",
+      "reason": "已目视筛选，按原工作表款号关联，保留原图",
+      "url": "/static/images/source/803-14.png"
+    },
+    {
+      "id": "803-15",
+      "product_id": "803",
+      "sheet": "宿舍床帘-线条小狗联名803",
+      "anchor": "L13",
+      "caption": "精美包装图",
+      "media": "xl/media/image140.png",
+      "size": [
+        1080,
+        540
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "8518ad13854ba4b83c5fa1e8802753c7eda2330f6e430460c6bdd978877bf78a",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "803-16",
+      "product_id": "803",
+      "sheet": "宿舍床帘-线条小狗联名803",
+      "anchor": "M13",
+      "caption": "升级图片话术",
+      "media": "xl/media/image141.png",
+      "size": [
+        810,
+        1080
+      ],
+      "format": "JPEG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "d6a53965af1aa48776cd1920362f324ac7b6d944a8835617344fd66aada291be",
+      "status": "superseded_or_conflict",
+      "reason": "旧参数或未确认比较主张，与当前确认资料不一致"
+    },
+    {
+      "id": "803-17",
+      "product_id": "803",
+      "sheet": "宿舍床帘-线条小狗联名803",
+      "anchor": "B15",
+      "caption": "内部预留充电口细节",
+      "media": "xl/media/image142.png",
+      "size": [
+        1080,
+        720
+      ],
+      "format": "JPEG",
+      "reviewed_at": "2026-10-14",
+      "fields": [
+        "charging_port",
+        "power_strip"
+      ],
+      "sha256": "6404e0be933a37f9b389a89710f61efdf61cb2d605a3467ecbe47c437a8197a4",
+      "status": "active",
+      "reason": "已目视筛选，按原工作表款号关联，保留原图",
+      "url": "/static/images/source/803-17.png"
+    },
+    {
+      "id": "803-18",
+      "product_id": "803",
+      "sheet": "宿舍床帘-线条小狗联名803",
+      "anchor": "C15",
+      "caption": "三通细节",
+      "media": "xl/media/image143.png",
+      "size": [
+        1080,
+        720
+      ],
+      "format": "JPEG",
+      "reviewed_at": "2026-10-14",
+      "fields": [
+        "accessories"
+      ],
+      "sha256": "0717e748d08d9354b1049b63fcf08d634d2406a06c6b44d53f5130ffa3cd4211",
+      "status": "active",
+      "reason": "已目视筛选，按原工作表款号关联，保留原图",
+      "url": "/static/images/source/803-18.png"
+    },
+    {
+      "id": "803-19",
+      "product_id": "803",
+      "sheet": "宿舍床帘-线条小狗联名803",
+      "anchor": "D15",
+      "caption": "底部回底+排米拉链",
+      "media": "xl/media/image127.png",
+      "size": [
+        1080,
+        720
+      ],
+      "format": "JPEG",
+      "reviewed_at": "2026-10-14",
+      "fields": [
+        "bottom"
+      ],
+      "sha256": "abd131d87454f5652e4ccad2d265162508baa0f00ff7661485b7520d0f2e49a6",
+      "status": "active",
+      "reason": "已目视筛选，按原工作表款号关联，保留原图",
+      "url": "/static/images/source/803-19.png"
+    },
+    {
+      "id": "803-20",
+      "product_id": "803",
+      "sheet": "宿舍床帘-线条小狗联名803",
+      "anchor": "E15",
+      "caption": "支架粗细",
+      "media": "xl/media/image144.png",
+      "size": [
+        1080,
+        720
+      ],
+      "format": "JPEG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "672f3e6c4c4098103538d34e179b696783b3b0c5c1a66d581d6ad2051d5ff593",
+      "status": "superseded_or_conflict",
+      "reason": "旧参数或未确认比较主张，与当前确认资料不一致"
+    },
+    {
+      "id": "803-21",
+      "product_id": "803",
+      "sheet": "宿舍床帘-线条小狗联名803",
+      "anchor": "F15",
+      "caption": "支架链接处【对比】",
+      "media": "xl/media/image145.png",
+      "size": [
+        720,
+        1080
+      ],
+      "format": "JPEG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "73757d24ce28b2ee682598b56ddafe97da7dd488163aecd3803e0c0ec1af5591",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "803-22",
+      "product_id": "803",
+      "sheet": "宿舍床帘-线条小狗联名803",
+      "anchor": "G15",
+      "caption": "支架中间链接处",
+      "media": "xl/media/image146.png",
+      "size": [
+        1080,
+        720
+      ],
+      "format": "JPEG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "0322727dff416f31b2e0d352f3a87e59329c89e4d73b8de9d7523dbbd6d0c3c7",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "803-23",
+      "product_id": "803",
+      "sheet": "宿舍床帘-线条小狗联名803",
+      "anchor": "H15",
+      "caption": "床帘底部效果图",
+      "media": "xl/media/image147.png",
+      "size": [
+        540,
+        1080
+      ],
+      "format": "JPEG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "a50100e133f38e96f05ca95c02b923b2fbd48391e66280f8fa139b2096ff52d9",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "803-24",
+      "product_id": "803",
+      "sheet": "宿舍床帘-线条小狗联名803",
+      "anchor": "I15",
+      "caption": "内部收纳袋细节",
+      "media": "xl/media/image148.png",
+      "size": [
+        1080,
+        720
+      ],
+      "format": "JPEG",
+      "reviewed_at": "2026-10-14",
+      "fields": [
+        "storage"
+      ],
+      "sha256": "d505f524009a73a7f02fb556d91ba61f3b12a74f071e5c08ad2d26411e6ede8e",
+      "status": "active",
+      "reason": "已目视筛选，按原工作表款号关联，保留原图",
+      "url": "/static/images/source/803-24.png"
+    },
+    {
+      "id": "803-25",
+      "product_id": "803",
+      "sheet": "宿舍床帘-线条小狗联名803",
+      "anchor": "J15",
+      "caption": "拉链细节",
+      "media": "xl/media/image149.png",
+      "size": [
+        1080,
+        720
+      ],
+      "format": "JPEG",
+      "reviewed_at": "2026-10-14",
+      "fields": [
+        "accessories"
+      ],
+      "sha256": "6a9125aa4e73a10270d6470eac7bafbd95c75b6f32bf6f56c487e7d9670bb79c",
+      "status": "active",
+      "reason": "已目视筛选，按原工作表款号关联，保留原图",
+      "url": "/static/images/source/803-25.png"
+    },
+    {
+      "id": "803-26",
+      "product_id": "803",
+      "sheet": "宿舍床帘-线条小狗联名803",
+      "anchor": "K15",
+      "caption": "挂物袋实拍图（不赠送储物袋）",
+      "media": "xl/media/image150.png",
+      "size": [
+        1080,
+        720
+      ],
+      "format": "JPEG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "838536eaa467b083c700c1283fbae568b5ee66b931c68281b6db4733989b85b4",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "803-27",
+      "product_id": "803",
+      "sheet": "宿舍床帘-线条小狗联名803",
+      "anchor": "L15",
+      "caption": "升级图片话术",
+      "media": "xl/media/image141.png",
+      "size": [
+        810,
+        1080
+      ],
+      "format": "JPEG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "d6a53965af1aa48776cd1920362f324ac7b6d944a8835617344fd66aada291be",
+      "status": "superseded_or_conflict",
+      "reason": "旧参数或未确认比较主张，与当前确认资料不一致"
+    },
+    {
+      "id": "803-28",
+      "product_id": "803",
+      "sheet": "宿舍床帘-线条小狗联名803",
+      "anchor": "C17",
+      "caption": "底部包裹床垫(搭配全棉床单）",
+      "media": "xl/media/image151.png",
+      "size": [
+        1080,
+        694
+      ],
+      "format": "JPEG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "f51063b1de316b16ac533f0bde740fac42b27a553fae4d7954d32f99bf4e3b1a",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "803-29",
+      "product_id": "803",
+      "sheet": "宿舍床帘-线条小狗联名803",
+      "anchor": "D17",
+      "caption": "底部包裹床垫(搭配QQ床垫）",
+      "media": "xl/media/image152.png",
+      "size": [
+        1080,
+        717
+      ],
+      "format": "JPEG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "43178cfa17a012025aa24a51b654c68a15d0108fb5b183024d9b8784b6a627ee",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "803-30",
+      "product_id": "803",
+      "sheet": "宿舍床帘-线条小狗联名803",
+      "anchor": "E17",
+      "caption": "帐纱细节实拍图",
+      "media": "xl/media/image153.png",
+      "size": [
+        1080,
+        720
+      ],
+      "format": "JPEG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "1eb57e63d7892f73cf6457e2c387b870e35baeeae110e59c7f85de54ee6fc73e",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "803-31",
+      "product_id": "803",
+      "sheet": "宿舍床帘-线条小狗联名803",
+      "anchor": "F17",
+      "caption": "蓝色遮光帘内外颜色",
+      "media": "xl/media/image154.png",
+      "size": [
+        1080,
+        707
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [
+        "inner_color"
+      ],
+      "sha256": "675736b73695b27d7de894334dcee465ec10360d6ac853647e6895c5e153d618",
+      "status": "active",
+      "reason": "已目视筛选，按原工作表款号关联，保留原图",
+      "url": "/static/images/source/803-31.png"
+    },
+    {
+      "id": "803-32",
+      "product_id": "803",
+      "sheet": "宿舍床帘-线条小狗联名803",
+      "anchor": "G17",
+      "caption": "遮光帘细节",
+      "media": "xl/media/image155.png",
+      "size": [
+        1080,
+        720
+      ],
+      "format": "JPEG",
+      "reviewed_at": "2026-10-14",
+      "fields": [
+        "material"
+      ],
+      "sha256": "558a3f31ce8db9fc3205385f7060b7adbd8befef7045178f0bd850ba5daaf2b9",
+      "status": "active",
+      "reason": "已目视筛选，按原工作表款号关联，保留原图",
+      "url": "/static/images/source/803-32.png"
+    },
+    {
+      "id": "803-33",
+      "product_id": "803",
+      "sheet": "宿舍床帘-线条小狗联名803",
+      "anchor": "J17",
+      "caption": "风扇杆搭配风扇灯实拍图",
+      "media": "xl/media/image156.png",
+      "size": [
+        1080,
+        720
+      ],
+      "format": "JPEG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "92e9e350a00764edba8b3264bfda9d4e8266798d3b0391f0eab6fb9977d22081",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "803-34",
+      "product_id": "803",
+      "sheet": "宿舍床帘-线条小狗联名803",
+      "anchor": "K17",
+      "caption": "遮光帘面料透气性实测图",
+      "media": "xl/media/image157.png",
+      "size": [
+        1080,
+        720
+      ],
+      "format": "JPEG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "59256e509be954d42a3f2a5c0f1503516bdbafdf2b8c4f679c1ae584f144605d",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "803-35",
+      "product_id": "803",
+      "sheet": "宿舍床帘-线条小狗联名803",
+      "anchor": "E37",
+      "caption": "",
+      "media": "xl/media/image130.png",
+      "size": [
+        828,
+        744
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "1c40b56f5f715b0e8c7d74355420641eb62f6e9429edb24b6b9a93745a6025a2",
+      "status": "manual_review",
+      "reason": "报告/证书图片；需核对样品、时间和适用款型，不作跨款通用证明"
+    },
+    {
+      "id": "803-36",
+      "product_id": "803",
+      "sheet": "宿舍床帘-线条小狗联名803",
+      "anchor": "J37",
+      "caption": "",
+      "media": "xl/media/image158.png",
+      "size": [
+        869,
+        537
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "a9c9bc189e619b891cd92056c62dab1c3e4f6219c9f1b5e956eb9a4efb8f736a",
+      "status": "manual_review",
+      "reason": "报告/证书图片；需核对样品、时间和适用款型，不作跨款通用证明"
+    },
+    {
+      "id": "803-37",
+      "product_id": "803",
+      "sheet": "宿舍床帘-线条小狗联名803",
+      "anchor": "K37",
+      "caption": "",
+      "media": "xl/media/image159.png",
+      "size": [
+        1080,
+        720
+      ],
+      "format": "JPEG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "0e1c6ead4c85d3ebba1b177516dd468330c2f12431f9af2647f23d8b395ccbc2",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "803-38",
+      "product_id": "803",
+      "sheet": "宿舍床帘-线条小狗联名803",
+      "anchor": "E38",
+      "caption": "",
+      "media": "xl/media/image160.png",
+      "size": [
+        835,
+        628
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "278900171a26a96ae78d03a74e6104dbcf638077183c956bc7e7a159df1fb6a8",
+      "status": "manual_review",
+      "reason": "报告/证书图片；需核对样品、时间和适用款型，不作跨款通用证明"
+    },
+    {
+      "id": "803-39",
+      "product_id": "803",
+      "sheet": "宿舍床帘-线条小狗联名803",
+      "anchor": "I38",
+      "caption": "",
+      "media": "xl/media/image161.png",
+      "size": [
+        1080,
+        720
+      ],
+      "format": "JPEG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "0c9a5fe1bc0ac649a063572396314d4838c58988b34bc796e041a506f876fae2",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "803-40",
+      "product_id": "803",
+      "sheet": "宿舍床帘-线条小狗联名803",
+      "anchor": "E39",
+      "caption": "",
+      "media": "xl/media/image78.png",
+      "size": [
+        357,
+        369
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "9305f562104acabc2d3d51249259eb834869cd411481772ba6ed199d78769b1e",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "803-41",
+      "product_id": "803",
+      "sheet": "宿舍床帘-线条小狗联名803",
+      "anchor": "I40",
+      "caption": "待设计更新图对比",
+      "media": "xl/media/image80.png",
+      "size": [
+        838,
+        690
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "c6c6a9940220e6e0bab51be5ef87c997b6444ca8453e7ba66785d61d6282f1a4",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "803-42",
+      "product_id": "803",
+      "sheet": "宿舍床帘-线条小狗联名803",
+      "anchor": "J40",
+      "caption": "",
+      "media": "xl/media/image162.png",
+      "size": [
+        869,
+        537
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "a9c9bc189e619b891cd92056c62dab1c3e4f6219c9f1b5e956eb9a4efb8f736a",
+      "status": "manual_review",
+      "reason": "报告/证书图片；需核对样品、时间和适用款型，不作跨款通用证明"
+    },
+    {
+      "id": "803-43",
+      "product_id": "803",
+      "sheet": "宿舍床帘-线条小狗联名803",
+      "anchor": "E41",
+      "caption": "附上透气的动图效果；等设计图",
+      "media": "xl/media/image95.png",
+      "size": [
+        640,
+        854
+      ],
+      "format": "GIF",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "99c64179b862349e6153c294017c937a553ab31cb5745740852175995700c5e9",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "803-44",
+      "product_id": "803",
+      "sheet": "宿舍床帘-线条小狗联名803",
+      "anchor": "I41",
+      "caption": "待设计更新图对比",
+      "media": "xl/media/image163.png",
+      "size": [
+        1080,
+        720
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "3c993a82954e1df791ed6dd5869e19484f2c2d7af6ebd6f548d5fb7a5b6292f1",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "803-45",
+      "product_id": "803",
+      "sheet": "宿舍床帘-线条小狗联名803",
+      "anchor": "E42",
+      "caption": "附上透气的动图效果；等设计图",
+      "media": "xl/media/image164.png",
+      "size": [
+        1080,
+        720
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "132408fe84c6bba86453593cd440805bcf0216a91684168703e304c270bd7539",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "803-46",
+      "product_id": "803",
+      "sheet": "宿舍床帘-线条小狗联名803",
+      "anchor": "I43",
+      "caption": "",
+      "media": "xl/media/image165.png",
+      "size": [
+        810,
+        1080
+      ],
+      "format": "JPEG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "1d06b968cac9e992b1c000f23880d4145313fccb2948bcae52db14408aca200e",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "803-47",
+      "product_id": "803",
+      "sheet": "宿舍床帘-线条小狗联名803",
+      "anchor": "E44",
+      "caption": "附上床垫厚度测量图",
+      "media": "xl/media/image166.png",
+      "size": [
+        1080,
+        707
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "675736b73695b27d7de894334dcee465ec10360d6ac853647e6895c5e153d618",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "803-48",
+      "product_id": "803",
+      "sheet": "宿舍床帘-线条小狗联名803",
+      "anchor": "I44",
+      "caption": "",
+      "media": "xl/media/image167.png",
+      "size": [
+        828,
+        744
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "1c40b56f5f715b0e8c7d74355420641eb62f6e9429edb24b6b9a93745a6025a2",
+      "status": "manual_review",
+      "reason": "报告/证书图片；需核对样品、时间和适用款型，不作跨款通用证明"
+    },
+    {
+      "id": "803-49",
+      "product_id": "803",
+      "sheet": "宿舍床帘-线条小狗联名803",
+      "anchor": "J44",
+      "caption": "",
+      "media": "xl/media/image168.png",
+      "size": [
+        810,
+        1080
+      ],
+      "format": "JPEG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "fb91f5347257ee20cd3b8e1377fbd46d24b9e07e01a8a6c7f2760c8eeb019ac7",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "803-50",
+      "product_id": "803",
+      "sheet": "宿舍床帘-线条小狗联名803",
+      "anchor": "E45",
+      "caption": "附上床垫厚度测量图",
+      "media": "xl/media/image169.png",
+      "size": [
+        1080,
+        356
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "674ef6fd500149484bc8011f7a5b97248d759d04e03d47a90ab77f23c0926690",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "803-51",
+      "product_id": "803",
+      "sheet": "宿舍床帘-线条小狗联名803",
+      "anchor": "I46",
+      "caption": "附上主图大礼盒的图",
+      "media": "xl/media/image170.png",
+      "size": [
+        1080,
+        720
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "fe11222634a813e4051b88caf75d5e82531908c07d0fe01f79a4f81f9c395b88",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "803-52",
+      "product_id": "803",
+      "sheet": "宿舍床帘-线条小狗联名803",
+      "anchor": "E47",
+      "caption": "",
+      "media": "xl/media/image171.png",
+      "size": [
+        1080,
+        540
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "1eac5ad8f3dfee049b228bc74431123454d88c89ea37d7fc2147b443f00f1a38",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    },
+    {
+      "id": "803-53",
+      "product_id": "803",
+      "sheet": "宿舍床帘-线条小狗联名803",
+      "anchor": "I47",
+      "caption": "附上主图大礼盒的图",
+      "media": "xl/media/image94.png",
+      "size": [
+        119,
+        162
+      ],
+      "format": "PNG",
+      "reviewed_at": "2026-10-14",
+      "fields": [],
+      "sha256": "3fa8130b040e0bae1a078ddeeef155a74fca7590da271f9ec8c6acaee692a7be",
+      "status": "reference_only",
+      "reason": "重复图、搭配/赠品、检测演示或尚未确认用途；本轮不自动发送"
+    }
+  ]
+}

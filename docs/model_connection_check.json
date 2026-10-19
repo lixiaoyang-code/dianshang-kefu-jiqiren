@@ -1,0 +1,29 @@
+{
+  "model": "doubao-seed-2-0-lite-260428",
+  "provider": "volcengine",
+  "data_scope": "synthetic_faq_only",
+  "cases": [
+    {
+      "question": "架子撑得住不",
+      "product_id": "801",
+      "expected_intent": "stability",
+      "status": "success",
+      "answer_id": "demo.stability",
+      "answer": "测试商品A的支架稳固。",
+      "passed": true,
+      "elapsed_ms": 1496
+    },
+    {
+      "question": "你吃饭了吗",
+      "product_id": "801",
+      "expected_intent": null,
+      "status": "skip",
+      "answer_id": null,
+      "answer": "",
+      "passed": true,
+      "elapsed_ms": 2119
+    }
+  ],
+  "passed": 2,
+  "total": 2
+}

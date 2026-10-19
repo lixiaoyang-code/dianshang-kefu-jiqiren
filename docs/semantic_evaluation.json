@@ -1,0 +1,1022 @@
+{
+  "backend": "ready",
+  "model": "paraphrase-multilingual-MiniLM-L12-v2 int8 ONNX",
+  "cases": 15,
+  "passed": 15,
+  "results": [
+    {
+      "question": "杆子容易倒吗",
+      "expected": "stability",
+      "actual": "stability",
+      "passed": true,
+      "elapsed_ms": 5.5,
+      "trace": {
+        "method": "semantic_onnx",
+        "backend": "multilingual_minilm_int8",
+        "threshold": 0.68,
+        "min_margin": 0.07,
+        "candidates": [
+          {
+            "id": "product.803.stability",
+            "score": 0.7637,
+            "source": [
+              {
+                "type": "user_confirmation",
+                "date": "2026-10-13",
+                "excerpt": "用户确认支架稳固；碳素钢材质，壁厚0.38 mm"
+              }
+            ]
+          },
+          {
+            "id": "product.803.pole_diameter",
+            "score": 0.6755,
+            "source": [
+              {
+                "type": "user_confirmation",
+                "date": "2026-10-13",
+                "reference": "本聊天：商品参数修正及壁厚追问回复",
+                "excerpt": "801是12mm，802/804是16mm，803最粗22mm"
+              }
+            ]
+          },
+          {
+            "id": "product.803.bottom",
+            "score": 0.6004,
+            "source": [
+              {
+                "file": "售前资源库.xlsx",
+                "sheet": "宿舍床帘-线条小狗联名803",
+                "cell": "G43",
+                "excerpt": "亲亲，蚊帐底部是镂空设计，但底部有约10-15cm宽的布料！铺上床垫后就能完全贴合密封，蚊虫绝对钻不进去的，放心哦~"
+              }
+            ]
+          },
+          {
+            "id": "product.803.charging_port",
+            "score": 0.5944,
+            "source": [
+              {
+                "file": "售前资源库.xlsx",
+                "sheet": "宿舍床帘-线条小狗联名803",
+                "cell": "G41",
+                "excerpt": "宝子，您这边问到点上了~咱们家今年考虑到学生要充电，或者要拉排插等，专门设计了一个充电口"
+              }
+            ]
+          },
+          {
+            "id": "product.803.telescoping",
+            "score": 0.5693,
+            "source": [
+              {
+                "file": "售前资源库.xlsx",
+                "sheet": "宿舍床帘-线条小狗联名803",
+                "cell": "B20",
+                "excerpt": "帐纱材质：A类聚酯纤维\n遮光帘材质：pvc化纤布\n支架材质：合金烤漆\n三通材质：ABS（塑料）\n支架工艺：烤漆\n顶部涂层材质：TPU材料\n\n外包装尺寸：95*15*15cm左右\n外包装重量：4kg左右哦~                                \n\n帐纱重量：678g左右\n遮光帘重量：600g左右（一片）\n遮光帘：长173cm左右  宽95cm左右\n\n支架壁厚：高管径21mm；宽管径21mm，支架壁厚0.31mm\n支架伸缩尺寸：长宽高都是 4cm左右"
+              }
+            ]
+          }
+        ],
+        "margin": 0.0882,
+        "status": "matched"
+      }
+    },
+    {
+      "question": "能塞进洗衣机里面清洗不",
+      "expected": "washing",
+      "actual": "washing",
+      "passed": true,
+      "elapsed_ms": 4.97,
+      "trace": {
+        "method": "semantic_onnx",
+        "backend": "multilingual_minilm_int8",
+        "threshold": 0.68,
+        "min_margin": 0.07,
+        "candidates": [
+          {
+            "id": "product.803.washing",
+            "score": 0.8495,
+            "source": [
+              {
+                "type": "user_confirmation",
+                "date": "2026-10-13",
+                "excerpt": "可以机洗"
+              }
+            ]
+          },
+          {
+            "id": "product.803.bottom",
+            "score": 0.5267,
+            "source": [
+              {
+                "file": "售前资源库.xlsx",
+                "sheet": "宿舍床帘-线条小狗联名803",
+                "cell": "G43",
+                "excerpt": "亲亲，蚊帐底部是镂空设计，但底部有约10-15cm宽的布料！铺上床垫后就能完全贴合密封，蚊虫绝对钻不进去的，放心哦~"
+              }
+            ]
+          },
+          {
+            "id": "product.803.stability",
+            "score": 0.4215,
+            "source": [
+              {
+                "type": "user_confirmation",
+                "date": "2026-10-13",
+                "excerpt": "用户确认支架稳固；碳素钢材质，壁厚0.38 mm"
+              }
+            ]
+          },
+          {
+            "id": "product.803.charging_port",
+            "score": 0.3846,
+            "source": [
+              {
+                "file": "售前资源库.xlsx",
+                "sheet": "宿舍床帘-线条小狗联名803",
+                "cell": "G41",
+                "excerpt": "宝子，您这边问到点上了~咱们家今年考虑到学生要充电，或者要拉排插等，专门设计了一个充电口"
+              }
+            ]
+          },
+          {
+            "id": "product.803.storage",
+            "score": 0.3448,
+            "source": [
+              {
+                "file": "售前资源库.xlsx",
+                "sheet": "宿舍床帘-线条小狗联名803",
+                "cell": "B42",
+                "excerpt": "亲亲，咱这床帘内部自带了一个收纳袋，您这边看下哈"
+              }
+            ]
+          }
+        ],
+        "margin": 0.3228,
+        "status": "matched"
+      }
+    },
+    {
+      "question": "插头的线从哪里走",
+      "expected": "charging_port",
+      "actual": "charging_port",
+      "passed": true,
+      "elapsed_ms": 5.16,
+      "trace": {
+        "method": "semantic_onnx",
+        "backend": "multilingual_minilm_int8",
+        "threshold": 0.68,
+        "min_margin": 0.07,
+        "candidates": [
+          {
+            "id": "product.803.charging_port",
+            "score": 0.8093,
+            "source": [
+              {
+                "file": "售前资源库.xlsx",
+                "sheet": "宿舍床帘-线条小狗联名803",
+                "cell": "G41",
+                "excerpt": "宝子，您这边问到点上了~咱们家今年考虑到学生要充电，或者要拉排插等，专门设计了一个充电口"
+              }
+            ]
+          },
+          {
+            "id": "product.803.stability",
+            "score": 0.6158,
+            "source": [
+              {
+                "type": "user_confirmation",
+                "date": "2026-10-13",
+                "excerpt": "用户确认支架稳固；碳素钢材质，壁厚0.38 mm"
+              }
+            ]
+          },
+          {
+            "id": "product.803.bottom",
+            "score": 0.5849,
+            "source": [
+              {
+                "file": "售前资源库.xlsx",
+                "sheet": "宿舍床帘-线条小狗联名803",
+                "cell": "G43",
+                "excerpt": "亲亲，蚊帐底部是镂空设计，但底部有约10-15cm宽的布料！铺上床垫后就能完全贴合密封，蚊虫绝对钻不进去的，放心哦~"
+              }
+            ]
+          },
+          {
+            "id": "product.803.pole_diameter",
+            "score": 0.5085,
+            "source": [
+              {
+                "type": "user_confirmation",
+                "date": "2026-10-13",
+                "reference": "本聊天：商品参数修正及壁厚追问回复",
+                "excerpt": "801是12mm，802/804是16mm，803最粗22mm"
+              }
+            ]
+          },
+          {
+            "id": "product.803.shade_sides",
+            "score": 0.5072,
+            "source": [
+              {
+                "file": "售前资源库.xlsx",
+                "sheet": "宿舍床帘-线条小狗联名803",
+                "cell": "G39",
+                "excerpt": "四面的话靠墙无遮光帘，五面靠墙有遮光帘"
+              }
+            ]
+          }
+        ],
+        "margin": 0.1935,
+        "status": "matched"
+      }
+    },
+    {
+      "question": "骨架是啥做成的",
+      "expected": "pole_material",
+      "actual": "pole_material",
+      "passed": true,
+      "elapsed_ms": 5.09,
+      "trace": {
+        "method": "semantic_onnx",
+        "backend": "multilingual_minilm_int8",
+        "threshold": 0.68,
+        "min_margin": 0.07,
+        "candidates": [
+          {
+            "id": "product.803.pole_material",
+            "score": 0.97,
+            "source": [
+              {
+                "type": "user_confirmation",
+                "date": "2026-10-13",
+                "excerpt": "支架为碳素钢材质"
+              }
+            ]
+          },
+          {
+            "id": "product.803.roof",
+            "score": 0.4765,
+            "source": [
+              {
+                "type": "user_confirmation",
+                "date": "2026-10-13",
+                "excerpt": "顶棚采用覆膜处理，用于遮光"
+              }
+            ]
+          },
+          {
+            "id": "product.803.stability",
+            "score": 0.4021,
+            "source": [
+              {
+                "type": "user_confirmation",
+                "date": "2026-10-13",
+                "excerpt": "用户确认支架稳固；碳素钢材质，壁厚0.38 mm"
+              }
+            ]
+          },
+          {
+            "id": "product.803.pole_diameter",
+            "score": 0.3976,
+            "source": [
+              {
+                "type": "user_confirmation",
+                "date": "2026-10-13",
+                "reference": "本聊天：商品参数修正及壁厚追问回复",
+                "excerpt": "801是12mm，802/804是16mm，803最粗22mm"
+              }
+            ]
+          },
+          {
+            "id": "product.803.bottom",
+            "score": 0.389,
+            "source": [
+              {
+                "file": "售前资源库.xlsx",
+                "sheet": "宿舍床帘-线条小狗联名803",
+                "cell": "G43",
+                "excerpt": "亲亲，蚊帐底部是镂空设计，但底部有约10-15cm宽的布料！铺上床垫后就能完全贴合密封，蚊虫绝对钻不进去的，放心哦~"
+              }
+            ]
+          }
+        ],
+        "margin": 0.4935,
+        "status": "matched"
+      }
+    },
+    {
+      "question": "手机有没有地方收着",
+      "expected": "storage",
+      "actual": "storage",
+      "passed": true,
+      "elapsed_ms": 3.98,
+      "trace": {
+        "method": "semantic_onnx",
+        "backend": "multilingual_minilm_int8",
+        "threshold": 0.68,
+        "min_margin": 0.07,
+        "candidates": [
+          {
+            "id": "product.803.storage",
+            "score": 0.9274,
+            "source": [
+              {
+                "file": "售前资源库.xlsx",
+                "sheet": "宿舍床帘-线条小狗联名803",
+                "cell": "B42",
+                "excerpt": "亲亲，咱这床帘内部自带了一个收纳袋，您这边看下哈"
+              }
+            ]
+          },
+          {
+            "id": "product.803.charging_port",
+            "score": 0.6526,
+            "source": [
+              {
+                "file": "售前资源库.xlsx",
+                "sheet": "宿舍床帘-线条小狗联名803",
+                "cell": "G41",
+                "excerpt": "宝子，您这边问到点上了~咱们家今年考虑到学生要充电，或者要拉排插等，专门设计了一个充电口"
+              }
+            ]
+          },
+          {
+            "id": "product.803.bottom",
+            "score": 0.3703,
+            "source": [
+              {
+                "file": "售前资源库.xlsx",
+                "sheet": "宿舍床帘-线条小狗联名803",
+                "cell": "G43",
+                "excerpt": "亲亲，蚊帐底部是镂空设计，但底部有约10-15cm宽的布料！铺上床垫后就能完全贴合密封，蚊虫绝对钻不进去的，放心哦~"
+              }
+            ]
+          },
+          {
+            "id": "product.803.coating",
+            "score": 0.3528,
+            "source": [
+              {
+                "type": "user_confirmation",
+                "date": "2026-10-13",
+                "reference": "本聊天：商品参数修正及壁厚追问回复",
+                "excerpt": "床帘没有涂层，纯面料遮光；追问后确认顶部仍按原表内容"
+              }
+            ]
+          },
+          {
+            "id": "product.803.roof",
+            "score": 0.3412,
+            "source": [
+              {
+                "type": "user_confirmation",
+                "date": "2026-10-13",
+                "excerpt": "顶棚采用覆膜处理，用于遮光"
+              }
+            ]
+          }
+        ],
+        "margin": 0.2747,
+        "status": "matched"
+      }
+    },
+    {
+      "question": "外头说话声音能减小点不",
+      "expected": "sound_insulation",
+      "actual": "sound_insulation",
+      "passed": true,
+      "elapsed_ms": 5.19,
+      "trace": {
+        "method": "semantic_onnx",
+        "backend": "multilingual_minilm_int8",
+        "threshold": 0.68,
+        "min_margin": 0.07,
+        "candidates": [
+          {
+            "id": "product.803.sound_insulation",
+            "score": 0.8132,
+            "source": [
+              {
+                "type": "user_provided_script",
+                "date": "2026-10-13",
+                "excerpt": "目前整个床帘市场都是没有隔音床帘的。 咱们采用的是市面上最厚的600g遮光布，会起到轻微的隔音效果。 市面上大部分都是比我们的还薄的，隔音效果更差哦。 如果您担心噪音的情况下，可以选择睡眠耳塞，客服小妹也是用这个来解决的哦。",
+                "review_status": "用户指定话术；未作独立市场比较核验"
+              }
+            ]
+          },
+          {
+            "id": "product.803.bottom",
+            "score": 0.4095,
+            "source": [
+              {
+                "file": "售前资源库.xlsx",
+                "sheet": "宿舍床帘-线条小狗联名803",
+                "cell": "G43",
+                "excerpt": "亲亲，蚊帐底部是镂空设计，但底部有约10-15cm宽的布料！铺上床垫后就能完全贴合密封，蚊虫绝对钻不进去的，放心哦~"
+              }
+            ]
+          },
+          {
+            "id": "product.803.stability",
+            "score": 0.3839,
+            "source": [
+              {
+                "type": "user_confirmation",
+                "date": "2026-10-13",
+                "excerpt": "用户确认支架稳固；碳素钢材质，壁厚0.38 mm"
+              }
+            ]
+          },
+          {
+            "id": "product.803.telescoping",
+            "score": 0.3704,
+            "source": [
+              {
+                "file": "售前资源库.xlsx",
+                "sheet": "宿舍床帘-线条小狗联名803",
+                "cell": "B20",
+                "excerpt": "帐纱材质：A类聚酯纤维\n遮光帘材质：pvc化纤布\n支架材质：合金烤漆\n三通材质：ABS（塑料）\n支架工艺：烤漆\n顶部涂层材质：TPU材料\n\n外包装尺寸：95*15*15cm左右\n外包装重量：4kg左右哦~                                \n\n帐纱重量：678g左右\n遮光帘重量：600g左右（一片）\n遮光帘：长173cm左右  宽95cm左右\n\n支架壁厚：高管径21mm；宽管径21mm，支架壁厚0.31mm\n支架伸缩尺寸：长宽高都是 4cm左右"
+              }
+            ]
+          },
+          {
+            "id": "product.803.coating",
+            "score": 0.3686,
+            "source": [
+              {
+                "type": "user_confirmation",
+                "date": "2026-10-13",
+                "reference": "本聊天：商品参数修正及壁厚追问回复",
+                "excerpt": "床帘没有涂层，纯面料遮光；追问后确认顶部仍按原表内容"
+              }
+            ]
+          }
+        ],
+        "margin": 0.4037,
+        "status": "matched"
+      }
+    },
+    {
+      "question": "用滚筒洗衣机清洁行不行",
+      "expected": "washing",
+      "actual": "washing",
+      "passed": true,
+      "elapsed_ms": 5.15,
+      "trace": {
+        "method": "semantic_onnx",
+        "backend": "multilingual_minilm_int8",
+        "threshold": 0.68,
+        "min_margin": 0.07,
+        "candidates": [
+          {
+            "id": "product.803.washing",
+            "score": 0.8224,
+            "source": [
+              {
+                "type": "user_confirmation",
+                "date": "2026-10-13",
+                "excerpt": "可以机洗"
+              }
+            ]
+          },
+          {
+            "id": "product.803.bottom",
+            "score": 0.4879,
+            "source": [
+              {
+                "file": "售前资源库.xlsx",
+                "sheet": "宿舍床帘-线条小狗联名803",
+                "cell": "G43",
+                "excerpt": "亲亲，蚊帐底部是镂空设计，但底部有约10-15cm宽的布料！铺上床垫后就能完全贴合密封，蚊虫绝对钻不进去的，放心哦~"
+              }
+            ]
+          },
+          {
+            "id": "product.803.charging_port",
+            "score": 0.4199,
+            "source": [
+              {
+                "file": "售前资源库.xlsx",
+                "sheet": "宿舍床帘-线条小狗联名803",
+                "cell": "G41",
+                "excerpt": "宝子，您这边问到点上了~咱们家今年考虑到学生要充电，或者要拉排插等，专门设计了一个充电口"
+              }
+            ]
+          },
+          {
+            "id": "product.803.stability",
+            "score": 0.3927,
+            "source": [
+              {
+                "type": "user_confirmation",
+                "date": "2026-10-13",
+                "excerpt": "用户确认支架稳固；碳素钢材质，壁厚0.38 mm"
+              }
+            ]
+          },
+          {
+            "id": "product.803.storage",
+            "score": 0.3191,
+            "source": [
+              {
+                "file": "售前资源库.xlsx",
+                "sheet": "宿舍床帘-线条小狗联名803",
+                "cell": "B42",
+                "excerpt": "亲亲，咱这床帘内部自带了一个收纳袋，您这边看下哈"
+              }
+            ]
+          }
+        ],
+        "margin": 0.3345,
+        "status": "matched"
+      }
+    },
+    {
+      "question": "架子撑得住不",
+      "expected": null,
+      "actual": null,
+      "passed": true,
+      "elapsed_ms": 4.32,
+      "trace": {
+        "method": "semantic_onnx",
+        "backend": "multilingual_minilm_int8",
+        "threshold": 0.68,
+        "min_margin": 0.07,
+        "candidates": [
+          {
+            "id": "product.803.bottom",
+            "score": 0.8439,
+            "source": [
+              {
+                "file": "售前资源库.xlsx",
+                "sheet": "宿舍床帘-线条小狗联名803",
+                "cell": "G43",
+                "excerpt": "亲亲，蚊帐底部是镂空设计，但底部有约10-15cm宽的布料！铺上床垫后就能完全贴合密封，蚊虫绝对钻不进去的，放心哦~"
+              }
+            ]
+          },
+          {
+            "id": "product.803.stability",
+            "score": 0.8238,
+            "source": [
+              {
+                "type": "user_confirmation",
+                "date": "2026-10-13",
+                "excerpt": "用户确认支架稳固；碳素钢材质，壁厚0.38 mm"
+              }
+            ]
+          },
+          {
+            "id": "product.803.sound_insulation",
+            "score": 0.5833,
+            "source": [
+              {
+                "type": "user_provided_script",
+                "date": "2026-10-13",
+                "excerpt": "目前整个床帘市场都是没有隔音床帘的。 咱们采用的是市面上最厚的600g遮光布，会起到轻微的隔音效果。 市面上大部分都是比我们的还薄的，隔音效果更差哦。 如果您担心噪音的情况下，可以选择睡眠耳塞，客服小妹也是用这个来解决的哦。",
+                "review_status": "用户指定话术；未作独立市场比较核验"
+              }
+            ]
+          },
+          {
+            "id": "product.803.pole_diameter",
+            "score": 0.5619,
+            "source": [
+              {
+                "type": "user_confirmation",
+                "date": "2026-10-13",
+                "reference": "本聊天：商品参数修正及壁厚追问回复",
+                "excerpt": "801是12mm，802/804是16mm，803最粗22mm"
+              }
+            ]
+          },
+          {
+            "id": "product.803.shade_sides",
+            "score": 0.5522,
+            "source": [
+              {
+                "file": "售前资源库.xlsx",
+                "sheet": "宿舍床帘-线条小狗联名803",
+                "cell": "G39",
+                "excerpt": "四面的话靠墙无遮光帘，五面靠墙有遮光帘"
+              }
+            ]
+          }
+        ],
+        "margin": 0.0202,
+        "status": "low_confidence"
+      }
+    },
+    {
+      "question": "背后的光能挡住不",
+      "expected": null,
+      "actual": null,
+      "passed": true,
+      "elapsed_ms": 4.55,
+      "trace": {
+        "method": "semantic_onnx",
+        "backend": "multilingual_minilm_int8",
+        "threshold": 0.68,
+        "min_margin": 0.07,
+        "candidates": [
+          {
+            "id": "product.803.coating",
+            "score": 0.6596,
+            "source": [
+              {
+                "type": "user_confirmation",
+                "date": "2026-10-13",
+                "reference": "本聊天：商品参数修正及壁厚追问回复",
+                "excerpt": "床帘没有涂层，纯面料遮光；追问后确认顶部仍按原表内容"
+              }
+            ]
+          },
+          {
+            "id": "product.803.shade_sides",
+            "score": 0.6309,
+            "source": [
+              {
+                "file": "售前资源库.xlsx",
+                "sheet": "宿舍床帘-线条小狗联名803",
+                "cell": "G39",
+                "excerpt": "四面的话靠墙无遮光帘，五面靠墙有遮光帘"
+              }
+            ]
+          },
+          {
+            "id": "product.803.bottom",
+            "score": 0.5758,
+            "source": [
+              {
+                "file": "售前资源库.xlsx",
+                "sheet": "宿舍床帘-线条小狗联名803",
+                "cell": "G43",
+                "excerpt": "亲亲，蚊帐底部是镂空设计，但底部有约10-15cm宽的布料！铺上床垫后就能完全贴合密封，蚊虫绝对钻不进去的，放心哦~"
+              }
+            ]
+          },
+          {
+            "id": "product.803.stability",
+            "score": 0.5309,
+            "source": [
+              {
+                "type": "user_confirmation",
+                "date": "2026-10-13",
+                "excerpt": "用户确认支架稳固；碳素钢材质，壁厚0.38 mm"
+              }
+            ]
+          },
+          {
+            "id": "product.803.charging_port",
+            "score": 0.4865,
+            "source": [
+              {
+                "file": "售前资源库.xlsx",
+                "sheet": "宿舍床帘-线条小狗联名803",
+                "cell": "G41",
+                "excerpt": "宝子，您这边问到点上了~咱们家今年考虑到学生要充电，或者要拉排插等，专门设计了一个充电口"
+              }
+            ]
+          }
+        ],
+        "margin": 0.0287,
+        "status": "low_confidence"
+      }
+    },
+    {
+      "question": "每天用会不会散架",
+      "expected": null,
+      "actual": null,
+      "passed": true,
+      "elapsed_ms": 3.98,
+      "trace": {
+        "method": "semantic_onnx",
+        "backend": "multilingual_minilm_int8",
+        "threshold": 0.68,
+        "min_margin": 0.07,
+        "candidates": [
+          {
+            "id": "product.803.sound_insulation",
+            "score": 0.5343,
+            "source": [
+              {
+                "type": "user_provided_script",
+                "date": "2026-10-13",
+                "excerpt": "目前整个床帘市场都是没有隔音床帘的。 咱们采用的是市面上最厚的600g遮光布，会起到轻微的隔音效果。 市面上大部分都是比我们的还薄的，隔音效果更差哦。 如果您担心噪音的情况下，可以选择睡眠耳塞，客服小妹也是用这个来解决的哦。",
+                "review_status": "用户指定话术；未作独立市场比较核验"
+              }
+            ]
+          },
+          {
+            "id": "product.803.stability",
+            "score": 0.5173,
+            "source": [
+              {
+                "type": "user_confirmation",
+                "date": "2026-10-13",
+                "excerpt": "用户确认支架稳固；碳素钢材质，壁厚0.38 mm"
+              }
+            ]
+          },
+          {
+            "id": "product.803.telescoping",
+            "score": 0.4639,
+            "source": [
+              {
+                "file": "售前资源库.xlsx",
+                "sheet": "宿舍床帘-线条小狗联名803",
+                "cell": "B20",
+                "excerpt": "帐纱材质：A类聚酯纤维\n遮光帘材质：pvc化纤布\n支架材质：合金烤漆\n三通材质：ABS（塑料）\n支架工艺：烤漆\n顶部涂层材质：TPU材料\n\n外包装尺寸：95*15*15cm左右\n外包装重量：4kg左右哦~                                \n\n帐纱重量：678g左右\n遮光帘重量：600g左右（一片）\n遮光帘：长173cm左右  宽95cm左右\n\n支架壁厚：高管径21mm；宽管径21mm，支架壁厚0.31mm\n支架伸缩尺寸：长宽高都是 4cm左右"
+              }
+            ]
+          },
+          {
+            "id": "product.803.shade_sides",
+            "score": 0.4506,
+            "source": [
+              {
+                "file": "售前资源库.xlsx",
+                "sheet": "宿舍床帘-线条小狗联名803",
+                "cell": "G39",
+                "excerpt": "四面的话靠墙无遮光帘，五面靠墙有遮光帘"
+              }
+            ]
+          },
+          {
+            "id": "product.803.charging_port",
+            "score": 0.407,
+            "source": [
+              {
+                "file": "售前资源库.xlsx",
+                "sheet": "宿舍床帘-线条小狗联名803",
+                "cell": "G41",
+                "excerpt": "宝子，您这边问到点上了~咱们家今年考虑到学生要充电，或者要拉排插等，专门设计了一个充电口"
+              }
+            ]
+          }
+        ],
+        "margin": 0.017,
+        "status": "low_confidence"
+      }
+    },
+    {
+      "question": "你吃饭了吗",
+      "expected": null,
+      "actual": null,
+      "passed": true,
+      "elapsed_ms": 4.4,
+      "trace": {
+        "method": "semantic_onnx",
+        "backend": "multilingual_minilm_int8",
+        "threshold": 0.68,
+        "min_margin": 0.07,
+        "candidates": [
+          {
+            "id": "product.803.storage",
+            "score": 0.4909,
+            "source": [
+              {
+                "file": "售前资源库.xlsx",
+                "sheet": "宿舍床帘-线条小狗联名803",
+                "cell": "B42",
+                "excerpt": "亲亲，咱这床帘内部自带了一个收纳袋，您这边看下哈"
+              }
+            ]
+          },
+          {
+            "id": "product.803.bottom",
+            "score": 0.3328,
+            "source": [
+              {
+                "file": "售前资源库.xlsx",
+                "sheet": "宿舍床帘-线条小狗联名803",
+                "cell": "G43",
+                "excerpt": "亲亲，蚊帐底部是镂空设计，但底部有约10-15cm宽的布料！铺上床垫后就能完全贴合密封，蚊虫绝对钻不进去的，放心哦~"
+              }
+            ]
+          },
+          {
+            "id": "product.803.coating",
+            "score": 0.331,
+            "source": [
+              {
+                "type": "user_confirmation",
+                "date": "2026-10-13",
+                "reference": "本聊天：商品参数修正及壁厚追问回复",
+                "excerpt": "床帘没有涂层，纯面料遮光；追问后确认顶部仍按原表内容"
+              }
+            ]
+          },
+          {
+            "id": "product.803.sound_insulation",
+            "score": 0.3301,
+            "source": [
+              {
+                "type": "user_provided_script",
+                "date": "2026-10-13",
+                "excerpt": "目前整个床帘市场都是没有隔音床帘的。 咱们采用的是市面上最厚的600g遮光布，会起到轻微的隔音效果。 市面上大部分都是比我们的还薄的，隔音效果更差哦。 如果您担心噪音的情况下，可以选择睡眠耳塞，客服小妹也是用这个来解决的哦。",
+                "review_status": "用户指定话术；未作独立市场比较核验"
+              }
+            ]
+          },
+          {
+            "id": "product.803.roof",
+            "score": 0.315,
+            "source": [
+              {
+                "type": "user_confirmation",
+                "date": "2026-10-13",
+                "excerpt": "顶棚采用覆膜处理，用于遮光"
+              }
+            ]
+          }
+        ],
+        "margin": 0.1582,
+        "status": "low_confidence"
+      }
+    },
+    {
+      "question": "能开增值税发票吗",
+      "expected": null,
+      "actual": null,
+      "passed": true,
+      "elapsed_ms": 4.36,
+      "trace": {
+        "method": "semantic_onnx",
+        "backend": "multilingual_minilm_int8",
+        "threshold": 0.68,
+        "min_margin": 0.07,
+        "candidates": [
+          {
+            "id": "product.803.storage",
+            "score": 0.4712,
+            "source": [
+              {
+                "file": "售前资源库.xlsx",
+                "sheet": "宿舍床帘-线条小狗联名803",
+                "cell": "B42",
+                "excerpt": "亲亲，咱这床帘内部自带了一个收纳袋，您这边看下哈"
+              }
+            ]
+          },
+          {
+            "id": "product.803.charging_port",
+            "score": 0.3445,
+            "source": [
+              {
+                "file": "售前资源库.xlsx",
+                "sheet": "宿舍床帘-线条小狗联名803",
+                "cell": "G41",
+                "excerpt": "宝子，您这边问到点上了~咱们家今年考虑到学生要充电，或者要拉排插等，专门设计了一个充电口"
+              }
+            ]
+          },
+          {
+            "id": "product.803.stability",
+            "score": 0.3005,
+            "source": [
+              {
+                "type": "user_confirmation",
+                "date": "2026-10-13",
+                "excerpt": "用户确认支架稳固；碳素钢材质，壁厚0.38 mm"
+              }
+            ]
+          },
+          {
+            "id": "product.803.telescoping",
+            "score": 0.2907,
+            "source": [
+              {
+                "file": "售前资源库.xlsx",
+                "sheet": "宿舍床帘-线条小狗联名803",
+                "cell": "B20",
+                "excerpt": "帐纱材质：A类聚酯纤维\n遮光帘材质：pvc化纤布\n支架材质：合金烤漆\n三通材质：ABS（塑料）\n支架工艺：烤漆\n顶部涂层材质：TPU材料\n\n外包装尺寸：95*15*15cm左右\n外包装重量：4kg左右哦~                                \n\n帐纱重量：678g左右\n遮光帘重量：600g左右（一片）\n遮光帘：长173cm左右  宽95cm左右\n\n支架壁厚：高管径21mm；宽管径21mm，支架壁厚0.31mm\n支架伸缩尺寸：长宽高都是 4cm左右"
+              }
+            ]
+          },
+          {
+            "id": "product.803.roof",
+            "score": 0.2289,
+            "source": [
+              {
+                "type": "user_confirmation",
+                "date": "2026-10-13",
+                "excerpt": "顶棚采用覆膜处理，用于遮光"
+              }
+            ]
+          }
+        ],
+        "margin": 0.1267,
+        "status": "low_confidence"
+      }
+    },
+    {
+      "question": "可以治疗失眠吗",
+      "expected": null,
+      "actual": null,
+      "passed": true,
+      "elapsed_ms": 3.91,
+      "trace": {
+        "method": "semantic_onnx",
+        "backend": "multilingual_minilm_int8",
+        "threshold": 0.68,
+        "min_margin": 0.07,
+        "candidates": [
+          {
+            "id": "product.803.sound_insulation",
+            "score": 0.2265,
+            "source": [
+              {
+                "type": "user_provided_script",
+                "date": "2026-10-13",
+                "excerpt": "目前整个床帘市场都是没有隔音床帘的。 咱们采用的是市面上最厚的600g遮光布，会起到轻微的隔音效果。 市面上大部分都是比我们的还薄的，隔音效果更差哦。 如果您担心噪音的情况下，可以选择睡眠耳塞，客服小妹也是用这个来解决的哦。",
+                "review_status": "用户指定话术；未作独立市场比较核验"
+              }
+            ]
+          },
+          {
+            "id": "product.803.shade_sides",
+            "score": 0.1959,
+            "source": [
+              {
+                "file": "售前资源库.xlsx",
+                "sheet": "宿舍床帘-线条小狗联名803",
+                "cell": "G39",
+                "excerpt": "四面的话靠墙无遮光帘，五面靠墙有遮光帘"
+              }
+            ]
+          },
+          {
+            "id": "product.803.bottom",
+            "score": 0.1822,
+            "source": [
+              {
+                "file": "售前资源库.xlsx",
+                "sheet": "宿舍床帘-线条小狗联名803",
+                "cell": "G43",
+                "excerpt": "亲亲，蚊帐底部是镂空设计，但底部有约10-15cm宽的布料！铺上床垫后就能完全贴合密封，蚊虫绝对钻不进去的，放心哦~"
+              }
+            ]
+          },
+          {
+            "id": "product.803.telescoping",
+            "score": 0.1727,
+            "source": [
+              {
+                "file": "售前资源库.xlsx",
+                "sheet": "宿舍床帘-线条小狗联名803",
+                "cell": "B20",
+                "excerpt": "帐纱材质：A类聚酯纤维\n遮光帘材质：pvc化纤布\n支架材质：合金烤漆\n三通材质：ABS（塑料）\n支架工艺：烤漆\n顶部涂层材质：TPU材料\n\n外包装尺寸：95*15*15cm左右\n外包装重量：4kg左右哦~                                \n\n帐纱重量：678g左右\n遮光帘重量：600g左右（一片）\n遮光帘：长173cm左右  宽95cm左右\n\n支架壁厚：高管径21mm；宽管径21mm，支架壁厚0.31mm\n支架伸缩尺寸：长宽高都是 4cm左右"
+              }
+            ]
+          },
+          {
+            "id": "product.803.stability",
+            "score": 0.1612,
+            "source": [
+              {
+                "type": "user_confirmation",
+                "date": "2026-10-13",
+                "excerpt": "用户确认支架稳固；碳素钢材质，壁厚0.38 mm"
+              }
+            ]
+          }
+        ],
+        "margin": 0.0306,
+        "status": "low_confidence"
+      }
+    },
+    {
+      "question": "能挂10斤吗",
+      "expected": null,
+      "actual": null,
+      "passed": true,
+      "elapsed_ms": 0.02,
+      "trace": {
+        "method": "semantic_onnx",
+        "backend": "multilingual_minilm_int8",
+        "threshold": 0.68,
+        "min_margin": 0.07,
+        "candidates": [],
+        "status": "guard_rejected"
+      }
+    },
+    {
+      "question": "保证不会倒吗",
+      "expected": null,
+      "actual": null,
+      "passed": true,
+      "elapsed_ms": 0.01,
+      "trace": {
+        "method": "semantic_onnx",
+        "backend": "multilingual_minilm_int8",
+        "threshold": 0.68,
+        "min_margin": 0.07,
+        "candidates": [],
+        "status": "guard_rejected"
+      }
+    }
+  ],
+  "note": "7条期待命中；3条保守阈值拒答观察；5条无关/禁止问题。不是总体准确率。"
+}

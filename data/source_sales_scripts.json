@@ -1,0 +1,690 @@
+{
+  "scripts": [
+    {
+      "id": "script.801.B22",
+      "product_id": "801",
+      "category": "推荐套餐",
+      "text": "住校必备宿舍蚊帐✅️\n高密加密不漏蚊，安装简单不费劲，遮光隐私两不误，拉上就是自己的小天地，睡好觉全靠它～",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-常规款801",
+        "cell": "B22"
+      },
+      "status": "reference_only",
+      "auto_send": false,
+      "reason": "供售前话术参考；实际问答使用最新批准口径"
+    },
+    {
+      "id": "script.801.B23",
+      "product_id": "801",
+      "category": "推荐套餐",
+      "text": "睡觉怕光，注重隐私的，一定要入遮光床帘蚊帐一体款！遮光不透光，宿舍灯光、清晨太阳光都能挡住，白天也能安心午休；全包围设计，自带私密空间，追剧、休息、换衣服都自在。",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-常规款801",
+        "cell": "B23"
+      },
+      "status": "reference_only",
+      "auto_send": false,
+      "reason": "供售前话术参考；实际问答使用最新批准口径"
+    },
+    {
+      "id": "script.801.B24",
+      "product_id": "801",
+      "category": "催付",
+      "text": "宝，下单联系小妹  小妹帮亲亲备注【升级杆子加粗】的款式哈 ，活动仅限今天哦",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-常规款801",
+        "cell": "B24"
+      },
+      "status": "manual_policy",
+      "auto_send": false,
+      "reason": "时效性活动需确认"
+    },
+    {
+      "id": "script.801.B25",
+      "product_id": "801",
+      "category": "催付",
+      "text": "宝，我们都是通过A类检测的呢亲，面料亲肤无害，0甲醛的哈，现在下单小妹备注加急发货呢",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-常规款801",
+        "cell": "B25"
+      },
+      "status": "manual_policy",
+      "auto_send": false,
+      "reason": "时效性活动需确认"
+    },
+    {
+      "id": "script.801.B26",
+      "product_id": "801",
+      "category": "催付",
+      "text": "宝，蚊帐支持7天无理由的呢，可以回去亲手体验一下呢，现在下单小妹备注送您运费险哦，早下单早发货呢，",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-常规款801",
+        "cell": "B26"
+      },
+      "status": "manual_policy",
+      "auto_send": false,
+      "reason": "时效性活动需确认"
+    },
+    {
+      "id": "script.801.B27",
+      "product_id": "801",
+      "category": "挖需",
+      "text": "宝子，您是上铺还是下铺使用呢，小妹为您推荐合适的款式呢~",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-常规款801",
+        "cell": "B27"
+      },
+      "status": "reference_only",
+      "auto_send": false,
+      "reason": "供售前话术参考；实际问答使用最新批准口径"
+    },
+    {
+      "id": "script.801.B28",
+      "product_id": "801",
+      "category": "挖需",
+      "text": "宝子，您靠墙处是否有遮光需求呢~",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-常规款801",
+        "cell": "B28"
+      },
+      "status": "reference_only",
+      "auto_send": false,
+      "reason": "供售前话术参考；实际问答使用最新批准口径"
+    },
+    {
+      "id": "script.801.B29",
+      "product_id": "801",
+      "category": "挖需",
+      "text": "亲亲，您宿舍床是多大的呀，小妹这边为您推荐合适的尺寸哒~",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-常规款801",
+        "cell": "B29"
+      },
+      "status": "reference_only",
+      "auto_send": false,
+      "reason": "供售前话术参考；实际问答使用最新批准口径"
+    },
+    {
+      "id": "script.801.B54",
+      "product_id": "801",
+      "category": "销售思路",
+      "text": "根据客户的床垫，上下铺位置下阶梯的方式推荐，以及遮光性、透气",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-常规款801",
+        "cell": "B54"
+      },
+      "status": "reference_only",
+      "auto_send": false,
+      "reason": "供售前话术参考；实际问答使用最新批准口径"
+    },
+    {
+      "id": "script.801.B55",
+      "product_id": "801",
+      "category": "客户常见问题及顾虑",
+      "text": "1.不知道具体床尺寸以及高度\n2.安装方便吗\n3.不知道款式区别 ，遮光好吗",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-常规款801",
+        "cell": "B55"
+      },
+      "status": "reference_only",
+      "auto_send": false,
+      "reason": "供售前话术参考；实际问答使用最新批准口径"
+    },
+    {
+      "id": "script.801.B56",
+      "product_id": "801",
+      "category": "挖需话术",
+      "text": "亲亲睡上铺还是下铺呢",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-常规款801",
+        "cell": "B56"
+      },
+      "status": "reference_only",
+      "auto_send": false,
+      "reason": "供售前话术参考；实际问答使用最新批准口径"
+    },
+    {
+      "id": "script.801.B57",
+      "product_id": "801",
+      "category": "挖需话术",
+      "text": "亲亲您的床尺寸多大的呢，小弟给您推荐一款合适的哦",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-常规款801",
+        "cell": "B57"
+      },
+      "status": "reference_only",
+      "auto_send": false,
+      "reason": "供售前话术参考；实际问答使用最新批准口径"
+    },
+    {
+      "id": "script.801.B58",
+      "product_id": "801",
+      "category": "挖需话术",
+      "text": "亲亲方便了解下您宿舍床板的长宽和离顶部的高度分别是多少吗？小妹给您看看哪款更合适哦",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-常规款801",
+        "cell": "B58"
+      },
+      "status": "reference_only",
+      "auto_send": false,
+      "reason": "供售前话术参考；实际问答使用最新批准口径"
+    },
+    {
+      "id": "script.801.B59",
+      "product_id": "801",
+      "category": "推荐话术",
+      "text": "200长：亲亲，买床帘是看床板长度而不是整个床架的尺寸宝，190长的就很合适哦，长度留出一点余量也不会说装不下哈",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-常规款801",
+        "cell": "B59"
+      },
+      "status": "reference_only",
+      "auto_send": false,
+      "reason": "供售前话术参考；实际问答使用最新批准口径"
+    },
+    {
+      "id": "script.801.B60",
+      "product_id": "801",
+      "category": "推荐话术",
+      "text": "如果是客户的床的尺寸大于蚊帐的尺寸，推荐小款式：\n宝，看了下您这边的尺寸是比床帘要大的，咱们这款安装完直接放置在您的床上面就可以了好哦 这样包裹和防蚊效果会更好哦，是可以正常安装使用的哦。您剩余的空间可以放一些衣服收纳什么的，这样窗帘里面也不会乱糟糟的",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-常规款801",
+        "cell": "B60"
+      },
+      "status": "reference_only",
+      "auto_send": false,
+      "reason": "供售前话术参考；实际问答使用最新批准口径"
+    },
+    {
+      "id": "script.801.B61",
+      "product_id": "801",
+      "category": "推荐话术",
+      "text": "宝，经过咱们这边的市场调研，学生宿舍大部分的上铺高度都是120以下的，110的这个高度是宿舍通用的哈，能够安装进去的哦（太高的也不安全的呦），所以我们做的是110高度的哦，咱们在床上也是坐在趟着居多哈。",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-常规款801",
+        "cell": "B61"
+      },
+      "status": "reference_only",
+      "auto_send": false,
+      "reason": "供售前话术参考；实际问答使用最新批准口径"
+    },
+    {
+      "id": "script.801.B62",
+      "product_id": "801",
+      "category": "推荐话术",
+      "text": "88宽：可以选90宽的哦亲，咱们家的床品考虑到防滑稳定效果 尺寸都是偏小一些的 这样能更好的贴合您的床使用哦\n80宽：更推荐80宽尺寸的哦宝，小一点的话可以放进去，大一点的话就没办法了哦",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-常规款801",
+        "cell": "B62"
+      },
+      "status": "reference_only",
+      "auto_send": false,
+      "reason": "供售前话术参考；实际问答使用最新批准口径"
+    },
+    {
+      "id": "script.801.B63",
+      "product_id": "801",
+      "category": "卖点话术",
+      "text": "宝，咱们这款是六层复合遮光设计，遮光效果超棒，是绝对不用担心出现皮影戏的哈。也是分别通过了纺织行业和国家标准的遮光，异味检测哦，同时安装也是十分方便的哦，收到货简单安装一下就可以直接使用了哦~",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-常规款801",
+        "cell": "B63"
+      },
+      "status": "reference_only",
+      "auto_send": false,
+      "reason": "供售前话术参考；实际问答使用最新批准口径"
+    },
+    {
+      "id": "script.801.B64",
+      "product_id": "801",
+      "category": "催付话术",
+      "text": "亲亲，小妹申请到现在拍下这款套餐给您【优惠x元】，[仅限今天的哦，优惠与平台活动不重叠！] 您直接下单，小妹这边给您备注，您收到货确认后就给您返哦~",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-常规款801",
+        "cell": "B64"
+      },
+      "status": "manual_policy",
+      "auto_send": false,
+      "reason": "时效性活动需确认"
+    },
+    {
+      "id": "script.802.B20",
+      "product_id": "802",
+      "category": "推荐套餐",
+      "text": "宝,因为您这边是睡在下铺的,小妹推荐您选择这款【90cm高】套餐哈,是【性价比最高】的套餐了哦~",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-IP款802",
+        "cell": "B20"
+      },
+      "status": "reference_only",
+      "auto_send": false,
+      "reason": "供售前话术参考；实际问答使用最新批准口径"
+    },
+    {
+      "id": "script.802.B21",
+      "product_id": "802",
+      "category": "推荐套餐",
+      "text": "宝,因为您这边是睡在上铺的,小妹推荐您选择【110cm/120cm】高款式哦,加粗款的支架更粗一些更牢固耐用呢~我们的长宽高都是可以调节的呢，不用担心换床位的问题呢",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-IP款802",
+        "cell": "B21"
+      },
+      "status": "reference_only",
+      "auto_send": false,
+      "reason": "供售前话术参考；实际问答使用最新批准口径"
+    },
+    {
+      "id": "script.802.B22",
+      "product_id": "802",
+      "category": "催付",
+      "text": "宝，下单联系小妹  小妹帮亲亲备注【升级杆子加粗】的款式哈 ，活动仅限今天哦",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-IP款802",
+        "cell": "B22"
+      },
+      "status": "manual_policy",
+      "auto_send": false,
+      "reason": "时效性活动需确认"
+    },
+    {
+      "id": "script.802.B23",
+      "product_id": "802",
+      "category": "催付",
+      "text": "宝，我们都是通过A类检测的呢亲，面料亲肤无害，0甲醛的哈，现在下单小妹备注加急发货呢",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-IP款802",
+        "cell": "B23"
+      },
+      "status": "manual_policy",
+      "auto_send": false,
+      "reason": "时效性活动需确认"
+    },
+    {
+      "id": "script.802.B24",
+      "product_id": "802",
+      "category": "催付",
+      "text": "宝，蚊帐支持7天无理由的呢，可以回去亲手体验一下呢，现在下单小妹备注送您运费险哦，早下单早发货呢，",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-IP款802",
+        "cell": "B24"
+      },
+      "status": "manual_policy",
+      "auto_send": false,
+      "reason": "时效性活动需确认"
+    },
+    {
+      "id": "script.802.B25",
+      "product_id": "802",
+      "category": "挖需",
+      "text": "宝,您是睡上铺还是下铺呢~",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-IP款802",
+        "cell": "B25"
+      },
+      "status": "reference_only",
+      "auto_send": false,
+      "reason": "供售前话术参考；实际问答使用最新批准口径"
+    },
+    {
+      "id": "script.802.B26",
+      "product_id": "802",
+      "category": "挖需",
+      "text": "宝,您的床尺寸多大的呢,小妹给您推荐一款合适的哦~",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-IP款802",
+        "cell": "B26"
+      },
+      "status": "reference_only",
+      "auto_send": false,
+      "reason": "供售前话术参考；实际问答使用最新批准口径"
+    },
+    {
+      "id": "script.802.B27",
+      "product_id": "802",
+      "category": "挖需",
+      "text": "宝,您靠墙处有遮光的要求吗~",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍蚊帐-IP款802",
+        "cell": "B27"
+      },
+      "status": "reference_only",
+      "auto_send": false,
+      "reason": "供售前话术参考；实际问答使用最新批准口径"
+    },
+    {
+      "id": "script.804.B18",
+      "product_id": "804",
+      "category": "销售思路",
+      "text": "根据客户的床垫，上下铺位置下阶梯的方式推荐，以及遮光性、透气",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-丢丢帐804",
+        "cell": "B18"
+      },
+      "status": "reference_only",
+      "auto_send": false,
+      "reason": "供售前话术参考；实际问答使用最新批准口径"
+    },
+    {
+      "id": "script.804.B19",
+      "product_id": "804",
+      "category": "客户常见问题及顾虑",
+      "text": "1.不知道具体床尺寸以及高度\n2.安装方便吗\n3.不知道款式区别 ，遮光好吗",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-丢丢帐804",
+        "cell": "B19"
+      },
+      "status": "reference_only",
+      "auto_send": false,
+      "reason": "供售前话术参考；实际问答使用最新批准口径"
+    },
+    {
+      "id": "script.804.B20",
+      "product_id": "804",
+      "category": "挖需话术",
+      "text": "亲亲睡上铺还是下铺呢",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-丢丢帐804",
+        "cell": "B20"
+      },
+      "status": "reference_only",
+      "auto_send": false,
+      "reason": "供售前话术参考；实际问答使用最新批准口径"
+    },
+    {
+      "id": "script.804.B21",
+      "product_id": "804",
+      "category": "挖需话术",
+      "text": "亲亲您的床尺寸多大的呢，小弟给您推荐一款合适的哦",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-丢丢帐804",
+        "cell": "B21"
+      },
+      "status": "reference_only",
+      "auto_send": false,
+      "reason": "供售前话术参考；实际问答使用最新批准口径"
+    },
+    {
+      "id": "script.804.B22",
+      "product_id": "804",
+      "category": "挖需话术",
+      "text": "亲亲方便了解下您宿舍床板的长宽和离顶部的高度分别是多少吗？小妹给您看看哪款更合适哦",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-丢丢帐804",
+        "cell": "B22"
+      },
+      "status": "reference_only",
+      "auto_send": false,
+      "reason": "供售前话术参考；实际问答使用最新批准口径"
+    },
+    {
+      "id": "script.804.B23",
+      "product_id": "804",
+      "category": "推荐话术",
+      "text": "200长：亲亲，买床帘是看床板长度而不是整个床架的尺寸宝，190长的就很合适哦，长度留出一点余量也不会说装不下哈",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-丢丢帐804",
+        "cell": "B23"
+      },
+      "status": "reference_only",
+      "auto_send": false,
+      "reason": "供售前话术参考；实际问答使用最新批准口径"
+    },
+    {
+      "id": "script.804.B24",
+      "product_id": "804",
+      "category": "推荐话术",
+      "text": "如果是客户的床的尺寸大于蚊帐的尺寸，推荐小款式：\n宝，看了下您这边的尺寸是比床帘要大的，咱们这款安装完直接放置在您的床上面就可以了好哦 这样包裹和防蚊效果会更好哦，是可以正常安装使用的哦。您剩余的空间可以放一些衣服收纳什么的，这样窗帘里面也不会乱糟糟的",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-丢丢帐804",
+        "cell": "B24"
+      },
+      "status": "reference_only",
+      "auto_send": false,
+      "reason": "供售前话术参考；实际问答使用最新批准口径"
+    },
+    {
+      "id": "script.804.B25",
+      "product_id": "804",
+      "category": "推荐话术",
+      "text": "宝，经过咱们这边的市场调研，学生宿舍大部分的上铺高度都是120以下的，110的这个高度是宿舍通用的哈，能够安装进去的哦（太高的也不安全的呦），所以我们做的是110高度的哦，咱们在床上也是坐在趟着居多哈。",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-丢丢帐804",
+        "cell": "B25"
+      },
+      "status": "reference_only",
+      "auto_send": false,
+      "reason": "供售前话术参考；实际问答使用最新批准口径"
+    },
+    {
+      "id": "script.804.B26",
+      "product_id": "804",
+      "category": "推荐话术",
+      "text": "88宽：可以选90宽的哦亲，咱们家的床品考虑到防滑稳定效果 尺寸都是偏小一些的 这样能更好的贴合您的床使用哦\n80宽：更推荐80宽尺寸的哦宝，小一点的话可以放进去，大一点的话就没办法了哦",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-丢丢帐804",
+        "cell": "B26"
+      },
+      "status": "reference_only",
+      "auto_send": false,
+      "reason": "供售前话术参考；实际问答使用最新批准口径"
+    },
+    {
+      "id": "script.804.B27",
+      "product_id": "804",
+      "category": "卖点话术",
+      "text": "宝，咱们这款是六层复合遮光设计，遮光效果超棒，是绝对不用担心出现皮影戏的哈。也是分别通过了纺织行业和国家标准的遮光，异味检测哦，同时安装也是十分方便的哦，收到货简单安装一下就可以直接使用了哦~",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-丢丢帐804",
+        "cell": "B27"
+      },
+      "status": "reference_only",
+      "auto_send": false,
+      "reason": "供售前话术参考；实际问答使用最新批准口径"
+    },
+    {
+      "id": "script.804.B28",
+      "product_id": "804",
+      "category": "催付话术",
+      "text": "亲亲，小妹申请到现在拍下这款套餐给您【优惠x元】，[仅限今天的哦，优惠与平台活动不重叠！] 您直接下单，小妹这边给您备注，您收到货确认后就给您返哦~",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-丢丢帐804",
+        "cell": "B28"
+      },
+      "status": "manual_policy",
+      "auto_send": false,
+      "reason": "时效性活动需确认"
+    },
+    {
+      "id": "script.803.B25",
+      "product_id": "803",
+      "category": "销售思路",
+      "text": "根据客户的床垫，上下铺位置下阶梯的方式推荐，以及遮光性、透气",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-线条小狗联名803",
+        "cell": "B25"
+      },
+      "status": "reference_only",
+      "auto_send": false,
+      "reason": "供售前话术参考；实际问答使用最新批准口径"
+    },
+    {
+      "id": "script.803.B26",
+      "product_id": "803",
+      "category": "客户常见问题及顾虑",
+      "text": "1.不知道具体床尺寸以及高度\n2.安装方便吗\n3.不知道款式区别 ，遮光好吗",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-线条小狗联名803",
+        "cell": "B26"
+      },
+      "status": "reference_only",
+      "auto_send": false,
+      "reason": "供售前话术参考；实际问答使用最新批准口径"
+    },
+    {
+      "id": "script.803.B27",
+      "product_id": "803",
+      "category": "挖需话术",
+      "text": "亲亲睡上铺还是下铺呢",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-线条小狗联名803",
+        "cell": "B27"
+      },
+      "status": "reference_only",
+      "auto_send": false,
+      "reason": "供售前话术参考；实际问答使用最新批准口径"
+    },
+    {
+      "id": "script.803.B28",
+      "product_id": "803",
+      "category": "挖需话术",
+      "text": "亲亲您的床尺寸多大的呢，小弟给您推荐一款合适的哦",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-线条小狗联名803",
+        "cell": "B28"
+      },
+      "status": "reference_only",
+      "auto_send": false,
+      "reason": "供售前话术参考；实际问答使用最新批准口径"
+    },
+    {
+      "id": "script.803.B29",
+      "product_id": "803",
+      "category": "挖需话术",
+      "text": "亲亲方便了解下您宿舍床板的长宽和离顶部的高度分别是多少吗？小妹给您看看哪款更合适哦",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-线条小狗联名803",
+        "cell": "B29"
+      },
+      "status": "reference_only",
+      "auto_send": false,
+      "reason": "供售前话术参考；实际问答使用最新批准口径"
+    },
+    {
+      "id": "script.803.B30",
+      "product_id": "803",
+      "category": "推荐话术",
+      "text": "200长：亲亲，买床帘是看床板长度而不是整个床架的尺寸宝，190长的就很合适哦，长度留出一点余量也不会说装不下哈",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-线条小狗联名803",
+        "cell": "B30"
+      },
+      "status": "reference_only",
+      "auto_send": false,
+      "reason": "供售前话术参考；实际问答使用最新批准口径"
+    },
+    {
+      "id": "script.803.B31",
+      "product_id": "803",
+      "category": "推荐话术",
+      "text": "如果是客户的床的尺寸大于蚊帐的尺寸，推荐小款式：\n宝，看了下您这边的尺寸是比床帘要大的，咱们这款安装完直接放置在您的床上面就可以了好哦 这样包裹和防蚊效果会更好哦，是可以正常安装使用的哦。您剩余的空间可以放一些衣服收纳什么的，这样窗帘里面也不会乱糟糟的",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-线条小狗联名803",
+        "cell": "B31"
+      },
+      "status": "reference_only",
+      "auto_send": false,
+      "reason": "供售前话术参考；实际问答使用最新批准口径"
+    },
+    {
+      "id": "script.803.B32",
+      "product_id": "803",
+      "category": "推荐话术",
+      "text": "宝，经过咱们这边的市场调研，学生宿舍大部分的上铺高度都是120以下的，110的这个高度是宿舍通用的哈，能够安装进去的哦（太高的也不安全的呦），所以我们做的是110高度的哦，咱们在床上也是坐在趟着居多哈。",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-线条小狗联名803",
+        "cell": "B32"
+      },
+      "status": "reference_only",
+      "auto_send": false,
+      "reason": "供售前话术参考；实际问答使用最新批准口径"
+    },
+    {
+      "id": "script.803.B33",
+      "product_id": "803",
+      "category": "推荐话术",
+      "text": "88宽：可以选90宽的哦亲，咱们家的床品考虑到防滑稳定效果 尺寸都是偏小一些的 这样能更好的贴合您的床使用哦\n80宽：更推荐80宽尺寸的哦宝，小一点的话可以放进去，大一点的话就没办法了哦",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-线条小狗联名803",
+        "cell": "B33"
+      },
+      "status": "reference_only",
+      "auto_send": false,
+      "reason": "供售前话术参考；实际问答使用最新批准口径"
+    },
+    {
+      "id": "script.803.B34",
+      "product_id": "803",
+      "category": "卖点话术",
+      "text": "宝，咱们这款是六层复合遮光设计，遮光效果超棒，是绝对不用担心出现皮影戏的哈。也是分别通过了纺织行业和国家标准的遮光，异味检测哦，同时安装也是十分方便的哦，收到货简单安装一下就可以直接使用了哦~",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-线条小狗联名803",
+        "cell": "B34"
+      },
+      "status": "reference_only",
+      "auto_send": false,
+      "reason": "供售前话术参考；实际问答使用最新批准口径"
+    },
+    {
+      "id": "script.803.B35",
+      "product_id": "803",
+      "category": "催付话术",
+      "text": "亲亲，小妹申请到现在拍下这款套餐给您【优惠30元】，[仅限今天的哦] 您直接下单，小妹这边给您备注，您收到货确认后就给您返哦~",
+      "source": {
+        "file": "售前资源库.xlsx",
+        "sheet": "宿舍床帘-线条小狗联名803",
+        "cell": "B35"
+      },
+      "status": "manual_policy",
+      "auto_send": false,
+      "reason": "时效性活动需确认"
+    }
+  ]
+}
