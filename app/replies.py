@@ -1,6 +1,7 @@
 import re
 
-WAITING_REPLY = '亲亲，让您久等啦，小妹这边正在看您的问题，稍等一下哈～'
+WAITING_REPLY = '亲亲，小妹仔细看看您的问题，请您稍等～'
+WAITING_DELAY_SECONDS = 3
 FLEX_RECOMMENDATION = '有的亲，这边推荐全伸缩款，长宽高都能调节哈～'
 
 def fit_question(text, product):

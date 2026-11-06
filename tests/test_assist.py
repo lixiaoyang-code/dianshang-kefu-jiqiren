@@ -56,20 +56,22 @@ class AssistTests(unittest.TestCase):
 
     def test_error_does_not_latch(self):
         from app.main import app
-        with patch.object(app.state.service.model,'select',side_effect=TimeoutError()):
+        # 已有核准FAQ不再依赖模型；用实际检索故障验证异常后仍可继续接待。
+        with patch.object(app.state.service.kb,'retrieve',side_effect=TimeoutError()):
             r=self.chat('802材质','error')
             self.assertFalse(r['send_to_customer'])
         self.chat('802材质','answered')
 
-    def test_wait_once_after_25_seconds(self):
+    def test_wait_once_after_three_seconds(self):
         from app.main import app
         r=self.chat('802保修几年','handoff');rid=r['debug']['request_id']
         url=f'/api/sessions/{self.sid}/waiting/{rid}'
         self.assertFalse(self.client.post(url).json()['send_to_customer'])
-        app.state.service.sessions[self.sid].waiting[rid]['received_at']=time.perf_counter()-26
+        app.state.service.sessions[self.sid].waiting[rid]['received_at']=time.perf_counter()-4
         reply=self.client.post(url).json()
         self.assertTrue(reply['send_to_customer'])
-        self.assertIn('正在看',reply['answer'])
+        self.assertIn('仔细看看',reply['answer'])
+        self.assertIn('稍等',reply['answer'])
         self.assertFalse(self.client.post(url).json()['send_to_customer'])
 
     def test_human_handled_cancels_wait(self):

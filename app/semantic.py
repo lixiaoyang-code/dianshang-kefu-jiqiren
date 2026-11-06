@@ -6,6 +6,8 @@ import json
 import threading
 from .config import ROOT
 from .scene_rules import row_eligible
+from .intents import affirmation_variants, affirmation_state
+from .common_intents import interaction_allowed
 
 SEEDS={
  'stability':['杆子牢不牢','会不会塌','支撑结不结实','支架会晃吗'],
@@ -80,8 +82,9 @@ class SemanticRetriever:
                 for text in list(dict.fromkeys([*seeds,*aliases])):
                     self.texts.append(text);self.owners.append(idx)
         # 新增自定义 FAQ 无需修改代码；精确匹配和向量匹配共用原话答案。
+        indexed={d['id'] for d in self.docs}
         for row in kb.faq.records:
-            if row['status']!='active' or row['origin']!='custom': continue
+            if row['status']!='active' or row['id'] in indexed or row.get('canonical_answer_id'): continue
             for pid in row['product_ids'] if row['scope']=='product' else kb.products:
                 doc={'id':row['id'],'product_id':pid,'field':row['fields'][0] if row['fields'] else row['intent'],
                      'answer':row['standard_answer'],'sources':row['sources'],'images':row['images']}
@@ -101,16 +104,27 @@ class SemanticRetriever:
             return None,{**diagnostic,'status':'guard_rejected'}
         vector=self.encoder.encode([text])[0]
         scores=self.vectors@vector
-        best={}
+        best={};matched_questions={}
         charging=any(w in text for w in ['排插','插排','插线板','充电'])
+        confirmed=affirmation_state(text,affirmation_variants(self.kb))=='confirmed'
         for i,score in enumerate(scores):
             owner=self.owners[i]
             row=next((r for r in self.kb.faq.records if r['id']==self.docs[owner]['id']),None)
+            if row and row['scene_id']=='industry.affirmation' and not confirmed:continue
+            if row and not interaction_allowed(row['scene_id'],text,stage):continue
             if row and not row_eligible(row,pid,reception,stage,now):continue
             if self.docs[owner]['product_id']==pid and (not charging or self.docs[owner]['field']=='charging_port'):
-                best[owner]=max(best.get(owner,-1),float(score))
-        ranked=sorted(best.items(),key=lambda x:x[1],reverse=True)[:self.top_k]
-        diagnostic['candidates']=[{'id':self.docs[i]['id'],'score':round(score,4),'source':self.docs[i]['sources']} for i,score in ranked]
+                if float(score)>best.get(owner,-1):
+                    best[owner]=float(score);matched_questions[owner]=self.texts[i]
+        # 同一客户意图的多条答案不能互相占据第一、第二名，制造虚假的低分差。
+        grouped={}
+        for owner,score in best.items():
+            row=next((r for r in self.kb.faq.records if r['id']==self.docs[owner]['id']),None)
+            group=row['scene_id'] if row else self.docs[owner]['id']
+            if group not in grouped or score>grouped[group][1]:grouped[group]=(owner,score)
+        ranked=sorted(grouped.values(),key=lambda x:x[1],reverse=True)[:self.top_k]
+        diagnostic['candidates']=[{'id':self.docs[i]['id'],'score':round(score,4),'source':self.docs[i]['sources'],
+                                   'matched_question':matched_questions[i]} for i,score in ranked]
         if not ranked:return None,{**diagnostic,'status':'empty'}
         score=ranked[0][1];gap=score-ranked[1][1] if len(ranked)>1 else 1
         diagnostic['margin']=round(gap,4)

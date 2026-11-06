@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>资料库 · 客服工作台</title><link rel="stylesheet" href="/static/materials.css"><link rel="stylesheet" href="/static/theme-blue.css"></head>
+<body>
+<header><a class="brand" href="/">问 <span>客服工作台</span></a><nav aria-label="工作台导航"><a href="/">咨询测试</a><a href="/knowledge">问答知识库</a><a href="/materials" aria-current="page">资料库</a><a href="/statistics">数据看板</a></nav><span class="admin-label">管理后台</span></header>
+<main>
+ <section class="page-heading"><div><p class="eyebrow">KNOWLEDGE SOURCES</p><h1>把资料，变成回答的依据。</h1><p class="muted">维护产品说明和业务规则，RAG 按商品与接待条件引用。</p></div><button id="new-document" type="button">＋ 新增资料</button></section>
+ <section class="materials-workspace">
+  <aside><div class="list-heading"><h2>资料目录 <span id="document-count">—</span></h2><button class="quiet" id="refresh" type="button">刷新</button></div><label class="search"><span class="sr-only">搜索资料</span><input id="search" type="search" placeholder="搜索标题或正文"></label><div id="documents" aria-live="polite"><p class="muted">正在读取资料…</p></div><p class="list-note">首版支持粘贴文字资料。图片中的参数须先核实并整理成文字。</p></aside>
+  <section class="editor-panel"><div id="editor-empty"><span aria-hidden="true">▤</span><h2>每一条建议，都有来源。</h2><p>选择一份资料，或新建产品说明。</p></div>
+   <form id="document-form" hidden><div class="editor-top"><div><p class="eyebrow">SOURCE EDITOR</p><h2 id="editor-title">新增资料</h2></div><span id="updated-at" class="muted"></span></div>
+    <label>资料标题<input id="title" required maxlength="200" placeholder="例如：全伸缩款尺寸与选择说明"></label>
+    <label>资料正文<textarea id="content" required rows="10" maxlength="16000" placeholder="粘贴已确认的产品参数、使用方式、例外和适用条件。"></textarea></label>
+    <div class="two"><label>来源说明<input id="source" required maxlength="500" placeholder="例如：商家确认 · 2026-11-02"></label><label>使用状态<select id="document-status"><option value="active">已启用</option><option value="needs_review">待核实</option><option value="disabled">已停用</option></select></label></div>
+    <label>资料确认日期<input id="confirmed-date" type="date" required></label><fieldset><legend>适用商品 <small>不勾选为店铺通用</small></legend><div id="product-options" class="options"></div></fieldset>
+    <div class="two"><label>客服接待<select id="reception"><option value="presales">售前接待</option><option value="aftersales">售后接待</option><option value="all">全部接待</option></select></label><fieldset><legend>业务状态 <small>不勾选为全部状态</small></legend><div id="stage-options" class="options"><label><input type="checkbox" value="presales">售前</label><label><input type="checkbox" value="shipping">发货中</label><label><input type="checkbox" value="received">发货后</label><label><input type="checkbox" value="aftersales">售后</label></div></fieldset></div>
+    <details class="time-settings"><summary>有效时间 · 选填</summary><div class="two"><label>开始时间<input id="valid-from" type="datetime-local"></label><label>结束时间<input id="valid-until" type="datetime-local"></label></div><small>按北京时间设置；留空为长期有效。</small></details>
+    <div class="editor-footer"><p id="save-note" role="status">仅录入已确认资料，缺少依据的内容请先核实。</p><button id="save-document">保存资料</button></div>
+   </form>
+  </section>
+ </section>
+ <p id="notice" role="status" aria-live="polite"></p>
+</main>
+<script src="/static/materials.js"></script>
+</body></html>

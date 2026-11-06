@@ -43,4 +43,7 @@ class SourceImageTests(unittest.TestCase):
         scripts=json.loads((ROOT/'data/source_sales_scripts.json').read_text(encoding='utf8'))['scripts']
         self.assertEqual(len(scripts),49)
         self.assertTrue(all(not s['auto_send'] for s in scripts))
-        self.chat('小狗联名款现在送什么赠品','handoff')
+        result=self.chat('小狗联名款现在送什么赠品','answered')
+        self.assertIn('核实',result['answer'])
+        self.assertNotIn('置物篮',result['answer'])
+        self.assertEqual(result['debug']['retrieval']['hits'][0]['id'],'store.common_promotion_policy')

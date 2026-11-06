@@ -81,6 +81,16 @@ def managed(row):
                 c.get('stages') or c.get('valid_from') or c.get('valid_until'))
 
 
+def requires_scene_selection(row):
+    """基础售前范围仅用于过滤，不改变原有核准问答的选择顺序。"""
+    conditions=row.get('conditions',{})
+    if (conditions.get('reception')=='presales' and conditions.get('stages')==['presales']
+            and not row.get('configured_scene')):
+        # 范围批量迁移不能把原表问答和商品核准话术突然变成同级冲突答案。
+        row={**row,'conditions':{**conditions,'reception':'all','stages':[]}}
+    return managed(row)
+
+
 def keyword_match(row,text):
     words=row.get('keywords',[])
     if not words:return False

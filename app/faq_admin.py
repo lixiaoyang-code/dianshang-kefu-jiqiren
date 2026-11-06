@@ -14,6 +14,7 @@ from .config import ROOT
 from .knowledge import Knowledge
 from .semantic import get_semantic
 from .scene_rules import normalize_document, SCENE_TYPES, STAGES, parse_time
+from .frontend import frontend_page
 
 router = APIRouter()
 WRITE_LOCK = threading.Lock()
@@ -63,7 +64,13 @@ class FAQStore:
             previous=next((s for s in doc['scenes'] if s['id']==value.get('id')),None)
             scene={'id':previous['id'] if previous else 'scene.'+uuid.uuid4().hex,
                    'name':name.strip(),'type':value['type'],'category':value.get('category') or '商品咨询',
-                   'question_variants':list(dict.fromkeys(v.strip() for v in variants)), 'configured':True}
+                   'question_variants':list(dict.fromkeys([name.strip(),*(v.strip() for v in variants)])), 'configured':True}
+            description=value.get('description', (previous or {}).get('description',''))
+            if not isinstance(description,str) or len(description)>2000:
+                raise HTTPException(422,'意图描述最多2000字。')
+            scene['description']=description.strip()
+            if len(scene['question_variants'])>100:
+                raise HTTPException(422,'标准问题和拓展问法合计最多100个。')
             doc['scenes']=[s for s in doc['scenes'] if s['id']!=scene['id']]+[scene]
             for row in doc['records']:
                 if row['scene_id']==scene['id']:
@@ -79,10 +86,12 @@ class FAQStore:
                 raise HTTPException(409, '资料已被其他页面更新，请刷新后再保存。')
             row = copy.deepcopy(payload.record)
             previous = next((r for r in doc['records'] if r['id']==row.get('id')), None)
+            if previous and previous.get('canonical_answer_id'):
+                raise HTTPException(422,'这是来源引用，请编辑对应的商品主答案。')
             if previous:
                 # 来源与旧字段 ID 保留；商品和状态条件可在页面维护。
                 row = {**previous, **{k:row[k] for k in ('intent','question_variants',
-                    'standard_answer','category','status','images','scope','product_ids','answer_product_id',
+                    'standard_answer','answer_parts','category','status','images','scope','product_ids','answer_product_id',
                     'scene_id','conditions','keywords','keyword_mode','priority') if k in row}}
             else:
                 row.update(id='faq.'+uuid.uuid4().hex, origin='custom', fields=[], sources=[],
@@ -117,6 +126,20 @@ class FAQStore:
             for key in ('intent','category','standard_answer'):
                 if not isinstance(row.get(key),str):
                     raise HTTPException(422,'场景名称、分类和答案必须是文字。')
+            # 一条回复内的换行原样保留；分条发送只由显式的 answer_parts 配置决定。
+            if 'answer_parts' in payload.record:
+                parts=payload.record['answer_parts']
+                if (not isinstance(parts,list) or len(parts)>8 or
+                    not all(isinstance(part,str) and part.strip() and len(part)<=4000 for part in parts)):
+                    raise HTTPException(422,'回复最多分8条，每条填写1至4000字。')
+                parts=[part.strip() for part in parts]
+                if parts and row['standard_answer'].strip()!='\n\n'.join(parts):
+                    raise HTTPException(422,'标准答案与分条回复不一致，请刷新后重试。')
+                if parts:row['standard_answer']='\n\n'.join(parts)
+                row['answer_parts']=parts or ([row['standard_answer']] if row['standard_answer'].strip() else [])
+            elif not previous or row['standard_answer']!=previous.get('standard_answer'):
+                # 兼容旧版单文本编辑器，不能保留已过期的分段答案。
+                row['answer_parts']=[row['standard_answer']] if row['standard_answer'].strip() else []
             row['intent'] = row['intent'].strip()
             if not row['intent'] or len(row['intent'])>200 or len(row['standard_answer'])>12000:
                 raise HTTPException(422,'请填写场景名称，答案不能超过12000字。')
@@ -161,7 +184,7 @@ class FAQStore:
 
 @router.get('/knowledge')
 def knowledge_page():
-    return FileResponse(ROOT/'static/knowledge.html')
+    return frontend_page('knowledge.html')
 
 
 @router.get('/api/faq')
@@ -174,7 +197,7 @@ def list_faq(request: Request):
 @router.get('/api/scenes')
 def list_scenes(request: Request):
     doc,revision=FAQStore().read()
-    scenes=[{**s,'answers':[r for r in doc['records'] if r['scene_id']==s['id']]} for s in doc['scenes']]
+    scenes=[{**s,'answers':[r for r in doc['records'] if r['scene_id']==s['id'] and not r.get('canonical_answer_id')]} for s in doc['scenes']]
     return {'revision':revision,'scenes':scenes,
             'products':[{'id':p['id'],'name':p['name']} for p in request.app.state.service.kb.products.values()]}
 

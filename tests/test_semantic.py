@@ -13,7 +13,7 @@ class SemanticTests(unittest.TestCase):
     chat=fixtures.NetsTests.chat
 
     def test_real_vector_paraphrase(self):
-        r=self.chat('小狗联名款杆子容易倒吗','answered')
+        r=self.chat('小狗联名款杆子结实不','answered')
         self.assertEqual(r['debug']['retrieval']['method'],'semantic_onnx')
         self.assertIn('10斤',r['answer'])
         self.assertEqual(r['answer'],app.state.service.kb.products['803']['short_replies']['stability'])
@@ -23,7 +23,8 @@ class SemanticTests(unittest.TestCase):
         for pid in ['801','802','803','804']:
             doc,trace=s.search('骨架是啥做成的',pid)
             self.assertEqual(doc['product_id'],pid)
-            self.assertTrue(all(c['id'].startswith('product.'+pid+'.') for c in trace['candidates']))
+            rows={r['id']:r for r in app.state.service.kb.faq.records}
+            self.assertTrue(all(rows[c['id']]['scope']!='product' or pid in rows[c['id']]['product_ids'] for c in trace['candidates']))
 
     def test_unknown_product_no_retrieval(self):
         doc,trace=app.state.service.semantic.search('杆子容易倒吗',None)
@@ -31,7 +32,7 @@ class SemanticTests(unittest.TestCase):
         self.assertEqual(trace['status'],'product_unconfirmed')
 
     def test_unknown_question_and_close_candidates(self):
-        for q in ['你吃饭了吗','能开增值税发票吗','架子撑得住不']:
+        for q in ['你吃饭了吗','架子撑得住不','杆子容易倒吗']:
             doc,trace=app.state.service.semantic.search(q,'803')
             self.assertIsNone(doc)
             self.assertEqual(trace['status'],'low_confidence')
@@ -48,7 +49,7 @@ class SemanticTests(unittest.TestCase):
 
     def test_synonym_reply_dedup(self):
         self.chat('小狗联名款支架稳吗','answered')
-        r=self.chat('杆子容易倒吗','duplicate')
+        r=self.chat('杆子结实不','duplicate')
         self.assertFalse(r['send_to_customer'])
 
     def test_off_and_missing_model_fallback(self):

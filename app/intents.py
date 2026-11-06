@@ -1,6 +1,24 @@
 """轻量售前意图：只处理明确问法；答案引用当前商品事实或已确认店铺规则。"""
 import re
 from .replies import FLEX_RECOMMENDATION
+from .faq import canonical
+
+
+def affirmation_variants(kb):
+    scene=next((s for s in kb.faq.scenes if s['id']=='industry.affirmation'),None)
+    return (scene or {}).get('question_variants',[])
+
+
+def affirmation_state(text,variants):
+    if canonical(text) not in {canonical(v) for v in variants}:return None
+    return 'uncertain' if re.search(r'[？?]',text) else 'confirmed'
+
+
+def strip_affirmation_prefix(text,variants):
+    if not variants:return text
+    pattern='|'.join(re.escape(v) for v in sorted(variants,key=len,reverse=True))
+    match=re.fullmatch(r'\s*(?:'+pattern+r')[，,。！!\s]+(.+)',text,re.I|re.S)
+    return match.group(1).strip() if match else text
 
 
 def normalize_question(text):

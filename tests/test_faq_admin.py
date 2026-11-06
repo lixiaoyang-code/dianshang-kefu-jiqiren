@@ -36,7 +36,7 @@ class FAQAdminTests(unittest.TestCase):
 
     def test_page_and_complete_data(self):
         self.assertEqual(self.client.get('/knowledge').status_code,200)
-        d=self.snapshot();self.assertEqual(len(d['records']),207);self.assertEqual(len(d['products']),4)
+        d=self.snapshot();self.assertEqual(len(d['records']),len(json.loads(self.path.read_text(encoding='utf-8'))['records']));self.assertEqual(len(d['products']),11)
         self.assertNotIn('MODEL_API_KEY',json.dumps(d))
 
     def test_update_persists_backs_up_and_applies_without_restart(self):

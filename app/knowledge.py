@@ -41,6 +41,9 @@ STORE_FIELDS = {'shipping', 'arrival', 'freight', 'after_sales'}
 class Knowledge:
     def __init__(self, path=None, faq_document=None):
         self.data = json.loads((path or ROOT / os.getenv('KNOWLEDGE_FILE', 'data/nets_801_804.json')).read_text(encoding='utf-8'))
+        catalog=ROOT/'data/catalog_products.json'
+        if path is None and catalog.exists():
+            self.data['products'].extend(json.loads(catalog.read_text(encoding='utf-8'))['products'])
         self.products = {p['id']: p for p in self.data['products']}
         if len(self.products) != len(self.data['products']):
             raise ValueError('duplicate product id')

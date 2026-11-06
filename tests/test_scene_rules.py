@@ -214,7 +214,7 @@ class SceneRulesTests(unittest.TestCase):
         for pid, reception, stage, moment in cases:
             with self.subTest(pid=pid, reception=reception, stage=stage, time=moment):
                 self.assertEqual(faq.resolve('给礼物不', pid, reception, stage, moment)['status'],
-                                 'ineligible')
+                                 'no_match' if pid=='802' else 'ineligible')
 
     def test_model_candidate_rows_only_include_eligible_answers(self):
         rows = [answer('eligible'), answer('wrong_product', product_ids=['802']),

@@ -1,0 +1,57 @@
+services:
+  app:
+    build:
+      context: .
+      args:
+        DOWNLOAD_SEMANTIC_MODEL: ${DOWNLOAD_SEMANTIC_MODEL:-true}
+    restart: unless-stopped
+    env_file: .env.deploy
+    environment:
+      APP_MODE: demo
+      ALLOWED_HOSTS: ${PUBLIC_DOMAIN:?请在.env.deploy填写PUBLIC_DOMAIN}
+      COOKIE_SECURE: "true"
+    expose:
+      - "8000"
+    volumes:
+      - knowledge_data:/app/data
+      - service_logs:/app/logs
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+    read_only: true
+    tmpfs:
+      - /tmp:size=64m,mode=1777
+    mem_limit: 1536m
+    cpus: 2
+    pids_limit: 128
+    healthcheck:
+      test: ["CMD", "python", "-c", "import os,urllib.request; r=urllib.request.Request('http://127.0.0.1:8000/api/health',headers={'Host':os.environ['ALLOWED_HOSTS'].split(',')[0]}); urllib.request.urlopen(r,timeout=5)"]
+      interval: 30s
+      timeout: 8s
+      retries: 3
+      start_period: 60s
+  caddy:
+    image: caddy:2-alpine
+    restart: unless-stopped
+    environment:
+      PUBLIC_DOMAIN: ${PUBLIC_DOMAIN:?请填写PUBLIC_DOMAIN}
+    ports:
+      - "80:80"
+      - "443:443"
+      - "443:443/udp"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+    depends_on:
+      app:
+        condition: service_healthy
+    mem_limit: 256m
+    security_opt:
+      - no-new-privileges:true
+volumes:
+  knowledge_data:
+  service_logs:
+  caddy_data:
+  caddy_config:

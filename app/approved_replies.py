@@ -2,7 +2,7 @@
 import re
 from .replies import FLEX_RECOMMENDATION
 
-def catalog_reply(text,data=None):
+def catalog_reply(text,data=None,product_id=None):
     """跨款推荐是目录咨询，不把候选商品绑定为当前咨询商品。"""
     plain=re.sub(r'[\s？?！!，,。～~]', '',text)
     if re.fullmatch(r'(?:纯色款|小狗联名款|免安装款|80[1-4])?(?:有|有没有)(?:全伸缩(?:的)?(?:支架|款|款式)?|长宽高都(?:能|可以)?伸缩的(?:支架|款|款式)?)(?:吗|嘛)?',plain):
@@ -12,6 +12,8 @@ def catalog_reply(text,data=None):
         if re.fullmatch(r'(?:有|有没有)(?:免安装|不用安装)(?:的)?(?:款式|款|蚊帐)?(?:吗|嘛)?',plain):
             return 'answered',products['804']['short_replies']['catalog_recommendation'],'product.804.catalog_recommendation'
         if re.fullmatch(r'(?:你们)?(?:最好(?:的)?(?:是)?哪(?:一)?款|哪(?:一)?款最好|推荐最好(?:的)?(?:一)?款)',plain):
+            if any(p.get('routing')=='catalog' for p in products.values()) and not product_id:
+                return 'clarify','亲亲，您想了解床帘、枕头、被子，还是取暖用品呢？先确认品类，我再按对应资料帮您比较哈～','catalog.category_required'
             return 'answered',products['803']['short_replies']['best_recommendation'],'product.803.best_recommendation'
         if re.fullmatch(r'(?:运费险有|有运费险|有没有运费险)(?:吗|嘛)?',plain):
             return 'answered',data['store']['facts']['freight_insurance'],'store.freight_insurance'

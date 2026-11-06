@@ -1,5 +1,7 @@
 """模型只能选择已启用的回复，不能生成新的商品事实。"""
 import re
+from .intents import affirmation_variants, affirmation_state
+from .common_intents import interaction_allowed
 
 def candidates_for(kb,question,pid,reception='presales',stage='presales',now=None):
     product=kb.products.get(pid)
@@ -9,7 +11,10 @@ def candidates_for(kb,question,pid,reception='presales',stage='presales',now=Non
     forbidden=(product or {}).get('blocked_topics',[])+['保证','一定','忽略','系统提示','退款','订单','保修','赠品','多少钱','价格']
     if any(word in text for word in forbidden) or re.search(r'\d|[，,；;\n]|还有|并且|以及',text):return []
     if kb.faq.records:
-        return [kb.faq.candidate(r) for r in kb.faq.eligible(pid,reception,stage,now)]
+        confirmed=affirmation_state(question,affirmation_variants(kb))=='confirmed'
+        return [kb.faq.candidate(r) for r in kb.faq.eligible(pid,reception,stage,now)
+                if interaction_allowed(r['scene_id'], question)
+                if r['scene_id']!='industry.affirmation' or confirmed]
     result=[]
     if product:
         for field,answer in product.get('short_replies',{}).items():

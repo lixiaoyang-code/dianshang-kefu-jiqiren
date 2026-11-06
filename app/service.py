@@ -4,17 +4,26 @@ import logging
 import re
 import time
 import uuid
+import sqlite3
+from datetime import datetime
 from dataclasses import dataclass, field, asdict
 from logging.handlers import RotatingFileHandler
 from .config import ROOT, Settings
 from .knowledge import Knowledge, FIELDS, STORE_FIELDS
 from .model import Model
-from .replies import compact_reply, fit_question, WAITING_REPLY, FLEX_RECOMMENDATION
-from .intents import normalize_question, quick_reply
+from .replies import compact_reply, fit_question, WAITING_REPLY, WAITING_DELAY_SECONDS, FLEX_RECOMMENDATION
+from .intents import normalize_question, quick_reply, affirmation_variants, affirmation_state, strip_affirmation_prefix
 from .semantic import get_semantic
 from .approved_replies import approved_reply, catalog_reply
 from .intent_candidates import candidates_for
-from .scene_rules import row_eligible, managed
+from .scene_rules import row_eligible, requires_scene_selection
+from .test_analysis import analyze
+from .faq import canonical
+from . import dimensions
+from .common_intents import select as select_common
+from .statistics import StatisticsStore
+from .scene_rules import CHINA
+from .catalog import answer as catalog_answer
 
 @dataclass
 class Session:
@@ -31,6 +40,8 @@ class Session:
     answered_keys: list = field(default_factory=list)
     reception_type: str = 'presales'
     business_stage: str = 'presales'
+    last_dimension: dict | None = None
+    product_links: list = field(default_factory=list)
 
 class Service:
     def __init__(self, knowledge=None, model=None, log_dir=None):
@@ -45,6 +56,7 @@ class Service:
         self.logger.propagate = False
         handler = RotatingFileHandler(folder / 'events.jsonl', maxBytes=2_000_000, backupCount=3, encoding='utf-8')
         self.logger.addHandler(handler)
+        self.statistics = StatisticsStore(folder)
 
     def create(self):
         if len(self.sessions) >= 1000:
@@ -86,6 +98,10 @@ class Service:
                 for hit in hits:
                     row=by_id.get(hit.get('id'))
                     if row is None:continue
+                    # 核准话术、尺寸、旧字段等所有路径都必须服从答案适用范围。
+                    if not row_eligible(row,s.current_product_id,s.reception_type,s.business_stage):
+                        status,answer,reason='suppressed','该答案当前不符合触发条件，请人工查看。','scene_ineligible'
+                        break
                     if (debug.get('retrieval') or {}).get('method')=='exact_net_dimensions' and row['id']!='catalog.full_stretch':
                         # 尺寸适配由程序按帐纱参数计算，不能换成普通规格介绍。
                         if not row_eligible(row,s.current_product_id,s.reception_type,s.business_stage):
@@ -97,7 +113,8 @@ class Service:
                             status,answer,reason='suppressed','该答案当前不符合触发条件，请人工查看。','scene_ineligible'
                         continue
                     peers=self.kb.faq.related_rows(row)
-                    if any(managed(r) for r in peers):
+                    if any(requires_scene_selection(r) for r in peers
+                           if r.get('scope')!='product' or s.current_product_id in r.get('product_ids',[])):
                         choice=self.kb.faq.select(peers,s.current_product_id,s.reception_type,s.business_stage)
                         if choice['status']!='matched':
                             status,answer,reason='suppressed','该场景没有符合当前条件的唯一答案，请人工查看。','scene_'+choice['status']
@@ -105,7 +122,8 @@ class Service:
                             break
                         chosen=choice['row']
                         if len(hits)==1:
-                            answer=chosen['standard_answer']
+                            if (debug.get('retrieval') or {}).get('method')!='faq_field' or chosen['id']!=row['id']:
+                                answer=chosen['standard_answer']
                             hit.update(self.kb.faq.candidate(chosen))
                         elif chosen['id']!=row['id'] or not row_eligible(row,s.current_product_id,s.reception_type,s.business_stage):
                             status,answer,reason='suppressed','多问题的触发条件需要人工核实。','scene_multi_question'
@@ -118,8 +136,11 @@ class Service:
                 # 不同高度参数/不同商品的答复仍正常输出。
                 primary=debug.get('retrieval', {}).get('hits', [{}])[0].get('id','')
                 scope = 'store' if primary.startswith('store.') else primary.split('.')[1] if primary.startswith('product.') else s.current_product_id
-                key = str(scope) + ':' + re.sub(r'[\s，。！？～~；、]', '', answer)
-                if key in s.answered_keys:
+                row = by_id.get(primary)
+                # 不同意图即便共用话术，也不能相互挡住（例如稳固性与承重）。
+                intent_key = row['scene_id'] if row else primary
+                key = str(scope) + ':' + intent_key + ':' + re.sub(r'[\s，。！？～~；、]', '', answer)
+                if key in s.answered_keys and not debug.get('dimension_plan', {}).get('repair'):
                     status, answer = 'duplicate', ''
                     operator_note = '同类问题已回复，本次不重复发送'
                     debug['duplicate'] = True
@@ -130,7 +151,8 @@ class Service:
                 answer = ''
                 s.needs_human = False
                 s.waiting.clear()
-                s.waiting[debug['request_id']] = {'received_at': start, 'sent': False}
+                if s.reception_type=='presales' and s.business_stage=='presales':
+                    s.waiting[debug['request_id']] = {'received_at': start, 'sent': False}
                 status = 'error' if status == 'error' else 'suppressed'
             elif assist:
                 s.needs_human = False
@@ -139,15 +161,41 @@ class Service:
                 operator_note = answer
                 answer = ''
                 s.waiting.clear()
-                s.waiting[debug['request_id']] = {'received_at': start, 'sent': False}
+                if s.reception_type=='presales' and s.business_stage=='presales' and reason!='presales_scope':
+                    s.waiting[debug['request_id']] = {'received_at': start, 'sent': False}
             if status in ('handoff', 'error'):
                 s.needs_human = not assist
             s.history.append({'role': 'user', 'content': message})
             if answer:
                 s.history.append({'role': 'assistant', 'content': answer})
             s.history = s.history[-20:]
+            plan=debug.get('dimension_plan')
+            if plan and status in ('answered', 'duplicate'):
+                previous=s.last_dimension or {}
+                s.last_dimension={**plan,'product_id':s.current_product_id,
+                    'reception':s.reception_type,'stage':s.business_stage,
+                    'repair_count':previous.get('repair_count',0)+1 if plan.get('repair') else 0}
+            else:
+                s.last_dimension=None
             debug.update(current_product_id=s.current_product_id, reason=reason,
+                         occurred_at=datetime.now(CHINA).isoformat(),
                          elapsed_ms=round((time.perf_counter() - start) * 1000, 2))
+            debug['analysis'] = analyze(self.kb, message, debug, status)
+            # 分段只是核准答案的展示方式；派生尺寸答复保留实际选中的子段。
+            known={r['id']:r for r in self.kb.faq.records}
+            source_rows=[known[h['id']] for h in (debug.get('retrieval') or {}).get('hits',[]) if h.get('id') in known]
+            reply_parts=[]
+            if answer:
+                scoped=debug.pop('reply_parts',None)
+                if scoped and '\n\n'.join(scoped)==answer:
+                    reply_parts=scoped
+                elif len(source_rows)==1 and answer==source_rows[0]['standard_answer']:
+                    reply_parts=source_rows[0].get('answer_parts') or [answer]
+                else:
+                    reply_parts=[answer]
+                answer='\n\n'.join(reply_parts)
+            debug['editable_answer_ids']=[source_rows[0]['id']] if len(source_rows)==1 and answer and (
+                answer==source_rows[0]['standard_answer'] or debug.get('dimension_plan')) else []
             images=[]
             product=self.kb.products.get(s.current_product_id)
             if answer:
@@ -161,21 +209,57 @@ class Service:
                     for field_name in fields:
                         for asset in owner.get('answer_images',{}).get(field_name,[]):
                             if asset not in images:images.append(asset)
-            result = self.scrub({'status': status, 'answer': answer, 'images':images[:2], 'send_to_customer': bool(answer), 'operator_note':operator_note, 'session': asdict(s), 'debug': debug})
+            debug['waiting_delay_ms']=WAITING_DELAY_SECONDS*1000
+            result = self.scrub({'status': status, 'answer': answer, 'answer_parts':reply_parts, 'images':images[:2], 'send_to_customer': bool(answer), 'operator_note':operator_note, 'session': asdict(s), 'debug': debug})
             try:
                 self.logger.info(json.dumps(result, ensure_ascii=False))
             except OSError:
                 result['debug']['logging_error'] = 'log_write_failed'
+            try:
+                self.statistics.record(result)
+            except (OSError, sqlite3.Error):
+                result['debug']['statistics_error']='statistics_write_failed'
             return result
 
         try:
             if s.needs_human and not assist:
                 return finish('handoff', '这段咨询已交给人工处理，客服可以查看消息；恢复 AI 后可继续自动回答。', 'human_latched')
             query = normalize_question(message) if assist else message
+            if assist:
+                ack_variants=affirmation_variants(self.kb)
+                if affirmation_state(query,ack_variants)=='uncertain':
+                    return finish('handoff','客户对上一轮答复表示疑问，请人工核实；未按肯定回复。','affirmation_uncertain')
+                query=strip_affirmation_prefix(query,ack_variants)
             mentions = self.kb.mentions(query)
             debug['identification'] = {'mentions': mentions, 'selected': selected, 'candidates': s.recent_product_ids[:], 'basis': 'unresolved'}
             if selected and selected not in self.kb.products:
                 return finish('clarify', '未找到这个商品，请重新选择商品。', 'invalid_product')
+            candidate_pid=selected or (mentions[0] if len(mentions)==1 else s.current_product_id)
+            previous=s.last_dimension
+            if previous and (previous.get('product_id')!=candidate_pid or previous.get('reception')!=s.reception_type
+                             or previous.get('stage')!=s.business_stage):previous=None
+            dimension_plan=dimensions.request(query,self.kb.products.get(candidate_pid),previous) if assist else None
+            if assist and any(code not in self.kb.products for code in re.findall(r'(?<![A-Za-z0-9])8\d{2}(?![A-Za-z0-9]|厘米|毫米|克)',message)):
+                return finish('clarify','没有找到该商品编号，请从商品列表确认。','unknown_product_code')
+            common = select_common(self.kb, query, candidate_pid, s.reception_type, s.business_stage) if assist else None
+            if common:
+                if selected or len(mentions)==1:
+                    s.current_product_id, s.product_confirmed = candidate_pid, True
+                debug['identification']['basis']='common_reception'
+                debug['scene_selection']={k:v for k,v in common.items() if k!='row'}
+                if common['status']=='matched':
+                    row=common['row']
+                    debug['retrieval']={'method':'scene_faq','status':'matched','hits':[self.kb.faq.candidate(row)]}
+                    return finish('answered',row['standard_answer'],'common_reception')
+                return finish('handoff','通用接待答案未启用或不符合当前条件，请人工核实。','scene_'+common['status'])
+            if assist and self.kb.products.get(candidate_pid,{}).get('routing')=='catalog':
+                if len(mentions)>1 or (selected and mentions and mentions!=[selected]):
+                    return finish('clarify','涉及不同商品，请确认本次咨询的商品后再提问。','product_conflict')
+                s.current_product_id,s.product_confirmed=candidate_pid,True
+                row,info,reason=await catalog_answer(self,strip_affirmation_prefix(message,ack_variants),candidate_pid,s.reception_type,s.business_stage,s.history)
+                debug.update(info);debug['identification']['basis']='catalog_product'
+                if row:return finish('clarify' if row.get('boundaries',{}).get('requires_clarification') else 'answered',row['standard_answer'],reason)
+                return finish('handoff','这款商品的对应资料待核实，请补充或审核该商品知识后再回复。',reason)
             if assist and len(mentions)<=1 and (not selected or not mentions or mentions==[selected]):
                 candidate_pid=selected or (mentions[0] if mentions else s.current_product_id)
                 scene_query=query
@@ -189,7 +273,16 @@ class Service:
                 explicit_codes=re.findall(r'(?<![A-Za-z0-9])8\d{2}(?![A-Za-z0-9]|厘米|毫米|克)',message)
                 if any(code not in self.kb.products for code in explicit_codes):
                     choice={'status':'no_match','managed':False,'row':None}
-                if choice.get('managed'):
+                standard_question = any(canonical(t)==canonical(scene['name'])
+                    for t in (scene_query,original_query) for scene in self.kb.faq.scenes
+                    if scene['id'] in choice.get('scene_ids',[]))
+                scoped_rows=[r for r in self.kb.faq.records if r['scene_id'] in choice.get('scene_ids',[])
+                    and (r.get('scope')!='product' or candidate_pid in r.get('product_ids',[]))]
+                explicit_conditions=any(requires_scene_selection(r) for r in scoped_rows)
+                dimension_scope=bool(dimension_plan and set(choice.get('scene_ids',[])).issubset(dimensions.DIMENSION_SCENES)
+                                     and (not choice.get('row') or choice['row'].get('scene_type','industry')=='industry'))
+                if not dimension_scope and (explicit_conditions or (standard_question and choice['status']=='matched'
+                        and not self.kb.match_qa(query,candidate_pid))):
                     if selected or mentions:
                         s.current_product_id,s.product_confirmed=candidate_pid,True
                     debug['identification']['basis']='scene_conditions'
@@ -199,8 +292,16 @@ class Service:
                         debug['retrieval']={'method':'scene_faq','status':'matched','hits':[self.kb.faq.candidate(chosen)]}
                         return finish('answered',chosen['standard_answer'],'scene_conditions_matched')
                     return finish('handoff','该场景没有符合当前条件的唯一答案，请人工查看。','scene_'+choice['status'])
+            if assist and (s.reception_type!='presales' or s.business_stage!='presales'):
+                # 未来显式配置的售后 FAQ 已在上面按意图/条件匹配；其余旧规则不能绕回售前话术。
+                if selected or len(mentions)==1:
+                    s.current_product_id=selected or mentions[0]
+                    s.product_confirmed=True
+                debug['identification']['basis']='outside_presales_scope'
+                debug['retrieval']={'status':'out_of_scope','method':'scope_filter','hits':[]}
+                return finish('suppressed','当前蚊帐知识仅适用于售前接待及售前业务状态；本条未发送客户答复。','presales_scope')
             if assist:
-                catalog=catalog_reply(query,self.kb.data)
+                catalog=catalog_reply(query,self.kb.data,candidate_pid)
                 if catalog:
                     if selected:
                         s.current_product_id,s.product_confirmed=selected,True
@@ -234,6 +335,23 @@ class Service:
                     return finish('clarify', '您说的是哪一款？请在左侧确认商品，我再按这款资料回答。', 'ambiguous_reference')
             if not explicit and s.product_confirmed:
                 debug['identification']['basis'] = 'confirmed_session'
+            if dimension_plan:
+                if not s.product_confirmed:
+                    return finish('clarify','请先在左侧确认咨询商品，我再按这款资料回答。','product_unconfirmed')
+                debug['dimension_plan']=dimension_plan
+                if dimension_plan.get('repair') and previous and previous.get('repair_count',0)>=1:
+                    debug['scene_selection']={'status':'repair_required','scene_id':dimensions.SCENES[dimension_plan['kind']]}
+                    debug['retrieval']={'method':'dimension_context','status':'repair_required','hits':[]}
+                    return finish('handoff','客户连续纠正尺寸问题，请人工核对当前答复和意图归属。','dimension_repair_exhausted')
+                choice=dimensions.select(self.kb,dimension_plan,s.current_product_id,s.reception_type,s.business_stage)
+                debug['scene_selection']={'status':choice['status'],'scene_id':choice['scene_id']}
+                if choice['status']!='matched':
+                    return finish('handoff','对应尺寸或结构答案未启用、不符合条件，或缺少该高度款资料，请人工核实。',
+                                  choice.get('reason') or 'scene_'+choice['status'])
+                chosen=choice['row']
+                debug['retrieval']={'method':'scene_faq','status':'matched','hits':[self.kb.faq.candidate(chosen)]}
+                debug['reply_parts']=choice['parts']
+                return finish('answered',choice['answer'],'dimension_context_repair' if dimension_plan.get('repair') else 'dimension_faq')
             if assist:
                 approved=approved_reply(query,self.kb.products.get(s.current_product_id),self.kb.data)
                 if approved:
@@ -313,6 +431,27 @@ class Service:
                         except Exception as exc:
                             debug['intent_model']={'status':'failed','error':type(exc).__name__}
                 return finish('handoff', '现有资料不足以完整回答这个问题，我已标记人工核实，避免给您不准确的信息。', 'insufficient_evidence')
+            if assist:
+                verified=self.kb.faq.from_evidence(retrieval['hits'],s.current_product_id,
+                                                    s.reception_type,s.business_stage)
+                if verified:
+                    if verified['status']!='matched':
+                        debug['scene_selection']={k:v for k,v in verified.items() if k!='row'}
+                        return finish('handoff','现有答案不符合条件或存在冲突，请在知识库核实。',
+                                      'scene_'+verified['status'])
+                    rows=verified['rows']
+                    original_hits={hit['id']:hit for hit in retrieval['hits']}
+                    debug['retrieval']={'status':'matched','method':'faq_field',
+                                        'hits':[{**original_hits.get(row['id'],{}),
+                                                 **self.kb.faq.candidate(row),
+                                                 'text':row['standard_answer']} for row in rows]}
+                    answer='；'.join(row['standard_answer'] for row in rows)
+                    verified_hits=debug['retrieval']['hits']
+                    if all('field' in h for h in verified_hits) and (
+                            re.search(r'(90|110|120)\s*(?:cm|厘米)?\s*(?:高|高度)',question)
+                            or {'roof','coating'}.issubset({h['field'] for h in verified_hits})):
+                        answer=compact_reply(question,verified_hits,self.kb.products.get(s.current_product_id))
+                    return finish('answered',answer,'approved_faq_fields')
             debug['model'] = 'calling'
             proposal, mode = await self.model.select(question, retrieval['hits'])
             debug['model'] = mode + '_success'
@@ -336,7 +475,7 @@ class Service:
         async with self.locks[sid]:
             s=self.sessions[sid]
             item=s.waiting.get(request_id)
-            if not item or item['sent'] or time.perf_counter()-item['received_at']<25:
+            if not item or item['sent'] or time.perf_counter()-item['received_at']<WAITING_DELAY_SECONDS:
                 return {'send_to_customer':False,'answer':''}
             if s.last_waiting_at and time.perf_counter()-s.last_waiting_at<120:
                 item['sent']=True
