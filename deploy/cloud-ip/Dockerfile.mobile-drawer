@@ -1,0 +1,4 @@
+FROM presales-ai:cloud-review-workflow-20261107
+COPY app/ui_shell.py /app/app/ui_shell.py
+COPY static/mobile.css /app/static/mobile.css
+COPY static/shell.js /app/static/shell.js

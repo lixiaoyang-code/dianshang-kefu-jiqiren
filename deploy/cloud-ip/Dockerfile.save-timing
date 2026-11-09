@@ -1,0 +1,3 @@
+FROM presales-ai:cloud-public-names-20261107
+COPY app/scene_rules.py /app/app/scene_rules.py
+COPY app/faq_admin.py /app/app/faq_admin.py

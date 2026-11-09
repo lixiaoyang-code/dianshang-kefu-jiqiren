@@ -8,7 +8,7 @@ from pathlib import Path
 from .scene_rules import CHINA
 from .common_intents import EXTRA
 
-INTERACTIONS = {'industry.affirmation', 'industry.common_greeting', 'industry.common_thanks', 'industry.common_goodbye'}
+INTERACTIONS = {'industry.affirmation', 'industry.common_greeting', 'industry.common_thanks', 'industry.common_goodbye', 'industry.common_purchase_confirmation'}
 MANUAL_SCENES = {'industry.common_' + v for v in ('tracking', 'returns_policy', 'return_request', 'exchange_request', 'damaged')}
 MANUAL_SCENES.update('industry.common_'+v for v in EXTRA)
 
@@ -121,6 +121,19 @@ class StatisticsStore:
         rates={'response':rate(counts['responded'],total),'handoff':rate(counts['manual'],total),
                'intent':rate(counts['recognized'],total),'accuracy':rate(reviewed_correct,len(reviewed)),
                'review_coverage':rate(len(reviewed),counts['responded'])}
+        previous_rates={}
+        if days:
+            previous_start=datetime.now(CHINA).replace(hour=0,minute=0,second=0,microsecond=0)-timedelta(days=days*2-1)
+            previous_end=previous_start+timedelta(days=days)
+            previous_clauses=['occurred_at>=?','occurred_at<?'];previous_args=[previous_start.isoformat(),previous_end.isoformat()]
+            if product:previous_clauses.append('product_id=?');previous_args.append(product)
+            if not include_interactions:previous_clauses.append('interaction=0')
+            with self.connect() as db:
+                prev=[dict(r) for r in db.execute('SELECT * FROM messages WHERE '+' AND '.join(previous_clauses),previous_args)]
+            prev=[r for r in prev if r['status']!='duplicate']
+            previous_rates={'response':rate(sum(r['responded'] for r in prev),len(prev)),
+                            'handoff':rate(sum(r['manual'] for r in prev),len(prev)),
+                            'intent':rate(sum(r['recognized'] for r in prev),len(prev))}
         trend={}
         for r in valid:
             if not r['occurred_at']:continue
@@ -137,4 +150,5 @@ class StatisticsStore:
                 'reasons':[{'reason':k,'count':v} for k,v in reasons.most_common(8)],
                 'records':filtered[start:start+30], 'record_total':len(filtered),'page':page,
                 'scope':'按客户消息统计；排除重复抑制，默认排除问候等互动。转人工指系统判定需人工处理，非实际接管。',
+                'previous_rates':previous_rates,
                 'accuracy_note':'准确率仅基于已人工评价的业务答复；部分正确不计为正确。RAG和等待提示不计应答。'}

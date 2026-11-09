@@ -14,6 +14,17 @@ def affirmation_state(text,variants):
     return 'uncertain' if re.search(r'[？?]',text) else 'confirmed'
 
 
+def purchase_confirmation(text):
+    """Pure purchase statements only; questions, conditions and photo actions stay out."""
+    if re.search(r'[？?]',text):return False
+    q=re.sub(r'[\s，,。！!～~、：:]', '', text.lower())
+    return bool(re.fullmatch(
+        r'(?:好的|好哒|好滴|好|嗯嗯|行|可以|ok|明白了|了解了|收到|谢谢|亲亲|亲)*'
+        r'(?:那)?(?:我)?(?:现在|这就|马上|立刻|立即|就|已经|刚刚|刚|先|直接){0,2}'
+        r'(?:拍(?:下了|好了|下|了)?|下单(?:好了|了)?|买(?:下了|了|下)?|付款(?:了)?|付了款)'
+        r'(?:哈|啦|哦|喽|咯|了|谢谢|亲亲|亲|好的|好哒)*',q))
+
+
 def strip_affirmation_prefix(text,variants):
     if not variants:return text
     pattern='|'.join(re.escape(v) for v in sorted(variants,key=len,reverse=True))

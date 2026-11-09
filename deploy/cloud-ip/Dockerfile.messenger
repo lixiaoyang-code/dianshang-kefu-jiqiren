@@ -1,0 +1,2 @@
+FROM presales-ai:cloud-reply-source-20261106
+COPY static/app.js static/index.html static/workbench-blue.css /app/static/

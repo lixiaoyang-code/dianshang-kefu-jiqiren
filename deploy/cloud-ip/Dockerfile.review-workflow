@@ -1,0 +1,9 @@
+FROM presales-ai:cloud-readable-ui-20261107
+COPY app/draft_coverage.py /app/app/draft_coverage.py
+COPY app/faq_admin.py /app/app/faq_admin.py
+COPY app/frontend.py /app/app/frontend.py
+COPY app/ui_shell.py /app/app/ui_shell.py
+COPY app/deployment.py /app/app/deployment.py
+COPY static/knowledge.html /app/static/knowledge.html
+COPY static/knowledge.js /app/static/knowledge.js
+COPY static/ui-readability.css /app/static/ui-readability.css

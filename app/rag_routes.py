@@ -1,5 +1,7 @@
+from .product_labels import visible_products
 """资料管理与有来源的 RAG 建议；建议始终与客户自动回复分开。"""
 from typing import Literal
+from .product_labels import public_text
 
 from fastapi import APIRouter, HTTPException, Request
 from pydantic import BaseModel, Field
@@ -33,8 +35,8 @@ def materials_page():
 def materials(request: Request):
     doc, revision = RAGStore().read()
     return {'revision': revision, 'documents': doc['documents'],
-            'products': [{'id': p['id'], 'name': p['name']}
-                         for p in request.app.state.service.kb.products.values()]}
+            'products': [{'id': p['id'], 'name': p.get('display_name',p['name'])}
+                         for p in visible_products(request.app.state.service.kb)]}
 
 
 @router.post('/api/materials')
@@ -64,12 +66,16 @@ async def assist(body: AssistRequest, request: Request):
         reception = body.reception_type or session.reception_type
         stage = body.business_stage or session.business_stage
         history = list(session.history[-6:])
+        promotion=session.last_promotion or {}
+        promotion_context=promotion if (promotion.get('followup') and promotion.get('product_id')==product
+            and promotion.get('reception')==reception and promotion.get('stage')==stage) else {}
     encoder = getattr(svc.semantic, 'encoder', None)
     rag = getattr(svc, '_rag_assistant', None)
     if rag is None or rag.kb is not svc.kb or rag.model is not svc.model or rag.encoder is not encoder:
         rag = svc._rag_assistant = RAGAssistant(svc.kb, svc.model, encoder=encoder)
-    result = await rag.assist(body.message.strip(), product, reception, stage, history=history)
+    result = await rag.assist(body.message.strip(), product, reception, stage, history=history,promotion_context=promotion_context)
     # 资料建议不写入历史、不触发客户发送，也不自动新增或启用 FAQ。
+    if result.get('suggestion'):result['suggestion'] = public_text(result['suggestion'])
     result['for_operator_only'] = True
     result['send_to_customer'] = False
     return svc.scrub(result)

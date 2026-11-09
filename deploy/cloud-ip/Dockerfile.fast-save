@@ -1,0 +1,3 @@
+FROM presales-ai:cloud-messenger-20261106
+COPY app/semantic.py /app/app/semantic.py
+COPY static/knowledge.js /app/static/knowledge.js

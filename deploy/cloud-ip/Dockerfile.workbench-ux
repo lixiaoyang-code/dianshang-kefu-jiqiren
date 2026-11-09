@@ -1,0 +1,11 @@
+FROM presales-ai:cloud-store-protection-20261108
+COPY static/index.html /app/static/index.html
+COPY static/app.js /app/static/app.js
+COPY static/workbench-blue.css /app/static/workbench-blue.css
+COPY static/mobile.css /app/static/mobile.css
+COPY static/experience.css /app/static/experience.css
+COPY static/knowledge-demo.js /app/static/knowledge-demo.js
+COPY static/statistics.js /app/static/statistics.js
+COPY static/statistics.css /app/static/statistics.css
+COPY app/statistics.py /app/app/statistics.py
+COPY docs/UI-UX工作台改进-2026-11-08.md /app/docs/UI-UX工作台改进-2026-11-08.md

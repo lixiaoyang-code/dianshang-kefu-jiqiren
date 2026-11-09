@@ -3,6 +3,7 @@ import re
 import os
 from .config import ROOT
 from .faq import FAQ
+from .product_labels import NAMES,HIDDEN_PRODUCTS
 
 FIELDS = {
     'sound_insulation': ('隔音', '噪音'),
@@ -47,6 +48,9 @@ class Knowledge:
         self.products = {p['id']: p for p in self.data['products']}
         if len(self.products) != len(self.data['products']):
             raise ValueError('duplicate product id')
+        for pid, product in self.products.items():
+            product['display_name'] = NAMES.get(pid, product['name'])
+            product['aliases'] = list(dict.fromkeys([*product.get('aliases', []), product['display_name']]))
         self.qa_records = []
         self.faq = FAQ([])
         if self.data.get('continuous_assist'):
@@ -87,7 +91,12 @@ class Knowledge:
         return next((r for r in matches if r['status']=='active'), matches[0] if matches else None)
 
     def mentions(self, text):
-        return [pid for pid, p in self.products.items() if any(
+        # Historical, explicitly named retired products retain their own knowledge;
+        # their names must not be swallowed by the generic visible label 电热毯.
+        archived=[pid for pid,p in self.products.items() if pid in HIDDEN_PRODUCTS and
+                  any(token.lower() in text.lower() for token in (pid,p['name'],p.get('display_name','')) if token)]
+        if archived:return archived
+        return [pid for pid, p in self.products.items() if pid not in HIDDEN_PRODUCTS and any(
             (re.search(r'(?<![A-Za-z0-9])' + re.escape(token) + r'(?![A-Za-z0-9])', text, re.I)
              if token == pid or token == p['model'] else token.lower() in text.lower())
             for token in [pid, p['name'], p['model'], *p['aliases']])]

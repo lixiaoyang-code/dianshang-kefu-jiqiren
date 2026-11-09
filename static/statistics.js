@@ -8,22 +8,26 @@ async function api(path,data){const r=await fetch(path,{method:data===undefined?
 const pct=v=>v===null?'—':v.toFixed(1)+'%';
 async function load(){
  const token=++serial;$('refresh').disabled=true;$('error').hidden=true;
+ $('updated').textContent='正在刷新数据…';document.body.classList.add('is-loading');
  try{
   const q=new URLSearchParams({days:$('days').value,product:$('product').value,include_interactions:$('interactions').checked,outcome:$('outcome').value,page});
   const d=await api('/api/statistics?'+q);if(token!==serial)return;
   const c=d.counts,r=d.rates;
   $('pending-count').textContent=`待处理 ${c.pending||0} 条`;
   for(const [id,value] of [['queue-all',''],['queue-pending','pending'],['queue-handled','handled']])$(id).setAttribute('aria-pressed',String($('outcome').value===value));
+  const previous=d.previous_rates||{};
   for(const id of ['response','handoff','intent','accuracy'])$(id).textContent=pct(r[id]);
+  for(const id of ['response','handoff','intent','accuracy']){const card=$(id)?.closest('article');if(!card)continue;let delta=card.querySelector('.metric-delta');if(!delta){delta=el('small','', 'metric-delta');card.append(delta);}const p=previous[id];delta.textContent=p===undefined||p===null||r[id]===null?'':`${r[id]>=p?'↑':'↓'} ${Math.abs(r[id]-p).toFixed(1)}pp vs 上周期`;delta.classList.toggle('is-up',r[id]>=p);delta.classList.toggle('is-down',r[id]<p);}
+  for(const id of ['response','handoff','intent','accuracy']){const c=$(id)?.closest('article');if(c&&Number(String($(id).textContent).replace('%',''))<20&&!c.querySelector('.sample-note'))c.append(el('small','样本较少','sample-note'));}
   $('response-count').textContent=`${c.responded} / ${c.total} 条 · 业务答复`;
-  $('handoff-count').textContent=`${c.manual} / ${c.total} 条 · 需人工处理`;
+  $('handoff-count').textContent=`${c.manual} / ${c.total} 条 · 转人工`;
   $('intent-count').textContent=`${c.recognized} / ${c.total} 条 · 明确意图`;
   $('accuracy-count').textContent=c.reviewed?`${c.correct} / ${c.reviewed} 条已评价 · 部分正确 ${c.partial}`:'暂无人工评价，暂不计算';
   $('volume').textContent=`有效消息 ${c.total} · 重复抑制 ${c.duplicates} · 澄清 ${c.clarifications} · 系统异常 ${c.errors}`;
   $('review-coverage').textContent=`评价覆盖率 ${pct(r.review_coverage)}`+(c.unknown_time?` · 历史未标时 ${c.unknown_time} 条`:'');
   $('updated').textContent='更新于 '+new Date().toLocaleTimeString('zh-CN');
   const trend=$('trend');trend.replaceChildren();const max=Math.max(1,...d.trend.map(v=>v.total));
-  for(const v of d.trend){const row=el('div',undefined,'bar-row'),bar=el('div',undefined,'bar'),fill=el('b');bar.style.width=(v.total/max*100)+'%';fill.style.width=(v.responded/v.total*100)+'%';bar.append(fill);row.append(el('span',v.day.slice(5)),bar,el('span',v.total));row.title=`${v.day}：${v.total}条，已应答${v.responded}条`;trend.append(row);}
+  for(const v of d.trend){const row=el('div',undefined,'bar-row');row.tabIndex=0;row.setAttribute('role','img');const bar=el('div',undefined,'bar'),fill=el('b');bar.style.width=(v.total/max*100)+'%';fill.style.width=(v.total?v.responded/v.total*100:0)+'%';bar.append(fill);row.append(el('span',v.day.slice(5)),bar,el('span',v.total));row.title=`${v.day}：${v.total}条，已应答${v.responded}条，转人工${v.manual}条`;row.setAttribute('aria-label',row.title);trend.append(row);}
   if(!d.trend.length)trend.append(el('p','暂无带日期的业务记录','empty'));
   const rs=$('reasons');rs.replaceChildren();for(const v of d.reasons){const row=el('div',undefined,'reason');row.append(el('span',reasons[v.reason]||v.reason||'待核实'),el('strong',v.count+' 条'));rs.append(row);}if(!d.reasons.length)rs.append(el('p','当前范围暂无转人工或异常','empty'));
   const list=$('records');list.replaceChildren();
@@ -37,9 +41,9 @@ async function load(){
   }
   if(!d.records.length)list.append(el('p','暂无记录。去咨询测试提问，或调整筛选范围。','empty'));
   $('record-count').textContent=`共 ${d.record_total} 条 · 第 ${page} 页`;$('previous').disabled=page===1;$('next').disabled=page*30>=d.record_total;
- }catch(e){if(token===serial){$('error').textContent='读取失败：'+e.message;$('error').hidden=false;}}finally{if(token===serial)$('refresh').disabled=false;}
+ }catch(e){if(token===serial){$('error').textContent='读取失败：'+e.message+'，请重试';$('error').hidden=false;}}finally{if(token===serial){$('refresh').disabled=false;document.body.classList.remove('is-loading');}}
 }
 for(const id of ['days','product','interactions','outcome'])$(id).onchange=()=>{page=1;load();};
 for(const [id,value] of [['queue-all',''],['queue-pending','pending'],['queue-handled','handled']])$(id).onclick=()=>{$('outcome').value=value;page=1;load();};
 $('refresh').onclick=()=>load();$('previous').onclick=()=>{if(page>1){page--;load();}};$('next').onclick=()=>{page++;load();};
-async function start(){try{for(const p of await api('/api/products')){const o=el('option',p.name+' · '+p.id);o.value=p.id;$('product').append(o);}}catch(e){$('error').textContent=e.message;$('error').hidden=false;}await load();}start();
+async function start(){try{for(const p of await api('/api/products')){const o=el('option',p.name);o.value=p.id;$('product').append(o);}}catch(e){$('error').textContent=e.message;$('error').hidden=false;}await load();}start();

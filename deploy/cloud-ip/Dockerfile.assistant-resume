@@ -1,0 +1,7 @@
+FROM presales-ai:cloud-save-timing-20261107
+COPY app/main.py /app/app/main.py
+COPY app/ui_shell.py /app/app/ui_shell.py
+COPY static/app.js /app/static/app.js
+COPY static/index.html /app/static/index.html
+COPY static/assistant-polish.css /app/static/assistant-polish.css
+COPY static/welcome.js /app/static/welcome.js

@@ -20,10 +20,11 @@ from .scene_rules import row_eligible, requires_scene_selection
 from .test_analysis import analyze
 from .faq import canonical
 from . import dimensions
-from .common_intents import select as select_common
+from .common_intents import select as select_common, promotion_kind
 from .statistics import StatisticsStore
 from .scene_rules import CHINA
 from .catalog import answer as catalog_answer
+from .product_labels import HIDDEN_PRODUCTS
 
 @dataclass
 class Session:
@@ -41,6 +42,7 @@ class Session:
     reception_type: str = 'presales'
     business_stage: str = 'presales'
     last_dimension: dict | None = None
+    last_promotion: dict | None = None
     product_links: list = field(default_factory=list)
 
 class Service:
@@ -92,6 +94,7 @@ class Service:
 
         def finish(status, answer, reason):
             operator_note = None
+            by_id={r['id']:r for r in self.kb.faq.records} if assist else {}
             if assist and answer:
                 hits=(debug.get('retrieval') or {}).get('hits',[])
                 by_id={r['id']:r for r in self.kb.faq.records}
@@ -169,6 +172,13 @@ class Service:
             if answer:
                 s.history.append({'role': 'assistant', 'content': answer})
             s.history = s.history[-20:]
+            selected_row=by_id.get((debug.get('retrieval') or {}).get('hits',[{}])[0].get('id')) if assist and (debug.get('retrieval') or {}).get('hits') else None
+            price_kind=promotion_kind(message)
+            if price_kind in ('promotion_policy','price_negotiation') and status in ('answered','duplicate'):
+                s.last_promotion={'intent':price_kind,'product_id':s.current_product_id,'followup':False,
+                    'reception':s.reception_type,'stage':s.business_stage}
+            elif reason=='price_followup' and s.last_promotion:s.last_promotion['followup']=True
+            else:s.last_promotion=None
             plan=debug.get('dimension_plan')
             if plan and status in ('answered', 'duplicate'):
                 previous=s.last_dimension or {}
@@ -235,14 +245,27 @@ class Service:
             if selected and selected not in self.kb.products:
                 return finish('clarify', '未找到这个商品，请重新选择商品。', 'invalid_product')
             candidate_pid=selected or (mentions[0] if len(mentions)==1 else s.current_product_id)
+            if candidate_pid in HIDDEN_PRODUCTS or set(mentions).intersection(HIDDEN_PRODUCTS):
+                return finish('clarify','该商品已停用，请选择当前商品后继续咨询。','retired_product')
             previous=s.last_dimension
             if previous and (previous.get('product_id')!=candidate_pid or previous.get('reception')!=s.reception_type
                              or previous.get('stage')!=s.business_stage):previous=None
             dimension_plan=dimensions.request(query,self.kb.products.get(candidate_pid),previous) if assist else None
             if assist and any(code not in self.kb.products for code in re.findall(r'(?<![A-Za-z0-9])8\d{2}(?![A-Za-z0-9]|厘米|毫米|克)',message)):
                 return finish('clarify','没有找到该商品编号，请从商品列表确认。','unknown_product_code')
-            common = select_common(self.kb, query, candidate_pid, s.reception_type, s.business_stage) if assist else None
+            promotion_context=s.last_promotion
+            if promotion_context and (promotion_context.get('product_id')!=candidate_pid or
+                    promotion_context.get('reception')!=s.reception_type or promotion_context.get('stage')!=s.business_stage):
+                promotion_context=None
+            common = select_common(self.kb, query, candidate_pid, s.reception_type, s.business_stage,promotion_context) if assist else None
             if common:
+                if common.get('reason')=='price_followup':
+                    if selected or len(mentions)==1:s.current_product_id,s.product_confirmed=candidate_pid,True
+                    debug['scene_selection']={k:v for k,v in common.items() if k!='row'}
+                    debug['conversation_context']={'previous_intent':promotion_context['intent'],'used_for':'promotion_followup'}
+                    return finish('handoff','客户继续追问优惠，请人工接管。','price_followup')
+                if promotion_context and common.get('scene_id')=='industry.common_price_negotiation' and promotion_kind(query)!='price_negotiation':
+                    debug['conversation_context']={'previous_intent':promotion_context['intent'],'used_for':'promotion_followup'}
                 if selected or len(mentions)==1:
                     s.current_product_id, s.product_confirmed = candidate_pid, True
                 debug['identification']['basis']='common_reception'

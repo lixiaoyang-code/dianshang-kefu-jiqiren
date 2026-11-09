@@ -36,13 +36,24 @@ class FAQAdminTests(unittest.TestCase):
 
     def test_page_and_complete_data(self):
         self.assertEqual(self.client.get('/knowledge').status_code,200)
-        d=self.snapshot();self.assertEqual(len(d['records']),len(json.loads(self.path.read_text(encoding='utf-8'))['records']));self.assertEqual(len(d['products']),11)
+        d=self.snapshot()
+        stored=json.loads(self.path.read_text(encoding='utf-8'))['records']
+        self.assertEqual({r['id'] for r in d['records']},{r['id'] for r in stored if not r.get('deleted_at')})
+        self.assertEqual(len(d['products']),10)
         self.assertNotIn('MODEL_API_KEY',json.dumps(d))
 
     def test_update_persists_backs_up_and_applies_without_restart(self):
         original=self.path.read_bytes();row=self.stability();row['standard_answer']='已批准的测试话术'
-        self.assertEqual(self.save(row).status_code,200)
-        self.assertEqual(json.loads(self.path.read_text(encoding='utf-8'))['records'][next(i for i,r in enumerate(self.snapshot()['records']) if r['id']==row['id'])]['standard_answer'],row['standard_answer'])
+        result=self.save(row)
+        self.assertEqual(result.status_code,200)
+        timings=result.json()['timings_ms']
+        self.assertTrue({'lock','read','knowledge','semantic','prepare','write','total'}.issubset(timings))
+        self.assertTrue(all(value>=0 for value in timings.values()))
+        self.assertGreaterEqual(timings['total'],timings['write'])
+        self.assertIn('total;dur=',result.headers['Server-Timing'])
+        self.assertEqual(result.headers['X-Save-Request-ID'],result.json()['request_id'])
+        persisted=next(r for r in json.loads(self.path.read_text(encoding='utf-8'))['records'] if r['id']==row['id'])
+        self.assertEqual(persisted['standard_answer'],row['standard_answer'])
         self.assertEqual(next((self.path.parent/'backups').glob('*.json')).read_bytes(),original)
         self.assertEqual(self.chat('支架稳吗')['answer'],row['standard_answer'])
 

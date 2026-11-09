@@ -1,0 +1,8 @@
+FROM presales-ai:cloud-price-policy-20261108
+COPY app/faq_admin.py /app/app/faq_admin.py
+COPY app/frontend.py /app/app/frontend.py
+COPY app/deployment.py /app/app/deployment.py
+COPY static/app.js /app/static/app.js
+COPY static/index.html /app/static/index.html
+COPY static/knowledge.js /app/static/knowledge.js
+COPY static/assistant-polish.css /app/static/assistant-polish.css

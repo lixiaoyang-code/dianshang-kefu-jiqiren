@@ -134,3 +134,58 @@ body.blue-workbench{background:#f5f7fc}header{position:fixed;left:0;top:0;bottom
 .blue-workbench .reply-rag-link:hover{background:#e0ebff;color:#1d4ed8;border-color:#b1caf6}
 .blue-workbench .system .reply-source{justify-content:center;margin-bottom:5px}
 .blue-workbench .assistant .reply-source{justify-content:flex-start}
+
+/* Messenger-inspired test conversation, keeping evidence and operator controls. */
+body.blue-workbench .chat{background:#fafafb;border-color:#e4e8ef;border-radius:18px;box-shadow:0 8px 30px #26385204}
+body.blue-workbench .chat-head{background:#ffffffb8;border-bottom:1px solid #eef0f4;border-radius:18px 18px 0 0;padding:13px 22px;min-height:65px}
+body.blue-workbench .chat-head h2{font-size:15px;color:#3d4c63;font-weight:600}
+body.blue-workbench .chat-head small{font-size:12px;color:#9ba4b2}
+body.blue-workbench #messages{padding:24px clamp(18px,3vw,36px);scrollbar-color:#d4d9e2 transparent}
+body.blue-workbench .bubble{font-size:15px;line-height:1.75;padding:10px 15px;max-width:min(84%,650px);margin-top:10px;margin-bottom:8px;box-shadow:none}
+body.blue-workbench .assistant{background:#eeeff2;border:1px solid transparent;color:#263244;border-radius:18px 18px 18px 5px;margin-top:8px;margin-bottom:14px}
+body.blue-workbench .assistant:hover{background:#e8ebf0;border-color:#dbe0e8}
+body.blue-workbench .user{background:#1875db;border:1px solid transparent;color:#fff;border-radius:18px 18px 5px 18px;margin-top:16px;margin-left:auto}
+body.blue-workbench .user:hover{background:#126bd0}
+body.blue-workbench .user.selected{background:#146ed2;outline:2px solid #a6c9f2;outline-offset:3px;border-color:#fff}
+body.blue-workbench .intent-feedback{margin-top:2px;margin-bottom:12px;max-width:88%}
+body.blue-workbench .intent-label{color:#8793a6;font-size:12px;padding:3px 2px}
+body.blue-workbench .intent-feedback a{font-size:12px;color:#6d8bb5}
+body.blue-workbench .reply-source{color:#718099;font-size:12px;gap:8px;margin-bottom:5px}
+body.blue-workbench .reply-rag-link{font-size:12px;min-height:28px;padding:2px 7px;background:#f8faff;border-color:#d9e3f2}
+body.blue-workbench .answer-inline-edit{font-size:12px;color:#7b8da9;margin-top:8px}
+body.blue-workbench .system{background:transparent;border:0;color:#8b95a5;padding:5px 0;margin:8px auto;font-size:12px;line-height:1.6}
+body.blue-workbench .pending{background:#eff3f9;color:#6c809d;border:0;border-radius:18px}
+body.blue-workbench .product-link-card{background:#fff;color:#344964;border:1px solid #e2e7ef;border-radius:16px 16px 5px 16px;box-shadow:0 3px 12px #243c6010;width:min(320px,84%);padding:15px 18px}
+body.blue-workbench .product-link-card strong{font-size:16px}
+body.blue-workbench .product-link-card small,body.blue-workbench .product-link-card .link-card-state{font-size:12px;color:#8491a5}
+body.blue-workbench #form{background:#fafafb;border-top:0;padding:9px 22px 13px}
+body.blue-workbench .quick-prompts{gap:8px;margin-bottom:8px;padding-left:5px}
+body.blue-workbench .quick-prompts button{background:transparent;border-color:transparent;color:#8793a6;font-size:12px;padding:4px 7px;box-shadow:none}
+body.blue-workbench .quick-prompts button:hover{background:#eef2f8;color:#3e72b7}
+body.blue-workbench .compose{gap:8px;padding:6px 7px;border:1px solid #dce0e7;border-radius:28px;background:#fff;box-shadow:0 2px 6px #263b5005;align-items:flex-end}
+body.blue-workbench .compose:focus-within{border-color:#a1bfeb;box-shadow:0 0 0 3px #e8f0fc}
+body.blue-workbench .compose textarea{flex:1;width:0;min-height:38px;max-height:120px;margin:0;padding:8px 3px;border:0!important;border-radius:0;background:transparent;box-shadow:none!important;font-size:15px;line-height:1.5;resize:none}
+body.blue-workbench .compose textarea:focus{box-shadow:none!important;outline:0}
+body.blue-workbench .compose #open-product-link{width:36px;min-width:36px;height:36px;min-height:36px;padding:0;display:grid;place-items:center;border:0;border-radius:50%;background:#f1f3f6;color:#8090a4;box-shadow:none;font-size:25px;font-weight:400;line-height:1}
+body.blue-workbench .compose #open-product-link:hover{background:#e5edf9;color:#2563eb;transform:rotate(90deg)}
+body.blue-workbench .compose #send{width:36px;min-width:36px;height:36px;padding:0;min-height:36px;margin:0;display:grid;place-items:center;flex:none;border-radius:50%;font-size:0;box-shadow:none;background:#a9bfdc}
+body.blue-workbench #form[data-has-text="true"] #send{background:#1875db;box-shadow:0 2px 7px #1875db20}
+body.blue-workbench .compose #send:after{content:'↑';font-size:25px;font-weight:600;line-height:1}
+body.blue-workbench #form[aria-busy="true"] #send:after{content:'';width:14px;height:14px;border:2px solid #ffffff60;border-top-color:#fff;border-radius:50%;animation:pac-send-spin .8s linear infinite}
+body.blue-workbench .composer-footer{padding:0 7px;margin-top:7px}
+body.blue-workbench .composer-footer small{font-size:11px;color:#a2aab6}
+body.blue-workbench .chat-starter{padding:24px 12px}
+body.blue-workbench .chat-starter h3{font-size:20px;color:#42536c;font-weight:600}
+body.blue-workbench .chat-starter p{color:#8d98aa;font-size:13px}
+body.blue-workbench .starter-choices button{border-radius:18px;background:#fff;border-color:#e1e5ec;color:#6f7e94;padding:7px 13px}
+@keyframes pac-send-spin{to{transform:rotate(360deg)}}
+@media(max-width:850px){body.blue-workbench .chat{height:76dvh;min-height:480px}body.blue-workbench #messages{padding:18px 12px}body.blue-workbench .bubble{max-width:94%;font-size:15px;padding:10px 12px}body.blue-workbench #form{padding:8px 10px 12px}body.blue-workbench .compose{flex-wrap:nowrap;gap:6px;border-radius:26px}body.blue-workbench .compose textarea{font-size:16px;min-height:42px;width:0;padding:9px 1px}body.blue-workbench .compose #open-product-link,body.blue-workbench .compose #send{width:40px;min-width:40px;height:40px;min-height:40px}body.blue-workbench .quick-prompts{gap:0;flex-wrap:wrap}body.blue-workbench .quick-prompts button{font-size:11px;padding:4px}body.blue-workbench .reply-rag-link{min-height:36px}body.blue-workbench .chat-head{padding:12px}body.blue-workbench .product-link-card{width:min(290px,94%)}}
+@media(prefers-reduced-motion:reduce){body.blue-workbench .compose #send:after{animation:none!important}body.blue-workbench .compose #open-product-link:hover{transform:none}}
+
+/* Context summary, collapsible operator rail and command palette. */
+.context-collapsible{border:1px solid #e0e8f6;border-radius:12px;background:#fff;box-shadow:0 2px 8px #314b7c03;overflow:visible}
+.context-collapsible>summary{display:flex;align-items:center;gap:10px;min-height:48px;padding:10px 16px;cursor:pointer;list-style:none;color:#456180}
+.context-collapsible>summary::-webkit-details-marker{display:none}.context-summary-label{font-size:12px;color:#8a9bb2}.context-collapsible summary strong{font-size:14px;font-weight:600;color:#304d76;flex:1}.context-summary-action{font-size:12px;color:#5c83c5}.context-collapsible .condition-fields{border:0;border-top:1px solid #edf1f8;border-radius:0;box-shadow:none}
+.inspect>h2{display:flex;align-items:center;gap:8px}.inspect-toggle{margin-left:auto;background:#fff;color:#6581aa;border:1px solid #dce7f6;padding:5px 9px;font-size:12px}.inspect.is-collapsed{min-width:0}.inspect.is-collapsed>*:not(h2){display:none}.inspect.is-collapsed{height:max-content}
+.command-palette{width:min(560px,calc(100vw - 28px));padding:0;border:1px solid #dbe6f7;border-radius:16px;box-shadow:0 28px 80px #18345b38;color:#263f64}.command-palette::backdrop{background:#17335a44;backdrop-filter:blur(3px)}.command-palette form{border:0;padding:20px;margin:0}.command-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:14px}.command-head h2{font-size:21px;margin:2px 0}.command-palette input{font-size:16px;padding:12px 14px;background:#f8fbff}.command-list{max-height:360px;overflow:auto;margin-top:12px}.command-item{width:100%;display:flex;flex-direction:column;align-items:flex-start;gap:3px;text-align:left;background:#fff;color:#294a75;border:0;border-radius:9px;padding:12px 13px}.command-item small{color:#8799b5}.command-item.is-active,.command-item:hover{background:#edf4ff;color:#205ed2}.command-hint{font-size:12px;color:#91a0b5;margin:12px 0 0}.pending{min-height:42px}.pending:before{content:'';width:8px;height:8px;border-radius:50%;background:#5b8dea;animation:pending-pulse 1.1s infinite;flex:none}
+@media(max-width:850px){.context-collapsible>summary{padding:10px 12px}.context-summary-label{display:none}.context-collapsible summary strong{font-size:13px}.inspect.is-collapsed{display:none}.inspect-toggle{display:none}}

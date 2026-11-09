@@ -4,9 +4,10 @@ import re
 import hashlib
 import json
 import threading
+from collections import OrderedDict
 from .config import ROOT
 from .scene_rules import row_eligible
-from .intents import affirmation_variants, affirmation_state
+from .intents import affirmation_variants, affirmation_state, purchase_confirmation
 from .common_intents import interaction_allowed
 
 SEEDS={
@@ -36,6 +37,8 @@ class Encoder:
         import onnxruntime as ort
         from tokenizers import Tokenizer
         self.np=np
+        self._index_vectors=OrderedDict()
+        self._index_lock=threading.Lock()
         options=ort.SessionOptions();options.intra_op_num_threads=2
         self.session=ort.InferenceSession(str(ROOT/'models/minilm/model.onnx'),options,providers=['CPUExecutionProvider'])
         self.tokenizer=Tokenizer.from_file(str(ROOT/'models/minilm/tokenizer.json'))
@@ -56,6 +59,19 @@ class Encoder:
             pooled/=np.maximum(np.linalg.norm(pooled,axis=1,keepdims=True),1e-9)
             result.extend(pooled.tolist())
         return np.array(result,dtype=np.float32)
+
+    def encode_index(self,texts):
+        """问法不变就复用向量；答案、状态、商品条件仍由新知识快照提供。"""
+        if not texts:return self.encode(texts)
+        with self._index_lock:
+            missing=list(dict.fromkeys(text for text in texts if text not in self._index_vectors))
+            if missing:
+                vectors=self.encode(missing)
+                for text,vector in zip(missing,vectors):self._index_vectors[text]=vector
+            result=self.np.stack([self._index_vectors[text] for text in texts])
+            for text in dict.fromkeys(texts):self._index_vectors.move_to_end(text)
+            while len(self._index_vectors)>12000:self._index_vectors.popitem(last=False)
+            return result
 
 class SemanticRetriever:
     def __init__(self,kb,encoder):
@@ -91,13 +107,15 @@ class SemanticRetriever:
                 idx=len(self.docs);self.docs.append(doc)
                 for text in row['question_variants']:
                     self.texts.append(text);self.owners.append(idx)
-        self.vectors=encoder.encode(self.texts)
+        self.vectors=encoder.encode_index(self.texts) if hasattr(encoder,'encode_index') else encoder.encode(self.texts)
 
     def search(self,text,pid,reception='presales',stage='presales',now=None):
         p=self.kb.products.get(pid)
         diagnostic={'method':'semantic_onnx','backend':'multilingual_minilm_int8','threshold':self.threshold,'min_margin':self.margin,'candidates':[]}
         if not p:
             return None,{**diagnostic,'status':'product_unconfirmed'}
+        if purchase_confirmation(text):
+            return None,{**diagnostic,'status':'interaction_not_product_question'}
         for token in sorted([pid,p['name'],*p['aliases']],key=len,reverse=True):text=text.replace(token,'')
         blocked=p.get('blocked_topics',[])+['保证','承诺','终身','退款','订单','免费','治病','完全隔音','十斤','10斤','两桶水','忽略','系统提示','强制','一定','多少钱','价格']
         if any(w.lower() in text.lower() for w in blocked) or re.search(r'\d|[，,；;\n]|还有|以及|并且',text) or len(text)>80:

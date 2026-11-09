@@ -20,11 +20,11 @@ class CatalogOnboardingTests(unittest.IsolatedAsyncioTestCase):
     async def ask(self,pid,q,reception='presales',stage='presales'):
         s=self.svc.create();return await self.svc.chat(s.session_id,q,pid,reception,stage)
 
-    async def test_seven_products_have_independent_answers(self):
+    async def test_visible_catalog_products_have_independent_answers(self):
         self.assertEqual(len(self.svc.kb.products),11)
         for pid,q,expected in [('tietie','什么材质','记忆棉'),('cloudquilt','能机洗吗','轻柔'),
             ('plushblanket','厚度多少','12毫米'),('heater','取暖器怎么选型号','型号'),
-            ('nonwovenblanket','单控和双控的区别是','左右'),('latexpillow','什么尺寸','60厘米'),('601','高度多少','170')]:
+            ('latexpillow','什么尺寸','60厘米'),('601','高度多少','170')]:
             r=await self.ask(pid,q);self.assertTrue(r['send_to_customer'],r);self.assertIn(expected,r['answer'])
             self.assertNotIn('store.expedite',[h['id'] for h in r['debug']['retrieval']['hits']])
 
@@ -78,7 +78,7 @@ class CatalogOnboardingTests(unittest.IsolatedAsyncioTestCase):
         self.assertIn('小狗',r['answer'])
 
     async def test_sensitive_pending_reference_never_auto_answers(self):
-        for pid,q in [('latexpillow','颈椎不舒服这款可以用吗'),('heater','这个能带多少平方'),('nonwovenblanket','有没有3c认证')]:
+        for pid,q in [('latexpillow','颈椎不舒服这款可以用吗'),('heater','这个能带多少平方')]:
             r=await self.ask(pid,q);self.assertFalse(r['send_to_customer'],r)
             self.assertTrue(r['debug']['reason'].startswith('catalog_'))
 

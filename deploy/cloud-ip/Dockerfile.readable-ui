@@ -1,0 +1,8 @@
+FROM presales-ai:cloud-knowledge-controls-20261107
+COPY app/main.py /app/app/main.py
+COPY app/ui_shell.py /app/app/ui_shell.py
+COPY static/ui-readability.css /app/static/ui-readability.css
+COPY static/knowledge.html /app/static/knowledge.html
+COPY static/knowledge.js /app/static/knowledge.js
+COPY static/app.js /app/static/app.js
+COPY static/fonts /app/static/fonts

@@ -1,0 +1,6 @@
+FROM presales-ai:cloud-assistant-resume-20261108
+COPY app/common_intents.py /app/app/common_intents.py
+COPY app/service.py /app/app/service.py
+COPY app/rag.py /app/app/rag.py
+COPY app/rag_routes.py /app/app/rag_routes.py
+COPY app/test_analysis.py /app/app/test_analysis.py

@@ -1,0 +1,3 @@
+FROM presales-ai:cloud-handoff-label-20261107
+COPY static/knowledge-demo.html /app/static/knowledge-demo.html
+COPY static/experience.css /app/static/experience.css

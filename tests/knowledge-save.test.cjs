@@ -1,0 +1,17 @@
+const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict');
+const source=fs.readFileSync(require('node:path').join(__dirname,'../static/knowledge.js'),'utf8');
+const start=source.indexOf('function applySavedAnswer('),end=source.indexOf('async function load(){',start);
+const original={id:'one',scene_id:'first',standard_answer:'old',conditions:{reception:'presales'}};
+const other={id:'two',scene_id:'second',standard_answer:'leave untouched'};
+let renders=0;
+const data={revision:'before',scenes:[{id:'first',answers:[original]},{id:'second',answers:[other]}]};
+const context=vm.createContext({data,renderFilters(){renders++},render(){renders++},renderDetail(){renders++}});
+vm.runInContext(source.slice(start,end),context);
+const saved={record:{...original,standard_answer:'new',product_ids:['802'],conditions:{reception:'aftersales'}},revision:'after'};
+assert.equal(context.applySavedAnswer(saved),true);
+assert.equal(data.revision,'after');assert.equal(data.scenes[0].answers[0],saved.record);
+assert.equal(data.scenes[1].answers[0],other);assert.equal(renders,3);
+assert.equal(context.applySavedAnswer(saved),true);assert.equal(data.scenes[0].answers.length,1);
+assert.equal(context.applySavedAnswer({record:{id:'x',scene_id:'missing'},revision:'bad'}),false);
+assert.equal(data.revision,'after');
+console.log('PASS: saving uses the returned answer and revision, preserves other records and refreshes visible filters without a full download');

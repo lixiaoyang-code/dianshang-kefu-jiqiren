@@ -213,10 +213,12 @@ class DemoAccessMiddleware:
         async def wrapped_send(message):
             if message['type'] == 'http.response.start':
                 headers = list(message.get('headers', []))
+                embedded_knowledge=path=='/knowledge' and request.query_params.get('embed')=='1'
+                frame_policy=b"'self'" if embedded_knowledge else b"'none'"
                 headers += [(b'cache-control', b'no-store'), (b'x-content-type-options', b'nosniff'),
-                            (b'x-frame-options', b'DENY'), (b'referrer-policy', b'same-origin'),
+                            (b'x-frame-options', b'SAMEORIGIN' if embedded_knowledge else b'DENY'), (b'referrer-policy', b'same-origin'),
                             (b'x-robots-tag', b'noindex, nofollow'),
-                            (b'content-security-policy', b"default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'")]
+                            (b'content-security-policy', b"default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; frame-ancestors "+frame_policy+b"; base-uri 'self'; form-action 'self'")]
                 if new_cookie:
                     cookie_header = f'{COOKIE}={cookie}; Path=/; Max-Age=86400; HttpOnly; SameSite=Lax'
                     if settings.cookie_secure:
@@ -230,7 +232,7 @@ class DemoAccessMiddleware:
 
         if path in ('/docs', '/redoc', '/openapi.json') or path.startswith('/docs/'):
             return await reject(404, '体验版不开放接口文档。')
-        needs_admin = (path in ('/knowledge', '/materials', '/statistics', '/consultations', '/admin') or
+        needs_admin = (path in ('/knowledge', '/review', '/materials', '/statistics', '/consultations', '/admin') or
                        path.startswith('/static/') and path.endswith('.html') or
                        path.startswith('/api/') and path not in PUBLIC_API and not SESSION_PATH.fullmatch(path))
         if needs_admin and not admin:

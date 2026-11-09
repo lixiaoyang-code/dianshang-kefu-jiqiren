@@ -1,0 +1,4 @@
+FROM presales-ai:cloud-review-actions-20261106
+COPY app/common_intents.py /app/app/common_intents.py
+COPY scripts/split_promotion_intents.py /app/scripts/split_promotion_intents.py
+COPY scripts/onboard_scenes.py /app/scripts/onboard_scenes.py

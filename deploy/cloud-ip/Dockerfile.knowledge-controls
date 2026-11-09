@@ -1,0 +1,15 @@
+FROM presales-ai:cloud-promotion-split-20261107
+COPY app/common_intents.py /app/app/common_intents.py
+COPY app/faq.py /app/app/faq.py
+COPY app/faq_admin.py /app/app/faq_admin.py
+COPY app/main.py /app/app/main.py
+COPY app/scene_rules.py /app/app/scene_rules.py
+COPY app/service.py /app/app/service.py
+COPY app/test_analysis.py /app/app/test_analysis.py
+COPY app/ui_shell.py /app/app/ui_shell.py
+COPY static/app.js /app/static/app.js
+COPY static/knowledge.css /app/static/knowledge.css
+COPY static/knowledge.html /app/static/knowledge.html
+COPY static/knowledge.js /app/static/knowledge.js
+COPY scripts/add_negotiation_intent.py /app/scripts/add_negotiation_intent.py
+COPY scripts/split_promotion_intents.py /app/scripts/split_promotion_intents.py

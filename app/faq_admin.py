@@ -1,20 +1,23 @@
+from .product_labels import visible_products
 """本地 FAQ 管理：校验、版本冲突保护、备份和原子保存。"""
 import copy
 import hashlib
 import json
 import os
 import threading
+import time
 import uuid
 from datetime import datetime, timezone
 from pathlib import Path
-from fastapi import APIRouter, HTTPException, Request
-from fastapi.responses import FileResponse
+from fastapi import APIRouter, HTTPException, Request, Response
+from fastapi.responses import FileResponse, RedirectResponse
 from pydantic import BaseModel, Field
 from .config import ROOT
 from .knowledge import Knowledge
 from .semantic import get_semantic
 from .scene_rules import normalize_document, SCENE_TYPES, STAGES, parse_time
 from .frontend import frontend_page
+from .draft_coverage import covered_drafts
 
 router = APIRouter()
 WRITE_LOCK = threading.Lock()
@@ -29,16 +32,33 @@ class SaveScene(BaseModel):
     scene: dict
 
 
+class DeleteKnowledge(BaseModel):
+    revision: str
+    id: str = Field(min_length=1, max_length=200)
+    confirmed: bool = False
+
+
+class CleanupDrafts(BaseModel):
+    revision: str
+    scene_id: str = Field(min_length=1,max_length=200)
+    ids: list[str] = Field(min_length=1,max_length=200)
+    confirmed: bool = False
+
+
 class FAQStore:
     def __init__(self, path=None):
         self.path = path or ROOT/'data/faq.json'
+        self.timings = {}
 
     def read(self):
         raw = self.path.read_bytes()
         return normalize_document(json.loads(raw)), hashlib.sha256(raw).hexdigest()
 
     def persist(self, doc, prepare):
+        start=time.perf_counter()
         prepared=prepare(doc)
+        self.timings['prepare']=time.perf_counter()-start
+        start=time.perf_counter()
         backups=self.path.parent/'backups';backups.mkdir(exist_ok=True)
         (backups/f'faq-{datetime.now(timezone.utc):%Y%m%dT%H%M%S}-{uuid.uuid4().hex[:8]}.json').write_bytes(self.path.read_bytes())
         raw=(json.dumps(doc,ensure_ascii=False,indent=2)+'\n').encode('utf-8')
@@ -47,7 +67,9 @@ class FAQStore:
             temp.write_bytes(raw)
             os.replace(temp,self.path)
         finally:temp.unlink(missing_ok=True)
-        return hashlib.sha256(raw).hexdigest(),prepared
+        revision=hashlib.sha256(raw).hexdigest()
+        self.timings['write']=time.perf_counter()-start
+        return revision,prepared
 
     def save_scene(self,payload,prepare):
         with WRITE_LOCK:
@@ -62,6 +84,7 @@ class FAQStore:
             if not isinstance(variants,list) or not variants or len(variants)>100 or not all(isinstance(v,str) and v.strip() and len(v)<=2000 for v in variants):
                 raise HTTPException(422,'场景至少需要一个问法，最多100个。')
             previous=next((s for s in doc['scenes'] if s['id']==value.get('id')),None)
+            if previous and previous.get('deleted_at'):raise HTTPException(409,'该意图已删除，请刷新列表。')
             scene={'id':previous['id'] if previous else 'scene.'+uuid.uuid4().hex,
                    'name':name.strip(),'type':value['type'],'category':value.get('category') or '商品咨询',
                    'question_variants':list(dict.fromkeys([name.strip(),*(v.strip() for v in variants)])), 'configured':True}
@@ -80,12 +103,17 @@ class FAQStore:
             return scene,revision,prepared
 
     def save(self, payload, product_ids, prepare):
+        start=time.perf_counter()
         with WRITE_LOCK:
+            self.timings['lock']=time.perf_counter()-start
+            start=time.perf_counter()
             doc, revision = self.read()
+            self.timings['read']=time.perf_counter()-start
             if payload.revision != revision:
                 raise HTTPException(409, '资料已被其他页面更新，请刷新后再保存。')
             row = copy.deepcopy(payload.record)
             previous = next((r for r in doc['records'] if r['id']==row.get('id')), None)
+            if previous and previous.get('deleted_at'):raise HTTPException(409,'该答案已删除，请刷新列表。')
             if previous and previous.get('canonical_answer_id'):
                 raise HTTPException(422,'这是来源引用，请编辑对应的商品主答案。')
             if previous:
@@ -181,30 +209,84 @@ class FAQStore:
             revision,prepared=self.persist(doc,prepare)
             return row,revision,prepared
 
+    def delete(self,payload,target,prepare):
+        with WRITE_LOCK:
+            if not payload.confirmed:raise HTTPException(422,'请确认删除后再提交。')
+            doc,revision=self.read()
+            if payload.revision!=revision:raise HTTPException(409,'资料已更新，请刷新后再删除。')
+            collection=doc['scenes'] if target=='scene' else doc['records']
+            item=next((r for r in collection if r['id']==payload.id and not r.get('deleted_at')),None)
+            if item is None:raise HTTPException(404,'条目不存在或已删除。')
+            if target=='answer' and item.get('canonical_answer_id'):
+                raise HTTPException(422,'这是来源引用，请删除对应的商品主答案。')
+            ids={r['id'] for r in doc['records'] if r['scene_id']==payload.id} if target=='scene' else {payload.id}
+            # 一并移除主答案的来源副本，避免旧问答在主答案删除后重新被启用。
+            while True:
+                related={r['id'] for r in doc['records'] if r.get('canonical_answer_id') in ids}
+                if related.issubset(ids):break
+                ids.update(related)
+            when=datetime.now(timezone.utc).isoformat()
+            for row in doc['records']:
+                if row['id'] in ids:row.update(status='disabled',deleted_at=when,updated_at=when)
+            if target=='scene':item['deleted_at']=when
+            revision,prepared=self.persist(doc,prepare)
+            return sorted(ids),revision,prepared
+
+    def cleanup_covered(self,payload,prepare):
+        with WRITE_LOCK:
+            if not payload.confirmed:raise HTTPException(422,'请确认清理范围后再提交。')
+            doc,revision=self.read()
+            if payload.revision!=revision:raise HTTPException(409,'资料已更新，请刷新后重新核对清理范围。')
+            candidates={r['id']:r for r in covered_drafts(doc) if r['scene_id']==payload.scene_id}
+            ids=set(payload.ids)
+            if not ids.issubset(candidates):raise HTTPException(409,'部分草稿已有内容或条件发生变化，未执行清理，请刷新核对。')
+            while True:
+                related={r['id'] for r in doc['records'] if r.get('canonical_answer_id') in ids}
+                if related.issubset(ids):break
+                ids.update(related)
+            when=datetime.now(timezone.utc).isoformat()
+            for row in doc['records']:
+                if row['id'] in ids:
+                    row.update(status='disabled',deleted_at=when,updated_at=when,deleted_reason='covered_empty_draft')
+                    if row['id'] in candidates:row['covered_by']=candidates[row['id']]['covered_by']
+            revision,prepared=self.persist(doc,prepare)
+            return sorted(ids),revision,prepared
+
 
 @router.get('/knowledge')
-def knowledge_page():
-    return frontend_page('knowledge.html')
+def knowledge_page(request:Request):
+    if request.query_params.get('status')=='needs_review' and not any(k in request.query_params for k in ('scene','test','answer')):
+        return RedirectResponse('/review',status_code=303)
+    return frontend_page('knowledge.html',view='embedded' if request.query_params.get('embed')=='1' else None)
+
+
+@router.get('/review')
+def review_page():
+    return frontend_page('knowledge.html',view='review')
 
 
 @router.get('/api/faq')
 def list_faq(request: Request):
     doc,revision=FAQStore().read()
     svc=request.app.state.service
-    return {'revision':revision,'records':doc['records'],
-        'products':[{'id':p['id'],'name':p['name']} for p in svc.kb.products.values()]}
+    return {'revision':revision,'records':[r for r in doc['records'] if not r.get('deleted_at')],
+        'products':[{'id':p['id'],'name':p.get('display_name',p['name'])} for p in visible_products(svc.kb)]}
 
 @router.get('/api/scenes')
 def list_scenes(request: Request):
     doc,revision=FAQStore().read()
-    scenes=[{**s,'answers':[r for r in doc['records'] if r['scene_id']==s['id'] and not r.get('canonical_answer_id')]} for s in doc['scenes']]
-    return {'revision':revision,'scenes':scenes,
-            'products':[{'id':p['id'],'name':p['name']} for p in request.app.state.service.kb.products.values()]}
+    scenes=[{**s,'answers':[r for r in doc['records'] if r['scene_id']==s['id'] and not r.get('canonical_answer_id') and not r.get('deleted_at')]} for s in doc['scenes'] if not s.get('deleted_at')]
+    return {'revision':revision,'scenes':scenes,'covered_drafts':covered_drafts(doc),
+            'products':[{'id':p['id'],'name':p.get('display_name',p['name'])} for p in visible_products(request.app.state.service.kb)]}
 
 
-def activate(doc,svc):
+def activate(doc,svc,timings=None):
+    start=time.perf_counter()
     kb=Knowledge(faq_document=doc)
+    if timings is not None:timings['knowledge']=time.perf_counter()-start
+    start=time.perf_counter()
     semantic,status=get_semantic(kb)
+    if timings is not None:timings['semantic']=time.perf_counter()-start
     return kb,semantic,status
 
 
@@ -228,11 +310,50 @@ def save_scene(body:SaveScene,request:Request):
 
 
 @router.post('/api/faq')
-def save_faq(body: SaveFAQ, request: Request):
+def save_faq(body: SaveFAQ, request: Request, response: Response):
+    start=time.perf_counter()
     check_origin(request)
     svc=request.app.state.service
-    def prepare(doc):return activate(doc,svc)
-    row,revision,prepared=FAQStore().save(body,list(svc.kb.products),prepare)
+    store=FAQStore()
+    def prepare(doc):return activate(doc,svc,store.timings)
+    row,revision,prepared=store.save(body,list(svc.kb.products),prepare)
     apply_prepared(svc,prepared)
+    covered=covered_drafts({'records':svc.kb.faq.records})
+    store.timings['total']=time.perf_counter()-start
+    timings={key:round(value*1000,2) for key,value in store.timings.items()}
+    request_id=uuid.uuid4().hex
+    response.headers['Server-Timing']=', '.join(f'{key};dur={value}' for key,value in timings.items())
+    response.headers['X-Save-Request-ID']=request_id
+    # Only timing metadata: never log the submitted answer, credentials or personal data.
+    svc.logger.info(json.dumps({'event':'faq_save','request_id':request_id,'timings_ms':timings,
+                               'semantic':svc.semantic_status}))
     return {'record':row,'revision':revision,'message':'已保存并应用到客服机器人。',
-            'semantic':svc.semantic_status}
+            'semantic':svc.semantic_status,'covered_drafts':covered,'timings_ms':timings,'request_id':request_id}
+
+
+def delete_knowledge(body,request,target):
+    check_origin(request);svc=request.app.state.service
+    ids,revision,prepared=FAQStore().delete(body,target,lambda doc:activate(doc,svc))
+    apply_prepared(svc,prepared)
+    return {'deleted_ids':ids,'deleted_scene_id':body.id if target=='scene' else None,
+            'revision':revision,'covered_drafts':covered_drafts({'records':svc.kb.faq.records}),
+            'message':'意图及其条件答案已删除。' if target=='scene' else '答案已删除。'}
+
+
+@router.post('/api/faq/delete')
+def delete_answer(body:DeleteKnowledge,request:Request):
+    return delete_knowledge(body,request,'answer')
+
+
+@router.post('/api/scenes/delete')
+def delete_scene(body:DeleteKnowledge,request:Request):
+    return delete_knowledge(body,request,'scene')
+
+
+@router.post('/api/faq/cleanup-covered')
+def cleanup_covered(body:CleanupDrafts,request:Request):
+    check_origin(request);svc=request.app.state.service
+    ids,revision,prepared=FAQStore().cleanup_covered(body,lambda doc:activate(doc,svc))
+    apply_prepared(svc,prepared)
+    return {'deleted_ids':ids,'revision':revision,'covered_drafts':covered_drafts({'records':svc.kb.faq.records}),
+            'message':f'已清理 {len(set(body.ids))} 条已被覆盖的空白草稿，启用答案保留。'}

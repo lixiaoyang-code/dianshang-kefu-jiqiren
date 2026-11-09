@@ -1,6 +1,6 @@
 services:
   app:
-    image: presales-ai:cloud-reply-source-20261106
+    image: presales-ai:cloud-workbench-ux-20261108
     pull_policy: never
     restart: unless-stopped
     env_file: .env.deploy

@@ -1,0 +1,6 @@
+FROM presales-ai:cloud-blanket-qa-20261108
+COPY app/intents.py /app/app/intents.py
+COPY app/common_intents.py /app/app/common_intents.py
+COPY app/semantic.py /app/app/semantic.py
+COPY app/statistics.py /app/app/statistics.py
+COPY scripts/add_purchase_confirmation.py /app/scripts/add_purchase_confirmation.py

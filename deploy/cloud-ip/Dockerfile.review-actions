@@ -1,0 +1,3 @@
+FROM presales-ai:cloud-fast-save-20261106
+COPY static/knowledge.html /app/static/knowledge.html
+COPY static/knowledge.js /app/static/knowledge.js

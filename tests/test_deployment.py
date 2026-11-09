@@ -48,13 +48,22 @@ def demo_app(settings=SETTINGS):
     for path in ['/api/chat', '/api/rag/assist', '/api/sessions/{sid}/events',
                  '/api/sessions/{sid}/reset', '/api/sessions/{sid}/waiting/{rid}']:
         app.add_api_route(path, accept, methods=['POST'])
-    for path in ['/knowledge', '/materials', '/statistics', '/api/statistics', '/api/statistics/review', '/api/faq', '/api/scenes', '/api/materials',
+    for path in ['/knowledge', '/review', '/materials', '/statistics', '/api/statistics', '/api/statistics/review', '/api/faq', '/api/scenes', '/api/materials',
                  '/static/knowledge.html', '/api/future-admin-route']:
         app.add_api_route(path, lambda: {'admin': True}, methods=['GET', 'POST'])
     return app
 
 
 class DemoSecurityTests(unittest.TestCase):
+    def test_editor_can_only_embed_same_origin_and_still_requires_admin(self):
+        self.assertEqual(self.client.get('/knowledge?embed=1').status_code,401)
+        embedded=self.client.get('/knowledge?embed=1',auth=AUTH)
+        self.assertEqual(embedded.status_code,200)
+        self.assertEqual(embedded.headers['x-frame-options'],'SAMEORIGIN')
+        self.assertIn("frame-ancestors 'self'",embedded.headers['content-security-policy'])
+        normal=self.client.get('/knowledge',auth=AUTH)
+        self.assertEqual(normal.headers['x-frame-options'],'DENY')
+        self.assertIn("frame-ancestors 'none'",normal.headers['content-security-policy'])
     def setUp(self):
         self.app = demo_app()
         self.client = TestClient(self.app, base_url='https://demo.test')
@@ -85,7 +94,7 @@ class DemoSecurityTests(unittest.TestCase):
                 replace(SETTINGS, **changed).validate()
 
     def test_management_get_and_post_require_admin_including_new_routes(self):
-        for path in ['/knowledge', '/materials', '/statistics', '/api/statistics', '/api/statistics/review', '/api/faq', '/api/scenes', '/api/materials',
+        for path in ['/knowledge', '/review', '/materials', '/statistics', '/api/statistics', '/api/statistics/review', '/api/faq', '/api/scenes', '/api/materials',
                      '/static/knowledge.html', '/api/future-admin-route']:
             for method in ('get', 'post'):
                 with self.subTest(path=path, method=method):

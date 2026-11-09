@@ -1,0 +1,5 @@
+FROM presales-ai:cloud-mobile-drawer-20261107
+COPY static/statistics-demo.html /app/static/statistics-demo.html
+COPY static/statistics-demo.js /app/static/statistics-demo.js
+COPY static/statistics.html /app/static/statistics.html
+COPY static/statistics.js /app/static/statistics.js

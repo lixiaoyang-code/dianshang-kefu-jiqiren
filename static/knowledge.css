@@ -138,6 +138,15 @@ pre { max-height:250px; overflow:auto; padding:12px; border-radius:6px; backgrou
 .dialog-foot span { margin-right:auto; color:#a28c60; font-size:11px; }
 .dialog-foot button { font-size:12px; }
 .error { color:#af6a4d!important; }
+.answer-actions { display:flex; flex-wrap:wrap; justify-content:flex-end; align-items:center; gap:8px; flex-shrink:0; }
+button.danger { background:#dc2626; color:#fff; border-color:#dc2626; }
+button.danger:hover { background:#b91c1c; border-color:#b91c1c; }
+button.danger.quiet { background:#fff5f5; color:#c62828; border-color:#fecaca; }
+button.danger.quiet:hover { background:#fee2e2!important; color:#991b1b; border-color:#fca5a5!important; }
+.delete-dialog { width:min(490px,94vw); }
+.delete-dialog #delete-summary { font-size:15px; line-height:1.8; overflow-wrap:anywhere; }
+.delete-dialog .dialog-foot { justify-content:flex-end; }
+.delete-dialog #delete-note { color:#b91c1c; }
 @media(max-width:1180px) {
   main { width:calc(100% - 40px); }
   .workspace { grid-template-columns:195px minmax(0,1fr); }

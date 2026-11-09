@@ -3,3 +3,5 @@
 .queue-tabs,.record-actions{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:16px 0}.queue-tabs button[aria-pressed="true"]{background:#245df5;color:#fff;border-color:#245df5}.record-actions button{font-size:13px}.record-actions .muted{margin-left:auto}
 
 .consultation-page .cards,.consultation-page .charts,.consultation-page .summary,.consultation-page .definitions{display:none}
+
+body.is-loading #refresh{opacity:.75;position:relative}.metric-delta{font-size:12px!important;color:#7187a6!important}.metric-delta.is-up{color:#2f7d62!important}.metric-delta.is-down{color:#b36b55!important}.sample-note{display:inline-block!important;color:#a47740!important;background:#fff7e8;border:1px solid #f0dfba;border-radius:5px;padding:2px 6px}.bar-row:focus-visible{outline:2px solid #78a5f3;outline-offset:4px;border-radius:4px}.bar-row:hover .bar{filter:brightness(.96)}

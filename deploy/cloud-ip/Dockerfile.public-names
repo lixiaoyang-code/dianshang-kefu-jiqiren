@@ -1,0 +1,9 @@
+FROM presales-ai:cloud-studio-layout-20261107
+COPY app/product_labels.py /app/app/product_labels.py
+COPY app/knowledge.py /app/app/knowledge.py
+COPY app/main.py /app/app/main.py
+COPY app/faq_admin.py /app/app/faq_admin.py
+COPY app/rag_routes.py /app/app/rag_routes.py
+COPY static/app.js /app/static/app.js
+COPY static/knowledge-demo.js /app/static/knowledge-demo.js
+COPY static/statistics.js /app/static/statistics.js

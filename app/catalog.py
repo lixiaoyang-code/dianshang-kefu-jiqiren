@@ -1,6 +1,16 @@
 """新品使用绑定到自身的FAQ，不经过床帘专用尺寸和营销规则。"""
 import asyncio
 import re
+from .faq import canonical
+
+
+def question_key(text, product):
+    """Only remove product labels and courtesy particles; never infer a new intent."""
+    for token in sorted({product['id'], product['name'], product['model'], *product['aliases']}, key=len, reverse=True):
+        text = re.sub(re.escape(token), '', text, flags=re.I)
+    text = canonical(text)
+    text = re.sub(r'^(?:亲亲|亲|您好|你好|请问|这个|这款)+', '', text)
+    return re.sub(r'(?:吗|嘛|呢|呀|啊|哈)+$', '', text)
 
 
 async def answer(service, query, pid, reception, stage, history):
@@ -8,8 +18,18 @@ async def answer(service, query, pid, reception, stage, history):
     text=query
     for token in sorted([pid,p['name'],p['model'],*p['aliases']],key=len,reverse=True):text=text.replace(token,'')
     scoped=[r for r in kb.faq.records if r.get('scope')=='product' and pid in r.get('product_ids',[])]
-    choice=kb.faq.resolve(text,pid,reception,stage)
+    # Keep the original full question as well as the product-free query. Personal
+    # phrases often include the product name; stripping only the query lost them.
+    choice=kb.faq.resolve(query,pid,reception,stage,aliases=[text])
     relevant=[r for r in scoped if r['scene_id'] in choice.get('scene_ids',[])]
+    if not relevant:
+        key=question_key(query,p)
+        own_scenes={r['scene_id'] for r in scoped if not r.get('deleted_at')}
+        aliases=[q for scene in kb.faq.scenes if scene['id'] in own_scenes
+                 for q in scene['question_variants'] if key and question_key(q,p)==key]
+        if aliases:
+            choice=kb.faq.resolve(query,pid,reception,stage,aliases=[text,*aliases])
+            relevant=[r for r in scoped if r['scene_id'] in choice.get('scene_ids',[])]
     if relevant:
         choice=kb.faq.select(relevant,pid,reception,stage)
         if choice['status']=='matched':

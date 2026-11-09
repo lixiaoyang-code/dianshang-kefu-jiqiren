@@ -1,0 +1,6 @@
+FROM presales-ai:cloud-assistant-motion-20261108
+COPY app/catalog.py /app/app/catalog.py
+COPY app/rag.py /app/app/rag.py
+COPY app/scene_rules.py /app/app/scene_rules.py
+COPY app/service.py /app/app/service.py
+COPY scripts/fix_blanket_knowledge.py /app/scripts/fix_blanket_knowledge.py

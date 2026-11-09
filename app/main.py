@@ -1,3 +1,4 @@
+from .product_labels import visible_products
 from dataclasses import asdict
 from contextlib import asynccontextmanager
 from typing import Literal
@@ -14,6 +15,7 @@ from .statistics_routes import router as statistics_router
 from .frontend import frontend_page
 from .experience import router as experience_router
 from .product_links import validate_link
+from .product_labels import public_reply
 from .deployment import (DeploymentSettings, DemoRuntime, DemoAccessMiddleware,
                          deployment_status, register_session)
 
@@ -39,6 +41,8 @@ async def fresh_frontend_assets(request,call_next):
     response=await call_next(request)
     if request.url.path.startswith('/static/') and request.url.path.endswith(('.css','.js')):
         response.headers['Cache-Control']='no-store'
+    if request.url.path.startswith('/static/fonts/') and request.url.path.endswith('.woff2'):
+        response.headers['Cache-Control']='public, max-age=31536000, immutable'
     return response
 
 class Chat(BaseModel):
@@ -86,8 +90,8 @@ def health(request: Request):
 
 @app.get('/api/products')
 def products():
-    return [{'id': p['id'], 'name': p['name'], 'model': p['model'], 'category':p.get('category','宿舍床帘'),
-             'onboarding_status':p.get('onboarding_status'), 'link':p.get('link'), 'image_refs':p.get('image_refs',[])} for p in service().kb.products.values()]
+    return [{'id': p['id'], 'name': p.get('display_name',p['name']), 'model': p['model'], 'category':p.get('category','宿舍床帘'),
+             'onboarding_status':p.get('onboarding_status'), 'link':p.get('link'), 'image_refs':p.get('image_refs',[])} for p in visible_products(service().kb)]
 
 @app.get('/admin')
 def admin_entry():
@@ -107,8 +111,14 @@ async def chat(body: Chat):
     session(body.session_id)
     if not body.message.strip():
         raise HTTPException(422, '消息不能为空。')
-    return await service().chat(body.session_id, body.message.strip(), body.product_id,
-                                body.reception_type,body.business_stage)
+    result = await service().chat(body.session_id, body.message.strip(), body.product_id,
+                                  body.reception_type,body.business_stage)
+    return public_reply(result)
+
+@app.get('/api/sessions/{sid}')
+def resume_session(sid: str):
+    # Demo middleware validates the visitor owner before reaching this route.
+    return asdict(session(sid))
 
 @app.post('/api/sessions/{sid}/events')
 async def event(sid: str, body: Event):
@@ -121,7 +131,7 @@ async def event(sid: str, body: Event):
                 raise HTTPException(400,'关联的商品不存在，请重新选择。')
             if url is None and body.product_id is None:
                 raise HTTPException(422,'请选择商品，或填写商品网址。')
-            s.last_dimension=None;s.pending_question=None;s.pending_topic=None
+            s.last_dimension=None;s.last_promotion=None;s.pending_question=None;s.pending_topic=None
             s.waiting.clear();s.answered_keys=[]
             s.current_product_id=body.product_id;s.product_confirmed=body.product_id is not None
             s.product_links=([{'url':url,'product_id':body.product_id}]+s.product_links)[:20]
@@ -133,14 +143,14 @@ async def event(sid: str, body: Event):
         if body.type in ('agent_card', 'customer_select'):
             if body.type=='customer_select' and body.product_id is None:
                 s.current_product_id=None;s.product_confirmed=False;s.pending_question=None
-                s.last_dimension=None
+                s.last_dimension=None;s.last_promotion=None
                 return asdict(s)
             if body.product_id not in service().kb.products:
                 raise HTTPException(400, '商品不存在。')
             if body.type == 'agent_card':
                 s.recent_product_ids = ([body.product_id] + [p for p in s.recent_product_ids if p != body.product_id])[:5]
             else:
-                if s.current_product_id!=body.product_id:s.last_dimension=None
+                if s.current_product_id!=body.product_id:s.last_dimension=None;s.last_promotion=None
                 s.current_product_id, s.product_confirmed = body.product_id, True
         else:
             s.needs_human = body.type == 'takeover'

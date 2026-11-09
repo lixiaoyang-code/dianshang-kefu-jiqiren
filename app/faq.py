@@ -18,7 +18,7 @@ class FAQ:
         if scenes is not None:document['scenes']=scenes
         document=normalize_document(document)
         self.records = document['records']
-        self.scenes = document['scenes']
+        self.scenes = [s for s in document['scenes'] if not s.get('deleted_at')]
         seen = set()
         for row in self.records:
             if row['id'] in seen:

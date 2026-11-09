@@ -1,6 +1,7 @@
 """场景负责识别问题，答案负责商品、状态和时间条件。"""
 import copy
 import re
+from .product_labels import HIDDEN_PRODUCTS
 from datetime import datetime, timezone, timedelta
 
 SCENE_TYPES = {'industry':0, 'special':1, 'custom':2}
@@ -25,7 +26,8 @@ TITLES = {'specifications':'商品尺寸','telescoping':'伸缩范围','stabilit
 def normalize_document(document):
     doc=copy.deepcopy(document)
     doc['schema_version']='2.0'
-    scenes={s['id']:copy.deepcopy(s) for s in doc.get('scenes',[])}
+    scenes={s['id']:s for s in doc.get('scenes',[])}
+    explicit_scenes=set(scenes)
     for row in doc.get('records',[]):
         key=row.get('scene_id') or 'industry.'+row['intent']
         row.setdefault('scene_id',key)
@@ -39,7 +41,7 @@ def normalize_document(document):
             scenes[key]={'id':key,'name':row['scene_name'],'type':row['scene_type'],
                          'question_variants':[],'category':row.get('category','商品咨询')}
         scene=scenes[key]
-        if 'scenes' not in document or not any(s['id']==key for s in document['scenes']):
+        if key not in explicit_scenes:
             scene['question_variants']=list(dict.fromkeys([*scene['question_variants'],*row['question_variants']]))
         row['scene_type'],row['scene_name']=scene['type'],scene['name']
     doc['scenes']=list(scenes.values())
@@ -53,6 +55,8 @@ def parse_time(value):
 
 
 def row_eligible(row,pid,reception='presales',stage='presales',now=None):
+    if pid in HIDDEN_PRODUCTS:return False
+    if row.get('deleted_at'):return False
     if row.get('status')!='active':return False
     if row.get('scope')=='product' and pid not in row.get('product_ids',[]):return False
     c=row.get('conditions',{})

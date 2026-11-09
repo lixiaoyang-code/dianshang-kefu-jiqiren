@@ -14,6 +14,7 @@ METHODS = {
     'dimension_context':'相邻尺寸对话纠错',
 }
 REASONS = {
+    'price_followup':'已回复通用优惠说明，客户继续追问或议价，请人工接管。',
     'presales_scope':'当前蚊帐知识仅适用于售前接待及售前业务状态；请切换测试条件，或维护适用于当前状态的新答案。',
     'scene_ineligible':'已识别客户意图，但没有符合当前商品、状态、有效期和启用条件的答案。',
     'scene_ambiguous':'当前条件下有多条冲突答案，需要检查优先级或适用条件。',
@@ -158,6 +159,7 @@ def assistant_summary(kb, debug, status, scenes, candidates, failure):
     evidence = []
     now = datetime.now(CHINA)
     for row in kb.faq.records:
+        if row.get('deleted_at'):continue
         if row['scene_id'] not in evidence_ids:
             continue
         exclusions = []
